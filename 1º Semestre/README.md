@@ -17,15 +17,15 @@ Desenvolver um sistema de Vending Machine, criando a tela de interface com o cli
 
 #### Interface com o usuário - App Inventor
 
-A interface com o cliente foi realizada através de uma tela de smartphone, que simulava o display da vending machine. Um aplicativo desenvolvido através da ferramenta App Inventor provia ao usuário final as telas de seleção de produtos e finalização de compra.
+A interface com o cliente foi realizada através de uma tela de smartphone, que simulava o display da vending machine. Um aplicativo desenvolvido através da ferramenta App Inventor, para o sistema operacional Android, provia ao usuário final as telas de seleção de produtos e finalização de compra.
 
-A programação nesta plataforma se dá em blocos. Diversos recursos de linguagens de programação tradicionais (condições, loops e operações) em blocos para tornar a construção de rotinas e lógicas visuais e intuitivas.
+A programação nesta plataforma se dá em blocos. Diversos recursos de linguagens de programação tradicionais (condições, loops e operações) em blocos ilustrativos, que tornam a construção de rotinas e lógicas visuais e, desta forma, mais intuitivas.
 
 Por conta desta natureza da ferramenta - [App Inventor](https://appinventor.mit.edu/) - não há código fonte a ser disponibilizado.
 
 #### Arduino 
 
-O funcionamento da vending machine foi construído utilizando o Arduino e dois periféricos. Um servo motor e um módulo Bluetooth HC-05.
+O funcionamento da vending machine foi construído utilizando o Arduino, com a placa central e dois periféricos. Um servo motor e um módulo Bluetooth HC-05.
 
 O Arduino é uma plataforma de prototipagem. Usualmente, ao falar em "Arduino", nos remetemos a placa central que liga diversos dispositivos que são interligados por ela. Entretanto, o Arduino como plataforma fornece diversos recursos (comunicação Serial, alimentação elétrica, periféricos da propria plataforma, etc) que facilitam a prototipagem de sistemas embarcados, que podem servir às mais diversas finalidades específicas.
 
@@ -38,7 +38,7 @@ A conexão entre o app Android criado e o sistema da máquina de vendas foi real
 
 O módulo HC-05 é um dispositivo serial de comunicação Bluetooth. [ver mais](https://www.gme.cz/data/attachments/dsh.772-148.1.pdf)
 
-Este módulo possui 4 pinos principais de conexão com a placa Arduino. Dois pinos são responsáveis pela comunicação serial (RXD e TXD), e dois pinos  de alimentação (VCC) e o que fecha o curto para garantir a corrente elétrica, o GND. 
+Este módulo possui 4 pinos principais de conexão com a placa Arduino. Dois pinos são responsáveis pela comunicação serial (RXD e TXD), e dois pinos de alimentação (VCC) e o que fecha o curto para garantir a corrente elétrica, o GND. 
 
 Na prática, a conexão destes pinos fica da seguinte forma:
 
@@ -53,7 +53,7 @@ O comando de 90 bytes foi definido como padrão para a instrução de abrir a po
 ```code
 #include <Servo.h> 
 #include <SoftwareSerial.h>
-#define servo 9 // Definindo pino do servo
+#define servo 6 // Definindo pino do servo
 Servo myservo;  // Criação do objeto de criação do Servo Motor
 char comando;    // Variável de controle da angulação
 SoftwareSerial Serial(10, 11) // Módulo bluetooth
@@ -74,18 +74,26 @@ void loop() {
 }
 ```
 
-Os dispositivos internos da máquina eram compostos de uma placa Arduino e um Servo Motor. Este último era responsável por abrir a porta que liberava acesso ao produto selecionado e trancá-la novamente após isso.
+Os dispositivos internos da máquina eram compostos de uma placa Arduino e um Servo Motor. Este último era responsável por abrir a porta que liberava acesso ao produto selecionado e trancá-lo novamente após isso.
 
-A placa Arduino foi programada na linguagem de programação C.
+##### Servo Motor
 
+O servo motor é um periférico que pode ser utilizado no Arduino. Ele possibilita a geração de movimentos rotacionais controlados.
+Por exemplo: com um servo motor, podemos realizar rotações limitadas, porém com maior precisão. Suas versões mais comuns não permitem uma rotação contínua, como uma roda de carro, por exemplo.
+
+Entretanto, caso seja necessário realizar rotações específicas, determinando até mesmo a quantidade de graus que o movimento deve ter, o servo motor é o ideal para esta demanda. Como necessitávamos de uma tranca automática, ele atendeu à necessidade do projeto.
+
+A montagem deste dispositivo é similar a do módulo HC-05. Temos uma demonstração de como ela ficaria na prática:
+
+![image](https://user-images.githubusercontent.com/45850297/132969607-4f0f0591-94f9-4d43-9529-ef4265b4aa02.png)
+
+Como pode ser visto, a alimentação ainda é realizada conectando as saídas de 5V e GND, que fecham o circuito de alimentação, e um pino é escolhido para recebimento das instruções de rotação. Neste exemplo, o 6.
+
+No código exibido no item anterior, podemos observar que o servo com seu respectivo pino, e durante a rotina ele recebe o valor de bytes recebidos pelo módulo bluetooth (90). 90º é a posição em que a tranca da vending machine estaria liberada.
 
 ### Contribuições pessoais
 
-Fui responsável pela programação do software que gerenciava a placa Arduino e o Servo Motor, e que também realizava a integração com o app mobile via Bluetooth.
-Desenvolvi um simples código em C que, ao receber um comando via Bluetooth, ordenava uma rotação específica para o Servo Motor, que abria a porta para disponibilizar o produto.
-
-
-A base do código criado para esta ação descrita acima pode ser vista a seguir:
+Fui responsável pela programação do script que gerenciava a placa Arduino, Servo Motor, e o módulo Bluetooth, que já foi citado em um item anterior.
 
 
 ### Aprendizados Efetivos HS
