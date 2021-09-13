@@ -91,22 +91,32 @@ A montagem deste dispositivo é similar a do módulo HC-05. Temos uma demonstra�
 
 ![image](https://user-images.githubusercontent.com/45850297/132969607-4f0f0591-94f9-4d43-9529-ef4265b4aa02.png)
 
-Como pode ser visto, a alimentação ainda é realizada conectando as saídas de 5V e GND, que fecham o circuito de alimentação, e um pino é escolhido para recebimento das instruções de rotação. Neste exemplo, o 6.
+Como pode ser visto, a alimentação ainda é realizada conectando as saídas de 5V e GND, que fecham o circuito de alimentação, e um pino é escolhido para recebimento das instruções de rotação. Neste exemplo, o de número 6.
 
-No código exibido no item anterior, podemos observar que o servo com seu respectivo pino, e durante a rotina ele recebe o valor de bytes recebidos pelo módulo bluetooth (90). 90º é a posição em que a tranca da vending machine estaria liberada.
+No código exibido no item anterior, podemos observar que o servo conectado a seu respectivo pino e que, durante a rotina realizada pelo loop, a porta serial do módulo bluetooth é lida. Caso o comando recebido pelo módulo bluetooth receba o valor de 90 bytes, o valor "90" é repassado para o Servo Motor na instrução "myservo.write(comando)".
+
+Qualquer outro valor poderia ter sido utilizado nesta condição. Mas utilizamos o valor de 90 bytes pois a angulação de 90º graus é a posição em que a tranca da vending machine estaria liberada pelo Servo Motor.
 
 ### Contribuições pessoais
 
 Fui responsável pela programação do script que gerenciava a placa Arduino, Servo Motor, e o módulo Bluetooth, que já foi citado em um item anterior.
 
+Por estar focado nesta parte do projeto, pesquisei por diversas plataformas que pudessem construir o protótipo. 
+Uma alternativa ao Arduino, a NodeMCU [ver mais](https://nodemcu.readthedocs.io/en/release/), foi estudada e testada para uso. Entretando, como os requisitos do projeto eram atendidos por uma plataforma de uso mais amplo e conhecido como a Arduino, ela foi escolhida para ser utilizada no projeto.
+
+O processo de estudo e implementação do código em testes práticos necessitou de consultas à [documentação oficial do Arduino](https://www.arduino.cc/en/main/docs). Em poucas semanas, a implementação foi finalizada, realizando as etapas explicadas nos capítulos anteriores. 
 
 ### Aprendizados Efetivos HS
 
 Neste projeto obtive meu primeiro contato com documentações. Esta experiência me ensinou a buscar informações nas fontes primárias, que são as publicações técnicas geralmente realizadas pelos próprios criadores e responsáveis pelas mais diversas tecnologias. Este aprendizado é de grande valia até hoje em minha trajetória acadêmica e profissional.
 
-Além disso, o desafio de observar um problema prático e ter como tarefa criar uma solução até então inexistente naquele contexto específico, exercitou habilidades importantes para todo analista e desenvolvedor de software.
+Além disso, o desafio de observar um problema prático e ter como tarefa criar uma solução até então inexistente naquele contexto específico, exercitou habilidades que considero importantes para todo analista e desenvolvedor de software. 
 
-No mais, temos os pontos específicos abaixo:
+Com este desafio, realizei minha primeira decisão de qual tecnologia e tática utilizar em uma solução, e também os detalhes de como implementá-las. Estas decisões são frequentes na carreira de soluções tecnológicas, onde diversas vezes optar pela solução mais eficiente no curto, médio e longo prazo são extremamente necessárias.
+
+Além disso, consegui distinguir a velocidade de profundidade e velocidade em diferentes métodos de pesquisa e estudo. Diversos tutoriais estão disponíveis ensinando a realizar grande partes das etapas de projetos deste tipo, e estes conteúdos possuem sua importância. Entretanto, a consulta na documentação das tecnologias se mostrou muito mais completa, rápida e confiável do que qualquer fonte terceira. Experiência e aprendizado valiosos até hoje. 
+
+No mais, temos os pontos específicos abaixo de aprendizados efetivos:
 
 - Integração Bluetooth entre dispositivos e placa Arduino: Sei fazer com autonomia
 
