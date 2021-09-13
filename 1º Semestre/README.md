@@ -23,6 +23,7 @@ A programação nesta plataforma se dá em blocos. Diversos recursos de linguage
 
 Por conta desta natureza da ferramenta - [App Inventor](https://appinventor.mit.edu/) - não há código fonte a ser disponibilizado.
 
+
 #### Arduino 
 
 O funcionamento da vending machine foi construído utilizando o Arduino, com a placa central e dois periféricos. Um servo motor e um módulo Bluetooth HC-05.
@@ -50,9 +51,26 @@ Na prática, a conexão destes pinos fica da seguinte forma:
 
 O módulo possui versões 5V e 3.3V. Como a alimentação padrão mais próxima no Arduino é de 5V, caso o módulo seja de 3.3V, é necessário utilizar resistências para evitar danos elétricos ao módulo. No caso atual, este preparo não foi necessário, pois utilizamos uma versão 5V.
 
-Abaixo, temos a código utilizado na placa Arduino para realizar a conexão com o módulo Bluetooth. Definimos o módulo com o nome de "Serial", aplicando os pinos 10 e 11 para conexão serial, nos pinos RX e TX, respectivamente.
+Os dispositivos internos da máquina eram compostos de uma placa Arduino e um Servo Motor. Este último era responsável por abrir a porta que liberava acesso ao produto selecionado e trancá-lo novamente após isso.
 
-O comando de 90 bytes foi definido como padrão para a instrução de abrir a porta para liberação de produtos. Na função "void loop()", podemos ver que a variável "comando" recebe o retorno da leitura do que foi recebido da porta Serial.
+
+##### Servo Motor
+
+O servo motor é um periférico que pode ser utilizado no Arduino. Ele possibilita a geração de movimentos rotacionais controlados.
+Por exemplo: com um servo motor, podemos realizar rotações limitadas, porém com maior precisão. Suas versões mais comuns não permitem uma rotação contínua, como uma roda de carro, por exemplo.
+
+Entretanto, caso seja necessário realizar rotações específicas, determinando até mesmo a quantidade de graus que o movimento deve ter, o servo motor é o ideal para esta demanda. Como necessitávamos de uma tranca automática, ele atendeu à necessidade do projeto.
+
+A montagem deste dispositivo é similar a do módulo HC-05. Temos uma demonstração de como ela ficaria na prática:
+
+![image](https://user-images.githubusercontent.com/45850297/132969607-4f0f0591-94f9-4d43-9529-ef4265b4aa02.png)
+
+Como pode ser visto, a alimentação ainda é realizada conectando as saídas de 5V e GND, que fecham o circuito de alimentação, e um pino é escolhido para recebimento das instruções de rotação. Neste exemplo, o de número 6.
+
+
+
+Abaixo, temos a código utilizado na placa Arduino para realizar a conexão com o módulo Bluetooth e Servo Motor:
+
 
 ```code
 #include <Servo.h> 
@@ -78,28 +96,69 @@ void loop() {
 }
 ```
 
-Os dispositivos internos da máquina eram compostos de uma placa Arduino e um Servo Motor. Este último era responsável por abrir a porta que liberava acesso ao produto selecionado e trancá-lo novamente após isso.
 
-##### Servo Motor
+##### Detalhando o código utilizado.
 
-O servo motor é um periférico que pode ser utilizado no Arduino. Ele possibilita a geração de movimentos rotacionais controlados.
-Por exemplo: com um servo motor, podemos realizar rotações limitadas, porém com maior precisão. Suas versões mais comuns não permitem uma rotação contínua, como uma roda de carro, por exemplo.
+Nas primeiras linhas, em:
 
-Entretanto, caso seja necessário realizar rotações específicas, determinando até mesmo a quantidade de graus que o movimento deve ter, o servo motor é o ideal para esta demanda. Como necessitávamos de uma tranca automática, ele atendeu à necessidade do projeto.
+```code
+#include <Servo.h> 
+#include <SoftwareSerial.h>
+#define servo 6 // Definindo pino do servo
+Servo myservo;  // Criação do objeto de criação do Servo Motor
+char comando;    // Variável de controle da angulação
+SoftwareSerial Serial(10, 11) // Módulo bluetooth
+```
 
-A montagem deste dispositivo é similar a do módulo HC-05. Temos uma demonstração de como ela ficaria na prática:
+Importamos as bibliotecas que possibilitam o uso dos recursos dos periféricos, e definimos as instâncias que irão controlar os dados recebidos nas entradas de comunicação serial.
 
-![image](https://user-images.githubusercontent.com/45850297/132969607-4f0f0591-94f9-4d43-9529-ef4265b4aa02.png)
+Definimos o módulo com o nome de "Serial", aplicando os pinos 10 e 11 para conexão serial, nos pinos RX e TX, respectivamente.
 
-Como pode ser visto, a alimentação ainda é realizada conectando as saídas de 5V e GND, que fecham o circuito de alimentação, e um pino é escolhido para recebimento das instruções de rotação. Neste exemplo, o de número 6.
+O comando de 90 bytes foi definido como padrão para a instrução de abrir a porta para liberação de produtos. Na função "void loop()", podemos ver que a variável "comando" recebe o retorno da leitura do que foi recebido da porta Serial.
 
-No código exibido no item anterior, podemos observar que o servo conectado a seu respectivo pino e que, durante a rotina realizada pelo loop, a porta serial do módulo bluetooth é lida. Caso o comando recebido pelo módulo bluetooth receba o valor de 90 bytes, o valor "90" é repassado para o Servo Motor na instrução "myservo.write(comando)".
+A função seguinte realiza o setup necessário para a execução do script:
 
-Qualquer outro valor poderia ter sido utilizado nesta condição. Mas utilizamos o valor de 90 bytes pois a angulação de 90º graus é a posição em que a tranca da vending machine estaria liberada pelo Servo Motor.
+```code
+void setup() {
+  myservo.attach(servo);
+  Serial.begin(9600); 
+  myservo.write(0); // Posição trancada
+}
+```
+
+Nela, a variável "myservo", responsável pela comunicação com o servo, recebe o valor de "servo" que, neste caso, possui o valor 6. Isso fará com que o myservo observe o pino de número 6 para receber suas instruções.
+
+Logo abaixo, podemos observar "Serial.begin(9600)". Esta função (begin) determina a taxa de bits/segundo com que a comunicação Serial será realizada.
+
+Enviamos a primeira instrução para o Servo Motor em "myservo.write(0)". A função "write()" define a angulação que a hélice deve adotar. Neste cenário, a posição seria de "trancado", referente a 0º.
+
+Por fim, possuímos uma execução em loop:
+
+```code
+void loop() {
+  comando = Serial.read();  // Varíavel recebendo o valor do Módulo Bluetooth
+  if (comando == 90){       // Verificando se houve sinal recebido
+    myservo.write(comando); // Definindo o valor com base no comando recebido pelo módulo, posição aberta
+    delay (5000);           // Pausa para disposição do produto
+    myservo.write(0);       // Posição trancada
+    }
+}
+```
+
+
+No código exibido acima, podemos observar que o servo conectado a seu respectivo pino e que, durante a rotina realizada pelo loop, a porta serial do módulo bluetooth é lida em "comando = Serial.read()".
+Na linha seguinte, a instrução faz que, caso o comando recebido pelo módulo bluetooth tenha o valor de 90 bytes, o valor (90) é repassado para o Servo Motor na instrução "myservo.write(comando)".
+
+Qualquer outro valor poderia ter sido utilizado nesta condição. Mas utilizamos o valor de 90 bytes pois a angulação de 90º graus é a posição em que a tranca da vending machine estaria liberada pelo Servo Motor. Assim, há uma associação entre o comando necessário e a ação que ele deve causar no dispositivo.
+
+A função "delay" trava a execução do loop por pelo valor passado, em milissegundos. O tempo foi estimado como o necessário para a disponibilização do produto.
+
+Após o delay, como foi já mencionado, a função "write(0)" faz com que o servo passe para a posição "trancado", fechando a porta.
+
 
 ### Contribuições pessoais
 
-Fui responsável pela programação do script que gerenciava a placa Arduino, Servo Motor, e o módulo Bluetooth, que já foi citado em um item anterior.
+Fui responsável pela programação do script que gerenciava a integração do Arduino com o Servo Motor e o módulo bluetooth.
 
 Por estar focado nesta parte do projeto, pesquisei por diversas plataformas que pudessem construir o protótipo. 
 Uma alternativa ao Arduino, a NodeMCU [ver mais](https://nodemcu.readthedocs.io/en/release/), foi estudada e testada para uso. Entretando, como os requisitos do projeto eram atendidos por uma plataforma de uso mais amplo e conhecido como a Arduino, ela foi escolhida para ser utilizada no projeto.
