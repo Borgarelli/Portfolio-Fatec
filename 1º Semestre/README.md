@@ -24,6 +24,7 @@ A programação nesta plataforma se dá em blocos. Diversos recursos de linguage
 Por conta desta natureza da ferramenta - [App Inventor](https://appinventor.mit.edu/) - não há código fonte a ser disponibilizado.
 
 
+
 #### Arduino 
 
 O funcionamento da vending machine foi construído utilizando o Arduino, com a placa central e dois periféricos. Um servo motor e um módulo Bluetooth HC-05.
@@ -35,6 +36,7 @@ Entretanto, o Arduino como plataforma vai um pouco além, pois também fornece d
 Estes recursos facilitam a construção de protótipos das mais diversas finalidades. A programação simples e direta de periféricos como motores, luzes e sensores, tornam quase que ilimitadas as possibilidades de protótipos que podem ser construídas utilizando o Arduino.
 
 O Servo Motor ou o módulo HC-05, dentre outros, fazem parte desta plataforma e foram utilizados neste projeto. Estes dispositivos em conjunto possibilitam a prototipagem de sistemas embarcados. E, neste exemplo, de um que seria responsável apenas por receber instruções para abrir e trancar uma porta.
+
 
 
 ##### Módulo Bluetooth HC-05
@@ -52,6 +54,7 @@ Na prática, a conexão destes pinos fica da seguinte forma:
 O módulo possui versões 5V e 3.3V. Como a alimentação padrão mais próxima no Arduino é de 5V, caso o módulo seja de 3.3V, é necessário utilizar resistências para evitar danos elétricos ao módulo. No caso atual, este preparo não foi necessário, pois utilizamos uma versão 5V.
 
 Os dispositivos internos da máquina eram compostos de uma placa Arduino e um Servo Motor. Este último era responsável por abrir a porta que liberava acesso ao produto selecionado e trancá-lo novamente após isso.
+
 
 
 ##### Servo Motor
@@ -97,7 +100,8 @@ void loop() {
 ```
 
 
-##### Detalhando o código utilizado.
+
+#### Detalhando o código utilizado.
 
 Nas primeiras linhas, em:
 
