@@ -44,7 +44,7 @@ dela, os algoritmos de análise da qualidade dos dados foram construídos, o que
 
 Fui responsável por vários dos scripts que análisavam os lotes de dados de acordo com critérios determinados pela entidade parceira.
 
-Os itens utilizados para determinar a qualidade dos dados era:
+Os itens utilizados para determinar a qualidade dos dados eram os seguintes:
 
 - Completude: o quão completos eram os dados. A base possui um alto índice de dados em brancos ou nulos?
 - Confiabilidade: os valores preenchidos nos campos de um lote de dados não foram truncados? Eles fazem sentido em seu respectivo contexto?
