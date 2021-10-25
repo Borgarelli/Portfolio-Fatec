@@ -48,7 +48,7 @@ Os itens utilizados para determinar a qualidade dos dados eram os seguintes:
 
 - Completude: o quão completos eram os dados. A base possui um alto índice de dados em brancos ou nulos?
 - Confiabilidade: os valores preenchidos nos campos de um lote de dados não foram truncados? Eles fazem sentido em seu respectivo contexto?
-- Consistência: o valor preenchido em cada um dos campos é consistente com o seu propósito? Os valores referentes à nomes, por exemplo, não estão preenchidos por número ou qualquer outro dado incompatível com um nome?
+- Consistência: o valor preenchido em cada um dos campos é consistente com o seu propósito? Os valores referentes aos nomes, por exemplo, não estão preenchidos por caracteres numéricos ou qualquer outro dado incompatível com um nome?
 
 Com base nestes pilares, iniciei a construção dos algoritmos. 
 
