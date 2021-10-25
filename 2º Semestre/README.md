@@ -36,9 +36,8 @@ Com o Flask, foram criadas as rotas HTTP que o nosso sistema consumiu. Além dis
 
 O coração do nosso sistema, responsável por facilitar a extração, tratamento e análise dos dados, foi construído com o auxílio da conhecida biblioteca [Pandas](https://pandas.pydata.org/)
 
-O Pandas é uma biblioteca para a linguagem de programação Python, que provê uma série de ferramentas para a extração, conversão e análise de dados. Com o auxílio 
-dela, os algoritmos de análise da qualidade dos dados foi construída, o que permitiu que nossa ferramenta pudesse entregar seu principal valor. O ranking das 
-fontes por meio da qualidade dos dados enviados por ela.
+Pandas é uma biblioteca para a linguagem de programação Python, que provê uma série de ferramentas para a extração, conversão e análise de dados. Com o auxílio 
+dela, os algoritmos de análise da qualidade dos dados foram construídos, o que permitiu que nossa ferramenta pudesse entregar seu principal valor: o ranking que listava as fontes do nosso cliente, de acordo com a qualidade dos dados enviados por elas.
 
 
 ### Contribuições pessoais
