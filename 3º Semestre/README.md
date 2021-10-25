@@ -9,7 +9,7 @@ Visiona
 Desenvolver um sistema web que atue como um mini ETL, convertendo shapefiles (arquivos que representam formatos geográficos) em bases de dados geográficas. 
 Mais especificamente, em bancos gerenciados pelo PostgreSQL com o apoio da extensão PostGIS.
 
-A sigla ETL (Extract, transform and load) resume bem a tarefa que possuíamos em mãos.
+A sigla ETL (Extract, Transform and Load) resume bem a tarefa que possuíamos em mãos.
 
 A ferramenta desenvolvida pela minha equipe, a VisGeo, se baseava em uma plataforma web onde um usuário poderia realizar a carga de dados geográficos
 contidos em shapefiles em um banco dedados que possuísse suporte para este tipo de dado. Ou seja, nossa ferramenta deveria extrair os dados enviados pelo usuário,
@@ -17,7 +17,7 @@ tranformá-los no formato compatível com o banco de dados que receberia aquele 
 
 O caminho inverso também deveria ser válido, permitindo converter a base de dados geográfica em arquivos que constituem um shapefile.
 
-Link do repositório do projeto: https://github.com/justhenrique/SPC-projeto-integrador
+Link do repositório do projeto: https://github.com/JDanrley/VisGeo-ETL
 
 ### Tecnologias adotadas na solução
 
@@ -41,8 +41,7 @@ do Flask é enxuto. Ou seja, o Flask não determina ou limita o modo com o qual 
 
 Saiba mais sobre o Flask em sua [página oficial.](https://flask.palletsprojects.com/en/2.0.x/).
 
-O Flask foi um dos frameworks utilizados no sistema. Nossa ferramenta trabalhou com dois serviços principais. Um deles era responsável pelo serviço de ETL, que era o
-núcleo de nossa ferramenta. E outro framework foi responsável por disponibilizar o serviço de criação e autenticação de usuários, outro requisito de nosso sistema.
+O Flask foi um dos frameworks utilizados no sistema. Nossa ferramenta trabalhou com dois serviços principais. Um deles era responsável pelo serviço de ETL, que era o núcleo de nossa ferramenta. E outro framework (Express, citado a seguir) foi responsável por disponibilizar o serviço de criação e autenticação de usuários, outro requisito do sistema.
 
 #### Express
 
@@ -53,28 +52,26 @@ O Express é uma ótima solução para a construção de sistemas web, por meio 
 ### Contribuições pessoais
 
 Fui responsável pela criação dos algoritmos de fluxo de conversão do shapefile em uma tabela compatível com bases de dados geográficos.
-Para isso, foi necessário estudar sobre uma área completamente nova.
+Para isso, foi necessário estudar sobre uma área completamente nova, a de dados geográficos.
 
+Durante a preparação para iniciar o desenvolvimento do projeto, consultei diversos materiais e documentações sobre o que eram os shapefiles, no que eles consistem, como os seus dados são estruturados e etc. Além disso, o mesmo tipo de pesquisa foi necessário para as bases de dados geográficos.
 
+Shapefile é um formato para um conjunto de arquivos que, em conjunto, armazenam dados referentes à uma figura geográfica (ou simplesmente geométrica).
+
+Para que estes dados possam ser salvos em tabelas de um banco de dados, extensões geográficas foram criadas para os sistemas gerenciadores de base de dados.
+No caso utilizado por nós a pedido da empresa que propôs o problema, a extensão utilizada foi a [PostGIS](https://postgis.net/), que é a principal extensão geográfica para o PostgreSQL. 
+
+Esta extensão adiciona ao sistema gerenciador de banco de dados diversas funções e tipos de dados, que permitem o gerenciamento, visualização e armazenamento dos dados geográficos importados.
+
+Após profunda pesquisa sobre todos estes tópicos, fui responsável por construir os serviços que permitiram a transformação dos registros dos shapefiles em formatos compatíveis com os bancos de dados geográficos. Assim como o caminho inverso, extraindo dados de tabelas, convertendo-os em shapefiles e disponibilizando-os para download para os usuários da ferramenta. 
 
 ### Aprendizados Efetivos HS
 
-A UDA Brasil foi primeiro sistema web com o qual trabalhei. Em seu desenvolvimento, obtive meu primeiro contato com conceitos bases para todo profissional desenvolvedor de software. Os aprendizados inéditos foram diversos, que necessitam ser citados aqui:
+No desenvolvimento dos serviços da VisGeo, aprendi mais sobre arquitetura de software. Foi a primeira vez em que trabalhei de fato com uma aplicação frontend separada dos serviços chamados de "backend".
+Por conta desta experiência, fui inserido a um novo nível de exigência para a contrução de um sistema web, tendo que me preocupar com o formato e conteúdo específico das requisições possíveis de entrada no serviço desenvolvido.
 
-- O que é o protocolo HTTP;
-- O que é uma requisição GET, POST, PUT e quais são as diferentes destes verbos;
-- Como funciona a comunicação de uma página de um usuário com a lógica interna de um sistema;
-- O que é um JSON e como ele funciona na comunicação de sistemas web;
-- O que é um framework web e qual sua utilidade na construção de sistemas.
+Além disso, aprendi muito sobre uma área não relacionada diretamente a tecnologias de construção de software, mas que eram essenciais para as regras de negócio da operação do cliente do sistema. Esta habilidade de aprender de forma ágil sobre temas diversos, por conta das infinitas possíveis áreas de atuação de possíveis clientes, foi de grande valor para minha formação.
 
+- Criação de serviços de extração e carga de dados geográficos: sei fazer com autonomia
 
-Além destes itens importantes que foram citados acima, outros aprendizados importantes precisam ser mencionados:
-
-Durante o desenvolvimento do projeto, a performance do sistema foi uma questão central em seu desenvolvimento.
-Possuíamos uma base de dados minimamente volumosa, e precisávamos calcular diversos fatores de todos os seus registros. Com isso, precisávamos pensar em formas mais eficientes em processamento para garantir uma resposta rápida e confiável ao nosso usuário final. A evolução nos algoritmos de análise de dados com o passar do projeto é algo que foi de grande valia para a nossa formação como profissionais desenvolvedores.
-
-No mais, o conhecimento adquirido neste projeto pode ser resumido da seguinte forma:
-
-- Criação de uma API HTTP que gerencia requests e respostas para um cliente: sei fazer com autonomia
-
-- Importação de dados de diferentes fontes e análises gerais sobre o conteúdo importado: sei fazer com autonomia
+- Criação de API que se provê serviços e se comunica com outros aplicações: sei fazer com autonomia
