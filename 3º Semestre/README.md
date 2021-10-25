@@ -15,7 +15,7 @@ A ferramenta desenvolvida pela minha equipe, a VisGeo, se baseava em uma platafo
 contidos em shapefiles em um banco dedados que possuísse suporte para este tipo de dado. Ou seja, nossa ferramenta deveria extrair os dados enviados pelo usuário,
 tranformá-los no formato compatível com o banco de dados que receberia aquele lote de informações, e realizar a carga dos dados nesta base de dados.
 
-O caminho inverso também deveria ser válido, permitindo converter a base de dados geográfica em arquivos que constituem um shapefile.
+O caminho inverso também deveria ser válido, permitindo converter a base de dados geográfica em shapefiles, permitindo o download destes arquivos conforme a solicitação do usuário.
 
 Link do repositório do projeto: https://github.com/JDanrley/VisGeo-ETL
 
