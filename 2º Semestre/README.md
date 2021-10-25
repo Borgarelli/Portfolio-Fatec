@@ -84,12 +84,12 @@ A UDA Brasil foi primeiro sistema web com o qual trabalhei. Em seu desenvolvimen
 - O que é um framework web e qual sua utilidade na construção de sistemas.
 
 
-Além destes itens importantes que foram citados aqui, outros aprendizados importantes precisam ser mencionados.
+Além destes itens importantes que foram citados acima, outros aprendizados importantes precisam ser mencionados:
 
 Durante o desenvolvimento do projeto, a performance do sistema foi uma questão central em seu desenvolvimento.
 Possuíamos uma base de dados minimamente volumosa, e precisávamos calcular diversos fatores de todos os seus registros. Com isso, precisávamos pensar em formas mais eficientes em processamento para garantir uma resposta rápida e confiável ao nosso usuário final. A evolução nos algoritmos de análise de dados com o passar do projeto é algo que foi de grande valia para a nossa formação como profissionais desenvolvedores.
 
-No mais, os seguintes itens de aprendizado podem resumir o que foi aprendido:
+No mais, o conhecimento adquirido neste projeto pode ser resumido da seguinte forma:
 
 - Criação de uma API HTTP que gerencia requests e respostas para um cliente: sei fazer com autonomia
 
