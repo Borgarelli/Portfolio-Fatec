@@ -7,9 +7,6 @@ Fatec Prof. Jessen Vidal (proposta realizada pelo docente responsável pela disc
 
 ### Visão do Projeto
 
-A proposta do projeto neste semestre foi aberta. A classe pôde escolher e sugerir propostas de soluções desde que na implementação do projeto, a integração com alguma placa gerenciadora de dispositivos periféricos (exemplo: Arduino) fosse realizada.
-O projeto realizado pelo meu grupo teve a seguinte proposta:
-
 Desenvolver um sistema de Vending Machine, criando a tela de interface com o cliente, onde seria realizada a seleção e compra de produtos. Após este processo, o aplicativo desenvolvido deveria enviar um sinal ao hardware da máquina de vendas, que liberaria o acesso ao produto adquirido. Fora destes momentos, o acesso aos produtos deveria permanecer restrito, trancado pelos dispositivos.
 
 
