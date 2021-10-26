@@ -8,12 +8,10 @@ SPC Brasil
 
 A proposta inicial do projeto era desenvolver uma ferramenta de análise de dados a partir de dados de compra e operações de crédito de clientes. 
 Os dados, obviamente, eram exemplos descaracterizados para fins acadêmicos.
-A visão do produto a ser criado não foi definida pela empresa. A intenção era de, a partir dos dados providos, que montássemos e sugeríssemos produtos válidos 
-para sua operação.
 
 O projeto desenvolvimento por minha equipe, a UDA Brasil, possuiu o seguinte objetivo:
 
-Criar uma ferramenta Web de análise da qualidade dos dados, rankeando as fontes de dados de acordo com a consistência, completude e confiabilidade
+Criar uma ferramenta Web de análise da qualidade dos dados, rankeando as fontes dos dados de acordo com a consistência, completude e confiabilidade
 dos lotes enviados.
 
 Link do repositório do projeto: https://github.com/justhenrique/SPC-projeto-integrador
@@ -54,16 +52,7 @@ Com base nestes pilares, iniciei a construção dos algoritmos.
 
 Com métodos de extração e leituras de dados da biblioteca Pandas, conseguimos converter os dados fornecidos no formato de arquivo .xlsx em DataFrames.
 
-DataFrames são objetos internos da biblioteca Pandas. Eles comportam dados em formato bidimensional, com linhas e colunas, compatível com o formato da fonte, em planilhas (arquivos XLSX).
-
-Com o simples código abaixo, era possível importar um arquivo Excel e convertê-lo em um DataFrame do Pandas.
-
-```code
-import pandas as pd
-df = pd.read_excel('meuArquivoExcel.xlsx')
-```
-
-Com as duas linhas acima, o objeto identificado por "df" é um DataFrame Pandas. Nele, é possível utilizar um arsenal robusto que permite filtrar, contabilizar e tratar dados incompletos, inconsistêntes e analisar sua integridade.
+DataFrames são objetos internos da biblioteca Pandas. Eles comportam dados em formato bidimensional, com linhas e colunas, compatível com o formato da fonte, em planilhas (arquivos XLSX). Ao manupilar DataFrames, o Pandas oferecee um arsenal de ferramentas robusto que permite filtrar, contabilizar e tratar dados incompletos, inconsistêntes e analisar sua integridade.
 
 Com base nisso o ranking, feature principal da nossa ferramenta, foi construído. Ele pode ser visto abaixo:
 
