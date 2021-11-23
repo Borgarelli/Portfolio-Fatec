@@ -218,7 +218,7 @@ O caminho inverso também deveria ser válido, permitindo converter a base de da
 
 Shapefiles são arquivos com diversos registros presentes. Estes registros poderiam ser ordenados e comportados em tabelas em um banco de dados geográfico. A VisGeo possibilitava que o usuário escolhesse em qual coluna da tabela criada na base de dados cada coluna de dados do shapefile fosse associada. Esta configuração "de para", assim como outros itens de usabilidade, podem ser vistos na demonstração abaixo:
 
-https://user-images.githubusercontent.com/55189046/93727270-c9ef7f80-fb90-11ea-83e5-c96e0ae2a0bc.gif
+![Usabilidade VisGeo](https://user-images.githubusercontent.com/55189046/93727270-c9ef7f80-fb90-11ea-83e5-c96e0ae2a0bc.gif)
 ##### *Figura 04. Utilização da Visgeo - Carga de shapefile em banco geográfico, realizando a configuração de-para*
 
 
