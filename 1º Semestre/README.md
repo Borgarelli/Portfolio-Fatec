@@ -47,6 +47,7 @@ Este módulo possui 4 pinos principais de conexão com a placa Arduino. Dois pin
 Na prática, a conexão destes pinos fica da seguinte forma:
 
 ![image](https://user-images.githubusercontent.com/45850297/132968177-13fa8c56-ff56-4bd2-9ccc-b75e205529e5.png)
+##### *Figura 01. Ilustração dos conectores Arduino*
 
 O módulo possui versões 5V e 3.3V. Como a alimentação padrão mais próxima no Arduino é de 5V, caso o módulo seja de 3.3V, é necessário utilizar resistências para evitar danos elétricos ao módulo. No caso atual, este preparo não foi necessário, pois utilizamos uma versão 5V.
 
@@ -64,6 +65,7 @@ Entretanto, caso seja necessário realizar rotações específicas, determinando
 A montagem deste dispositivo é similar a do módulo HC-05. Temos uma demonstração de como ela ficaria na prática:
 
 ![image](https://user-images.githubusercontent.com/45850297/132969607-4f0f0591-94f9-4d43-9529-ef4265b4aa02.png)
+##### *Figura 02. Esquema de conexão dos periféricos à placa Arduino*
 
 Como pode ser visto, a alimentação ainda é realizada conectando as saídas de 5V e GND, que fecham o circuito de alimentação, e um pino é escolhido para recebimento das instruções de rotação. Neste exemplo, o de número 6.
 
