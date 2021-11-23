@@ -3,7 +3,9 @@
 ## Introdução
 
 Olá, seja bem-vindo. Sou o José Danrley, estudante de Análise e Desenvolvimento de Sistemas pela FATEC Prof. Jessen Vidal. 
-Tenho 24 anos e trabalho como estagiário de desenvolvimento de software Java. Durante a minha gradução, trabalhei no desenvolvimento de trabalhos chamados de "Projetos integradores". Um projeto integrador tem o objetivo de solucionar um problema do mundo real, utilizando os conhecimentos adquiridos durante a graduação.
+
+Tenho 24 anos e trabalho como estagiário de desenvolvimento de software Java. <br/>
+Durante a minha gradução, trabalhei no desenvolvimento de trabalhos chamados de "Projetos integradores". Um projeto integrador tem o objetivo de solucionar um problema do mundo real, utilizando os conhecimentos adquiridos durante a graduação.<br/>
 Abaixo todos estes projetos serão descritos, detalhando o problema, solução proposta (e entregue), e os aprendizamos extraídos de cada um deles.
 
 ## Projeto 1: 2º Semestre de 2019
@@ -280,6 +282,98 @@ Além disso, aprendi muito sobre uma área não relacionada diretamente a tecnol
 - Criação de serviços de extração e carga de dados geográficos: sei fazer com autonomia
 
 - Criação de API que se provê serviços e se comunica com outros aplicações: sei fazer com autonomia
+<br/>
+
+# Projeto 4 - 1º semestre de 2021
+## Empresa parceira:
+IACIT
+
+<img src="https://user-images.githubusercontent.com/54003876/142727570-6c418f49-5e00-437c-9d9e-5b27131974bb.png" height="300"/>
+
+##### *Figura 05. IACIT (Fonte: https://www.iacit.com.br/)*
+
+Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IACIT é uma empresa brasileira com sede em São José dos Campos - SP. Com capacitação no desenvolvimento de produtos e sistemas aplicados  para o segmento de navegação aérea, com certificação como Empresa Estratégica de Defesa (EED).
+
+### Visão do Projeto
+Desenvolver uma ferramenta capaz de criar, organizar e gerenciar atas de reunião. Com requisitos específicos do cenário da empresa parceira, como a necessidade de gerenciar logs de atualização e criação, exportação das atas em documentos de diferentes formatos, e usabilidade mobile.
+
+O [Typext](https://github.com/Typext) foi desenvolvido para atender a demanda. Este sistema permite a criação, gerenciamento, análise para aprovação/reprovação de atas digitais. Além de funcionalidades extras como exportação do documento em PDF, disponibilização de atas para pessoas não necessariamente cadastradas na ferramentas e diversas outras features. 
+
+<img src="https://user-images.githubusercontent.com/54003876/142728582-46164603-7014-4451-a431-804153a612bf.png" height="500"/>
+
+##### *Figura 6. Typext (Fonte: https://github.com/Typext)*
+
+## Tecnologias utilizadas:
+![image](https://user-images.githubusercontent.com/54003876/142728799-f87fdad3-06a5-4ff3-9518-5c1f80624bd1.png)
+
+##### *Figura 7. Tecnologias Typext (Fonte: https://github.com/Typext)*
+
+#### Contribuições pessoais
+
+Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi construído em TypeScript, com Node.js. No desenvolvimento deste projeto, diversos desafios foram enfrentados e realizados pelo time do backend. Alguns deles citados abaixo:
+
+- Registro de logs personalizados de ações dos usuários;
+- Atualização de registros complexos como a ata;
+- Disponibilização de documentos em diferentes formatos a partir de entidades na nossa ferramenta;
+- Inclusão de tecnologias de empresas parceiras como o calendário, que permitia agendamento de reuniões.
+
+Atuei em todas estas frentes, criando diferentes rotas e serviços para a implementação de várias features do sistema. Minhas principais contruibuições foram a criação e recuperação de logs e atualização dos registros de usuários e atas.
+
+## Aprendizados Efetivos HS
+- Desenvolvimento de serviços CRUD: Sei fazer com autonomia; <br/>
+- Desenvolvimento utilizando Typescript: Sei fazer com autonomia; <br/>
+- Utilização de ORM's com banco relacional: Sei fazer com autonomia; <br/>
+
+
+# 2021-2
+## Empresa parceira:
+GSW
+
+<img src="https://user-images.githubusercontent.com/54003876/142731143-f3afb070-80b4-442d-ba68-ddd77247dc5b.png" height="150"/>
+
+##### *Figura 8. GSW (Fonte: https://www.gsw.com.br/)*
+
+A GSW é uma empresa brasileira. No mercado desde 1991, sua atuação é focada em produzir soluções para gerenciamento e controle de processos e negócios. 
+
+### Visão do Projeto
+
+A empresa apresentou a necessidade de uma extensão de um produto já existente, que consiste em um portal de anúncio e vendas de imóveis.<br/>
+Tal extensão deveria consistir em um marketplace para anúncio e vendas de automóveis, que permitisse que comprador e vendedor se encontrem, conversem e negociem os processos de compra e venda.
+
+Além disso, a ferramenta deveria possibilitar a carga de alguns dados, como de novos usuários e anúncios.
+
+Como solução ao problema, foi criada a plataforma [OneCar](https://github.com/OneCar-API). A OneCar é uma aplicação Web e mobile para anúncio de veículos à venda.
+A OneCar possui diversas funcionalidades, como:
+
+- Cadastro de usuários e anúncios automatizados por meio de cargas;
+- App mobile para visualização e busca de anúncios;
+- Comunicação em tempo real com o vendedor, assim como acesso ao seu contato em casos onde isso é desejado pelas partes;
+- Busca pelos anúncios por palavras-chaves e itens dos veículos.
+
+
+<img src="https://user-images.githubusercontent.com/54003876/142731498-cf7ccb60-cc0a-4bce-a24e-a82d8b916d17.png" height="500"/>
+
+##### *Figura 9. OneCar
+
+## Tecnologias utilizadas:
+- NodeJS <br/>
+- Typescript <br/>
+- Express <br/>
+- PostgreSQL <br/>
+- ReactJS <br/>
+- Docker <br/>
+
+#### Contribuições pessoais
+Desenvolvimento do backend da aplicação, em especial serviços CRUD e o chat da ferramenta. <br/>
+Fui responsável pelo desenvolvimento da feature de comunicação em tempo real entre comprador e vendedor foi desenvolvida utilizando web socket, com a biblioteca [Socket.Io](https://socket.io/). A inclusão desta tecnologia foi de grande desafio e valia no projeto, pois é a primeira vez que utilizamos este tipo de comunicação entre cliente e servidor em um projeto integrador, então foi necessário um aprendizado ágil para sua implementação.<br/>
+
+
+## Aprendizados Efetivos HS
+- Desenvolvimento de serviços CRUD: Sei fazer com autonomia; 
+- Desenvolvimento utilizando Typescript: Sei fazer com autonomia; 
+- Utilização de ORM's com banco relacional: Sei fazer com autonomia; 
+- Utilização de banco NoSQL: Sei fazer com autonomia;
+- Comunicação em tempo real entre cliente e servidor com web socket: Sei fazer com autonomia.
 
 
 ## Contatos:
