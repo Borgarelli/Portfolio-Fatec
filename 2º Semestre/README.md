@@ -71,8 +71,9 @@ A UDA Brasil foi primeiro sistema web com o qual trabalhei. Em seu desenvolvimen
 - O que é uma requisição GET, POST, PUT e quais são as diferentes destes verbos;
 - Como funciona a comunicação de uma página de um usuário com a lógica interna de um sistema;
 - O que é um JSON e como ele funciona na comunicação de sistemas web;
-- O que é um framework web e qual sua utilidade na construção de sistemas.
+- O que é um framework web e qual sua utilidade na construção de sistemas;
 
+A integração do projeto com as matérias do semestre se deu em diversas frentes. A mais importante delas foi na disciplina de Engenharia de Software. Durante o semestre de desenvolvimento deste trabalho, iniciamos o aprendizado sobre diversos padrões de projeto nesta disciplina, pela primeira vez. Com isso, pela primeira vez nos preocupamos em separar nosso programa que se tornaria o produto em camadas, seguir padrões de arquitetura, torná-lo componentizável e seguindo modos de construção comuns aos utilizados no mercado e comunidade. Foi o passo inicial de estudo sobre tais competências tão importantes para qualquer desenvolvedor de software.
 
 Além destes itens importantes que foram citados acima, outros aprendizados importantes precisam ser mencionados:
 
@@ -84,3 +85,5 @@ No mais, o conhecimento adquirido neste projeto pode ser resumido da seguinte fo
 - Criação de uma API HTTP que gerencia requests e respostas para um cliente: sei fazer com autonomia
 
 - Importação de dados de diferentes fontes e análises gerais sobre o conteúdo importado: sei fazer com autonomia
+
+- Definir a arquitetura de um sistema de acordo com seus requisitos funcionais e não funcionais: sei fazer com ajuda
