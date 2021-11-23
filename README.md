@@ -282,4 +282,7 @@ Além disso, aprendi muito sobre uma área não relacionada diretamente a tecnol
 - Criação de API que se provê serviços e se comunica com outros aplicações: sei fazer com autonomia
 
 
+## Contatos:
 
+- [LinkedIn;](https://www.linkedin.com/in/jos%C3%A9-danrley-069827191)
+- [GitHub.](https://github.com/JDanrley) 
