@@ -3,8 +3,7 @@
 ## Introdução
 
 Olá, seja bem-vindo. Sou o José Danrley, estudante de Análise e Desenvolvimento de Sistemas pela FATEC Prof. Jessen Vidal. 
-Tenho 24 anos e trabalho como estagiário de desenvolvimento de software Java. Durante a minha gradução, trabalhei no desenvolvimento de diversos projetos integradores que 
-foram propostos pela minha universidade em parceria com empresas que sugeriram diversos problemas para que nós, futuros desenvolvedores, criássemos soluções para tais desafios.
+Tenho 24 anos e trabalho como estagiário de desenvolvimento de software Java. Durante a minha gradução, trabalhei no desenvolvimento de trabalhos chamados de "Projetos integradores". Um projeto integrador tem o objetivo de solucionar um problema do mundo real, utilizando os conhecimentos adquiridos durante a graduação.
 Abaixo todos estes projetos serão descritos, detalhando o problema, solução proposta (e entregue), e os aprendizamos extraídos de cada um deles.
 
 ## Projeto 1: 2º Semestre de 2019
@@ -167,7 +166,7 @@ DataFrames são objetos internos da biblioteca Pandas. Eles comportam dados em f
 Com base nisso o ranking, feature principal da nossa ferramenta, foi construído. Ele pode ser visto abaixo:
 
 ![Ranking-UDA-Brasil](https://user-images.githubusercontent.com/45850297/138625070-8d960faf-d4b6-482b-8887-ffb30a7c6ac3.png)
-##### *Figura 01. Ranking das fontes - UDA Brasil*
+##### *Figura 03. Ranking das fontes - UDA Brasil*
 
 
 Nosso cliente recebe dados de inúmeras fontes. Com a UDA Brasil, ele poderia visualizar se alguma das fontes estava pecando na qualidade dos dados, e em qual ponto deveria melhorar/corrigir problemas.
@@ -216,6 +215,12 @@ contidos em shapefiles em um banco dedados que possuísse suporte para este tipo
 tranformá-los no formato compatível com o banco de dados que receberia aquele lote de informações, e realizar a carga dos dados nesta base de dados.
 
 O caminho inverso também deveria ser válido, permitindo converter a base de dados geográfica em shapefiles, permitindo o download destes arquivos conforme a solicitação do usuário.
+
+Shapefiles são arquivos com diversos registros presentes. Estes registros poderiam ser ordenados e comportados em tabelas em um banco de dados geográfico. A VisGeo possibilitava que o usuário escolhesse em qual coluna da tabela criada na base de dados cada coluna de dados do shapefile fosse associada. Esta configuração "de para", assim como outros itens de usabilidade, podem ser vistos na demonstração abaixo:
+
+https://user-images.githubusercontent.com/55189046/93727270-c9ef7f80-fb90-11ea-83e5-c96e0ae2a0bc.gif
+##### *Figura 04. Utilização da Visgeo - Carga de shapefile em banco geográfico, realizando a configuração de-para*
+
 
 Link do repositório do projeto: https://github.com/JDanrley/VisGeo-ETL
 
@@ -275,4 +280,6 @@ Além disso, aprendi muito sobre uma área não relacionada diretamente a tecnol
 - Criação de serviços de extração e carga de dados geográficos: sei fazer com autonomia
 
 - Criação de API que se provê serviços e se comunica com outros aplicações: sei fazer com autonomia
+
+
 
