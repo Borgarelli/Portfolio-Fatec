@@ -57,6 +57,8 @@ DataFrames são objetos internos da biblioteca Pandas. Eles comportam dados em f
 Com base nisso o ranking, feature principal da nossa ferramenta, foi construído. Ele pode ser visto abaixo:
 
 ![Ranking-UDA-Brasil](https://user-images.githubusercontent.com/45850297/138625070-8d960faf-d4b6-482b-8887-ffb30a7c6ac3.png)
+##### *Figura 01. Ranking das fontes - UDA Brasil*
+
 
 Nosso cliente recebe dados de inúmeras fontes. Com a UDA Brasil, ele poderia visualizar se alguma das fontes estava pecando na qualidade dos dados, e em qual ponto deveria melhorar/corrigir problemas.
 
