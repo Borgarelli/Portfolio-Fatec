@@ -4,7 +4,7 @@
 
 Olá, seja bem-vindo. Sou o José Danrley, estudante de Análise e Desenvolvimento de Sistemas pela FATEC Prof. Jessen Vidal. 
 
-Tenho 24 anos e trabalho como estagiário de desenvolvimento de software Java. <br/>
+Tenho 24 anos e trabalho como estagiário de desenvolvimento de software em Java. <br/>
 Durante a minha gradução, trabalhei no desenvolvimento de trabalhos chamados de "Projetos integradores". Um projeto integrador tem o objetivo de solucionar um problema do mundo real, utilizando os conhecimentos adquiridos durante a graduação.<br/>
 Abaixo todos estes projetos serão descritos, detalhando o problema, solução proposta (e entregue), e os aprendizamos extraídos de cada um deles.
 
@@ -113,8 +113,8 @@ No mais, temos os pontos específicos abaixo de aprendizados efetivos:
 
 
 ### Parceiro Acadêmico
-![image](https://user-images.githubusercontent.com/45850297/142964287-90424eda-c055-4f0d-8879-0dcf56bd93d0.png)
 SPC Brasil
+![image](https://user-images.githubusercontent.com/45850297/142964287-90424eda-c055-4f0d-8879-0dcf56bd93d0.png)
 
 ### Visão do Projeto
 
@@ -200,11 +200,13 @@ No mais, o conhecimento adquirido neste projeto pode ser resumido da seguinte fo
 
 - Definir a arquitetura de um sistema de acordo com seus requisitos funcionais e não funcionais: sei fazer com ajuda
 
-## Projeto 3: 2º semestre de 2020
+# Projeto 3: 2º semestre de 2020
 
 
-### Parceiro Acadêmico
+## Parceiro Acadêmico
 Visiona
+![image](https://user-images.githubusercontent.com/45850297/142964509-8c745ed4-aa96-40b6-8a4e-dc6b10b2f803.png)
+
 
 ### Visão do Projeto
 
@@ -326,7 +328,7 @@ Atuei em todas estas frentes, criando diferentes rotas e serviços para a implem
 - Utilização de ORM's com banco relacional: Sei fazer com autonomia; <br/>
 
 
-# 2021-2
+# Projeto 5 - 2º semestre de 2021
 ## Empresa parceira:
 GSW
 
