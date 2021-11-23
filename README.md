@@ -113,8 +113,9 @@ No mais, temos os pontos específicos abaixo de aprendizados efetivos:
 
 
 ### Parceiro Acadêmico
-SPC Brasil
-![image](https://user-images.githubusercontent.com/45850297/142964287-90424eda-c055-4f0d-8879-0dcf56bd93d0.png)
+SPC Brasil <br/>
+![image](https://user-images.githubusercontent.com/45850297/142964669-7814af21-80e1-47d9-b04f-61c87d5ee423.png)
+##### *Figura 03. SPC Brasil*
 
 ### Visão do Projeto
 
@@ -169,7 +170,7 @@ DataFrames são objetos internos da biblioteca Pandas. Eles comportam dados em f
 Com base nisso o ranking, feature principal da nossa ferramenta, foi construído. Ele pode ser visto abaixo:
 
 ![Ranking-UDA-Brasil](https://user-images.githubusercontent.com/45850297/138625070-8d960faf-d4b6-482b-8887-ffb30a7c6ac3.png)
-##### *Figura 03. Ranking das fontes - UDA Brasil*
+##### *Figura 04. Ranking das fontes - UDA Brasil*
 
 
 Nosso cliente recebe dados de inúmeras fontes. Com a UDA Brasil, ele poderia visualizar se alguma das fontes estava pecando na qualidade dos dados, e em qual ponto deveria melhorar/corrigir problemas.
@@ -204,8 +205,9 @@ No mais, o conhecimento adquirido neste projeto pode ser resumido da seguinte fo
 
 
 ## Parceiro Acadêmico
-Visiona
+Visiona <br/>
 ![image](https://user-images.githubusercontent.com/45850297/142964509-8c745ed4-aa96-40b6-8a4e-dc6b10b2f803.png)
+##### *Figura 05. SPC Brasil*
 
 
 ### Visão do Projeto
@@ -293,7 +295,7 @@ IACIT
 
 <img src="https://user-images.githubusercontent.com/54003876/142727570-6c418f49-5e00-437c-9d9e-5b27131974bb.png" height="300"/>
 
-##### *Figura 05. IACIT (Fonte: https://www.iacit.com.br/)*
+##### *Figura 06. IACIT (Fonte: https://www.iacit.com.br/)*
 
 Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IACIT é uma empresa brasileira com sede em São José dos Campos - SP. Com capacitação no desenvolvimento de produtos e sistemas aplicados  para o segmento de navegação aérea, com certificação como Empresa Estratégica de Defesa (EED).
 
@@ -304,12 +306,12 @@ O [Typext](https://github.com/Typext) foi desenvolvido para atender a demanda. E
 
 <img src="https://user-images.githubusercontent.com/54003876/142728582-46164603-7014-4451-a431-804153a612bf.png" height="500"/>
 
-##### *Figura 6. Typext (Fonte: https://github.com/Typext)*
+##### *Figura 07. Typext (Fonte: https://github.com/Typext)*
 
 ## Tecnologias utilizadas:
 ![image](https://user-images.githubusercontent.com/54003876/142728799-f87fdad3-06a5-4ff3-9518-5c1f80624bd1.png)
 
-##### *Figura 7. Tecnologias Typext (Fonte: https://github.com/Typext)*
+##### *Figura 08. Tecnologias Typext (Fonte: https://github.com/Typext)*
 
 #### Contribuições pessoais
 
@@ -334,7 +336,7 @@ GSW
 
 <img src="https://user-images.githubusercontent.com/54003876/142731143-f3afb070-80b4-442d-ba68-ddd77247dc5b.png" height="150"/>
 
-##### *Figura 8. GSW (Fonte: https://www.gsw.com.br/)*
+##### *Figura 09. GSW (Fonte: https://www.gsw.com.br/)*
 
 A GSW é uma empresa brasileira. No mercado desde 1991, sua atuação é focada em produzir soluções para gerenciamento e controle de processos e negócios. 
 
@@ -356,7 +358,7 @@ A OneCar possui diversas funcionalidades, como:
 
 <img src="https://user-images.githubusercontent.com/54003876/142731498-cf7ccb60-cc0a-4bce-a24e-a82d8b916d17.png" height="500"/>
 
-##### *Figura 9. OneCar*
+##### *Figura 10. OneCar*
 
 ## Tecnologias utilizadas:
 - NodeJS <br/>
