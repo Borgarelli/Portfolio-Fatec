@@ -113,6 +113,7 @@ No mais, temos os pontos específicos abaixo de aprendizados efetivos:
 
 
 ### Parceiro Acadêmico
+![image](https://user-images.githubusercontent.com/45850297/142964287-90424eda-c055-4f0d-8879-0dcf56bd93d0.png)
 SPC Brasil
 
 ### Visão do Projeto
@@ -353,7 +354,7 @@ A OneCar possui diversas funcionalidades, como:
 
 <img src="https://user-images.githubusercontent.com/54003876/142731498-cf7ccb60-cc0a-4bce-a24e-a82d8b916d17.png" height="500"/>
 
-##### *Figura 9. OneCar
+##### *Figura 9. OneCar*
 
 ## Tecnologias utilizadas:
 - NodeJS <br/>
