@@ -381,6 +381,51 @@ Fui responsável pelo desenvolvimento da feature de comunicação em tempo real 
 - Comunicação em tempo real entre cliente e servidor com web socket: Sei fazer com autonomia.
 
 
+# Projeto 6 - 1º semestre de 2022
+## Empresa parceira:
+UOL
+
+<img src="https://conteudo.imguol.com.br/c/home/layout/vueland/icons/brand/uol-logo-full.svg?v4" height="150"/>
+
+##### *Figura 11. UOL (Fonte: https://www.uol.com.br/)*
+
+A UOL é uma companhia brasileira, fundada em 1996. Pioneira no mercado online nacional, foi a dona do primeiro portal de conteúdos no país. O portal de UOL, que carrega o nome da empresa, segue sendo o maior do Brasil.
+
+### Visão do Projeto
+
+Nosso parceiro deste projeto solicitou a criação de uma ferramenta que pudesse prever a indisponibilidade de seus serviços online. O produto desenvolvido deveria ser capaz de monitorar a saúde da aplicação e prever que num futuro breve um problema pode ocorrer, caso o cenário seja este.
+
+Considerando a larga escala de utilização dos produtos do nosso parceiro, prever possíveis indisponibilidades futuras seria um ótimo mecanismo de garantir disponibilidade máxima para seus usuários. 
+
+Para atender às demandas solicitas, a [Orbit](https://github.com/orbit-api) foi desenvolvida. A Orbit é uma ferramenta de monitoramento que tem como objetivo coletar os dados de saúde de um serviço e, com base nos dados coletados de cenários de indisponibilidade, pode prever um novo cenário de queda do serviço monitorado. Caso um evento deste tipo seja previsto, os responsáveis pela aplicação são notificados de que um possível problema deverá ocorrer.
+
+
+<img src="https://user-images.githubusercontent.com/56441318/160112708-193a18fe-2241-427c-8fe0-2dc23324b48a.png" height="500"/>
+
+##### *Figura 12. Orbit*
+
+## Tecnologias utilizadas:
+- Java <br/>
+- Spring Boot <br/>
+- Hibernate <br/>
+- PostgreSQL <br/>
+- Vue Js <br/>
+- Docker <br/>
+- Locust.io <br/>
+- Prometheus <br/>
+- Scikit-learn <br/>
+
+#### Contribuições pessoais
+Minha atuação neste projeto foi focada nas criações de cenários de indisponibilidade e testes para geração de dados.
+A serviço oferecido pela Orbit se baseia no aprendizado de máquina proporcionado por estes testes, onde diferentes características da saúde do serviço monitorado devem ser considerados.
+Utilizei ferramentas de teste em carga, como o Locust.io, e ao mesmo tempo aplicações de monitoramento para relacionar estados como (consumo de recursos como CPU, memória, tempo de resposta, latência considerando a rede, etc) com o nível de estresse da aplicação monitorada. Além do trabalho de relacionar estes dados em estruturas que pudessem ser utilizadas por modelos de aprendizado de máquina.
+
+
+## Aprendizados Efetivos HS
+- Monitoramento de atributos de performance de aplicações web: Sei fazer com autonomia; 
+- Coleta e tratamento de dados para uso em bibliotecas de aprendizado de máquina: Sei fazer com autonomia; 
+- Desenvolvimento de API's com Spring Boot: Sei fazer com autonomia.
+
 ## Contatos:
 
 - [LinkedIn;](https://www.linkedin.com/in/jos%C3%A9-danrley-069827191)
