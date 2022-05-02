@@ -6,7 +6,8 @@ Olá, seja bem-vindo. Sou o José Danrley, estudante de Análise e Desenvolvimen
 
 Tenho 24 anos e trabalho como Desenvolvedor de Software Júnior. <br/>
 
-![ca7b5822-6978-4158-b73c-63f5d8dc893d](https://user-images.githubusercontent.com/45850297/166244768-572c3120-ee71-4aa1-bb82-bcfe3e866063.jpg)
+<img src="https://user-images.githubusercontent.com/45850297/166244768-572c3120-ee71-4aa1-bb82-bcfe3e866063.jpg" height="400" width="300"/>
+
 ##### *Figura 00. Eu*
 
 ### Meus principais conhecimentos
