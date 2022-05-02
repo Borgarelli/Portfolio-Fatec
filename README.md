@@ -4,7 +4,25 @@
 
 Olá, seja bem-vindo. Sou o José Danrley, estudante de Análise e Desenvolvimento de Sistemas pela FATEC Prof. Jessen Vidal. 
 
-Tenho 24 anos e trabalho como estagiário de desenvolvimento de software em Java. <br/>
+Tenho 24 anos e trabalho como Desenvolvedor de Software Júnior. <br/>
+
+![ca7b5822-6978-4158-b73c-63f5d8dc893d](https://user-images.githubusercontent.com/45850297/166244768-572c3120-ee71-4aa1-bb82-bcfe3e866063.jpg)
+##### *Figura 00. Eu*
+
+### Meus principais conhecimentos
+
+#### Java
+
+Minha atuação como desenvolvedor júnior tem como a principal stack a linguagem Java, na versão 1.8, desde março de 2021.
+Trabalho desenvolvendo API's e serviços com o auxílio do framework Spring Boot e também do framework ORM Hibernate. 
+Por conta desta experiência, Java e seu ecossistema para desenvolvimento web é onde possuo maior domínio e conhecimento. 
+
+#### Python
+
+Python foi a primeiras linguagem que estudei, ainda antes da graduação. Mesmo nunca tendo atuado profissionalmente com Python, diversos projetos pessoais e acadêmicos foram feitos com esta linguagem e seus frameworks e bibliotecas, como o Flask, Django e Pandas;
+Este contato de anos com a linguagem me dá segurança para criar soluções em Python, algo que já se tornou frequente em minha trajetória como desenvolvedor.
+
+#### Projetos Integradores durante a graduação 
 Durante a minha gradução, trabalhei no desenvolvimento de trabalhos chamados de "Projetos integradores". Um projeto integrador tem o objetivo de solucionar um problema do mundo real, utilizando os conhecimentos adquiridos durante a graduação.<br/>
 Abaixo todos estes projetos serão descritos, detalhando o problema, solução proposta (e entregue), e os aprendizamos extraídos de cada um deles.
 
