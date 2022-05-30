@@ -127,7 +127,7 @@ No mais, temos os pontos específicos abaixo de aprendizados efetivos:
 
 - Desenvolvimento de scripts em C: Sei fazer com autonomia
 
-
+<br>
 ## Projeto 2: 1º semestre de 2020
 
 
@@ -220,6 +220,7 @@ No mais, o conhecimento adquirido neste projeto pode ser resumido da seguinte fo
 
 - Definir a arquitetura de um sistema de acordo com seus requisitos funcionais e não funcionais: sei fazer com ajuda
 
+<br>
 # Projeto 3: 2º semestre de 2020
 
 
@@ -308,6 +309,8 @@ Além disso, aprendi muito sobre uma área não relacionada diretamente a tecnol
 - Criação de API que se provê serviços e se comunica com outros aplicações: sei fazer com autonomia
 <br/>
 
+<br>
+
 # Projeto 4 - 1º semestre de 2021
 ## Empresa parceira:
 IACIT
@@ -353,7 +356,7 @@ Atuei em todas estas frentes, criando diferentes rotas e serviços para a implem
 - Desenvolvimento utilizando Typescript: Sei fazer com autonomia; <br/>
 - Utilização de ORM's com banco relacional: Sei fazer com autonomia; <br/>
 
-
+<br>
 # Projeto 5 - 2º semestre de 2021
 ## Empresa parceira:
 GSW
@@ -407,7 +410,7 @@ Fui responsável pelo desenvolvimento da feature de comunicação em tempo real 
 - Utilização de banco NoSQL: Sei fazer com autonomia;
 - Comunicação em tempo real entre cliente e servidor com web socket: Sei fazer com autonomia.
 
-
+<br>
 # Projeto 6 - 1º semestre de 2022
 ## Empresa parceira:
 UOL
@@ -449,7 +452,7 @@ Isso proporcionou uma mudança na arquitetura da ferramenta.
 Minha atuação neste projeto foi focada nas criações de cenários de indisponibilidade e testes para geração de dados.
 A serviço oferecido pela Orbit se baseia no aprendizado de máquina proporcionado por estes testes, onde diferentes características da saúde do serviço monitorado devem ser considerados. <br>
 Utilizei ferramentas de teste em carga, como o Locust.io, e ao mesmo tempo aplicações de monitoramento para relacionar estados como (consumo de recursos como CPU, memória, tempo de resposta, latência considerando a rede, etc) com o nível de estresse da aplicação monitorada. Além do trabalho de relacionar estes dados em estruturas que pudessem ser utilizadas por modelos de aprendizado de máquina.<br>
-Com isso, minhas contribuições foram focadas na criação dos testes, para que pudessem representar o funcionamento de uma aplicação em diferentes cenários. Em coletar os dados do monitoramento da aplicação durante os testes, incluindo informações de monitoramente que pudessem medir diferentes aspectos da saúde da aplicação, e em armazenar estas métricas para alimentar de forma útil nosso modelo de maching learning, que se baseará na extrapolação dos dados no tempo para prever possíveis indisponibilidades.
+Com isso, minhas contribuições foram focadas na criação dos testes, para que pudessem representar o funcionamento de uma aplicação em diferentes cenários. Em coletar os dados do monitoramento da aplicação durante os testes, incluindo informações de monitoramente que pudessem medir diferentes aspectos da saúde da aplicação, e em armazenar estas métricas para alimentar de forma útil nosso modelo de maching learning, que se baseará na extrapolação dos dados no tempo para prever possíveis indisponibilidades. <br> <br>
 O Scikit-learn foi utilizado realizando duas tarefas principais:<br>
 - Utilizar os dados de saúde da aplicação e extrapolá-los no tempo, para que se pudesse ter uma estimativa no futuro de como estas métricas estariam.<br>
 - Com os dados extrapolados, aplicar uma árvore de decisão para definir se naquele ponto no tempo, haveria risco futuro próximo de cenários de indisponibilidade. 
