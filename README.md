@@ -127,7 +127,7 @@ No mais, temos os pontos específicos abaixo de aprendizados efetivos:
 
 - Desenvolvimento de scripts em C: Sei fazer com autonomia
 
-<br>
+
 ## Projeto 2: 1º semestre de 2020
 
 
@@ -220,7 +220,6 @@ No mais, o conhecimento adquirido neste projeto pode ser resumido da seguinte fo
 
 - Definir a arquitetura de um sistema de acordo com seus requisitos funcionais e não funcionais: sei fazer com ajuda
 
-<br>
 # Projeto 3: 2º semestre de 2020
 
 
@@ -309,7 +308,7 @@ Além disso, aprendi muito sobre uma área não relacionada diretamente a tecnol
 - Criação de API que se provê serviços e se comunica com outros aplicações: sei fazer com autonomia
 <br/>
 
-<br>
+
 
 # Projeto 4 - 1º semestre de 2021
 ## Empresa parceira:
@@ -356,7 +355,7 @@ Atuei em todas estas frentes, criando diferentes rotas e serviços para a implem
 - Desenvolvimento utilizando Typescript: Sei fazer com autonomia; <br/>
 - Utilização de ORM's com banco relacional: Sei fazer com autonomia; <br/>
 
-<br>
+
 # Projeto 5 - 2º semestre de 2021
 ## Empresa parceira:
 GSW
@@ -410,7 +409,7 @@ Fui responsável pelo desenvolvimento da feature de comunicação em tempo real 
 - Utilização de banco NoSQL: Sei fazer com autonomia;
 - Comunicação em tempo real entre cliente e servidor com web socket: Sei fazer com autonomia.
 
-<br>
+
 # Projeto 6 - 1º semestre de 2022
 ## Empresa parceira:
 UOL
