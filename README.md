@@ -332,6 +332,11 @@ O [Typext](https://github.com/Typext) foi desenvolvido para atender a demanda. E
 
 ##### *Figura 08. Tecnologias Typext (Fonte: https://github.com/Typext)*
 
+Assim como no projeto anterior, a aplicação front-end foi construída com a biblioteca React.Js.
+Porém, neste projeto houve uma mudança da stack dos serviços e API do back-end. Apenas Node.Js foi utilizado em sua construção, com a linguagem Typescript.
+Assim foram programadas todas as rotas HTTP, conexão com o banco de dados e manutenção do banco para alterações, por meio de migrations.
+A base de dados utilizada foi mantida, utilizando o PostgreSQL.
+
 #### Contribuições pessoais
 
 Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi construído em TypeScript, com Node.js. No desenvolvimento deste projeto, diversos desafios foram enfrentados e realizados pelo time do backend. Alguns deles citados abaixo:
@@ -387,6 +392,9 @@ A OneCar possui diversas funcionalidades, como:
 - ReactJS <br/>
 - Docker <br/>
 
+Mantendo a linha dos dois projetos anteriores, utilizamos React para o frontend, inclusive com o Reactive Native para as telas mobile.
+No backend, as mesmas linguagens e ferramentas foram usadas em relação ao projeto anterior.
+
 #### Contribuições pessoais
 Desenvolvimento do backend da aplicação, em especial serviços CRUD e o chat da ferramenta. <br/>
 Fui responsável pelo desenvolvimento da feature de comunicação em tempo real entre comprador e vendedor foi desenvolvida utilizando web socket, com a biblioteca [Socket.Io](https://socket.io/). A inclusão desta tecnologia foi de grande desafio e valia no projeto, pois é a primeira vez que utilizamos este tipo de comunicação entre cliente e servidor em um projeto integrador, então foi necessário um aprendizado ágil para sua implementação.<br/>
@@ -438,6 +446,7 @@ Para atender às demandas solicitas, a [Orbit](https://github.com/orbit-api) foi
 Minha atuação neste projeto foi focada nas criações de cenários de indisponibilidade e testes para geração de dados.
 A serviço oferecido pela Orbit se baseia no aprendizado de máquina proporcionado por estes testes, onde diferentes características da saúde do serviço monitorado devem ser considerados.
 Utilizei ferramentas de teste em carga, como o Locust.io, e ao mesmo tempo aplicações de monitoramento para relacionar estados como (consumo de recursos como CPU, memória, tempo de resposta, latência considerando a rede, etc) com o nível de estresse da aplicação monitorada. Além do trabalho de relacionar estes dados em estruturas que pudessem ser utilizadas por modelos de aprendizado de máquina.
+Com isso, minhas contribuições foram focadas na criação dos testes, para que pudessem representar o funcionamento de uma aplicação em diferentes cenários. Em coletar os dados do monitoramento da aplicação durante os testes, incluindo informações de monitoramente que pudessem medir diferentes aspectos da saúde da aplicação, e em armazenar estas métricas para alimentar de forma útil nosso modelo de maching learning, que se baseará na extrapolação dos dados no tempo para prever possíveis indisponibilidades.
 
 
 ## Aprendizados Efetivos HS
