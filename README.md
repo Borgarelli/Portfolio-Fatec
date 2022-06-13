@@ -27,7 +27,7 @@ Este contato de anos com a linguagem me dá segurança para criar soluções em 
 Durante a minha gradução, trabalhei no desenvolvimento de trabalhos chamados de "Projetos integradores". Um projeto integrador tem o objetivo de solucionar um problema do mundo real, utilizando os conhecimentos adquiridos durante a graduação.<br/>
 Abaixo todos estes projetos serão descritos, detalhando o problema, solução proposta (e entregue), e os aprendizamos extraídos de cada um deles.
 
-## Projeto 1: 2º Semestre de 2019
+# Projeto 1: 2º Semestre de 2019
 
 
 ### Parceiro Acadêmico
@@ -128,7 +128,7 @@ No mais, temos os pontos específicos abaixo de aprendizados efetivos:
 - Desenvolvimento de scripts em C: Sei fazer com autonomia
 
 
-## Projeto 2: 1º semestre de 2020
+# Projeto 2: 1º semestre de 2020
 
 
 ### Parceiro Acadêmico
