@@ -6,13 +6,13 @@ Olá, seja bem-vindo. Sou o Kauã Borgarelli, estudante de Banco de Dados pela F
 
 Tenho 19 anos e estou em busca de um estágio. <br/>
 
-<img src="https://user-images.githubusercontent.com/45850297/166244768-572c3120-ee71-4aa1-bb82-bcfe3e866063.jpg" height="400" width="300"/>
+<img src="https://user-images.githubusercontent.com/79945984/192902982-2056c8c0-d156-4073-b0ec-62a0ced8357a.jpg" height="400" width="350"/>
 
 ##### *Figura 00. Eu*
 
 ### Meus principais conhecimentos
 
-#### Java
+#### SQL
 
 Minha atuação como desenvolvedor júnior tem como a principal stack a linguagem Java, na versão 1.8, desde março de 2021.
 Trabalho desenvolvendo API's e serviços com o auxílio do framework Spring Boot e também do framework ORM Hibernate. 
