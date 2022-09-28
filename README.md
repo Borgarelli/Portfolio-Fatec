@@ -1,10 +1,10 @@
-# José Danrley da Silva
+# Kauã Walbon Santos Borgarelli Tavares
 
 ## Introdução
 
-Olá, seja bem-vindo. Sou o José Danrley, estudante de Análise e Desenvolvimento de Sistemas pela FATEC Prof. Jessen Vidal. 
+Olá, seja bem-vindo. Sou o Kauã Borgarelli, estudante de Banco de Dados pela FATEC Prof. Jessen Vidal. 
 
-Tenho 24 anos e trabalho como Desenvolvedor de Software Júnior. <br/>
+Tenho 19 anos e estou em busca de um estágio. <br/>
 
 <img src="https://user-images.githubusercontent.com/45850297/166244768-572c3120-ee71-4aa1-bb82-bcfe3e866063.jpg" height="400" width="300"/>
 
