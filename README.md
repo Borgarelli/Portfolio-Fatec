@@ -8,7 +8,7 @@ Olá, seja bem-vindo. Sou o Kauã Borgarelli, estudante de Banco de Dados pela F
 
 Tenho 19 anos e estou em busca de um estágio. <br/>
 
-![perfil](https://user-images.githubusercontent.com/79945984/193151179-79c30859-fbd7-42ce-9c7a-d9933e622429.jpg) height="400" width="350"/>
+![perfil](https://user-images.githubusercontent.com/79945984/193151179-79c30859-fbd7-42ce-9c7a-d9933e622429.jpg)
 
 ### *Figura 00. Eu*
 
@@ -508,5 +508,5 @@ O Scikit-learn foi utilizado realizando duas tarefas principais:<br>
 
 ## Contatos:
 
-- [LinkedIn;](https://www.linkedin.com/in/jos%C3%A9-danrley-069827191)
+- [LinkedIn;](https://www.linkedin.com/in/kauã-borgarelli-5bb67220a/)
 - [GitHub.](https://github.com/JDanrley)
