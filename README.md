@@ -225,9 +225,11 @@ Atualmente implementamos e apresentaremos o cadastro dos produtos em várias pro
 
  Além disso, há a autonomia fornecida ao usuário para editar, remover, arquivar ou desarquivar seus produtos e para editar, deletar, interromper ou ativar promoções e da visualização prática e intuitiva dos produtos e promoções cadastradas através da listagem que possui um filtro para que seja possível diferenciar quais os status de produtos e promoções.
 
-![https://user-images.githubusercontent.com/55189046/93727270-c9ef7f80-fb90-11ea-83e5-c96e0ae2a0bc.gif](https://user-images.githubusercontent.com/55189046/93727270-c9ef7f80-fb90-11ea-83e5-c96e0ae2a0bc.gif)
+Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](https://youtu.be/NhDe9-Z_dvk):
 
-### *Figura 04. Utilização da Visgeo - Carga de shapefile em banco geográfico, realizando a configuração de-para*
+[<img src="https://github.com/DolphinDatabase/DescontOn/blob/47f0f23ee3d7710b472fc1ff26d06da50237681e/Imagens/imagem_2022-04-15_155641874.png" width="40%">](https://youtu.be/NhDe9-Z_dvk "DescontOn vídeo Demonstração")
+
+### *Figura 04. Aplicação em ação - Motor de regras integrado com um E-ccomerce, realizando todo o processo de cadastro de produtos e o processo de criar novas regras de desconto e aplicar a seus produtos já registrados*
 
 Link do repositório do projeto: https://github.com/DolphinDatabase/DescontOn
 
