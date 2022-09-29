@@ -509,4 +509,4 @@ O Scikit-learn foi utilizado realizando duas tarefas principais:<br>
 ## Contatos:
 
 - [LinkedIn;](https://www.linkedin.com/in/kauã-borgarelli-5bb67220a/)
-- [GitHub.](https://github.com/JDanrley)
+- [GitHub.](https://github.com/Borgarelli)
