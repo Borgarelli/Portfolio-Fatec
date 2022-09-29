@@ -212,7 +212,8 @@ No mais, o conhecimento adquirido neste projeto pode ser resumido da seguinte fo
 
 MidAll <br/>
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fa0b0ac6-87b2-4d39-8747-b8b02eb0c140/Untitled.png)
+![MidAll](https://user-images.githubusercontent.com/79945984/193150903-7e18197c-d3e1-4334-ab21-7bd8df6b50fe.png)
+
 
 ### *Figura 05. MidAllº*
 
