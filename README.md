@@ -305,6 +305,8 @@ BrModelo é uma ferramenta desktop voltada para o desenvolvimento de projeto de
 
 ### Modelo Conceitual
 
+ ![image](https://user-images.githubusercontent.com/79945984/194174800-ae3951d9-a8af-4029-bd9d-7f703e59b7ad.png)
+
 A maior dificuldade para o aprendizado das técnicas de modelagem em banco de
 dados é entender um problema do mundo real e converte-lo, criando uma solução.
 O profissional da área de informática precisa entender o problema e conceituar o
@@ -316,14 +318,18 @@ conceitual antes de iniciar a implementação.
 
 ### Modelo lógico
 
+ ![image](https://user-images.githubusercontent.com/79945984/194174919-d99831d1-0036-489c-90a6-f3b4b8422532.png)
+
 O modelo lógico é o resultado ou produto da conversão de um modelo conceitual
-para um determinado tipo de banco de dados, ou conforme Heuser [3], “Um modelo lógico é uma
+para um determinado tipo de banco de dados, ou conforme Heuser, “Um modelo lógico é uma
 descrição de um banco de dados no nível de abstração visto pelo usuário do sistema gerenciador de banco de dados”.
 Por isso, nesta fase do processo de modelagem de dados, o projetista já deve ter
 conhecimento do tipo de banco de dados no qual o projeto será implementado (relacional,
 hierárquico, objeto - relacional, entre outros) e por fim
 
 ### Modelo físico
+
+![image](https://user-images.githubusercontent.com/79945984/194175053-cbb6e065-4c3b-46ad-adf2-4c142f851c26.png)
 
 É o modelo que descreve a forma como os dados são armazenados no SGBD, nesta
 fase, o modelo lógico é convertido, no caso dos bancos relacionais em linguagem DDL (data
