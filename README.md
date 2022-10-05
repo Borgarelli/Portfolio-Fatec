@@ -303,7 +303,7 @@ Durante a preparação para iniciar o desenvolvimento do projeto, consultei dive
 
 BrModelo é uma ferramenta desktop voltada para o desenvolvimento de projeto de banco de dados relacionais, incluindo as etapas conceitual, lógico e físico, com ampla utilização na área de computação em todo o Brasil. E nele é que geramos os três tipos de modelagem.
 
-###Modelo Conceitual
+### Modelo Conceitual
 
 A maior dificuldade para o aprendizado das técnicas de modelagem em banco de
 dados é entender um problema do mundo real e converte-lo, criando uma solução.
@@ -314,7 +314,7 @@ implementar a solução;
 b) conhecer as técnicas de modelagem a fim de representar o problema de forma
 conceitual antes de iniciar a implementação.
 
-###Modelo lógico
+### Modelo lógico
 
 O modelo lógico é o resultado ou produto da conversão de um modelo conceitual
 para um determinado tipo de banco de dados, ou conforme Heuser [3], “Um modelo lógico é uma
@@ -323,7 +323,7 @@ Por isso, nesta fase do processo de modelagem de dados, o projetista já deve te
 conhecimento do tipo de banco de dados no qual o projeto será implementado (relacional,
 hierárquico, objeto - relacional, entre outros) e por fim
 
-###Modelo físico
+### Modelo físico
 
 É o modelo que descreve a forma como os dados são armazenados no SGBD, nesta
 fase, o modelo lógico é convertido, no caso dos bancos relacionais em linguagem DDL (data
