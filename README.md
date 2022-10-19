@@ -8,7 +8,7 @@ Olá, seja bem-vindo. Sou o Kauã Borgarelli, estudante de Banco de Dados pela F
 
 Tenho 19 anos e estou em busca de um estágio. <br/>
 
-![perfil](https://user-images.githubusercontent.com/79945984/193151179-79c30859-fbd7-42ce-9c7a-d9933e622429.jpg)
+![https://user-images.githubusercontent.com/79945984/193151179-79c30859-fbd7-42ce-9c7a-d9933e622429.jpg](https://user-images.githubusercontent.com/79945984/193151179-79c30859-fbd7-42ce-9c7a-d9933e622429.jpg)
 
 ### *Figura 00. Eu*
 
@@ -20,14 +20,14 @@ Minha atuação mais presente durante a Fatec é com os desenvolvimentos das mod
 
 ### HTML-5 e CSS-3
 
-Html e CSS é o que eu mais estou focado em estudar atualmente, sinto que com o passar dos semestres, consigo contribuir cada vez mais no front dos projetos.
+Html e CSS é o que eu mais estou focado em estudar atualmente, sinto que com o passar dos semestres, consigo contribuir cada vez mais no front-end dos projetos.
 
 ### Projetos Integradores durante a graduação
 
 Durante a minha gradução, trabalhei no desenvolvimento de trabalhos chamados de "Projetos integradores". Um projeto integrador tem o objetivo de solucionar um problema do mundo real, utilizando os conhecimentos adquiridos durante o decorrer dos semestres.<br/>
 Abaixo todos estes projetos serão descritos, detalhando o problema, solução proposta (e entregue), e os aprendizados extraídos de cada um deles.
 
-# Projeto 1: 2º Semestre de 2019
+# Projeto 1: 1º Semestre de 2021
 
 ### Parceiro Acadêmico
 
@@ -53,7 +53,7 @@ O funcionamento da vending machine foi construído utilizando o Arduino, com a p
 
 O Arduino é uma plataforma de prototipagem. Usualmente, ao falar em "Arduino", nos remetemos a placa central que liga diversos dispositivos que são interligados por ela.
 
-Entretanto, o Arduino como plataforma vai um pouco além, pois também fornece diversos recursos - comunicação Serial, alimentação elétrica, periféricos da propria plataforma, etc - que facilitam a prototipagem de sistemas embarcados, e que podem servir às mais diversas finalidades específicas.
+Entretanto, o Arduino como plataforma vai um pouco além, pois também fornece diversos recursos - comunicação Serial, alimentação elétrica, periféricos da própria plataforma, etc - que facilitam a prototipagem de sistemas embarcados, e que podem servir às mais diversas finalidades específicas.
 
 Estes recursos facilitam a construção de protótipos das mais diversas finalidades. A programação simples e direta de periféricos como motores, luzes e sensores, tornam quase que ilimitadas as possibilidades de protótipos que podem ser construídas utilizando o Arduino.
 
@@ -97,7 +97,7 @@ Como pode ser visto, a alimentação ainda é realizada conectando as saídas de
 Fui responsável pela programação do script que gerenciava a integração do Arduino com o Servo Motor e o módulo bluetooth.
 
 Por estar focado nesta parte do projeto, pesquisei por diversas plataformas que pudessem construir o protótipo.
-Uma alternativa ao Arduino, a NodeMCU [ver mais](https://nodemcu.readthedocs.io/en/release/), foi estudada e testada para uso. Entretando, como os requisitos do projeto eram atendidos por uma plataforma de uso mais amplo e conhecido como a Arduino, ela foi escolhida para ser utilizada no projeto.
+Uma alternativa ao Arduino, a NodeMCU [ver mais](https://nodemcu.readthedocs.io/en/release/), foi estudada e testada para uso. Entretanto, como os requisitos do projeto eram atendidos por uma plataforma de uso mais amplo e conhecido como a Arduino, ela foi escolhida para ser utilizada no projeto.
 
 O processo de estudo e implementação do código em testes práticos necessitou de consultas à [documentação oficial do Arduino](https://www.arduino.cc/en/main/docs). Em poucas semanas, a implementação foi finalizada, realizando as etapas explicadas nos capítulos anteriores.
 
@@ -117,7 +117,7 @@ No mais, temos os pontos específicos abaixo de aprendizados efetivos:
 - Integração entre placa Arduino e dispositivos periféricos: Sei fazer com autonomia
 - Desenvolvimento de scripts em C: Sei fazer com autonomia
 
-# Projeto 2: 1º semestre de 2020
+# Projeto 2: 2º semestre de 2021
 
 ### Parceiro Acadêmico
 
@@ -134,8 +134,7 @@ Os dados, obviamente, eram exemplos descaracterizados para fins acadêmicos.
 
 O projeto desenvolvimento por minha equipe, a UDA Brasil, possuiu o seguinte objetivo:
 
-Criar uma ferramenta Web de análise da qualidade dos dados, rankeando as fontes dos dados de acordo com a consistência, completude e confiabilidade
-dos lotes enviados.
+Criar uma ferramenta Web de análise da qualidade dos dados, categorizando as fontes dos dados de acordo com a consistência, completude e confiabilidade dos lotes enviados.
 
 Link do repositório do projeto: [https://github.com/justhenrique/SPC-projeto-integrador](https://github.com/justhenrique/SPC-projeto-integrador)
 
@@ -146,11 +145,10 @@ Link do repositório do projeto: [https://github.com/justhenrique/SPC-projeto-in
 Neste projeto os membros de nossa equipe obtiveram o primeiro contato com um framework web, e o utilizado neste momento foi o Flask.
 
 O Flask é um microframework web, que funciona com base na linguagem de programação Python. O radical "micro" em "microframework" é empregado pois o escopo base
-do Flask é enxuto. Ou seja, o Flask não determina ou limita o modo com o qual o seu projeto web será construído. Ele falicita a implamentação básica de um sistema web, permitindo diversos modos de desenvolvimento. Por ser leve, enxuto e dinâmico no desenvolvimento de projetos, ele recebe esta denominação.
+do Flask é enxuto. Ou seja, o Flask não determina ou limita o modo com o qual o seu projeto web será construído. Ele facilita a implementação básica de um sistema web, permitindo diversos modos de desenvolvimento. Por ser leve, enxuto e dinâmico no desenvolvimento de projetos, ele recebe esta denominação.
 Saiba mais sobre o Flask em sua [página oficial.](https://flask.palletsprojects.com/en/2.0.x/)
 
-Com o Flask, foram criadas as rotas HTTP que o nosso sistema consumiu. Além disso, em auxílio com a engine de renderização de templates, a
-[Jinja2](https://jinja.palletsprojects.com/en/3.0.x/), as páginas de nossa plataforma foram renderizadas para o usuário final.
+Com o Flask, foram criadas as rotas HTTP que o nosso sistema consumiu. Além disso, em auxílio com a engine de renderização de templates, a [Jinja2](https://jinja.palletsprojects.com/en/3.0.x/), as páginas de nossa plataforma foram renderizadas para o usuário final.
 
 ### Pandas
 
@@ -161,7 +159,7 @@ dela, os algoritmos de análise da qualidade dos dados foram construídos, o que
 
 ### Contribuições pessoais
 
-Fui responsável por vários dos scripts que análisavam os lotes de dados de acordo com critérios determinados pela entidade parceira.
+Fui responsável por vários dos scripts que analisavam os lotes de dados de acordo com critérios determinados pela entidade parceira.
 
 Os itens utilizados para determinar a qualidade dos dados eram os seguintes:
 
@@ -173,7 +171,7 @@ Com base nestes pilares, iniciei a construção dos algoritmos.
 
 Com métodos de extração e leituras de dados da biblioteca Pandas, conseguimos converter os dados fornecidos no formato de arquivo .xlsx em DataFrames.
 
-DataFrames são objetos internos da biblioteca Pandas. Eles comportam dados em formato bidimensional, com linhas e colunas, compatível com o formato da fonte, em planilhas (arquivos XLSX). Ao manupilar DataFrames, o Pandas oferecee um arsenal de ferramentas robusto que permite filtrar, contabilizar e tratar dados incompletos, inconsistêntes e analisar sua integridade.
+DataFrames são objetos internos da biblioteca Pandas. Eles comportam dados em formato bidimensional, com linhas e colunas, compatível com o formato da fonte, em planilhas (arquivos XLSX). Ao manipular DataFrames, o Pandas oferecee um arsenal de ferramentas robusto que permite filtrar, contabilizar e tratar dados incompletos, inconsistêntes e analisar sua integridade.
 
 Com base nisso o ranking, feature principal da nossa ferramenta, foi construído. Ele pode ser visto abaixo:
 
@@ -206,42 +204,39 @@ No mais, o conhecimento adquirido neste projeto pode ser resumido da seguinte fo
 - Importação de dados de diferentes fontes e análises gerais sobre o conteúdo importado: sei fazer com autonomia
 - Definir a arquitetura de um sistema de acordo com seus requisitos funcionais e não funcionais: sei fazer com ajuda
 
-# Projeto 3: 2º semestre de 2022
+# Projeto 3: 1º semestre de 2022
 
-## Parceiro Acadêmico
-
-MidAll <br/>
-
-![MidAll](https://user-images.githubusercontent.com/79945984/193150903-7e18197c-d3e1-4334-ab21-7bd8df6b50fe.png)
-
+## Parceiro Acadêmico: MidAll <br/>
+<details><summary>Logo da Empresa</summary>
+<img src ="https://user-images.githubusercontent.com/79945984/193150903-7e18197c-d3e1-4334-ab21-7bd8df6b50fe.png"/></details>
 
 ### *Figura 05. MidAllº*
 
 ### Visão do Projeto
 
-Ferramenta para criar promoções de E-commerce, onde as mecânicas de promoções são feitas de forma flexível e de rápida atualização no sistema. As regras de promoções são cadastradas e posteriormente aplicadas no momento em que os itens são adicionados ao carrinho. 
+Ferramenta para criar promoções de E-commerce, onde as mecânicas de promoções são feitas de forma flexível e de rápida atualização no sistema. As regras de promoções são cadastradas e posteriormente aplicadas no momento em que os itens são adicionados ao carrinho.
 
-Atualmente implementamos e apresentaremos o cadastro dos produtos em várias promoções no servidor/ banco de dados, utilizando operadores lógicos para criar diferentes mecânicas de promoções, os descontos é aplicado na sacola de compra e possui uma visualização dedicada para conferência e escolha de possíveis promoções.
+Atualmente implementamos e apresentaremos o cadastro dos produtos em várias promoções no servidor/banco de dados, utilizando operadores lógicos para criar diferentes mecânicas de promoções, os descontos é aplicado na sacola de compra e possui uma visualização dedicada para conferência e escolha de possíveis promoções.
 
- Além disso, há a autonomia fornecida ao usuário para editar, remover, arquivar ou desarquivar seus produtos e para editar, deletar, interromper ou ativar promoções e da visualização prática e intuitiva dos produtos e promoções cadastradas através da listagem que possui um filtro para que seja possível diferenciar quais os status de produtos e promoções.
+Além disso, há a autonomia fornecida ao usuário para editar, remover, arquivar ou desarquivar seus produtos e para editar, deletar, interromper ou ativar promoções e da visualização prática e intuitiva dos produtos e promoções cadastradas através da listagem que possui um filtro para que seja possível diferenciar quais os status de produtos e promoções.
 
 Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](https://youtu.be/NhDe9-Z_dvk):
 
 [<img src="https://github.com/DolphinDatabase/DescontOn/blob/47f0f23ee3d7710b472fc1ff26d06da50237681e/Imagens/imagem_2022-04-15_155641874.png" width="40%">](https://youtu.be/NhDe9-Z_dvk "DescontOn vídeo Demonstração")
 
-### *Figura 04. Aplicação em ação - Motor de regras integrado com um E-ccomerce, realizando todo o processo de cadastro de produtos e o processo de criar novas regras de desconto e aplicar a seus produtos já registrados*
+### *Figura 04. Aplicação em ação - Motor de regras integrado em um E-commerce, realizando todo o processo de cadastro de produtos e o processo de criar novas regras de desconto e aplicar a seus produtos*
 
-Link do repositório do projeto: https://github.com/DolphinDatabase/DescontOn
+Link do repositório do projeto: [https://github.com/DolphinDatabase/DescontOn](https://github.com/DolphinDatabase/DescontOn)
 
-### Tecnologias adotadas na solução
+### Tecnologias utilizadas para a aplicação
 
-### JQuery
+### JQuery <a href="https://jquery.com" target="_blank"><img width="65" height="20" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/></a>
 
 jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um software de código aberto: seu uso é licenciado pelo Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL). Sua principal finalidade é associar-se aos elementos JavaScript em HTML para conferir mais dinamismo e usabilidade às páginas na internet.
 
-Suas linhas de código simplificam os scripts interpretados pelo navegador do client-side e por esse motivo é uma das bibliotecas mais populares na comunidade de desenvolvedores. Neste artigo, explicaremos com mais detalhes o que é jQuery, suas características, funcionalidades e os motivos pelos quais essa biblioteca se tornou tão famosa. Clique [aqui](https://jquery.com) para acessar a documentação oficial.
+Suas linhas de código simplificam os scripts interpretados pelo navegador do client-side e por esse motivo é uma das bibliotecas mais populares na comunidade de desenvolvedores. Neste artigo, explicaremos com mais detalhes o que é jQuery, suas características, funcionalidades e os motivos pelos quais essa biblioteca se tornou tão famosa. Clique [aqui](https://jquery.com/) para acessar a documentação oficial.
 
-### Thymeleaf
+### Thymeleaf <a href="https://www.thymeleaf.org" target="_blank">![Thymeleaf](https://img.shields.io/badge/Thymeleaf-darkgreen?style=flat-square&logo=thymeleaf)</a>
 
 O Thymeleaf é uma template engine para projetos Java que facilita a criação
 de páginas HTML. Permitindo a troca de informações entre o código Java e as página
@@ -251,9 +246,9 @@ forma mais simples e de uma maneira mais agilizada para suas aplicações.
 Ele permite modelagem natural, pode fazer processamento complexo e nos
 permite definir facilmente dialetos personalizados. Além disso, o Thymeleaf
 facilita a colaboração de desenvolvedores front-end e back-end no mesmo
-arquivo de modelo, aumentando muito a produtividade. Clique [aqui](https://www.thymeleaf.org) para acessar a documentação oficial.
+arquivo de modelo, aumentando muito a produtividade. Clique [aqui](https://www.thymeleaf.org/) para acessar a documentação oficial.
 
-### Spring Boot
+### Spring Boot <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white"/></a>
 
 O Spring Boot é um framework Java open source que tem como objetivo
 facilitar esse processo em aplicações Java. Trazendo mais agilidade para o processo
@@ -264,36 +259,32 @@ O Spring torna a programação Java mais rápida, fácil e segura para todos. O
 foco do Spring em velocidade, simplicidade e produtividade o tornou o
 framework Java mais popular do mundo. Clique [aqui](https://spring.io/projects/spring-boot) para acessar a documentação oficial.
 
-### Bootstrap
+### Bootstrap <a href="https://getbootstrap.com" target="_blank"><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white"/></a><br/>
 
 O Bootstrap é um framework front-end que veio para facilitar e agilizar o
 trabalho, oferecendo padrões para HTML, JavaScript e CSS de acordo com o site
 CiaWebsites. Foi desenvolvido por Jacob Thorton e Mark Otto com o objetivo de
-facilitar a programação de um site web e otimizar tempo. Este fornece uma grande
-variedade de plugins e é compatível com qualquer linguagem de programação, o que
-facilita para os desenvolvedores de site. É aplicado na criação de sites responsivos
-(mobile).
+facilitar a programação de um site web e otimizar tempo.
+
+ Este fornece uma grande variedade de plugins e é compatível com qualquer linguagem de programação, o que facilita para os desenvolvedores de site. É aplicado na criação de sites responsivos (mobile).
 Bootstrap tem uma abordagem mobile first, uma estratégia que otimiza o
 código para dispositivos móveis primeiro e, então, é que se começa a pensar
-em media queries para aparelhos maiores. Clique [aqui](https://getbootstrap.com) para acessar a documentação oficial.
+em media queries para aparelhos maiores. Clique [aqui](https://getbootstrap.com/) para acessar a documentação oficial.
 
 ### Maven
 
 O Apache Maven é uma ferramenta que oferece automação e gerenciamento
 de projetos Java (mas podem ser utilizada com outras linguagens), padronizando a
-construção e publicação de suas aplicações. 
+construção e publicação de suas aplicações.
 
-Por ser extremamente flexível agrega
-agilidade e qualidade ao produto, além de permitir que sejam adicionados plugins a si
-e estender suas funcionalidades. Normalmente, até algum tempo atrás, cada projeto
-tinha sua própria estrutura, seu próprio jeito de gerar pacotes, de efetuar cada um
+Por ser extremamente flexível agrega agilidade e qualidade ao produto, além de permitir que sejam adicionados plugins a si e estender suas funcionalidades. Normalmente, até algum tempo atrás, cada projeto tinha sua própria estrutura, seu próprio jeito de gerar pacotes, de efetuar cada um
 destes passos. Projetos complexos, com vários módulos, ainda podem precisar que
 estes sejam compilados em determinada ordem, para que o pacote final seja criado.
 
 O Apache Maven é uma excelente ferramenta de apoio a qualquer equipe
 que trabalhe com projetos Java (outras tecnologias também são suportadas),
 fornecendo aos desenvolvedores uma forma de automatizar e padronizar a
-construção e publicação de suas aplicações. Clique [aqui](https://maven.apache.org) para acessar a documentação original.
+construção e publicação de suas aplicações. Clique [aqui](https://maven.apache.org/) para acessar a documentação original.
 
 ### Contribuições pessoais
 
@@ -305,31 +296,31 @@ BrModelo é uma ferramenta desktop voltada para o desenvolvimento de projeto de
 
 ### Modelo Conceitual
 
- ![image](https://user-images.githubusercontent.com/79945984/194174800-ae3951d9-a8af-4029-bd9d-7f703e59b7ad.png)
+<details><summary>Conceitual</summary>
+<img src = "https://user-images.githubusercontent.com/79945984/194174800-ae3951d9-a8af-4029-bd9d-7f703e59b7ad.png"/></details>
 
 A maior dificuldade para o aprendizado das técnicas de modelagem em banco de
-dados é entender um problema do mundo real e converte-lo, criando uma solução.
-O profissional da área de informática precisa entender o problema e conceituar o
-que será a solução e, para isso, duas coisas podem ser consideradas imprescindíveis:
+dados é entender uma situação de um problema real e converte-lo, criando assim uma solução.
+O profissional da área de informática precisa entender o problema e conceituar em como será feita  a solução e, para isso, duas coisas podem ser consideradas imprescindíveis:
 a) saber ouvir o cliente/usuário abstraindo da conversa o que é realmente útil para
 implementar a solução;
 b) conhecer as técnicas de modelagem a fim de representar o problema de forma
 conceitual antes de iniciar a implementação.
 
 ### Modelo lógico
-
- ![image](https://user-images.githubusercontent.com/79945984/194174919-d99831d1-0036-489c-90a6-f3b4b8422532.png)
+<details><summary>Lógico</summary>
+<img src = "https://user-images.githubusercontent.com/79945984/194174919-d99831d1-0036-489c-90a6-f3b4b8422532.png"/></details>
 
 O modelo lógico é o resultado ou produto da conversão de um modelo conceitual
 para um determinado tipo de banco de dados, ou conforme Heuser, “Um modelo lógico é uma
 descrição de um banco de dados no nível de abstração visto pelo usuário do sistema gerenciador de banco de dados”.
 Por isso, nesta fase do processo de modelagem de dados, o projetista já deve ter
 conhecimento do tipo de banco de dados no qual o projeto será implementado (relacional,
-hierárquico, objeto - relacional, entre outros) e por fim
+hierárquico, objeto - relacional, entre outros).
 
 ### Modelo físico
-
-![image](https://user-images.githubusercontent.com/79945984/194175053-cbb6e065-4c3b-46ad-adf2-4c142f851c26.png)
+<details><summary>Físico</summary>
+<img src = "https://user-images.githubusercontent.com/79945984/194175053-cbb6e065-4c3b-46ad-adf2-4c142f851c26.png"/></details>
 
 É o modelo que descreve a forma como os dados são armazenados no SGBD, nesta
 fase, o modelo lógico é convertido, no caso dos bancos relacionais em linguagem DDL (data
@@ -340,11 +331,11 @@ crescente a quantidade dos bancos de dados orientados a objetos.
 Neste contexto, nosso escopo limita-se aos hegemônicos bancos relacionais e a
 forma de modelá-los.
 
-Após profunda pesquisa sobre todos estes tópicos, fui responsável por modelar todos os dados que armazenamos e seriam cadastrados pela nossa aplicação.
+Após profunda pesquisa sobre todos estes tópicos, fui responsável por modelar todos os dados que armazenamos e seriam cadastrados pelos clientes/usuários através da nossa aplicação.
 
 ### Aprendizados Efetivos HS
 
-No desenvolvimento das modelagens do nosso E-ccomerce, aprendi mais sobre a estruturação de um mesmo. Foi a primeira vez em que trabalhei de fato com uma aplicação frontend voltada totalmente para o web.
+No desenvolvimento das modelagens do nosso E-commerce, aprendi mais sobre a estruturação de um mesmo. Foi a primeira vez em que trabalhei de fato com uma aplicação front-end voltada totalmente para o web.
 Por conta desta experiência, fui inserido a um novo nível de exigência para a construção de um sistema web, tendo que me preocupar com o formato e conteúdo específico das requisições possíveis de entrada no serviço desenvolvido.
 
 Além disso, aprendi muito sobre uma área não relacionada diretamente a tecnologias de construção de software, mas que eram essenciais para as regras de negócio da operação do cliente do sistema seja ela em vendas e aplicações de descontos e regras de negócio, é algo que nunca pensei em trabalhar em conjunto antes. Esta habilidade de aprender de forma ágil sobre temas que sequer pensei em trabalhar, por conta das infinitas possíveis áreas de atuação de possíveis clientes, foi de um valor excepcional para mim e para minha formação.
@@ -443,7 +434,7 @@ A OneCar possui diversas funcionalidades, como:
 - ReactJS <br/>
 - Docker <br/>
 
-Mantendo a linha dos dois projetos anteriores, utilizamos React para o frontend, inclusive com o Reactive Native para as telas mobile.
+Mantendo a linha dos dois projetos anteriores, utilizamos React para o front-end, inclusive com o Reactive Native para as telas mobile.
 No backend, as mesmas linguagens e ferramentas foram usadas em relação ao projeto anterior.
 
 ### Contribuições pessoais
@@ -517,5 +508,5 @@ O Scikit-learn foi utilizado realizando duas tarefas principais:<br>
 
 ## Contatos:
 
-- [LinkedIn;](https://www.linkedin.com/in/kauã-borgarelli-5bb67220a/)
+- [LinkedIn;](https://www.linkedin.com/in/kau%C3%A3-borgarelli-5bb67220a/)
 - [GitHub.](https://github.com/Borgarelli)
