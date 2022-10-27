@@ -297,7 +297,7 @@ BrModelo é uma ferramenta desktop voltada para o desenvolvimento de projeto de
 ### Modelo Conceitual
 
 <details><summary>Conceitual</summary>
-<img src = "https://user-images.githubusercontent.com/79945984/194174800-ae3951d9-a8af-4029-bd9d-7f703e59b7ad.png"/></details>
+<img width="250" src = "https://user-images.githubusercontent.com/79945984/194174800-ae3951d9-a8af-4029-bd9d-7f703e59b7ad.png"/></details>
 
 A maior dificuldade para o aprendizado das técnicas de modelagem em banco de
 dados é entender uma situação de um problema real e converte-lo, criando assim uma solução.
@@ -309,7 +309,7 @@ conceitual antes de iniciar a implementação.
 
 ### Modelo lógico
 <details><summary>Lógico</summary>
-<img src = "https://user-images.githubusercontent.com/79945984/194174919-d99831d1-0036-489c-90a6-f3b4b8422532.png"/></details>
+<img width="250" src = "https://user-images.githubusercontent.com/79945984/194174919-d99831d1-0036-489c-90a6-f3b4b8422532.png"/></details>
 
 O modelo lógico é o resultado ou produto da conversão de um modelo conceitual
 para um determinado tipo de banco de dados, ou conforme Heuser, “Um modelo lógico é uma
@@ -320,7 +320,7 @@ hierárquico, objeto - relacional, entre outros).
 
 ### Modelo físico
 <details><summary>Físico</summary>
-<img src = "https://user-images.githubusercontent.com/79945984/194175053-cbb6e065-4c3b-46ad-adf2-4c142f851c26.png"/></details>
+<img  width="250" src = "https://user-images.githubusercontent.com/79945984/194175053-cbb6e065-4c3b-46ad-adf2-4c142f851c26.png"/></details>
 
 É o modelo que descreve a forma como os dados são armazenados no SGBD, nesta
 fase, o modelo lógico é convertido, no caso dos bancos relacionais em linguagem DDL (data
