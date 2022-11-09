@@ -312,9 +312,9 @@ conceitual antes de iniciar a implementação.
 <img width="250" src = "https://user-images.githubusercontent.com/79945984/194174919-d99831d1-0036-489c-90a6-f3b4b8422532.png"/></details>
 
 O modelo lógico é o resultado ou produto da conversão de um modelo conceitual
-para um determinado tipo de banco de dados, ou conforme Heuser, “Um modelo lógico é uma
+para um determinado tipo de banco de dados, ou segundo o professor Carlos Alberto Heuser, “Um modelo lógico é uma
 descrição de um banco de dados no nível de abstração visto pelo usuário do sistema gerenciador de banco de dados”.
-Por isso, nesta fase do processo de modelagem de dados, o projetista já deve ter
+Por isso, nesta fase do processo de modelagem de dados, o responsável pelo projeto já deve ter
 conhecimento do tipo de banco de dados no qual o projeto será implementado (relacional,
 hierárquico, objeto - relacional, entre outros).
 
@@ -336,9 +336,9 @@ Após profunda pesquisa sobre todos estes tópicos, fui responsável por modelar
 ### Aprendizados Efetivos HS
 
 No desenvolvimento das modelagens do nosso E-commerce, aprendi mais sobre a estruturação de um mesmo. Foi a primeira vez em que trabalhei de fato com uma aplicação front-end voltada totalmente para o web.
-Por conta desta experiência, fui inserido a um novo nível de exigência para a construção de um sistema web, tendo que me preocupar com o formato e conteúdo específico das requisições possíveis de entrada no serviço desenvolvido.
+Por conta desta experiência, fui inserido a um novo nível de exigência para a construção de um sistema web, tendo que me preocupar com o formato e conteúdo específico das requisições de entrada possiveis no serviço desenvolvido.
 
-Além disso, aprendi muito sobre uma área não relacionada diretamente a tecnologias de construção de software, mas que eram essenciais para as regras de negócio da operação do cliente do sistema seja ela em vendas e aplicações de descontos e regras de negócio, é algo que nunca pensei em trabalhar em conjunto antes. Esta habilidade de aprender de forma ágil sobre temas que sequer pensei em trabalhar, por conta das infinitas possíveis áreas de atuação de possíveis clientes, foi de um valor excepcional para mim e para minha formação.
+Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnologias de construção de software, mas que eram essenciais para as regras de negócio informadas pelo cliente, sejam elas em vendas e aplicações de descontos ou até mesmo regras de negócio, é algo que nunca pensei em trabalhar em conjunto antes. Esta habilidade de aprender de forma ágil sobre temas que sequer pensei em trabalhar, por conta das infinitas possíveis áreas de atuação de possíveis futuros clientes, foi de um valor excepcional para mim e para minha formação como aluno.
 
 - Criação de banco de dados para armazenamento de produtos cadastrados e novas regras geradas pelo usuário/cliente: sei fazer com autonomia
 - Modelagem completa para armazenar todos os dados oferecidos e requisitados pelo usuário e pela aplicação: sei fazer com autonomia
