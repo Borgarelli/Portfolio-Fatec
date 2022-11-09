@@ -234,7 +234,7 @@ Link do repositório do projeto: [Clique aqui](https://github.com/DolphinDatabas
 
 jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um software de código aberto: seu uso é licenciado pela Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL). Sua principal finalidade é associar-se aos elementos JavaScript em HTML para conferir mais dinamismo e usabilidade às páginas na internet.
 
-Suas linhas de código simplificam os scripts interpretados pelo navegador do client-side e por esse motivo é uma das bibliotecas mais populares na comunidade de desenvolvedores. Neste artigo, explicaremos com mais detalhes o que é jQuery, suas características, funcionalidades e os motivos pelos quais essa biblioteca se tornou tão famosa. Clique [aqui](https://jquery.com/) para acessar a documentação oficial.
+Suas linhas de código simplificam os scripts interpretados pelo navegador do client-side e por esse motivo é uma das bibliotecas mais populares na comunidade de desenvolvedores. Clique [aqui](https://jquery.com/) para acessar a documentação oficial.
 
 ### Thymeleaf <a href="https://www.thymeleaf.org" target="_blank">![Thymeleaf](https://img.shields.io/badge/Thymeleaf-darkgreen?style=flat-square&logo=thymeleaf)</a>
 
@@ -246,7 +246,7 @@ forma mais simples e de uma maneira mais agilizada para suas aplicações.
 Ele permite modelagem natural, pode fazer processamento complexo e nos
 permite definir facilmente dialetos personalizados. Além disso, o Thymeleaf
 facilita a colaboração de desenvolvedores front-end e back-end no mesmo
-arquivo de modelo, aumentando muito a produtividade. Clique [aqui](https://www.thymeleaf.org/) para acessar a documentação oficial.
+arquivo de modelo, gerando um grande aumentando muito a produtividade. Clique [aqui](https://www.thymeleaf.org/) para acessar a documentação oficial.
 
 ### Spring Boot <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white"/></a>
 
