@@ -216,23 +216,23 @@ No mais, o conhecimento adquirido neste projeto pode ser resumido da seguinte fo
 
 Ferramenta para criar promoções de E-commerce, onde as mecânicas de promoções são feitas de forma flexível e de rápida atualização no sistema. As regras de promoções são cadastradas e posteriormente aplicadas no momento em que os itens são adicionados ao carrinho.
 
-Atualmente implementamos e apresentaremos o cadastro dos produtos em várias promoções no servidor/banco de dados, utilizando operadores lógicos para criar diferentes mecânicas de promoções, os descontos é aplicado na sacola de compra e possui uma visualização dedicada para conferência e escolha de possíveis promoções.
+Atualmente implementamos e apresentamos o cadastro dos produtos dentro de promoções registradas dentro do servidor/banco de dados, utilizando operadores lógicos para criar diferentes mecânicas de promoções, os descontos são aplicados dentro da sacola de compras e possui uma visualização dedicada para conferência e escolha de promoções.
 
-Além disso, há a autonomia fornecida ao usuário para editar, remover, arquivar ou desarquivar seus produtos e para editar, deletar, interromper ou ativar promoções e da visualização prática e intuitiva dos produtos e promoções cadastradas através da listagem que possui um filtro para que seja possível diferenciar quais os status de produtos e promoções.
+Além disso, há a autonomia fornecida ao usuário para editar, remover, arquivar ou desarquivar seus produtos e também para editar, deletar, interromper ou ativar promoções de uma visualização de maneira prática e intuitiva dos produtos e promoções cadastradas através da listagem que possui um filtro para que seja possível diferenciar quais os status de produtos e promoções.
 
 Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](https://youtu.be/NhDe9-Z_dvk):
 
 [<img src="https://github.com/DolphinDatabase/DescontOn/blob/47f0f23ee3d7710b472fc1ff26d06da50237681e/Imagens/imagem_2022-04-15_155641874.png" width="40%">](https://youtu.be/NhDe9-Z_dvk "DescontOn vídeo Demonstração")
 
-### *Figura 04. Aplicação em ação - Motor de regras integrado em um E-commerce, realizando todo o processo de cadastro de produtos e o processo de criar novas regras de desconto e aplicar a seus produtos*
+### *Figura 04. Aplicação em ação - Motor de regras integrado a um E-commerce, realizando todo o processo de cadastro de novos produtos e o processo de criação de novas regras de desconto e aplicar a seus produtos*
 
-Link do repositório do projeto: [https://github.com/DolphinDatabase/DescontOn](https://github.com/DolphinDatabase/DescontOn)
+Link do repositório do projeto: [Clique aqui](https://github.com/DolphinDatabase/DescontOn)
 
 ### Tecnologias utilizadas para a aplicação
 
 ### JQuery <a href="https://jquery.com" target="_blank"><img width="65" height="20" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/></a>
 
-jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um software de código aberto: seu uso é licenciado pelo Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL). Sua principal finalidade é associar-se aos elementos JavaScript em HTML para conferir mais dinamismo e usabilidade às páginas na internet.
+jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um software de código aberto: seu uso é licenciado pela Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL). Sua principal finalidade é associar-se aos elementos JavaScript em HTML para conferir mais dinamismo e usabilidade às páginas na internet.
 
 Suas linhas de código simplificam os scripts interpretados pelo navegador do client-side e por esse motivo é uma das bibliotecas mais populares na comunidade de desenvolvedores. Neste artigo, explicaremos com mais detalhes o que é jQuery, suas características, funcionalidades e os motivos pelos quais essa biblioteca se tornou tão famosa. Clique [aqui](https://jquery.com/) para acessar a documentação oficial.
 
@@ -266,7 +266,7 @@ trabalho, oferecendo padrões para HTML, JavaScript e CSS de acordo com o site
 CiaWebsites. Foi desenvolvido por Jacob Thorton e Mark Otto com o objetivo de
 facilitar a programação de um site web e otimizar tempo.
 
- Este fornece uma grande variedade de plugins e é compatível com qualquer linguagem de programação, o que facilita para os desenvolvedores de site. É aplicado na criação de sites responsivos (mobile).
+Este fornece uma grande variedade de plugins e é compatível com qualquer linguagem de programação, o que facilita para os desenvolvedores de site. É aplicado na criação de sites responsivos (mobile).
 Bootstrap tem uma abordagem mobile first, uma estratégia que otimiza o
 código para dispositivos móveis primeiro e, então, é que se começa a pensar
 em media queries para aparelhos maiores. Clique [aqui](https://getbootstrap.com/) para acessar a documentação oficial.
@@ -288,11 +288,11 @@ construção e publicação de suas aplicações. Clique [aqui](https://maven.ap
 
 ### Contribuições pessoais
 
-Fui responsável pela criação do banco de dados utilizado para toda a aplicação. Para isso, foi necessário estudar sobre a utilização de um SGBD que eu não tinha experiência nenhuma, que era o Oracle Database, que utiliza uma sintaxe bem diferente de outros SGBD mais comuns, como MySql e Postgres.
+Fui responsável pela criação do banco de dados utilizado para toda a aplicação. Para isso, foi necessário estudar sobre a utilização de um SGBD que eu não tinha experiência nenhuma, que era o Oracle Database, que utiliza uma sintaxe totalmente diferente de outros SGBD mais comuns, como MySql e Postgres.
 
 Durante a preparação para iniciar o desenvolvimento do projeto, consultei diversos materiais e documentações sobre como era o ambiente Oracle como requisitos para a utilização do mesmo, como configura-lo, como manuseá-lo e etc. Além disso fui responsável pela modelagem completa do nosso banco, gerado através do Brmodelo 3.0
 
-BrModelo é uma ferramenta desktop voltada para o desenvolvimento de projeto de banco de dados relacionais, incluindo as etapas conceitual, lógico e físico, com ampla utilização na área de computação em todo o Brasil. E nele é que geramos os três tipos de modelagem.
+BrModelo é uma ferramenta desktop voltada para o desenvolvimento de projeto de banco de dados relacionais, incluindo as etapas conceitual, lógico e físico, com uma ampla utilização em toda a área de computação em todo o Brasil. E nele é que geramos os três tipos de modelagem.
 
 ### Modelo Conceitual
 
@@ -301,13 +301,13 @@ BrModelo é uma ferramenta desktop voltada para o desenvolvimento de projeto de
 
 A maior dificuldade para o aprendizado das técnicas de modelagem em banco de
 dados é entender uma situação de um problema real e converte-lo, criando assim uma solução.
-O profissional da área de informática precisa entender o problema e conceituar em como será feita  a solução e, para isso, duas coisas podem ser consideradas imprescindíveis:
-a) saber ouvir o cliente/usuário abstraindo da conversa o que é realmente útil para
+O profissional da área de informática precisa entender o problema e conceituar em como será feita a solução e, para isso, duas coisas podem ser consideradas imprescindíveis:
+a) Saber ouvir o cliente/usuário abstraindo da conversa o que é realmente útil para
 implementar a solução;
-b) conhecer as técnicas de modelagem a fim de representar o problema de forma
+b) Conhecer as técnicas de modelagem a fim de representar o problema de forma
 conceitual antes de iniciar a implementação.
 
-### Modelo lógico
+### Modelo Lógico
 <details><summary>Lógico</summary>
 <img width="250" src = "https://user-images.githubusercontent.com/79945984/194174919-d99831d1-0036-489c-90a6-f3b4b8422532.png"/></details>
 
@@ -318,27 +318,27 @@ Por isso, nesta fase do processo de modelagem de dados, o responsável pelo proj
 conhecimento do tipo de banco de dados no qual o projeto será implementado (relacional,
 hierárquico, objeto - relacional, entre outros).
 
-### Modelo físico
+### Modelo Físico
 <details><summary>Físico</summary>
 <img  width="250" src = "https://user-images.githubusercontent.com/79945984/194175053-cbb6e065-4c3b-46ad-adf2-4c142f851c26.png"/></details>
 
-É o modelo que descreve a forma como os dados são armazenados no SGBD, nesta
+É o modelo que descreve a forma como os dados serão armazenados no SGBD, nesta
 fase, o modelo lógico é convertido, no caso dos bancos relacionais em linguagem DDL (data
 description language) e as regras descritas no modelo conceitual são convertidas em regras de
 integridade.
 Dentre os tipos de bancos de dados, os mais comuns são os relacionais, embora seja
 crescente a quantidade dos bancos de dados orientados a objetos.
-Neste contexto, nosso escopo limita-se aos hegemônicos bancos relacionais e a
+Neste contexto, nosso escopo limita-se a influência em cima dos bancos relacionais e a
 forma de modelá-los.
 
-Após profunda pesquisa sobre todos estes tópicos, fui responsável por modelar todos os dados que armazenamos e seriam cadastrados pelos clientes/usuários através da nossa aplicação.
+Após uma profunda pesquisa sobre todos estes tópicos, fui responsável por modelar todos os dados que armazenamos e seriam cadastrados pelos clientes/usuários através da nossa aplicação.
 
 ### Aprendizados Efetivos HS
 
 No desenvolvimento das modelagens do nosso E-commerce, aprendi mais sobre a estruturação de um mesmo. Foi a primeira vez em que trabalhei de fato com uma aplicação front-end voltada totalmente para o web.
 Por conta desta experiência, fui inserido a um novo nível de exigência para a construção de um sistema web, tendo que me preocupar com o formato e conteúdo específico das requisições de entrada possiveis no serviço desenvolvido.
 
-Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnologias de construção de software, mas que eram essenciais para as regras de negócio informadas pelo cliente, sejam elas em vendas e aplicações de descontos ou até mesmo regras de negócio, é algo que nunca pensei em trabalhar em conjunto antes. Esta habilidade de aprender de forma ágil sobre temas que sequer pensei em trabalhar, por conta das infinitas possíveis áreas de atuação de possíveis futuros clientes, foi de um valor excepcional para mim e para minha formação como aluno.
+Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnologias de construção de software, mas que eram essenciais para cumprir com as regras informadas pelo cliente, sejam elas em vendas, aplicações de descontos e regras de negócio, é algo que nunca pensei em trabalhar em conjunto antes. Esta habilidade de aprender de forma ágil sobre temas que sequer pensei em trabalhar, por conta das infinitas possíveis áreas de atuação de possíveis futuros clientes, foi de um valor excepcional para mim e para minha formação como aluno da Fatec.
 
 - Criação de banco de dados para armazenamento de produtos cadastrados e novas regras geradas pelo usuário/cliente: sei fazer com autonomia
 - Modelagem completa para armazenar todos os dados oferecidos e requisitados pelo usuário e pela aplicação: sei fazer com autonomia
