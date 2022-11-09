@@ -326,16 +326,16 @@ hierárquico, objeto - relacional, entre outros).
 fase, o modelo lógico é convertido, no caso dos bancos relacionais em linguagem DDL (data
 description language) e as regras descritas no modelo conceitual são convertidas em regras de
 integridade.
-Dentre os tipos de bancos de dados, os mais comuns são os relacionais, embora seja
+Dentre os tipos de bancos de dados, os mais comuns são os relacionais, embora esteja cada vez mais
 crescente a quantidade dos bancos de dados orientados a objetos.
-Neste contexto, nosso escopo limita-se a influência em cima dos bancos relacionais e a
+Neste contexto, o escopo limita-se a influência em cima dos bancos relacionais e a
 forma de modelá-los.
 
 Após uma profunda pesquisa sobre todos estes tópicos, fui responsável por modelar todos os dados que armazenamos e seriam cadastrados pelos clientes/usuários através da nossa aplicação.
 
 ### Aprendizados Efetivos HS
 
-No desenvolvimento das modelagens do nosso E-commerce, aprendi mais sobre a estruturação de um mesmo. Foi a primeira vez em que trabalhei de fato com uma aplicação front-end voltada totalmente para o web.
+No desenvolvimento das modelagens do nosso E-commerce, aprendi mais sobre a estruturação de um mesmo. Foi a primeira vez em que trabalhei de fato com uma aplicação front-end voltada principal para web.
 Por conta desta experiência, fui inserido a um novo nível de exigência para a construção de um sistema web, tendo que me preocupar com o formato e conteúdo específico das requisições de entrada possiveis no serviço desenvolvido.
 
 Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnologias de construção de software, mas que eram essenciais para cumprir com as regras informadas pelo cliente, sejam elas em vendas, aplicações de descontos e regras de negócio, é algo que nunca pensei em trabalhar em conjunto antes. Esta habilidade de aprender de forma ágil sobre temas que sequer pensei em trabalhar, por conta das infinitas possíveis áreas de atuação de possíveis futuros clientes, foi de um valor excepcional para mim e para minha formação como aluno da Fatec.
