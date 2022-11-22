@@ -238,15 +238,15 @@ Suas linhas de código simplificam os scripts interpretados pelo navegador do cl
 
 ### Thymeleaf <a href="https://www.thymeleaf.org" target="_blank">![Thymeleaf](https://img.shields.io/badge/Thymeleaf-darkgreen?style=flat-square&logo=thymeleaf)</a>
 
-O Thymeleaf é uma template engine para projetos Java que facilita a criação
-de páginas HTML. Permitindo a troca de informações entre o código Java e as página
+O Thymeleaf é uma template engine voltado para projetos Java que facilitam a criação
+de páginas HTML. Permitindo a troca de informações entre o código Java e as páginas
 HTML, de tal maneira garantindo que o desenvolvedor consiga criar templates de
 forma mais simples e de uma maneira mais agilizada para suas aplicações.
 
 Ele permite modelagem natural, pode fazer processamento complexo e nos
 permite definir facilmente dialetos personalizados. Além disso, o Thymeleaf
 facilita a colaboração de desenvolvedores front-end e back-end no mesmo
-arquivo de modelo, gerando um grande aumentando muito a produtividade. Clique [aqui](https://www.thymeleaf.org/) para acessar a documentação oficial.
+arquivo de modelo, gerando um grande aumento de produtividade. Clique [aqui](https://www.thymeleaf.org/) para acessar a documentação oficial.
 
 ### Spring Boot <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white"/></a>
 
