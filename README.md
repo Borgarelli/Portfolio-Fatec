@@ -296,8 +296,6 @@ BrModelo é uma ferramenta desktop voltada para o desenvolvimento de projeto de
 
 ### Modelo Conceitual
 
-<details><summary>Conceitual</summary>
-<img width="250" src = "https://user-images.githubusercontent.com/79945984/194174800-ae3951d9-a8af-4029-bd9d-7f703e59b7ad.png"/></details>
 
 A maior dificuldade para o aprendizado das técnicas de modelagem em banco de
 dados é entender uma situação de um problema real e converte-lo, criando assim uma solução.
@@ -307,9 +305,11 @@ implementar a solução;
 b) Conhecer as técnicas de modelagem a fim de representar o problema de forma
 conceitual antes de iniciar a implementação.
 
+<details><summary>Conceitual</summary>
+<img width="250" src = "https://user-images.githubusercontent.com/79945984/194174800-ae3951d9-a8af-4029-bd9d-7f703e59b7ad.png"/>
+<p>Exemplo de uma modelagem Conceitual, onde a tabela Vendas se conecta com as outras tabelas </p></details>
+
 ### Modelo Lógico
-<details><summary>Lógico</summary>
-<img width="250" src = "https://user-images.githubusercontent.com/79945984/194174919-d99831d1-0036-489c-90a6-f3b4b8422532.png"/></details>
 
 O modelo lógico é o resultado ou produto da conversão de um modelo conceitual
 para um determinado tipo de banco de dados, ou segundo o professor Carlos Alberto Heuser, “Um modelo lógico é uma
@@ -318,9 +318,11 @@ Por isso, nesta fase do processo de modelagem de dados, o responsável pelo proj
 conhecimento do tipo de banco de dados no qual o projeto será implementado (relacional,
 hierárquico, objeto - relacional, entre outros).
 
+<details><summary>Lógico</summary>
+<img width="250" src = "https://user-images.githubusercontent.com/79945984/194174919-d99831d1-0036-489c-90a6-f3b4b8422532.png"/>
+<p>Exemplo de uma modelagem Lógica, onde a tabela Vendas recebe as chaves das outras tabelas </p></details>
+
 ### Modelo Físico
-<details><summary>Físico</summary>
-<img  width="250" src = "https://user-images.githubusercontent.com/79945984/194175053-cbb6e065-4c3b-46ad-adf2-4c142f851c26.png"/></details>
 
 É o modelo que descreve a forma como os dados serão armazenados no SGBD, nesta
 fase, o modelo lógico é convertido, no caso dos bancos relacionais em linguagem DDL (data
@@ -330,6 +332,10 @@ Dentre os tipos de bancos de dados, os mais comuns são os relacionais, embora e
 crescente a quantidade dos bancos de dados orientados a objetos.
 Neste contexto, o escopo limita-se a influência em cima dos bancos relacionais e a
 forma de modelá-los.
+
+<details><summary>Físico</summary>
+<img  width="250" src = "https://user-images.githubusercontent.com/79945984/194175053-cbb6e065-4c3b-46ad-adf2-4c142f851c26.png"/>
+<p>Exemplo de uma modelagem fisica, onde é possivel de maneira com mais detalhes através de código, como é feita a conexão entre as tabelas e como elas passam suas chaves primárias para tabela Vendas</p></details>
 
 Após uma profunda pesquisa sobre todos estes tópicos, fui responsável por modelar todos os dados que armazenamos e seriam cadastrados pelos clientes/usuários através da nossa aplicação.
 
