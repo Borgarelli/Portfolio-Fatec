@@ -236,6 +236,23 @@ jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um s
 
 Suas linhas de código simplificam os scripts interpretados pelo navegador do client-side e por esse motivo é uma das bibliotecas mais populares na comunidade de desenvolvedores. Clique [aqui](https://jquery.com/) para acessar a documentação oficial.
 
+<details> <summary>Exemplo de códgio em Jquery</summary>
+
+```kotlin
+ $(document).ready(function(){
+	// Ações aqui
+});
+
+Veja que neste código, ele executa o código quando o document estiver "ready", ou seja, "pronto".
+$(document).ready(function(){
+	alert("Documento Iniciado");
+});
+
+
+Read more: http://www.linhadecodigo.com.br/artigo/2210/iniciando-em-jquery.aspx#ixzz7mAVxiUF0
+```
+</details>
+
 ### Thymeleaf <a href="https://www.thymeleaf.org" target="_blank">![Thymeleaf](https://img.shields.io/badge/Thymeleaf-darkgreen?style=flat-square&logo=thymeleaf)</a>
 
 O Thymeleaf é uma template engine voltado para projetos Java que facilitam a criação
@@ -248,6 +265,22 @@ permite definir facilmente dialetos personalizados. Além disso, o Thymeleaf
 facilita a colaboração de desenvolvedores front-end e back-end no mesmo
 arquivo de modelo, gerando um grande aumento de produtividade. Clique [aqui](https://www.thymeleaf.org/) para acessar a documentação oficial.
 
+<details> <summary>Exemplo de códgio em Thymeleaf</summary>
+
+```kotlin
+ @Controller
+public class HomeController {
+
+    @GetMapping("/")
+    public String home(ModelMap model) {
+        model.addAttribute("nomeDoAtributo", "Treinaweb");
+
+        return "home";
+    }
+}
+```
+</details>
+
 ### Spring Boot <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white"/></a>
 
 O Spring Boot é um framework Java open source que tem como objetivo
@@ -258,6 +291,30 @@ variados ambientes.
 O Spring torna a programação Java mais rápida, fácil e segura para todos. O
 foco do Spring em velocidade, simplicidade e produtividade o tornou o
 framework Java mais popular do mundo. Clique [aqui](https://spring.io/projects/spring-boot) para acessar a documentação oficial.
+
+<details> <summary>Exemplo de códgio em Springboot</summary>
+
+```kotlin
+@RequestMapping("v1/books")
+public class BookRestService {
+ 
+    private final BookService bookService;
+ 
+    @ResponseStatus(HttpStatus.OK)
+    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
+    public BookResource getById(@PathVariable Integer id) {
+        throw new NotImplementedException();
+    }
+ 
+    @ResponseStatus(HttpStatus.CREATED)
+    @RequestMapping(method = RequestMethod.POST)
+    public BookResource save(@RequestBody BookResource bookResource) {
+        throw new NotImplementedException();
+    }
+ 
+}
+```
+</details>
 
 ### Bootstrap <a href="https://getbootstrap.com" target="_blank"><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white"/></a><br/>
 
@@ -270,6 +327,16 @@ Este fornece uma grande variedade de plugins e é compatível com qualquer lingu
 Bootstrap tem uma abordagem mobile first, uma estratégia que otimiza o
 código para dispositivos móveis primeiro e, então, é que se começa a pensar
 em media queries para aparelhos maiores. Clique [aqui](https://getbootstrap.com/) para acessar a documentação oficial.
+
+
+<details> <summary>Exemplo de códgio em Bootstrap</summary>
+
+```kotlin
+<pre><code>&lt;p&gt;Exemplo de texto aqui...&lt;/p&gt;
+&lt;p&gt;Outro exemplo de texto aqui...&lt;/p&gt;
+</code></pre>
+```
+</details>
 
 ### Maven
 
@@ -285,6 +352,33 @@ O Apache Maven é uma excelente ferramenta de apoio a qualquer equipe
 que trabalhe com projetos Java (outras tecnologias também são suportadas),
 fornecendo aos desenvolvedores uma forma de automatizar e padronizar a
 construção e publicação de suas aplicações. Clique [aqui](https://maven.apache.org/) para acessar a documentação original.
+
+<details> <summary>Exemplo de códgio em Maven</summary>
+
+```kotlin
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Hello World!"); 
+    }  
+}
+
+public class AppTest extends TestCase {
+    
+    public AppTest(String testName) {
+        super(testName);  
+    }
+  
+    public static Test suite() {
+        return new TestSuite(AppTest.class);  
+    }
+  
+    public void testApp() {
+        assertTrue(true);  
+    }  
+  
+}
+```
+</details>
 
 ### Contribuições pessoais
 
