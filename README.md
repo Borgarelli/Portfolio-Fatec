@@ -121,94 +121,56 @@ No mais, temos os pontos específicos abaixo de aprendizados efetivos:
 
 ### Parceiro Acadêmico
 
-SPC Brasil <br/>
+Necto Systems <br/>
 
-![https://user-images.githubusercontent.com/45850297/142964669-7814af21-80e1-47d9-b04f-61c87d5ee423.png](https://user-images.githubusercontent.com/45850297/142964669-7814af21-80e1-47d9-b04f-61c87d5ee423.png)
+![https://user-images.githubusercontent.com/74321890/200952858-ff867019-d4c6-49cf-9c2a-9508546a5ed9.png](https://user-images.githubusercontent.com/74321890/200952858-ff867019-d4c6-49cf-9c2a-9508546a5ed9.png)
 
-### *Figura 03. SPC Brasil*
+### *Figura 01. Necto Systems*
 
 ### Visão do Projeto
 
-A proposta inicial do projeto era desenvolver uma ferramenta de análise de dados a partir de dados de compra e operações de crédito de clientes.
-Os dados, obviamente, eram exemplos descaracterizados para fins acadêmicos.
+O projeto é uma aplicação especializada em monitoramento de SGBDs que coleta e analisa dados essenciais para a saúde e manutenção periódica desses sistemas, garantindo uma visão completa e detalhada do desempenho do mesmo e permitindo que os administradores do sistema tomem as medidas necessárias para corrigir problemas e garantir a máxima eficiência do SGBD.
 
-O projeto desenvolvimento por minha equipe, a UDA Brasil, possuiu o seguinte objetivo:
+<img src="](https://www.youtube.com/watch?v=zVTsaxL_-l4&list=PLUOBqJKbljZvQtu2OXq071Id11zidSJNS)[https://user-images.githubusercontent.com/74321890/200989611-49f7bac0-fb95-4efd-a935-5c38141a6458.png](https://user-images.githubusercontent.com/74321890/200989611-49f7bac0-fb95-4efd-a935-5c38141a6458.png)" width="40%">
 
-Criar uma ferramenta Web de análise da qualidade dos dados, categorizando as fontes dos dados de acordo com a consistência, completude e confiabilidade dos lotes enviados.
+### *Figura 02. Demonstração SGBD Health*
 
-Link do repositório do projeto: [https://github.com/justhenrique/SPC-projeto-integrador](https://github.com/justhenrique/SPC-projeto-integrador)
+Link do repositório do projeto: [https://github.com/DolphinDatabase/SGBD_Health](https://github.com/DolphinDatabase/SGBD_Health)
 
-### Tecnologias adotadas na solução
+### Tecnologias utilizadas
 
-### Flask
+### PostgreSQL
 
-Neste projeto os membros de nossa equipe obtiveram o primeiro contato com um framework web, e o utilizado neste momento foi o Flask.
+PostgreSQL é um sistema gerenciador de banco de dados objeto-relacional baseado no POSTGRES, Versão 4.2, desenvolvido na Universidade da Califórnia no Departamento de Ciências da Computação em Berkeley, o qual foi pioneiro em muitos conceitos que vieram a estar disponíveis em alguns bancos de dados comerciais mais tarde. O PostgreSQL é um banco de dados objeto-relacional (sem relação com linguagens de programação orientadas a objetos), em que cada coisa criada é tratada como um objeto, tais como bancos de dados, tabelas, views, triggers, etc.
 
-O Flask é um microframework web, que funciona com base na linguagem de programação Python. O radical "micro" em "microframework" é empregado pois o escopo base
-do Flask é enxuto. Ou seja, o Flask não determina ou limita o modo com o qual o seu projeto web será construído. Ele facilita a implementação básica de um sistema web, permitindo diversos modos de desenvolvimento. Por ser leve, enxuto e dinâmico no desenvolvimento de projetos, ele recebe esta denominação.
-Saiba mais sobre o Flask em sua [página oficial.](https://flask.palletsprojects.com/en/2.0.x/)
+Para mais informações [clique aqui](https://www.postgresql.org/about/).
 
-Com o Flask, foram criadas as rotas HTTP que o nosso sistema consumiu. Além disso, em auxílio com a engine de renderização de templates, a [Jinja2](https://jinja.palletsprojects.com/en/3.0.x/), as páginas de nossa plataforma foram renderizadas para o usuário final.
+### SQlite
 
-### Pandas
+SQLite é um sistema de gerenciamento de banco de dados relacional leve, embutido e amplamente utilizado em aplicativos móveis, navegadores da web e outros softwares que precisam armazenar dados localmente. Ele é uma biblioteca escrita em C que oferece recursos avançados de gerenciamento de banco de dados, como transações ACID, integridade referencial e indexação avançada, tornando-o uma escolha popular para desenvolvedores que precisam de uma solução de banco de dados confiável e fácil de usar
 
-O coração do nosso sistema, responsável por facilitar a extração, tratamento e análise dos dados, foi construído com o auxílio da conhecida biblioteca [Pandas](https://pandas.pydata.org/)
+Para mais informações [clique aqui](https://www.sqlite.org/about.html).
 
-Pandas é uma biblioteca para a linguagem de programação Python, que provê uma série de ferramentas para a extração, conversão e análise de dados. Com o auxílio
-dela, os algoritmos de análise da qualidade dos dados foram construídos, o que permitiu que nossa ferramenta pudesse entregar seu principal valor: o ranking que listava as fontes do nosso cliente, de acordo com a qualidade dos dados enviados por elas.
+### Java
+
+<p align="justify">
+Java é uma linguagem de programação de alto nível, orientada a objetos e multiplataforma lançada em 1995 pela Sun Microsystems (agora Oracle). Ela é amplamente usada para desenvolver aplicativos, jogos, sistemas de gerenciamento de banco de dados, aplicativos da web e muito mais. Java é portátil, seguro, escalável e capaz de lidar com aplicativos complexos, com suporte de uma grande comunidade de desenvolvedores em todo o mundo.
+
+Para mais informações [clique aqui](https://www.java.com/pt-BR/download/help/whatis_java.html).
 
 ### Contribuições pessoais
 
-Fui responsável por vários dos scripts que analisavam os lotes de dados de acordo com critérios determinados pela entidade parceira.
+Minha função principal no projeto foi liderar a modelagem do banco de dados no PostgreSQL e avaliar a utilização do SQLite para armazenar arquivos CSV. Trabalhei em estreita colaboração com a equipe de desenvolvimento para garantir a integração adequada do banco de dados com a aplicação e o sucesso do projeto.
 
-Os itens utilizados para determinar a qualidade dos dados eram os seguintes:
+### Aprendizados Efetivos
 
-- Completude: o quão completos eram os dados. A base possui um alto índice de dados em brancos ou nulos?
-- Confiabilidade: os valores preenchidos nos campos de um lote de dados não foram truncados? Eles fazem sentido em seu respectivo contexto?
-- Consistência: o valor preenchido em cada um dos campos é consistente com o seu propósito? Os valores referentes aos nomes, por exemplo, não estão preenchidos por caracteres numéricos ou qualquer outro dado incompatível com um nome?
+Este projeto marcou o início de uma verdadeira API com clientes parceiros da Fatec, proporcionando experiências incríveis e desafiadoras ao longo do semestre. O principal foco foi o desenvolvimento do banco de dados para atender a todos os requisitos necessários para a aplicação, permitindo o armazenamento de todos os dados necessários para os testes e entrega final do projeto. 
 
-Com base nestes pilares, iniciei a construção dos algoritmos.
+O projeto teve um papel fundamental na preparação dos alunos para a indústria e no desenvolvimento de habilidades importantes na área de tecnologia da informação.
 
-Com métodos de extração e leituras de dados da biblioteca Pandas, conseguimos converter os dados fornecidos no formato de arquivo .xlsx em DataFrames.
-
-DataFrames são objetos internos da biblioteca Pandas. Eles comportam dados em formato bidimensional, com linhas e colunas, compatível com o formato da fonte, em planilhas (arquivos XLSX). Ao manipular DataFrames, o Pandas oferecee um arsenal de ferramentas robusto que permite filtrar, contabilizar e tratar dados incompletos, inconsistêntes e analisar sua integridade.
-
-Com base nisso o ranking, feature principal da nossa ferramenta, foi construído. Ele pode ser visto abaixo:
-
-![https://user-images.githubusercontent.com/45850297/138625070-8d960faf-d4b6-482b-8887-ffb30a7c6ac3.png](https://user-images.githubusercontent.com/45850297/138625070-8d960faf-d4b6-482b-8887-ffb30a7c6ac3.png)
-
-### *Figura 04. Ranking das fontes - UDA Brasil*
-
-Nosso cliente recebe dados de inúmeras fontes. Com a UDA Brasil, ele poderia visualizar se alguma das fontes estava pecando na qualidade dos dados, e em qual ponto deveria melhorar/corrigir problemas.
-
-### Aprendizados Efetivos HS
-
-A UDA Brasil foi primeiro sistema web com o qual trabalhei. Em seu desenvolvimento, obtive meu primeiro contato com conceitos bases para todo profissional desenvolvedor de software. Os aprendizados inéditos foram diversos, que necessitam ser citados aqui:
-
-- O que é o protocolo HTTP;
-- O que é uma requisição GET, POST, PUT e quais são as diferentes destes verbos;
-- Como funciona a comunicação de uma página de um usuário com a lógica interna de um sistema;
-- O que é um JSON e como ele funciona na comunicação de sistemas web;
-- O que é um framework web e qual sua utilidade na construção de sistemas;
-
-A integração do projeto com as matérias do semestre se deu em diversas frentes. A mais importante delas foi na disciplina de Engenharia de Software. Durante o semestre de desenvolvimento deste trabalho, iniciamos o aprendizado sobre diversos padrões de projeto nesta disciplina, pela primeira vez. Com isso, pela primeira vez nos preocupamos em separar nosso programa que se tornaria o produto em camadas, seguir padrões de arquitetura, torná-lo componentizável e seguindo modos de construção comuns aos utilizados no mercado e comunidade. Foi o passo inicial de estudo sobre tais competências tão importantes para qualquer desenvolvedor de software.
-
-Além destes itens importantes que foram citados acima, outros aprendizados importantes precisam ser mencionados:
-
-Durante o desenvolvimento do projeto, a performance do sistema foi uma questão central em seu desenvolvimento.
-Possuíamos uma base de dados minimamente volumosa, e precisávamos calcular diversos fatores de todos os seus registros. Com isso, precisávamos pensar em formas mais eficientes em processamento para garantir uma resposta rápida e confiável ao nosso usuário final. A evolução nos algoritmos de análise de dados com o passar do projeto é algo que foi de grande valia para a nossa formação como profissionais desenvolvedores.
-
-No mais, o conhecimento adquirido neste projeto pode ser resumido da seguinte forma:
-
-- Criação de uma API HTTP que gerencia requests e respostas para um cliente: sei fazer com autonomia
-- Importação de dados de diferentes fontes e análises gerais sobre o conteúdo importado: sei fazer com autonomia
-- Definir a arquitetura de um sistema de acordo com seus requisitos funcionais e não funcionais: sei fazer com ajuda
-
-# Projeto 3: 1º semestre de 2022
-
-## Parceiro Acadêmico: MidAll <br/>
-<details><summary>Logo da Empresa</summary>
-<img src ="https://user-images.githubusercontent.com/79945984/193150903-7e18197c-d3e1-4334-ab21-7bd8df6b50fe.png"/></details>
+- Trabalhar com SGBD: sei fazer com autonomia.
+- Criar tabelas, relacionamentos e modelagem: sei fazer com autonomia.
+- Desenvolvimento de scripts em Java: sei fazer com auxilio.
 
 ### *Figura 05. MidAllº*
 
