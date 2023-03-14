@@ -127,11 +127,7 @@ Necto Systems <br/>
 
 ### *Figura 01. Necto Systems*
 
-### Visão do Projeto
-
-O projeto é uma aplicação especializada em monitoramento de SGBDs que coleta e analisa dados essenciais para a saúde e manutenção periódica desses sistemas, garantindo uma visão completa e detalhada do desempenho do mesmo e permitindo que os administradores do sistema tomem as medidas necessárias para corrigir problemas e garantir a máxima eficiência do SGBD.
-
-<img src="](https://www.youtube.com/watch?v=zVTsaxL_-l4&list=PLUOBqJKbljZvQtu2OXq071Id11zidSJNS)[https://user-images.githubusercontent.com/74321890/200989611-49f7bac0-fb95-4efd-a935-5c38141a6458.png](https://user-images.githubusercontent.com/74321890/200989611-49f7bac0-fb95-4efd-a935-5c38141a6458.png)" width="40%">
+[<img src="https://user-images.githubusercontent.com/79945984/225161808-9c6c5ffa-ff60-48cb-8bce-95d81551aeb7.png" width="35%" height="10%">](https://youtu.be/NhDe9-Z_dvk "DescontOn vídeo Demonstração")
 
 ### *Figura 02. Demonstração SGBD Health*
 
@@ -139,19 +135,19 @@ Link do repositório do projeto: [https://github.com/DolphinDatabase/SGBD_Health
 
 ### Tecnologias utilizadas
 
-### PostgreSQL
+## PostgreSQL
 
 PostgreSQL é um sistema gerenciador de banco de dados objeto-relacional baseado no POSTGRES, Versão 4.2, desenvolvido na Universidade da Califórnia no Departamento de Ciências da Computação em Berkeley, o qual foi pioneiro em muitos conceitos que vieram a estar disponíveis em alguns bancos de dados comerciais mais tarde. O PostgreSQL é um banco de dados objeto-relacional (sem relação com linguagens de programação orientadas a objetos), em que cada coisa criada é tratada como um objeto, tais como bancos de dados, tabelas, views, triggers, etc.
 
 Para mais informações [clique aqui](https://www.postgresql.org/about/).
 
-### SQlite
+## SQlite
 
 SQLite é um sistema de gerenciamento de banco de dados relacional leve, embutido e amplamente utilizado em aplicativos móveis, navegadores da web e outros softwares que precisam armazenar dados localmente. Ele é uma biblioteca escrita em C que oferece recursos avançados de gerenciamento de banco de dados, como transações ACID, integridade referencial e indexação avançada, tornando-o uma escolha popular para desenvolvedores que precisam de uma solução de banco de dados confiável e fácil de usar
 
 Para mais informações [clique aqui](https://www.sqlite.org/about.html).
 
-### Java
+## Java
 
 <p align="justify">
 Java é uma linguagem de programação de alto nível, orientada a objetos e multiplataforma lançada em 1995 pela Sun Microsystems (agora Oracle). Ela é amplamente usada para desenvolver aplicativos, jogos, sistemas de gerenciamento de banco de dados, aplicativos da web e muito mais. Java é portátil, seguro, escalável e capaz de lidar com aplicativos complexos, com suporte de uma grande comunidade de desenvolvedores em todo o mundo.
@@ -174,7 +170,11 @@ O projeto teve um papel fundamental na preparação dos alunos para a indústria
 
 ### *Figura 05. MidAllº*
 
+https://user-images.githubusercontent.com/79945984/225164162-7dbdd56f-5db6-4819-8749-0c6934d5eeb2.png
+
+
 ### Visão do Projeto
+https://user-images.githubusercontent.com/79945984/225164049-635e76ed-7868-46a3-a2b1-79f6935fad11.png
 
 Ferramenta para criar promoções de E-commerce, onde as mecânicas de promoções são feitas de forma flexível e de rápida atualização no sistema. As regras de promoções são cadastradas e posteriormente aplicadas no momento em que os itens são adicionados ao carrinho.
 
