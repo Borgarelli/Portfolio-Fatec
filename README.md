@@ -141,11 +141,147 @@ PostgreSQL é um sistema gerenciador de banco de dados objeto-relacional baseado
 
 Para mais informações [clique aqui](https://www.postgresql.org/about/).
 
+<details> <summary>Exemplo de códgio no Postgres</summary>
+
+```kotlin
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class ExemploPostgres {
+    public static void main(String[] args) {
+        Connection conexao = null;
+        Statement stmt = null;
+
+        try {
+            // Carrega o driver JDBC do Postgres
+            Class.forName("org.postgresql.Driver");
+
+            // Cria uma conexão com o banco de dados
+            conexao = DriverManager.getConnection("jdbc:postgresql://localhost:5432/meubanco", "usuario", "senha");
+
+            // Cria uma tabela chamada "usuarios"
+            stmt = conexao.createStatement();
+            String sql = "CREATE TABLE usuarios " +
+                         "(id SERIAL PRIMARY KEY, " +
+                         " nome VARCHAR(255) NOT NULL, " +
+                         " email VARCHAR(255) NOT NULL)";
+            stmt.executeUpdate(sql);
+
+            // Insere alguns dados na tabela "usuarios"
+            PreparedStatement pstmt = conexao.prepareStatement("INSERT INTO usuarios(nome, email) VALUES (?, ?)");
+            pstmt.setString(1, "João da Silva");
+            pstmt.setString(2, "joao.silva@example.com");
+            pstmt.executeUpdate();
+
+            pstmt.setString(1, "Maria Souza");
+            pstmt.setString(2, "maria.souza@example.com");
+            pstmt.executeUpdate();
+
+            // Recupera os dados da tabela "usuarios"
+            ResultSet rs = stmt.executeQuery("SELECT * FROM usuarios");
+            while (rs.next()) {
+                int id = rs.getInt("id");
+                String nome = rs.getString("nome");
+                String email = rs.getString("email");
+                System.out.println("ID: " + id + ", Nome: " + nome + ", Email: " + email);
+            }
+        } catch (Exception e) {
+            System.err.println(e.getClass().getName() + ": " + e.getMessage());
+        } finally {
+            try {
+                if (stmt != null) {
+                    stmt.close();
+                }
+                if (conexao != null) {
+                    conexao.close();
+                }
+            } catch (SQLException e) {
+                System.err.println(e);
+            }
+        }
+    }
+}
+
+
+```
+</details>
+	
 ## SQlite
 
 SQLite é um sistema de gerenciamento de banco de dados relacional leve, embutido e amplamente utilizado em aplicativos móveis, navegadores da web e outros softwares que precisam armazenar dados localmente. Ele é uma biblioteca escrita em C que oferece recursos avançados de gerenciamento de banco de dados, como transações ACID, integridade referencial e indexação avançada, tornando-o uma escolha popular para desenvolvedores que precisam de uma solução de banco de dados confiável e fácil de usar
 
 Para mais informações [clique aqui](https://www.sqlite.org/about.html).
+<details> <summary>Exemplo de códgio em SQlite</summary>
+
+```kotlin
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class ExemploSQLite {
+    public static void main(String[] args) {
+        Connection conexao = null;
+        Statement stmt = null;
+
+        try {
+            // Carrega o driver JDBC do SQLite
+            Class.forName("org.sqlite.JDBC");
+
+            // Cria uma conexão com o banco de dados
+            conexao = DriverManager.getConnection("jdbc:sqlite:teste.db");
+
+            // Cria uma tabela chamada "usuarios"
+            stmt = conexao.createStatement();
+            String sql = "CREATE TABLE usuarios " +
+                         "(id INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                         " nome TEXT NOT NULL, " +
+                         " email TEXT NOT NULL)";
+            stmt.executeUpdate(sql);
+
+            // Insere alguns dados na tabela "usuarios"
+            PreparedStatement pstmt = conexao.prepareStatement("INSERT INTO usuarios(nome, email) VALUES (?, ?)");
+            pstmt.setString(1, "João da Silva");
+            pstmt.setString(2, "joao.silva@example.com");
+            pstmt.executeUpdate();
+
+            pstmt.setString(1, "Maria Souza");
+            pstmt.setString(2, "maria.souza@example.com");
+            pstmt.executeUpdate();
+
+            // Recupera os dados da tabela "usuarios"
+            ResultSet rs = stmt.executeQuery("SELECT * FROM usuarios");
+            while (rs.next()) {
+                int id = rs.getInt("id");
+                String nome = rs.getString("nome");
+                String email = rs.getString("email");
+                System.out.println("ID: " + id + ", Nome: " + nome + ", Email: " + email);
+            }
+        } catch (Exception e) {
+            System.err.println(e.getClass().getName() + ": " + e.getMessage());
+        } finally {
+            try {
+                if (stmt != null) {
+                    stmt.close();
+                }
+                if (conexao != null) {
+                    conexao.close();
+                }
+            } catch (SQLException e) {
+                System.err.println(e);
+            }
+        }
+    }
+}
+
+```
+</details>
 
 ## Java
 
@@ -153,6 +289,18 @@ Para mais informações [clique aqui](https://www.sqlite.org/about.html).
 Java é uma linguagem de programação de alto nível, orientada a objetos e multiplataforma lançada em 1995 pela Sun Microsystems (agora Oracle). Ela é amplamente usada para desenvolver aplicativos, jogos, sistemas de gerenciamento de banco de dados, aplicativos da web e muito mais. Java é portátil, seguro, escalável e capaz de lidar com aplicativos complexos, com suporte de uma grande comunidade de desenvolvedores em todo o mundo.
 
 Para mais informações [clique aqui](https://www.java.com/pt-BR/download/help/whatis_java.html).
+	
+<details> <summary>Exemplo de códgio em Java</summary>
+
+```kotlin
+public class MeuPrograma {
+    public static void main(String[] args) {
+        System.out.println("Olá, mundo!");
+    }
+}
+
+```
+</details>
 
 ### Contribuições pessoais
 
@@ -170,11 +318,9 @@ O projeto teve um papel fundamental na preparação dos alunos para a indústria
 
 ### *Figura 05. MidAllº*
 
-https://user-images.githubusercontent.com/79945984/225164162-7dbdd56f-5db6-4819-8749-0c6934d5eeb2.png
-
+![MidAll](https://user-images.githubusercontent.com/79945984/225166828-fd8d6942-68e5-4c26-9466-06bc7b08e0d0.png)
 
 ### Visão do Projeto
-https://user-images.githubusercontent.com/79945984/225164049-635e76ed-7868-46a3-a2b1-79f6935fad11.png
 
 Ferramenta para criar promoções de E-commerce, onde as mecânicas de promoções são feitas de forma flexível e de rápida atualização no sistema. As regras de promoções são cadastradas e posteriormente aplicadas no momento em que os itens são adicionados ao carrinho.
 
