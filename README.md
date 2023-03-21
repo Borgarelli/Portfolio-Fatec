@@ -127,6 +127,20 @@ Necto Systems <br/>
 
 ### *Figura 01. Necto Systems*
 
+### Visão do Projeto
+
+O software de monitoramento é uma solução especializada para gerenciamento de Sistemas Gerenciadores de Banco de Dados (SGBDs). É projetado para monitorar e analisar os recursos do SGBD em tempo real e fornecer informações valiosas sobre a saúde e a manutenção periódica do banco de dados.
+
+Através da coleta de dados do SGBD, como memória, tempo de consultas, espaço em disco, transações, evolução da memória, caches e registros, o aplicativo fornece uma visão abrangente e detalhada do desempenho e da performance do SGBD. Esses dados são apresentados de maneira clara e intuitiva, facilitando a identificação de possíveis gargalos, problemas de desempenho e oportunidades de otimização.
+
+Além disso, o aplicativo de monitoramento oferece recursos avançados, como alertas em tempo real, geração de relatórios personalizados e visualização de tendências históricas, permitindo que os administradores de banco de dados identifiquem rapidamente problemas críticos e tomem medidas corretivas imediatas.
+
+Com sua interface intuitiva e fácil de usar, o aplicativo de monitoramento de SGBD é uma ferramenta indispensável para empresas e organizações que buscam melhorar a eficiência e a produtividade de seus bancos de dados, garantindo que os mesmos estejam sempre funcionando de maneira saudável e eficiente."
+
+Espero que isso ajude a fornecer uma descrição mais detalhada e profissional do aplicativo de monitoramento de SGBD.
+
+Segue abaixo um exemplo do funcionamento do projeto: 
+
 [<img src="https://user-images.githubusercontent.com/79945984/225161808-9c6c5ffa-ff60-48cb-8bce-95d81551aeb7.png" width="35%" height="10%">](https://youtu.be/NhDe9-Z_dvk "DescontOn vídeo Demonstração")
 
 ### *Figura 02. Demonstração SGBD Health*
@@ -449,7 +463,8 @@ em media queries para aparelhos maiores. Clique [aqui](https://getbootstrap.com/
 ```
 </details>
 
-### Maven
+### Maven [![Maven](https://img.shields.io/badge/Maven-%23C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
+
 
 O Apache Maven é uma ferramenta que oferece automação e gerenciamento
 de projetos Java (mas podem ser utilizada com outras linguagens), padronizando a
