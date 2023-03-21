@@ -151,7 +151,6 @@ Link do repositório do projeto: [https://github.com/DolphinDatabase/SGBD_Health
 
 ## PostgreSQL [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
-
 PostgreSQL é um sistema gerenciador de banco de dados objeto-relacional baseado no POSTGRES, Versão 4.2, desenvolvido na Universidade da Califórnia no Departamento de Ciências da Computação em Berkeley, o qual foi pioneiro em muitos conceitos que vieram a estar disponíveis em alguns bancos de dados comerciais mais tarde. O PostgreSQL é um banco de dados objeto-relacional (sem relação com linguagens de programação orientadas a objetos), em que cada coisa criada é tratada como um objeto, tais como bancos de dados, tabelas, views, triggers, etc.
 
 Para mais informações [clique aqui](https://www.postgresql.org/about/).
@@ -319,11 +318,14 @@ public class MeuPrograma {
 ```
 </details>
 
-### Contribuições pessoais
+### Contribuições pessoais ![Contribuições pessoais](https://img.shields.io/github/commit-activity/y/Borgarelli/SGBD_Health?style=for-the-badge)
+
+
 
 Minha função principal no projeto foi liderar a modelagem do banco de dados no PostgreSQL e avaliar a utilização do SQLite para armazenar arquivos CSV. Trabalhei em estreita colaboração com a equipe de desenvolvimento para garantir a integração adequada do banco de dados com a aplicação e o sucesso do projeto.
 
-### Aprendizados Efetivos
+### Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
+
 
 Este projeto marcou o início de uma verdadeira API com clientes parceiros da Fatec, proporcionando experiências incríveis e desafiadoras ao longo do semestre. O principal foco foi o desenvolvimento do banco de dados para atender a todos os requisitos necessários para a aplicação, permitindo o armazenamento de todos os dados necessários para os testes e entrega final do projeto. 
 
@@ -514,8 +516,7 @@ Durante a preparação para iniciar o desenvolvimento do projeto, consultei dive
 
 BrModelo é uma ferramenta desktop voltada para o desenvolvimento de projeto de banco de dados relacionais, incluindo as etapas conceitual, lógico e físico, com uma ampla utilização em toda a área de computação em todo o Brasil. E nele é que geramos os três tipos de modelagem.
 
-### Modelo Conceitual
-
+### Modelo Conceitual ![Modelo conceitual](https://img.shields.io/badge/Modelo%20conceitual-Implementado-brightgreen?style=for-the-badge)
 
 A maior dificuldade para o aprendizado das técnicas de modelagem em banco de
 dados é entender uma situação de um problema real e converte-lo, criando assim uma solução.
@@ -529,7 +530,8 @@ conceitual antes de iniciar a implementação.
 <img width="250" src = "https://user-images.githubusercontent.com/79945984/194174800-ae3951d9-a8af-4029-bd9d-7f703e59b7ad.png"/>
 <p>Exemplo de uma modelagem Conceitual, onde a tabela Vendas se conecta com as outras tabelas </p></details>
 
-### Modelo Lógico
+### Modelo Lógico ![Modelo lógico](https://img.shields.io/badge/Modelo%20l%C3%B3gico-Implementado-brightgreen?style=for-the-badge)
+
 
 O modelo lógico é o resultado ou produto da conversão de um modelo conceitual
 para um determinado tipo de banco de dados, ou segundo o professor Carlos Alberto Heuser, “Um modelo lógico é uma
@@ -559,7 +561,8 @@ forma de modelá-los.
 
 Após uma profunda pesquisa sobre todos estes tópicos, fui responsável por modelar todos os dados que armazenamos e seriam cadastrados pelos clientes/usuários através da nossa aplicação.
 
-### Aprendizados Efetivos HS
+### Aprendizados Efetivos HS ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
+
 
 No desenvolvimento das modelagens do nosso E-commerce, aprendi mais sobre a estruturação de um mesmo. Foi a primeira vez em que trabalhei de fato com uma aplicação front-end voltada principal para web.
 Por conta desta experiência, fui inserido a um novo nível de exigência para a construção de um sistema web, tendo que me preocupar com o formato e conteúdo específico das requisições de entrada possiveis no serviço desenvolvido.
