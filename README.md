@@ -57,7 +57,7 @@ Entretanto, o Arduino como plataforma vai um pouco além, pois também fornece d
 
 Estes recursos facilitam a construção de protótipos das mais diversas finalidades. A programação simples e direta de periféricos como motores, luzes e sensores, tornam quase que ilimitadas as possibilidades de protótipos que podem ser construídas utilizando o Arduino.
 
-O Servo Motor ou o módulo HC-05, dentre outros, fazem parte desta plataforma e foram utilizados neste projeto. Estes dispositivos em conjunto possibilitam a prototipagem de sistemas embarcados. E, neste exemplo, de um que seria responsável apenas por receber instruções para abrir e trancar uma porta.
+O Servo Motor ou o módulo HC-05, dentre outros, fazem parte desta plataforma e foram utilizados neste projeto. Estes dispositivos em conjunto possibilitam a prototipagem de sistemas embarcados. E, neste Trecho, de um que seria responsável apenas por receber instruções para abrir e trancar uma porta.
 
 ### Módulo Bluetooth HC-05
 
@@ -80,7 +80,7 @@ Os dispositivos internos da máquina eram compostos de uma placa Arduino e um Se
 ### Servo Motor
 
 O servo motor é um periférico que pode ser utilizado no Arduino. Ele possibilita a geração de movimentos rotacionais controlados.
-Por exemplo: com um servo motor, podemos realizar rotações limitadas, porém com maior precisão. Suas versões mais comuns não permitem uma rotação contínua, como uma roda de carro, por exemplo.
+Por exemplo: com um servo motor, podemos realizar rotações limitadas, porém com maior precisão. Suas versões mais comuns não permitem uma rotação contínua, como uma roda de carro, por Trecho.
 
 Entretanto, caso seja necessário realizar rotações específicas, determinando até mesmo a quantidade de graus que o movimento deve ter, o servo motor é o ideal para esta demanda. Como necessitávamos de uma tranca automática, ele atendeu à necessidade do projeto.
 
@@ -90,7 +90,7 @@ A montagem deste dispositivo é similar a do módulo HC-05. Temos uma demonstra�
 
 ### *Figura 02. Esquema de conexão dos periféricos à placa Arduino*
 
-Como pode ser visto, a alimentação ainda é realizada conectando as saídas de 5V e GND, que fecham o circuito de alimentação, e um pino é escolhido para recebimento das instruções de rotação. Neste exemplo, o de número 6.
+Como pode ser visto, a alimentação ainda é realizada conectando as saídas de 5V e GND, que fecham o circuito de alimentação, e um pino é escolhido para recebimento das instruções de rotação. Neste Trecho, o de número 6.
 
 ### Contribuições pessoais
 
@@ -139,7 +139,7 @@ Com sua interface intuitiva e fácil de usar, o aplicativo de monitoramento de S
 
 Espero que isso ajude a fornecer uma descrição mais detalhada e profissional do aplicativo de monitoramento de SGBD.
 
-Segue abaixo um exemplo do funcionamento do projeto: 
+Segue abaixo um Trecho do funcionamento do projeto: 
 
 [<img src="https://user-images.githubusercontent.com/79945984/225161808-9c6c5ffa-ff60-48cb-8bce-95d81551aeb7.png" width="35%" height="10%">](https://youtu.be/NhDe9-Z_dvk "DescontOn vídeo Demonstração")
 
@@ -155,7 +155,7 @@ PostgreSQL é um sistema gerenciador de banco de dados objeto-relacional baseado
 
 Para mais informações [clique aqui](https://www.postgresql.org/about/).
 
-<details> <summary>Exemplo de código no Postgres</summary>
+<details> <summary>Trecho de código no Postgres</summary>
 
 ```kotlin
 import java.io.FileNotFoundException;
@@ -198,7 +198,7 @@ Aqui um trecho da conexão com o Postgres, o sgbd que foi proposto pelo cliente 
 SQLite é um sistema de gerenciamento de banco de dados relacional leve, embutido e amplamente utilizado em aplicativos móveis, navegadores da web e outros softwares que precisam armazenar dados localmente. Ele é uma biblioteca escrita em C que oferece recursos avançados de gerenciamento de banco de dados, como transações ACID, integridade referencial e indexação avançada, tornando-o uma escolha popular para desenvolvedores que precisam de uma solução de banco de dados confiável e fácil de usar
 
 Para mais informações [clique aqui](https://www.sqlite.org/about.html).
-<details> <summary>Exemplo de código em SQlite</summary>
+<details> <summary>Trecho de código em SQlite</summary>
 
 ```kotlin
 import java.sql.*;
@@ -257,7 +257,7 @@ Java é uma linguagem de programação de alto nível, orientada a objetos e mul
 
 Para mais informações [clique aqui](https://www.java.com/pt-BR/download/help/whatis_java.html).
 	
-<details> <summary>Exemplo de código em Java</summary>
+<details> <summary>Trecho de código em Java</summary>
 
 ```kotlin
 import java.sql.Connection;
@@ -281,7 +281,6 @@ public class Relatorio {
 		    String valor = "time";
 		    String timeResultado = setar.setarValor(valor);
 	
-			
 			//data
 			LocalDate ldNow = LocalDate.now();
 			String datahora = ldNow.toString();
@@ -298,7 +297,6 @@ public class Relatorio {
 			PrintWriter pw = new PrintWriter(bw);
 			Reader reader = new FileReader(filepath);
 			int readSize = reader.read();
-			
 			
 			try {
 
@@ -325,12 +323,9 @@ Aqui temos um trecho da nossa aplicação em Java, que é responsável por setar
 
 ### Contribuições pessoais ![Contribuições pessoais](https://img.shields.io/github/commit-activity/y/Borgarelli/SGBD_Health?style=for-the-badge)
 
-
-
 Minha função principal no projeto foi liderar a modelagem do banco de dados no PostgreSQL e avaliar a utilização do SQLite para armazenar arquivos CSV. Trabalhei em estreita colaboração com a equipe de desenvolvimento para garantir a integração adequada do banco de dados com a aplicação e o sucesso do projeto.
 
 ### Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
-
 
 Este projeto marcou o início de uma verdadeira API com clientes parceiros da Fatec, proporcionando experiências incríveis e desafiadoras ao longo do semestre. O principal foco foi o desenvolvimento do banco de dados para atender a todos os requisitos necessários para a aplicação, permitindo o armazenamento de todos os dados necessários para os testes e entrega final do projeto. 
 
@@ -370,7 +365,7 @@ jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um s
 
 Suas linhas de código simplificam os scripts interpretados pelo navegador do client-side e por esse motivo é uma das bibliotecas mais populares na comunidade de desenvolvedores. Clique [aqui](https://jquery.com/) para acessar a documentação oficial.
 
-<details> <summary>Exemplo de código em Jquery</summary>
+<details> <summary>Trecho de código em Jquery</summary>
 
 ```kotlin
  $(document).ready(function(){
@@ -399,7 +394,7 @@ permite definir facilmente dialetos personalizados. Além disso, o Thymeleaf
 facilita a colaboração de desenvolvedores front-end e back-end no mesmo
 arquivo de modelo, gerando um grande aumento de produtividade. Clique [aqui](https://www.thymeleaf.org/) para acessar a documentação oficial.
 
-<details> <summary>Exemplo de código em Thymeleaf</summary>
+<details> <summary>Trecho de código em Thymeleaf</summary>
 
 ```kotlin
  @Controller
@@ -426,7 +421,7 @@ O Spring torna a programação Java mais rápida, fácil e segura para todos. O
 foco do Spring em velocidade, simplicidade e produtividade o tornou o
 framework Java mais popular do mundo. Clique [aqui](https://spring.io/projects/spring-boot) para acessar a documentação oficial.
 
-<details> <summary>Exemplo de código em Springboot</summary>
+<details> <summary>Trecho de código em Springboot</summary>
 
 ```kotlin
 @RequestMapping("v1/books")
@@ -463,11 +458,11 @@ código para dispositivos móveis primeiro e, então, é que se começa a pensar
 em media queries para aparelhos maiores. Clique [aqui](https://getbootstrap.com/) para acessar a documentação oficial.
 
 
-<details> <summary>Exemplo de código em Bootstrap</summary>
+<details> <summary>Trecho de código em Bootstrap</summary>
 
 ```kotlin
-<pre><code>&lt;p&gt;Exemplo de texto aqui...&lt;/p&gt;
-&lt;p&gt;Outro exemplo de texto aqui...&lt;/p&gt;
+<pre><code>&lt;p&gt;Trecho de texto aqui...&lt;/p&gt;
+&lt;p&gt;Outro Trecho de texto aqui...&lt;/p&gt;
 </code></pre>
 ```
 </details>
@@ -488,7 +483,7 @@ que trabalhe com projetos Java (outras tecnologias também são suportadas),
 fornecendo aos desenvolvedores uma forma de automatizar e padronizar a
 construção e publicação de suas aplicações. Clique [aqui](https://maven.apache.org/) para acessar a documentação original.
 
-<details> <summary>Exemplo de código em Maven</summary>
+<details> <summary>Trecho de código em Maven</summary>
 
 ```kotlin
 public class App {
@@ -535,7 +530,7 @@ conceitual antes de iniciar a implementação.
 
 <details><summary>Conceitual</summary>
 <img width="250" src = "https://user-images.githubusercontent.com/79945984/194174800-ae3951d9-a8af-4029-bd9d-7f703e59b7ad.png"/>
-<p>Exemplo de uma modelagem Conceitual, onde a tabela Vendas se conecta com as outras tabelas </p></details>
+<p>Trecho de uma modelagem Conceitual, onde a tabela Vendas se conecta com as outras tabelas </p></details>
 
 ### Modelo Lógico ![Modelo lógico](https://img.shields.io/badge/Modelo%20l%C3%B3gico-Implementado-brightgreen?style=for-the-badge)
 
@@ -549,7 +544,7 @@ hierárquico, objeto - relacional, entre outros).
 
 <details><summary>Lógico</summary>
 <img width="250" src = "https://user-images.githubusercontent.com/79945984/194174919-d99831d1-0036-489c-90a6-f3b4b8422532.png"/>
-<p>Exemplo de uma modelagem Lógica, onde a tabela Vendas recebe as chaves das outras tabelas </p></details>
+<p>Trecho de uma modelagem Lógica, onde a tabela Vendas recebe as chaves das outras tabelas </p></details>
 
 ### Modelo Físico
 
@@ -564,7 +559,7 @@ forma de modelá-los.
 
 <details><summary>Físico</summary>
 <img  width="250" src = "https://user-images.githubusercontent.com/79945984/194175053-cbb6e065-4c3b-46ad-adf2-4c142f851c26.png"/>
-<p>Exemplo de uma modelagem fisica, onde é possivel de maneira com mais detalhes através de código, como é feita a conexão entre as tabelas e como elas passam suas chaves primárias para tabela Vendas</p></details>
+<p>Trecho de uma modelagem fisica, onde é possivel de maneira com mais detalhes através de código, como é feita a conexão entre as tabelas e como elas passam suas chaves primárias para tabela Vendas</p></details>
 
 Após uma profunda pesquisa sobre todos estes tópicos, fui responsável por modelar todos os dados que armazenamos e seriam cadastrados pelos clientes/usuários através da nossa aplicação.
 
