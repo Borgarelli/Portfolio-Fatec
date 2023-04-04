@@ -139,7 +139,7 @@ Com sua interface intuitiva e fácil de usar, o aplicativo de monitoramento de S
 
 Espero que isso ajude a fornecer uma descrição mais detalhada e profissional do aplicativo de monitoramento de SGBD.
 
-Segue abaixo um Trecho do funcionamento do projeto: 
+Segue abaixo um video revelando o funcionamento do projeto: 
 
 [<img src="https://user-images.githubusercontent.com/79945984/225161808-9c6c5ffa-ff60-48cb-8bce-95d81551aeb7.png" width="35%" height="10%">](https://youtu.be/NhDe9-Z_dvk "DescontOn vídeo Demonstração")
 
@@ -169,7 +169,7 @@ import java.util.Scanner;
 
 try {
 	String conexaoBancoDaApalicacao = setar.setarValor(valor);
-	Class.forName("org.sqlite.JDBC");//"jdbc:sqlite:C:\\Users\\Jos� Maria\\git\\SGBD_Health\\apibanco.bd"
+	Class.forName("org.sqlite.JDBC");//"jdbc:sqlite:C:\\Users\\José Maria\\git\\SGBD_Health\\apibanco.bd"
 	conn = DriverManager.getConnection(conexaoBancoDaApalicacao);
 		//System.out.println("Opened database successfully");
 
@@ -209,14 +209,14 @@ public class BancoSqlite extends Fileconnect {
 
 	public static void bancoSqlite(String selectBd, String selectId, String insert, int r, int f) throws SQLException {
 
-		LocalDateTime ldtNow = LocalDateTime.now(); // Tr�s data e hora atual
+		LocalDateTime ldtNow = LocalDateTime.now(); // Trás a data e hora atual
 		Fileconnect setar = new Fileconnect();
 
 		String valor = "connectionBd";
 		Connection conn = null;
 		Statement stmt = null;
 
-		// Conectando com banco da nossa aplica��o
+		// Conectando com banco da nossa aplicação
 		try {
 			String conexaoBancoDaApalicacao = setar.setarValor(valor);
 			Class.forName("org.sqlite.JDBC");
