@@ -189,6 +189,7 @@ try {
 						}
     }
 ```
+Aqui um trecho da conexão com o Postgres, o sgbd que foi proposto pelo cliente para ser usado como base do nosso projeto, para fazer a conexão foram utilizados esses parâmetros encontrados no código acima, para mais informções acesse a nossa aplicação 
 </details>
 	
 ## SQlite <a>[![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)</a>
@@ -245,6 +246,7 @@ public class BancoSqlite extends Fileconnect {
     }
 }
 ```
+Aqui temos um trecho da conexão sendo criada com o SQlite para rodar um banco de dados de forma local para o armazenamento dos documentos em csv e arquivos gerados pela aplicação
 </details>
 
 ## Java [![Java](https://img.shields.io/badge/Java-%23ED8B00?style=for-the-badge&logo=java&logoColor=white&labelColor=%23ED8B00)](https://www.java.com/)
@@ -317,8 +319,8 @@ public class Relatorio {
 				}
             }
 }
-
 ```
+Aqui temos um trecho da nossa aplicação em Java, que é responsável por setar alguns atributos utilizados na aplicação, tais como Data, Hora, e os cabeçalhos do arquivo em csv e também realiza os inserts 
 </details>
 
 ### Contribuições pessoais ![Contribuições pessoais](https://img.shields.io/github/commit-activity/y/Borgarelli/SGBD_Health?style=for-the-badge)
