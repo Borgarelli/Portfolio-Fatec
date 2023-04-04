@@ -158,69 +158,36 @@ Para mais informações [clique aqui](https://www.postgresql.org/about/).
 <details> <summary>Exemplo de código no Postgres</summary>
 
 ```kotlin
+import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Scanner;
 
-public class ExemploPostgres {
-    public static void main(String[] args) {
-        Connection conexao = null;
-        Statement stmt = null;
+try {
+	String conexaoBancoDaApalicacao = setar.setarValor(valor);
+	Class.forName("org.sqlite.JDBC");//"jdbc:sqlite:C:\\Users\\Jos� Maria\\git\\SGBD_Health\\apibanco.bd"
+	conn = DriverManager.getConnection(conexaoBancoDaApalicacao);
+		//System.out.println("Opened database successfully");
 
-        try {
-            // Carrega o driver JDBC do Postgres
-            Class.forName("org.postgresql.Driver");
+			PreparedStatement pstmt = conn.prepareStatement(
+				"INSERT INTO SER_SERVIDOR (SER_ID, SER_CONNECTION, SER_USER,  SER_PASS)  values (?,?,?,?)");
+					pstmt.setString(1, id);
+					pstmt.setString(2, connection);
+					pstmt.setString(3, user);
+					pstmt.setString(4, pass);
 
-            // Cria uma conexão com o banco de dados
-            conexao = DriverManager.getConnection("jdbc:postgresql://localhost:5432/meubanco", "usuario", "senha");
+					pstmt.execute();
+					conn.close();
 
-            // Cria uma tabela chamada "usuarios"
-            stmt = conexao.createStatement();
-            String sql = "CREATE TABLE usuarios " +
-                         "(id SERIAL PRIMARY KEY, " +
-                         " nome VARCHAR(255) NOT NULL, " +
-                         " email VARCHAR(255) NOT NULL)";
-            stmt.executeUpdate(sql);
-
-            // Insere alguns dados na tabela "usuarios"
-            PreparedStatement pstmt = conexao.prepareStatement("INSERT INTO usuarios(nome, email) VALUES (?, ?)");
-            pstmt.setString(1, "João da Silva");
-            pstmt.setString(2, "joao.silva@example.com");
-            pstmt.executeUpdate();
-
-            pstmt.setString(1, "Maria Souza");
-            pstmt.setString(2, "maria.souza@example.com");
-            pstmt.executeUpdate();
-
-            // Recupera os dados da tabela "usuarios"
-            ResultSet rs = stmt.executeQuery("SELECT * FROM usuarios");
-            while (rs.next()) {
-                int id = rs.getInt("id");
-                String nome = rs.getString("nome");
-                String email = rs.getString("email");
-                System.out.println("ID: " + id + ", Nome: " + nome + ", Email: " + email);
-            }
-        } catch (Exception e) {
-            System.err.println(e.getClass().getName() + ": " + e.getMessage());
-        } finally {
-            try {
-                if (stmt != null) {
-                    stmt.close();
-                }
-                if (conexao != null) {
-                    conexao.close();
-                }
-            } catch (SQLException e) {
-                System.err.println(e);
-            }
-        }
+						 catch (Exception e) {
+							System.err.println(e.getClass().getName() + ": " + e.getMessage());
+							System.exit(0);
+						}
     }
-}
-
-
 ```
 </details>
 	
@@ -233,68 +200,50 @@ Para mais informações [clique aqui](https://www.sqlite.org/about.html).
 <details> <summary>Exemplo de código em SQlite</summary>
 
 ```kotlin
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
+import java.time.LocalDateTime;
+import java.util.ArrayList;
 
-public class ExemploSQLite {
-    public static void main(String[] args) {
-        Connection conexao = null;
-        Statement stmt = null;
+public class BancoSqlite extends Fileconnect {
 
-        try {
-            // Carrega o driver JDBC do SQLite
-            Class.forName("org.sqlite.JDBC");
+	public static void bancoSqlite(String selectBd, String selectId, String insert, int r, int f) throws SQLException {
 
-            // Cria uma conexão com o banco de dados
-            conexao = DriverManager.getConnection("jdbc:sqlite:teste.db");
+		LocalDateTime ldtNow = LocalDateTime.now(); // Tr�s data e hora atual
+		Fileconnect setar = new Fileconnect();
 
-            // Cria uma tabela chamada "usuarios"
-            stmt = conexao.createStatement();
-            String sql = "CREATE TABLE usuarios " +
-                         "(id INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                         " nome TEXT NOT NULL, " +
-                         " email TEXT NOT NULL)";
-            stmt.executeUpdate(sql);
+		String valor = "connectionBd";
+		Connection conn = null;
+		Statement stmt = null;
 
-            // Insere alguns dados na tabela "usuarios"
-            PreparedStatement pstmt = conexao.prepareStatement("INSERT INTO usuarios(nome, email) VALUES (?, ?)");
-            pstmt.setString(1, "João da Silva");
-            pstmt.setString(2, "joao.silva@example.com");
-            pstmt.executeUpdate();
+		// Conectando com banco da nossa aplica��o
+		try {
+			String conexaoBancoDaApalicacao = setar.setarValor(valor);
+			Class.forName("org.sqlite.JDBC");
+			conn = DriverManager.getConnection(conexaoBancoDaApalicacao);
 
-            pstmt.setString(1, "Maria Souza");
-            pstmt.setString(2, "maria.souza@example.com");
-            pstmt.executeUpdate();
+			// CREATE TABLE IF NOT EXISTS
+			stmt = conn.createStatement();
+			String sql = "CREATE TABLE IF NOT EXISTS SER_SERVIDOR " + "(SER_ID INT PRIMARY KEY     NOT NULL,"
+					+ " SER_CONNECTION          TEXT   NOT NULL, " + " SER_USER            TEXT     NOT NULL, "
+					+ " SER_PASS        TEXT )";
+			stmt.executeUpdate(sql);
 
-            // Recupera os dados da tabela "usuarios"
-            ResultSet rs = stmt.executeQuery("SELECT * FROM usuarios");
-            while (rs.next()) {
-                int id = rs.getInt("id");
-                String nome = rs.getString("nome");
-                String email = rs.getString("email");
-                System.out.println("ID: " + id + ", Nome: " + nome + ", Email: " + email);
-            }
-        } catch (Exception e) {
-            System.err.println(e.getClass().getName() + ": " + e.getMessage());
-        } finally {
-            try {
-                if (stmt != null) {
-                    stmt.close();
-                }
-                if (conexao != null) {
-                    conexao.close();
-                }
-            } catch (SQLException e) {
-                System.err.println(e);
-            }
+			String sql2 = "CREATE TABLE IF NOT EXISTS ARM_ARMAZENAMENTO "
+					+ "(ID_ARMAZENAMENTO INT PRIMARY KEY     NOT NULL," 
+					+ " ARM_BANCO            TEXT     NOT NULL, " + " ARM_TAMANHO        TEXT, "
+					+ " ARM_DATA_HORA         DATETIME," + "ARM_SERVER    TEXT, " 
+					+ " FOREIGN KEY (ARM_SERVER) REFERENCES SER_SERVIDOR (SER_ID))";
+			stmt.executeUpdate(sql2);
+
+			String sql3 = "CREATE TABLE IF NOT EXISTS QRY_QUERY " + "(QRY_ID INT PRIMARY KEY NOT NULL,"
+					+ "QRY_QUERY_ID TEXT NOT NULL,"
+					+ " QRY_NOME           TEXT    NOT NULL, " + " QRY_CALLS            INT     NOT NULL, "
+					+ " QRY_TEMPO       TIME, " + " QRY_DATA_HORA         DATETIME, " + " QRY_SERVER         TEXT,"
+					+ " FOREIGN KEY (QRY_SERVER) REFERENCES SER_SERVIDOR (SER_ID))";
+			stmt.executeUpdate(sql3);
         }
     }
 }
-
 ```
 </details>
 
@@ -309,10 +258,64 @@ Para mais informações [clique aqui](https://www.java.com/pt-BR/download/help/w
 <details> <summary>Exemplo de código em Java</summary>
 
 ```kotlin
-public class MeuPrograma {
-    public static void main(String[] args) {
-        System.out.println("Olá, mundo!");
-    }
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.time.LocalDate;
+import java.time.LocalTime;
+
+public class Relatorio {
+	
+		//	
+		public static void report () throws SQLException, IOException, ClassNotFoundException{
+			String valor1 = "connectionBd";
+			int id1 = 0;
+
+			Connection conn = null;
+		    Fileconnect setar = new Fileconnect();
+		    String valor = "time";
+		    String timeResultado = setar.setarValor(valor);
+	
+			
+			//data
+			LocalDate ldNow = LocalDate.now();
+			String datahora = ldNow.toString();
+			String filepath = "relatorio"+ datahora + ".txt";
+			
+			//hora
+			LocalTime ldtNow = LocalTime.now();
+			String datetime = ldtNow.toString().replace("T", " ");
+			Path caminho = Paths.get(filepath);
+			
+			//cabecalho do arquivo
+			FileWriter fw = new FileWriter(filepath, true);
+			BufferedWriter bw = new BufferedWriter(fw);
+			PrintWriter pw = new PrintWriter(bw);
+			Reader reader = new FileReader(filepath);
+			int readSize = reader.read();
+			
+			
+			try {
+
+				String conexaoBancoDaApalicacao = setar.setarValor(valor1);
+				Class.forName("org.sqlite.JDBC");
+				conn = DriverManager.getConnection(conexaoBancoDaApalicacao);
+
+				// Iniciando o Insert dos dados coletados
+
+				PreparedStatement pstmt1 = conn.prepareStatement("SELECT SER_ID FROM SER_SERVIDOR;");
+				id1 = 1;
+				ResultSet result = pstmt1.executeQuery();
+				while (result.next()) {
+					id1 = (result.getInt(1));
+				}
+				}catch (Exception e) {
+
+				}
+            }
 }
 
 ```
@@ -335,7 +338,7 @@ O projeto teve um papel fundamental na preparação dos alunos para a indústria
 - Criar tabelas, relacionamentos e modelagem: sei fazer com autonomia.
 - Desenvolvimento de scripts em Java: sei fazer com auxilio.
 
-### Projeto 3: 3º semestre de 2022
+# Projeto 3: 3º semestre de 2022
 
 ### *Figura 05. MidAllº*
 
