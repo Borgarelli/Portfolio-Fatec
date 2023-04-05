@@ -363,7 +363,8 @@ Link do repositório do projeto: [Clique aqui](https://github.com/DolphinDatabas
 
 jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um software de código aberto: seu uso é licenciado pela Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL). Sua principal finalidade é associar-se aos elementos JavaScript em HTML para conferir mais dinamismo e usabilidade às páginas na internet.
 
-Suas linhas de código simplificam os scripts interpretados pelo navegador do client-side e por esse motivo é uma das bibliotecas mais populares na comunidade de desenvolvedores. 
+Suas linhas de código simplificam os scripts interpretados pelo navegador do client-side e por esse motivo é uma das bibliotecas mais populares na comunidade de desenvolvedores.
+
 Clique [aqui](https://jquery.com/) para acessar a documentação oficial.
 
 <details> <summary>Trecho de código em Jquery</summary>
@@ -393,7 +394,8 @@ forma mais simples e de uma maneira mais agilizada para suas aplicações.
 Ele permite modelagem natural, pode fazer processamento complexo e nos
 permite definir facilmente dialetos personalizados. Além disso, o Thymeleaf
 facilita a colaboração de desenvolvedores front-end e back-end no mesmo
-arquivo de modelo, gerando um grande aumento de produtividade. 
+arquivo de modelo, gerando um grande aumento de produtividade.
+
 Clique [aqui](https://www.thymeleaf.org/) para acessar a documentação oficial.
 
 <details> <summary>Trecho de código em Thymeleaf</summary>
@@ -421,7 +423,8 @@ justamente acelerar o processo de criação e implantação de soluções nos ma
 variados ambientes.
 O Spring torna a programação Java mais rápida, fácil e segura para todos. O
 foco do Spring em velocidade, simplicidade e produtividade o tornou o
-framework Java mais popular do mundo. 
+framework Java mais popular do mundo.
+
 Clique [aqui](https://spring.io/projects/spring-boot) para acessar a documentação oficial.
 
 <details> <summary>Trecho de código em Springboot</summary>
@@ -458,7 +461,8 @@ facilitar a programação de um site web e otimizar tempo.
 Este fornece uma grande variedade de plugins e é compatível com qualquer linguagem de programação, o que facilita para os desenvolvedores de site. É aplicado na criação de sites responsivos (mobile).
 Bootstrap tem uma abordagem mobile first, uma estratégia que otimiza o
 código para dispositivos móveis primeiro e, então, é que se começa a pensar
-em media queries para aparelhos maiores. 
+em media queries para aparelhos maiores.
+
 Clique [aqui](https://getbootstrap.com/) para acessar a documentação oficial.
 
 
@@ -484,8 +488,9 @@ estes sejam compilados em determinada ordem, para que o pacote final seja criado
 
 O Apache Maven é uma excelente ferramenta de apoio a qualquer equipe
 que trabalhe com projetos Java (outras tecnologias também são suportadas),
-fornecendo aos desenvolvedores uma forma de automatizar e padronizar a
-construção e publicação de suas aplicações. Clique [aqui](https://maven.apache.org/) para acessar a documentação original.
+fornecendo aos desenvolvedores uma forma de automatizar e padronizar a construção e publicação de suas aplicações.
+
+Clique [aqui](https://maven.apache.org/) para acessar a documentação original.
 
 <details> <summary>Trecho de código em Maven</summary>
 
