@@ -47,60 +47,61 @@ Além disso, o Julius possui outras funcionalidades relevantes, como a possibili
 
 Por meio dessas funcionalidades, o Julius se diferencia por oferecer informações em tempo real, entregando aos usuários as últimas notícias e informações relevantes para a tomada de decisões financeiras. Além disso, o Julius traz o que há de mais inovador no mercado financeiro nacional, oferecendo uma experiência única e completa para os usuários que buscam acompanhar e investir no mercado financeiro.
 
-### Tecnologias adotadas na solução
+Segue abaixo um video revelando o funcionamento do projeto:
 
-### Interface com o usuário - App Inventor
+[<img src="https://user-images.githubusercontent.com/79945984/231305890-33255901-7287-40bd-8260-71b93e657ad8.png" widrh="35%" height="10%">](https://www.youtube.com/watch?v=oyqu1XqaPPE "Julius vídeo Demonstração")
 
-A interface com o cliente foi realizada através de uma tela de smartphone, que simulava o display da vending machine. Um aplicativo desenvolvido através da ferramenta App Inventor, para o sistema operacional Android, provia ao usuário final as telas de seleção de produtos e finalização de compra.
+### Figura 02. Demonstração Julius
 
-A programação nesta plataforma se dá em blocos. Diversos recursos de linguagens de programação tradicionais (condições, loops e operações) em blocos ilustrativos, que tornam a construção de rotinas e lógicas visuais e, desta forma, mais intuitivas.
+Link do repositório do projeto: [https://github.com/TheLooksDatabase/Julius](https://github.com/TheLooksDatabase/Julius)
 
-Por conta desta natureza da ferramenta - [App Inventor](https://appinventor.mit.edu/) - não há código fonte a ser disponibilizado.
+### Tecnologias utilizadas
 
-### Arduino
+## Python [![Python Badge](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
-O funcionamento da vending machine foi construído utilizando o Arduino, com a placa central e dois periféricos. Um servo motor e um módulo Bluetooth HC-05.
+Python é uma linguagem de programação de alto nível, interpretada e dinâmica, que é amplamente utilizada em áreas como desenvolvimento web, análise de dados, inteligência artificial, automação de tarefas e muitas outras. Uma das principais vantagens do Python é sua sintaxe simples e intuitiva, que facilita a escrita e leitura de código, além de aumentar a produtividade do programador. Além disso, Python possui uma grande comunidade de desenvolvedores ativos, o que resulta em uma ampla variedade de bibliotecas e frameworks disponíveis para uso, tornando o desenvolvimento de projetos ainda mais rápido e eficiente.
 
-O Arduino é uma plataforma de prototipagem. Usualmente, ao falar em "Arduino", nos remetemos a placa central que liga diversos dispositivos que são interligados por ela.
+Clique [aqui](https://docs.python.org/3/) para acessar a documentação oficial.
 
-Entretanto, o Arduino como plataforma vai um pouco além, pois também fornece diversos recursos - comunicação Serial, alimentação elétrica, periféricos da própria plataforma, etc - que facilitam a prototipagem de sistemas embarcados, e que podem servir às mais diversas finalidades específicas.
+### Beautifulsoup4 [![Beautifulsoup4 Badge](https://img.shields.io/badge/BeautifulSoup4-4.9.3-59666C?style=for-the-badge&logo=beautifulsoup&logoColor=white)](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
-Estes recursos facilitam a construção de protótipos das mais diversas finalidades. A programação simples e direta de periféricos como motores, luzes e sensores, tornam quase que ilimitadas as possibilidades de protótipos que podem ser construídas utilizando o Arduino.
+O Beautifulsoup4 é uma biblioteca Python utilizada para extrair dados de páginas web de forma fácil e eficiente. Essa biblioteca permite analisar o conteúdo HTML e XML das páginas web e extrair informações específicas, como títulos, parágrafos, links, tabelas e outras tags.
 
-O Servo Motor ou o módulo HC-05, dentre outros, fazem parte desta plataforma e foram utilizados neste projeto. Estes dispositivos em conjunto possibilitam a prototipagem de sistemas embarcados. E, neste Trecho, de um que seria responsável apenas por receber instruções para abrir e trancar uma porta.
+Com o Beautifulsoup4, é possível navegar pela árvore de elementos HTML/XML de uma página web e buscar informações específicas de forma simples e intuitiva, utilizando seletores CSS e expressões regulares. Além disso, essa biblioteca possui uma série de recursos que facilitam a análise de dados web, como a possibilidade de filtrar informações com base em critérios específicos e a integração com outras bibliotecas Python, como o Pandas, para análises mais avançadas.
 
-### Módulo Bluetooth HC-05
+O Beautifulsoup4 é amplamente utilizado em áreas como ciência de dados, web scraping e automação de tarefas, sendo uma das bibliotecas mais populares e bem documentadas da linguagem Python.
 
-A conexão entre o app Android criado e o sistema da máquina de vendas foi realizada via Bluetooth. Para isso, utilizamos o módulo Bluetooth HC-05.
+Clique [aqui](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) para acessar a documentação oficial.
 
-O módulo HC-05 é um dispositivo serial de comunicação Bluetooth. [ver mais](https://www.gme.cz/data/attachments/dsh.772-148.1.pdf)
+### SpeechRecognition [![SpeechRecognition Badge](https://img.shields.io/badge/SpeechRecognition-3.8.1-blue?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/SpeechRecognition/)
 
-Este módulo possui 4 pinos principais de conexão com a placa Arduino. Dois pinos são responsáveis pela comunicação serial (RXD e TXD), e dois pinos de alimentação (VCC) e o que fecha o curto para garantir a corrente elétrica, o GND.
+O SpeechRecognition é uma biblioteca Python utilizada para reconhecimento de fala em tempo real ou a partir de arquivos de áudio gravados. Essa biblioteca permite transcrever a fala em texto utilizando diferentes mecanismos de reconhecimento, como o Google Speech Recognition, o Microsoft Bing Voice Recognition, o IBM Speech to Text, entre outros.
 
-Na prática, a conexão destes pinos fica da seguinte forma:
+Com o SpeechRecognition, é possível automatizar tarefas que envolvem transcrição de áudio, como a criação de legendas para vídeos, transcrição de entrevistas, transcrição de reuniões, entre outros. Além disso, a biblioteca possui recursos para lidar com diferentes formatos de áudio e configurações de microfone, o que a torna altamente versátil e adaptável a diferentes cenários.
 
-![https://user-images.githubusercontent.com/45850297/132968177-13fa8c56-ff56-4bd2-9ccc-b75e205529e5.png](https://user-images.githubusercontent.com/45850297/132968177-13fa8c56-ff56-4bd2-9ccc-b75e205529e5.png)
+O SpeechRecognition é amplamente utilizado em áreas como processamento de linguagem natural, inteligência artificial, automação de tarefas e análise de dados, sendo uma das principais bibliotecas de reconhecimento de fala disponíveis para Python.
 
-### *Figura 01. Ilustração dos conectores Arduino*
+Clique [aqui](https://pypi.org/project/SpeechRecognition/) para acessar a documentação oficial.
 
-O módulo possui versões 5V e 3.3V. Como a alimentação padrão mais próxima no Arduino é de 5V, caso o módulo seja de 3.3V, é necessário utilizar resistências para evitar danos elétricos ao módulo. No caso atual, este preparo não foi necessário, pois utilizamos uma versão 5V.
+### Pyttsx3 [![pyttsx3 Badge](https://img.shields.io/badge/pyttsx3-2.90-blue?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/pyttsx3/)
 
-Os dispositivos internos da máquina eram compostos de uma placa Arduino e um Servo Motor. Este último era responsável por abrir a porta que liberava acesso ao produto selecionado e trancá-lo novamente após isso.
+O pyttsx3 é uma biblioteca Python para síntese de voz, que permite a geração de áudio a partir de texto. Essa biblioteca oferece suporte a diferentes mecanismos de síntese de voz, como o eSpeak, o SAPI5 (para Windows) e o NSSpeechSynthesizer (para macOS).
 
-### Servo Motor
+Com o pyttsx3, é possível criar aplicações que possuem uma interface de áudio, como assistentes virtuais, programas de leitura de texto, entre outros. Além disso, a biblioteca permite a configuração de diferentes vozes, velocidades de fala, volumes e outras configurações, o que a torna altamente personalizável e adaptável a diferentes necessidades.
 
-O servo motor é um periférico que pode ser utilizado no Arduino. Ele possibilita a geração de movimentos rotacionais controlados.
-Por exemplo: com um servo motor, podemos realizar rotações limitadas, porém com maior precisão. Suas versões mais comuns não permitem uma rotação contínua, como uma roda de carro, por Trecho.
+O pyttsx3 é uma das principais bibliotecas de síntese de voz disponíveis para Python, sendo utilizada em diferentes áreas, como tecnologia assistiva, automação de tarefas, educação e entretenimento.
 
-Entretanto, caso seja necessário realizar rotações específicas, determinando até mesmo a quantidade de graus que o movimento deve ter, o servo motor é o ideal para esta demanda. Como necessitávamos de uma tranca automática, ele atendeu à necessidade do projeto.
+Clique [aqui](https://pypi.org/project/pyttsx3/) para acessar a documentação oficial.
 
-A montagem deste dispositivo é similar a do módulo HC-05. Temos uma demonstração de como ela ficaria na prática:
+### Google-api-python-client [![Google-api-python-client Badge](https://img.shields.io/badge/Google--api--python--client-v2.25.0-red?style=for-the-badge&logo=google&logoColor=white)](https://developers.google.com/api-client-library/python/start/get_started)
 
-![https://user-images.githubusercontent.com/45850297/132969607-4f0f0591-94f9-4d43-9529-ef4265b4aa02.png](https://user-images.githubusercontent.com/45850297/132969607-4f0f0591-94f9-4d43-9529-ef4265b4aa02.png)
+O Google-api-python-client é uma biblioteca Python que oferece acesso às APIs do Google de forma fácil e intuitiva. Essa biblioteca é construída com base no framework de serviços do Google e permite que os desenvolvedores criem aplicativos que interagem com serviços como o Google Drive, Gmail, YouTube, Google Maps, entre outros.
 
-### *Figura 02. Esquema de conexão dos periféricos à placa Arduino*
+Com o Google-api-python-client, é possível realizar tarefas como enviar e-mails, gerenciar arquivos em nuvem, criar vídeos, acessar informações geográficas e muito mais. Além disso, a biblioteca possui recursos para autenticação e autorização, o que garante a segurança das informações dos usuários.
 
-Como pode ser visto, a alimentação ainda é realizada conectando as saídas de 5V e GND, que fecham o circuito de alimentação, e um pino é escolhido para recebimento das instruções de rotação. Neste Trecho, o de número 6.
+A biblioteca é amplamente utilizada em projetos que envolvem integração com serviços do Google, como em aplicações de automação de tarefas, análise de dados, desenvolvimento de bots e assistentes virtuais, entre outros. Com sua documentação completa e exemplos práticos, o Google-api-python-client é uma ferramenta indispensável para desenvolvedores que desejam criar aplicativos integrados ao ecossistema de serviços do Google.
+
+Clique [aqui](https://developers.google.com/api-client-library/python/start/get_started) para acessar a documentação oficial.
 
 ### Contribuições pessoais
 
@@ -146,8 +147,6 @@ Através da coleta de dados do SGBD, como memória, tempo de consultas, espaço 
 Além disso, o aplicativo de monitoramento oferece recursos avançados, como alertas em tempo real, geração de relatórios personalizados e visualização de tendências históricas, permitindo que os administradores de banco de dados identifiquem rapidamente problemas críticos e tomem medidas corretivas imediatas.
 
 Com sua interface intuitiva e fácil de usar, o aplicativo de monitoramento de SGBD é uma ferramenta indispensável para empresas e organizações que buscam melhorar a eficiência e a produtividade de seus bancos de dados, garantindo que os mesmos estejam sempre funcionando de maneira saudável e eficiente."
-
-Espero que isso ajude a fornecer uma descrição mais detalhada e profissional do aplicativo de monitoramento de SGBD.
 
 Segue abaixo um video revelando o funcionamento do projeto: 
 
