@@ -31,11 +31,21 @@ Abaixo todos estes projetos serão descritos, detalhando o problema, solução p
 
 ### Parceiro Acadêmico
 
-Fatec Prof. Jessen Vidal (proposta realizada pelo docente responsável pela disciplina que ordenou o projeto)
+Fatec Prof. Jessen Vidal (proposta realizada pelo docente responsável pela disciplina que ordenou o projeto) <br/>
+
+![image](https://user-images.githubusercontent.com/79945984/231303106-6b96699c-af17-4c41-9217-d0792d661b1f.png)
+
+### *Figura 01. Fatec São José dos Campos*
 
 ### Visão do Projeto
 
-Desenvolver um sistema de Vending Machine, criando a tela de interface com o cliente, onde seria realizada a seleção e compra de produtos. Após este processo, o aplicativo desenvolvido deveria enviar um sinal ao hardware da máquina de vendas, que liberaria o acesso ao produto adquirido. Fora destes momentos, o acesso aos produtos deveria permanecer restrito, trancado pelos dispositivos.
+Uma assistente virtual que possua uma ampla gama de funcionalidades é uma tarefa desafiadora que exige conhecimentos técnicos avançados. Nesse contexto, apresentamos o Julius, uma API que consiste em uma assistente virtual especializada em auxiliar o usuário na tomada de decisões relacionadas a investimentos financeiros. Com oito funcionalidades diferentes, o Julius se destaca por fornecer informações em tempo real, garantindo ao usuário uma experiência interativa e eficiente.
+
+Entre as funcionalidades oferecidas pelo Julius, destacam-se o código de ações, que permite ao usuário acompanhar o desempenho das ações de empresas listadas em bolsa; a cotação do dia, que apresenta informações atualizadas sobre os valores de moedas e criptomoedas; e o conversor de moedas, que possibilita ao usuário converter valores entre diferentes moedas.
+
+Além disso, o Julius possui outras funcionalidades relevantes, como a possibilidade de consultar a agenda econômica, que apresenta eventos relevantes para o mercado financeiro nacional; a disponibilidade de um chatbot que responde às principais dúvidas dos usuários; e a integração com outras ferramentas, como o Google Sheets e o Excel, que permitem ao usuário gerar relatórios e análises financeiras mais completas.
+
+Por meio dessas funcionalidades, o Julius se diferencia por oferecer informações em tempo real, entregando aos usuários as últimas notícias e informações relevantes para a tomada de decisões financeiras. Além disso, o Julius traz o que há de mais inovador no mercado financeiro nacional, oferecendo uma experiência única e completa para os usuários que buscam acompanhar e investir no mercado financeiro.
 
 ### Tecnologias adotadas na solução
 
