@@ -83,6 +83,34 @@ O SpeechRecognition é amplamente utilizado em áreas como processamento de ling
 
 Clique [aqui](https://pypi.org/project/SpeechRecognition/) para acessar a documentação oficial.
 
+<details><summary>Trecho de código utilizando SpeechRecognition</summary>
+
+```kotlin
+def assistente():
+    sai_som('Oi, qual é o seu nome?')
+    user_name = ''
+    
+    while True:
+            resposta_erro_aleatoria = choice(lista_erros)
+            rec = sr.Recognizer()
+
+            with sr.Microphone() as s: #Para usar o microfone
+                rec.adjust_for_ambient_noise(s)
+
+                while True: #Enquanto isso for verdadeiro, vai executar o bloco de ações abaixo
+                    try:
+                        audio = rec.listen(s)
+                        user_name = rec.recognize_google(audio, language ='pt') 
+                        break
+                    except sr.UnknownValueError: #Se não conseguir, retorne isso (Necessário especificar o erro)
+                        sai_som(resposta_erro_aleatoria)
+                break
+    
+    
+    rec = sr.Recognizer()
+```
+</details>
+
 ### Pyttsx3 [![pyttsx3 Badge](https://img.shields.io/badge/pyttsx3-2.90-blue?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/pyttsx3/)
 
 O pyttsx3 é uma biblioteca Python para síntese de voz, que permite a geração de áudio a partir de texto. Essa biblioteca oferece suporte a diferentes mecanismos de síntese de voz, como o eSpeak, o SAPI5 (para Windows) e o NSSpeechSynthesizer (para macOS).
