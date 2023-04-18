@@ -83,34 +83,6 @@ O SpeechRecognition é amplamente utilizado em áreas como processamento de ling
 
 Clique [aqui](https://pypi.org/project/SpeechRecognition/) para acessar a documentação oficial.
 
-<details><summary>Trecho de código utilizando SpeechRecognition</summary>
-
-```kotlin
-def assistente():
-    sai_som('Oi, qual é o seu nome?')
-    user_name = ''
-    
-    while True:
-            resposta_erro_aleatoria = choice(lista_erros)
-            rec = sr.Recognizer()
-
-            with sr.Microphone() as s: #Para usar o microfone
-                rec.adjust_for_ambient_noise(s)
-
-                while True: #Enquanto isso for verdadeiro, vai executar o bloco de ações abaixo
-                    try:
-                        audio = rec.listen(s)
-                        user_name = rec.recognize_google(audio, language ='pt') 
-                        break
-                    except sr.UnknownValueError: #Se não conseguir, retorne isso (Necessário especificar o erro)
-                        sai_som(resposta_erro_aleatoria)
-                break
-    
-    
-    rec = sr.Recognizer()
-```
-</details>
-
 ### Pyttsx3 [![pyttsx3 Badge](https://img.shields.io/badge/pyttsx3-2.90-blue?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/pyttsx3/)
 
 O pyttsx3 é uma biblioteca Python para síntese de voz, que permite a geração de áudio a partir de texto. Essa biblioteca oferece suporte a diferentes mecanismos de síntese de voz, como o eSpeak, o SAPI5 (para Windows) e o NSSpeechSynthesizer (para macOS).
@@ -401,6 +373,20 @@ Aqui um trecho da conexão com o Postgres, o sgbd que foi proposto pelo cliente 
 SQLite é um sistema de gerenciamento de banco de dados relacional leve, embutido e amplamente utilizado em aplicativos móveis, navegadores da web e outros softwares que precisam armazenar dados localmente. Ele é uma biblioteca escrita em C que oferece recursos avançados de gerenciamento de banco de dados, como transações ACID, integridade referencial e indexação avançada, tornando-o uma escolha popular para desenvolvedores que precisam de uma solução de banco de dados confiável e fácil de usar
 
 Clique [aqui](https://www.sqlite.org/about.html) para acessar a documentação oficial.
+
+## Java [![Java](https://img.shields.io/badge/Java-%23ED8B00?style=for-the-badge&logo=java&logoColor=white&labelColor=%23ED8B00)](https://www.java.com/)
+
+
+<p align="justify">
+Java é uma linguagem de programação de alto nível, orientada a objetos e multiplataforma lançada em 1995 pela Sun Microsystems (agora Oracle). Ela é amplamente usada para desenvolver aplicativos, jogos, sistemas de gerenciamento de banco de dados, aplicativos da web e muito mais. Java é portátil, seguro, escalável e capaz de lidar com aplicativos complexos, com suporte de uma grande comunidade de desenvolvedores em todo o mundo.
+
+Clique [aqui](https://www.java.com/pt-BR/download/help/whatis_java.html) para acessar a documentação oficial.
+	
+### Contribuições pessoais ![Contribuições pessoais](https://img.shields.io/github/commit-activity/y/Borgarelli/SGBD_Health?style=for-the-badge)
+
+Durante minha participação no projeto, fui responsável pela modelagem do banco de dados no PostgreSQL e pela avaliação da utilização do SQLite para armazenamento de arquivos CSV. Trabalhei em estreita colaboração com a equipe de desenvolvimento para garantir a integração adequada do banco de dados com a aplicação e o sucesso do projeto. Para garantir a estruturação adequada do banco de dados, dediquei tempo à elaboração do esquema de banco de dados e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas relevantes para o projeto. Além disso, busquei estudar conceitos e técnicas relevantes à implementação do banco de dados e outras funcionalidades da aplicação para garantir uma base sólida na gestão dos dados que atendesse aos requisitos e expectativas do projeto.
+Segue abaixo um trecho da criação da tabela no SQLite:
+
 <details> <summary>Trecho de código em SQlite</summary>
 
 ```kotlin
@@ -452,82 +438,6 @@ public class BancoSqlite extends Fileconnect {
 Aqui temos um trecho da conexão sendo criada com o SQlite para rodar um banco de dados de forma local para o armazenamento dos documentos em csv e arquivos gerados pela aplicação
 </details>
 
-## Java [![Java](https://img.shields.io/badge/Java-%23ED8B00?style=for-the-badge&logo=java&logoColor=white&labelColor=%23ED8B00)](https://www.java.com/)
-
-
-<p align="justify">
-Java é uma linguagem de programação de alto nível, orientada a objetos e multiplataforma lançada em 1995 pela Sun Microsystems (agora Oracle). Ela é amplamente usada para desenvolver aplicativos, jogos, sistemas de gerenciamento de banco de dados, aplicativos da web e muito mais. Java é portátil, seguro, escalável e capaz de lidar com aplicativos complexos, com suporte de uma grande comunidade de desenvolvedores em todo o mundo.
-
-Clique [aqui](https://www.java.com/pt-BR/download/help/whatis_java.html) para acessar a documentação oficial.
-	
-<details> <summary>Trecho de código em Java</summary>
-
-```kotlin
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.time.LocalDate;
-import java.time.LocalTime;
-
-public class Relatorio {
-	
-		//	
-		public static void report () throws SQLException, IOException, ClassNotFoundException{
-			String valor1 = "connectionBd";
-			int id1 = 0;
-
-			Connection conn = null;
-		    Fileconnect setar = new Fileconnect();
-		    String valor = "time";
-		    String timeResultado = setar.setarValor(valor);
-	
-			//data
-			LocalDate ldNow = LocalDate.now();
-			String datahora = ldNow.toString();
-			String filepath = "relatorio"+ datahora + ".txt";
-			
-			//hora
-			LocalTime ldtNow = LocalTime.now();
-			String datetime = ldtNow.toString().replace("T", " ");
-			Path caminho = Paths.get(filepath);
-			
-			//cabecalho do arquivo
-			FileWriter fw = new FileWriter(filepath, true);
-			BufferedWriter bw = new BufferedWriter(fw);
-			PrintWriter pw = new PrintWriter(bw);
-			Reader reader = new FileReader(filepath);
-			int readSize = reader.read();
-			
-			try {
-
-				String conexaoBancoDaApalicacao = setar.setarValor(valor1);
-				Class.forName("org.sqlite.JDBC");
-				conn = DriverManager.getConnection(conexaoBancoDaApalicacao);
-
-				// Iniciando o Insert dos dados coletados
-
-				PreparedStatement pstmt1 = conn.prepareStatement("SELECT SER_ID FROM SER_SERVIDOR;");
-				id1 = 1;
-				ResultSet result = pstmt1.executeQuery();
-				while (result.next()) {
-					id1 = (result.getInt(1));
-				}
-				}catch (Exception e) {
-
-				}
-            }
-}
-```
-Aqui temos um trecho da nossa aplicação em Java, que é responsável por setar alguns atributos utilizados na aplicação, tais como Data, Hora, e os cabeçalhos do arquivo em csv e também realiza os inserts 
-</details>
-
-### Contribuições pessoais ![Contribuições pessoais](https://img.shields.io/github/commit-activity/y/Borgarelli/SGBD_Health?style=for-the-badge)
-
-Minha função principal no projeto foi realizar a modelagem do banco de dados no PostgreSQL e avaliar a utilização do SQLite para armazenar arquivos CSV. Trabalhei em estreita colaboração com a equipe de desenvolvimento para garantir a integração adequada do banco de dados com a aplicação e o sucesso do projeto.
-
 ### Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
 
 Este projeto marcou o início de uma verdadeira API com clientes parceiros da Fatec, proporcionando experiências incríveis e desafiadoras ao longo do semestre. O principal foco foi o desenvolvimento do banco de dados para atender a todos os requisitos necessários para a aplicação, permitindo o armazenamento de todos os dados necessários para os testes e entrega final do projeto. 
@@ -540,9 +450,11 @@ O projeto teve um papel fundamental na preparação dos alunos para a indústria
 
 # Projeto 3: 3º semestre de 2022
 
-### *Figura 05. MidAllº*
+MidAll </br>
 
 ![MidAll](https://user-images.githubusercontent.com/79945984/225166828-fd8d6942-68e5-4c26-9466-06bc7b08e0d0.png)
+
+### *Figura 05. MidAllº*
 
 ### Visão do Projeto
 
