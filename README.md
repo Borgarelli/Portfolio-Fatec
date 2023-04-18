@@ -179,7 +179,138 @@ con.close()
 Acima a tabela corretoras que está armazenando dados de corretoras reais para a nossa aplicação, realizando consultas e novos inserts
 </details>
 
-Também fiquei responsável pelas funções de conversor de moedas e o comparativo entre corretoras, onde utilizei algumas das bibliotecas, como a currency_converter que é responsável pela cotação das moedas que é atualizado diariamente.
+Também fiquei responsável pela função comparativo entre corretoras, onde utilizei a biblioteca do sqlite3 que usa em conjunto com o arquivo comparativo_corretoras usa o arquivo corretoras.py.
+
+<details><summary>Comparativo entre corretoras</summary>
+
+```
+kotlin
+from config import sai_som
+import sqlite3
+con = sqlite3.connect('corretoras.db')
+cur = con.cursor()
+
+def comparativo():
+    sai_som('''
+        
+        Bem-vindo ao comparativo de corretoras!
+        
+    ''')
+    print('''
+        Compare duas corretoras em um quesito desejado.
+        Atualmente, temos as seguintes corretoras:
+        - XP;
+        - Itau;
+        - Ativa;
+        - Rico;
+        - Bradesco;
+        - Icap;
+        - Easynet;
+        - Mirae;
+        - Banco do brasil;
+        - Santander.
+        
+    ''')
+
+    sai_som('Diga, qual vai ser a primeira corretora: ')
+    corretora = input('')
+
+
+    sai_som('Qual a segunda corretora que deseja fazer uma comparação: ')
+    corretora2 = input('')
+
+
+    sai_som('''
+        Atualmente, temos os seguintes critérios de comparação:
+    ''')
+    print('''
+        - Segurança;
+        - Experiencia investidor;
+        - Avaliação final;
+        - Custos mensais 3;
+        - Custos mensais 5;
+        - Custos mensais 10.
+    ''')
+    sai_som('Qual o critério de comparação:  ')
+    comparativo = input('')
+
+
+    dict_corretora = {
+    'xp': 3,
+    'itau': 114,
+    'ativa': 147,
+    'rico': 386,
+    'bradesco': 72,
+    'icap': 735,
+    'easynet': 90,
+    'mirae': 262,
+    'banco do brasil': 820,
+    'santander': 27
+    }
+
+    dict_fator_comparativo = {
+        'segurança': 'segurança',
+        'experiencia investidor': 'experiencia_investidor',
+        'avaliação final': 'avaliação_final',
+        'custos mensais 3': 'custos_mensais_3op',
+        'custos mensais 5': 'custos_mensais_5op',
+        'custos mensais 10': 'custos_mensais_10op'
+    }
+
+    custos_mensais= []
+
+    query_parameters = (dict_corretora[corretora.lower()], dict_corretora[corretora2.lower()])
+
+    for row in cur.execute(f'SELECT {dict_fator_comparativo[comparativo.lower()]} FROM corretoras WHERE cod_corretora == ? or cod_corretora == ?', query_parameters):
+        custos_mensais.append(row[0])
+
+    sai_som(f'Os dados da corretora {corretora} são de: {custos_mensais[0]} e da corretora {corretora2} são de: {custos_mensais[1]} ')
+
+    con.commit()
+    con.close()
+```
+Acima o código da função comparativo entre corretoras que utiliza a bibiloteca sqlite3 para conectar o código ao banco local corretoras.db
+</details>
+
+Também fui responsável pela funcionalidade de Conversor de moedas, que utiliza a API currencyConverter que é responsável pela cotação das moedas de distintas nacionalidades e com isso fazer a conversão de moeda para moeda durante o uso da aplicação
+
+<details><summary>Conversor de Moedas</summary>
+
+```
+kotlin
+from currency_converter import CurrencyConverter
+from config import sai_som
+
+def Conversor_Moedas():
+
+    c = CurrencyConverter()
+
+    sai_som('''
+        Para realizar a conversão, use os seguintes códigos:
+    ''')
+    print('''
+        'EUR' - para Euros;
+        'CAD' - para dólar Canadense;
+        'USD' - para dólar americano;
+        'BRL' - para real brasileiro;
+        'GBP' - para libra;
+    ''')
+
+    sai_som('Qual é a moeda do seu valor? ')
+    actually = str(input('')).upper()
+    
+    sai_som('Qual é o seu valor? ')
+    valor = float(input(''))
+    
+    sai_som('Qual é a sua moeda final? ')
+    final = str(input('')).upper()
+    
+    convert = c.convert(valor, actually, final)
+
+    sai_som(f'{valor} {actually} são {convert:.2f} {final}. ')
+```
+Acima, o código de conversor de moedas utilizando outra API para gerar a cotação atual de determinada moeda seleciona pelo usuário, que deseja saber o valor da moeda que o mesmo escolher
+</details>
 
 ### Aprendizados Efetivos HS
 
