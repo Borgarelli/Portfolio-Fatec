@@ -183,8 +183,7 @@ Também fiquei responsável pela função comparativo entre corretoras, onde uti
 
 <details><summary>Comparativo entre corretoras</summary>
 
-```
-kotlin
+```kotlin
 from config import sai_som
 import sqlite3
 con = sqlite3.connect('corretoras.db')
@@ -276,8 +275,7 @@ Também fui responsável pela funcionalidade de Conversor de moedas, que utiliza
 
 <details><summary>Conversor de Moedas</summary>
 
-```
-kotlin
+```kotlin
 from currency_converter import CurrencyConverter
 from config import sai_som
 
