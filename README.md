@@ -131,30 +131,67 @@ A biblioteca é amplamente utilizada em projetos que envolvem integração com s
 
 Clique [aqui](https://developers.google.com/api-client-library/python/start/get_started) para acessar a documentação oficial.
 
+### Sqlite3 [![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+
+O sqlite3 é um módulo da biblioteca padrão do Python que permite acessar e manipular bancos de dados SQLite. O SQLite é um sistema de gerenciamento de banco de dados leve, rápido e simples de usar, ideal para aplicações que não requerem muita escalabilidade ou concorrência. O módulo sqlite3 fornece uma API fácil de usar para criar, modificar e consultar bancos de dados SQLite usando o Python. Ele suporta a maioria dos recursos do SQLite, como chaves primárias, índices, transações e muito mais. Além disso, o SQLite é uma solução popular para armazenar dados locais em aplicativos de desktop e móveis.
+
+Clique [aqui](https://docs.python.org/3/library/sqlite3.html) para acessar a documentação oficial.
+
 ### Contribuições pessoais
 
-Fui responsável pela programação do script que gerenciava a integração do Arduino com o Servo Motor e o módulo bluetooth.
+Durante o desenvolvimento do projeto, tive a responsabilidade de implementar o banco de dados local que seria utilizado pela aplicação, utilizando a biblioteca sqlite3 da linguagem Python. A fim de garantir uma estrutura sólida e coerente, me dediquei à elaboração do esquema de banco de dados e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas de dados relevantes para o projeto.
 
-Por estar focado nesta parte do projeto, pesquisei por diversas plataformas que pudessem construir o protótipo.
-Uma alternativa ao Arduino, a NodeMCU [ver mais](https://nodemcu.readthedocs.io/en/release/), foi estudada e testada para uso. Entretanto, como os requisitos do projeto eram atendidos por uma plataforma de uso mais amplo e conhecido como a Arduino, ela foi escolhida para ser utilizada no projeto.
+Dada a novidade da experiência com o API, grande parte do meu tempo foi dedicado a estudos de conceitos e técnicas relevantes à implementação do banco de dados e outras funcionalidades da aplicação. Como resultado, pude criar uma base sólida para a gestão de dados locais que atendeu aos requisitos e expectativas do projeto que foi essa tabela de corretoras.
 
-O processo de estudo e implementação do código em testes práticos necessitou de consultas à [documentação oficial do Arduino](https://www.arduino.cc/en/main/docs). Em poucas semanas, a implementação foi finalizada, realizando as etapas explicadas nos capítulos anteriores.
+<details><summary>Tabela de Corretoras</summary>
+
+```kotlin
+import sqlite3
+con = sqlite3.connect('corretoras.db')
+cur = con.cursor()
+
+cur.execute('''CREATE TABLE corretoras
+               (cod_corretora int primary key, nome_corretora text, experiencia_investidor text, segurança text, avaliação_final text, custos_mensais_3op real, custos_mensais_5op real, custos_mensais_10op real  )''')
+
+
+cur.execute("INSERT INTO corretoras VALUES (3 , 'XP INVESTIMENTOS CCTVM S/A' , '5 estrelas' , '5 estrelas' , '91%' , 56.70 , 94.50 , 189.00)")
+
+corretoras = [
+(147 , 'ATIVA INVESTIMENTOS S.A. CTCV', '4 estrelas' , '5 estrelas' , '86%' , 45.00 , 75.00 , 150.00),
+(386 , 'RICO INVESTIMENTOS', '4 estrelas' , '5 estrelas' , '86%', 26.70, 44.50 , 89.00),
+(72 , 'BRADESCO S/A CTVM', '4 estrelas' , '5 estrelas' , '85%' , 44.99 , 62.50 , 250.00),
+(735 , 'ICAP DO BRASIL CTVM LTDA', '4 estrelas' , '5 estrelas' , '81%' , 30.00 , 50.00 , 100.00),
+(114 , 'ITAU CV S/A', '4 estrelas', '5 estrelas' , '79%' , 48.00 , 125.00 , 400.00),
+(90 , 'EASYNVEST – TITULO CV S.A.', '4 estrelas' , '5 estrelas' , '75%' , 30.00 , 50.00 , 100.00),
+(262 , 'MIRAE ASSET WEALTH MANAGEMENT', '3 estrelas' , '5 estrelas' , '64%' , 13.75 , 15.73 , 20.68),
+(820 , 'BB BANCO DE INVESTIMENTO S/A', '3 estrelas' , ' 5 estrelas' , '60%' , 60.78 , 103.25 , 213.00),
+(27 , 'SANTANDER CCVM S/A', '3 estrelas' , '5 estrelas' , '60%' , 45.00 , 112.50 , 350.00)
+]
+cur.executemany('INSERT into corretoras VALUES (?,?,?,?,?,?,?,?)', corretoras)
+
+for row in cur.execute('SELECT * FROM corretoras'):
+ print(row)
+
+con.commit()
+
+con.close()
+```
+Acima a tabela corretoras que está armazenando dados de corretoras reais para a nossa aplicação, realizando consultas e novos inserts
+</details>
+
+Também fiquei responsável pelas funções de conversor de moedas e o comparativo entre corretoras, onde utilizei algumas das bibliotecas, como a currency_converter que é responsável pela cotação das moedas que é atualizado diariamente.
 
 ### Aprendizados Efetivos HS
 
-Neste projeto obtive meu primeiro contato com documentações. Esta experiência me ensinou a buscar informações nas fontes primárias, que são as publicações técnicas geralmente realizadas pelos próprios criadores e responsáveis pelas mais diversas tecnologias. Este aprendizado é de grande valia até hoje em minha trajetória acadêmica e profissional.
+Durante o desenvolvimento desse projeto, fui exposto pela primeira vez à importância de se consultar documentações técnicas primárias para obter informações precisas e confiáveis sobre as tecnologias utilizadas. Essa experiência foi fundamental para o meu desenvolvimento profissional e acadêmico, pois aprendi a buscar informações detalhadas diretamente dos criadores e responsáveis pelas tecnologias.
 
-Além disso, o desafio de observar um problema prático e ter como tarefa criar uma solução até então inexistente naquele contexto específico, exercitou habilidades que considero importantes para todo analista e desenvolvedor de software.
+Além disso, enfrentei o desafio de criar uma solução inédita para um problema prático específico, o que me permitiu exercitar habilidades cruciais para qualquer desenvolvedor ou analista de software. Tive a oportunidade de tomar decisões importantes, como escolher a tecnologia e tática mais adequadas para a solução, bem como detalhar a implementação.
 
-Com este desafio, realizei minha primeira decisão de qual tecnologia e tática utilizar em uma solução, e também os detalhes de como implementá-las. Estas decisões são frequentes na carreira de soluções tecnológicas, onde diversas vezes optar pela solução mais eficiente no curto, médio e longo prazo são extremamente necessárias.
+Durante o projeto, fui encarregado de criar um banco de dados local para a aplicação, utilizando a biblioteca sqlite3 da linguagem Python. Dediquei bastante tempo à elaboração do esquema de banco de dados, além da escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas de dados relevantes.
 
-Além disso, consegui distinguir a velocidade de profundidade e velocidade em diferentes métodos de pesquisa e estudo. Diversos tutoriais estão disponíveis ensinando a realizar grande partes das etapas de projetos deste tipo, e estes conteúdos possuem sua importância. Entretanto, a consulta na documentação das tecnologias se mostrou muito mais completa, rápida e confiável do que qualquer fonte terceira. Experiência e aprendizado valiosos até hoje.
+Devido à novidade da experiência com a API, grande parte do meu tempo foi dedicado ao estudo de conceitos e técnicas relevantes para a implementação do banco de dados e outras funcionalidades da aplicação. Esse estudo foi essencial para criar uma base sólida para a gestão de dados locais, que atendeu perfeitamente aos requisitos do projeto.
 
-No mais, temos os pontos específicos abaixo de aprendizados efetivos:
-
-- Integração Bluetooth entre dispositivos e placa Arduino: Sei fazer com autonomia
-- Integração entre placa Arduino e dispositivos periféricos: Sei fazer com autonomia
-- Desenvolvimento de scripts em C: Sei fazer com autonomia
+Além disso, fui responsável pelas funções de conversão de moedas e comparação entre corretoras, utilizando bibliotecas como a currency_converter para a cotação diária das moedas. Aprendi que, apesar de haver diversos tutoriais disponíveis, a consulta à documentação técnica das tecnologias é a melhor forma de obter informações completas, precisas e confiáveis. Tais aprendizados têm sido valiosos até hoje em minha carreira.
 
 # Projeto 2: 2º semestre de 2021
 
@@ -360,7 +397,7 @@ Aqui temos um trecho da nossa aplicação em Java, que é responsável por setar
 
 ### Contribuições pessoais ![Contribuições pessoais](https://img.shields.io/github/commit-activity/y/Borgarelli/SGBD_Health?style=for-the-badge)
 
-Minha função principal no projeto foi liderar a modelagem do banco de dados no PostgreSQL e avaliar a utilização do SQLite para armazenar arquivos CSV. Trabalhei em estreita colaboração com a equipe de desenvolvimento para garantir a integração adequada do banco de dados com a aplicação e o sucesso do projeto.
+Minha função principal no projeto foi realizar a modelagem do banco de dados no PostgreSQL e avaliar a utilização do SQLite para armazenar arquivos CSV. Trabalhei em estreita colaboração com a equipe de desenvolvimento para garantir a integração adequada do banco de dados com a aplicação e o sucesso do projeto.
 
 ### Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
 
