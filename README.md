@@ -609,7 +609,7 @@ Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnol
 
 ## Empresa parceira:
 
-IACIT
+Subiter
 
 <img src="[https://user-images.githubusercontent.com/54003876/142727570-6c418f49-5e00-437c-9d9e-5b27131974bb.png](https://user-images.githubusercontent.com/54003876/142727570-6c418f49-5e00-437c-9d9e-5b27131974bb.png)" height="300"/>
 
