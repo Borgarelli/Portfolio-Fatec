@@ -653,7 +653,7 @@ b) Conhecer as técnicas de modelagem a fim de representar o problema de forma
 conceitual antes de iniciar a implementação.
 
 <details><summary>Conceitual</summary>
-<img width="250" src = "https://user-images.githubusercontent.com/79945984/194174800-ae3951d9-a8af-4029-bd9d-7f703e59b7ad.png"/>
+<img width="500" src = "https://user-images.githubusercontent.com/79945984/234418960-4f84a84c-be4d-4e91-8c00-27f225695577.jpeg"/>
 <p>Trecho de uma modelagem Conceitual, onde a tabela Vendas se conecta com as outras tabelas </p></details>
 
 ### Modelo Lógico ![Modelo lógico](https://img.shields.io/badge/Modelo%20l%C3%B3gico-Implementado-brightgreen?style=for-the-badge)
@@ -667,7 +667,7 @@ conhecimento do tipo de banco de dados no qual o projeto será implementado (rel
 hierárquico, objeto - relacional, entre outros).
 
 <details><summary>Lógico</summary>
-<img width="250" src = "https://user-images.githubusercontent.com/79945984/194174919-d99831d1-0036-489c-90a6-f3b4b8422532.png"/>
+<img width="500" src = "https://user-images.githubusercontent.com/79945984/234419371-2cdbd3ca-a92e-4c33-89c9-de98e13c356e.jpeg"/>
 <p>Trecho de uma modelagem Lógica, onde a tabela Vendas recebe as chaves das outras tabelas </p></details>
 
 ### Modelo Físico
