@@ -611,9 +611,9 @@ Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnol
 
 Subiter
 
-<img src="[https://user-images.githubusercontent.com/54003876/142727570-6c418f49-5e00-437c-9d9e-5b27131974bb.png](https://user-images.githubusercontent.com/54003876/142727570-6c418f49-5e00-437c-9d9e-5b27131974bb.png)" height="300"/>
+<img src="https://user-images.githubusercontent.com/79945984/234428920-7718492b-5552-4f0a-88bc-8fbfdce87773.png" height="300"/>
 
-### *Figura 06. IACIT (Fonte: [https://www.iacit.com.br/](https://www.iacit.com.br/))*
+### *Figura 06 Subiter*
 
 Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IACIT é uma empresa brasileira com sede em São José dos Campos - SP. Com capacitação no desenvolvimento de produtos e sistemas aplicados  para o segmento de navegação aérea, com certificação como Empresa Estratégica de Defesa (EED).
 
