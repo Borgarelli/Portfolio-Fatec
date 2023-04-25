@@ -387,7 +387,7 @@ Clique [aqui](https://www.java.com/pt-BR/download/help/whatis_java.html) para ac
 Durante minha participação no projeto, fui responsável pela modelagem do banco de dados no PostgreSQL e pela avaliação da utilização do SQLite para armazenamento de arquivos CSV. Trabalhei em estreita colaboração com a equipe de desenvolvimento para garantir a integração adequada do banco de dados com a aplicação e o sucesso do projeto. Para garantir a estruturação adequada do banco de dados, dediquei tempo à elaboração do esquema de banco de dados e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas relevantes para o projeto. Além disso, busquei estudar conceitos e técnicas relevantes à implementação do banco de dados e outras funcionalidades da aplicação para garantir uma base sólida na gestão dos dados que atendesse aos requisitos e expectativas do projeto.
 Segue abaixo um trecho da criação da tabela no SQLite:
 
-<details> <summary>Trecho de código em SQlite</summary>
+<details> <summary>Banco criado pelo SQlite</summary>
 
 ```kotlin
 import java.sql.*;
@@ -482,22 +482,6 @@ Suas linhas de código simplificam os scripts interpretados pelo navegador do cl
 
 Clique [aqui](https://jquery.com/) para acessar a documentação oficial.
 
-<details> <summary>Trecho de código em Jquery</summary>
-
-```kotlin
- $(document).ready(function(){
-	// Ações aqui
-});
-
-Veja que neste código, ele executa o código quando o document estiver "ready", ou seja, "pronto".
-$(document).ready(function(){
-	alert("Documento Iniciado");
-});
-
-
-Read more: http://www.linhadecodigo.com.br/artigo/2210/iniciando-em-jquery.aspx#ixzz7mAVxiUF0
-```
-</details>
 
 ### Thymeleaf <a href="https://www.thymeleaf.org" target="_blank">![Thymeleaf](https://img.shields.io/badge/Thymeleaf-darkgreen?style=flat-square&logo=thymeleaf)</a>
 
@@ -513,22 +497,6 @@ arquivo de modelo, gerando um grande aumento de produtividade.
 
 Clique [aqui](https://www.thymeleaf.org/) para acessar a documentação oficial.
 
-<details> <summary>Trecho de código em Thymeleaf</summary>
-
-```kotlin
- @Controller
-public class HomeController {
-
-    @GetMapping("/")
-    public String home(ModelMap model) {
-        model.addAttribute("nomeDoAtributo", "Treinaweb");
-
-        return "home";
-    }
-}
-```
-</details>
-
 ### Spring Boot <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white"/></a>
 
 O Spring Boot é um framework Java open source que tem como objetivo
@@ -541,30 +509,6 @@ foco do Spring em velocidade, simplicidade e produtividade o tornou o
 framework Java mais popular do mundo.
 
 Clique [aqui](https://spring.io/projects/spring-boot) para acessar a documentação oficial.
-
-<details> <summary>Trecho de código em Springboot</summary>
-
-```kotlin
-@RequestMapping("v1/books")
-public class BookRestService {
- 
-    private final BookService bookService;
- 
-    @ResponseStatus(HttpStatus.OK)
-    @RequestMapping(value = "/{id}", method = RequestMethod.GET)
-    public BookResource getById(@PathVariable Integer id) {
-        throw new NotImplementedException();
-    }
- 
-    @ResponseStatus(HttpStatus.CREATED)
-    @RequestMapping(method = RequestMethod.POST)
-    public BookResource save(@RequestBody BookResource bookResource) {
-        throw new NotImplementedException();
-    }
- 
-}
-```
-</details>
 
 ### Bootstrap <a href="https://getbootstrap.com" target="_blank"><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white"/></a><br/>
 
@@ -579,16 +523,6 @@ código para dispositivos móveis primeiro e, então, é que se começa a pensar
 em media queries para aparelhos maiores.
 
 Clique [aqui](https://getbootstrap.com/) para acessar a documentação oficial.
-
-
-<details> <summary>Trecho de código em Bootstrap</summary>
-
-```kotlin
-<pre><code>&lt;p&gt;Trecho de texto aqui...&lt;/p&gt;
-&lt;p&gt;Outro Trecho de texto aqui...&lt;/p&gt;
-</code></pre>
-```
-</details>
 
 ### Maven [![Maven](https://img.shields.io/badge/Maven-%23C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
 
@@ -606,33 +540,6 @@ que trabalhe com projetos Java (outras tecnologias também são suportadas),
 fornecendo aos desenvolvedores uma forma de automatizar e padronizar a construção e publicação de suas aplicações.
 
 Clique [aqui](https://maven.apache.org/) para acessar a documentação original.
-
-<details> <summary>Trecho de código em Maven</summary>
-
-```kotlin
-public class App {
-    public static void main(String[] args) {
-        System.out.println("Hello World!"); 
-    }  
-}
-
-public class AppTest extends TestCase {
-    
-    public AppTest(String testName) {
-        super(testName);  
-    }
-  
-    public static Test suite() {
-        return new TestSuite(AppTest.class);  
-    }
-  
-    public void testApp() {
-        assertTrue(true);  
-    }  
-  
-}
-```
-</details>
 
 ### Contribuições pessoais
 
@@ -654,10 +561,9 @@ conceitual antes de iniciar a implementação.
 
 <details><summary>Conceitual</summary>
 <img width="500" src = "https://user-images.githubusercontent.com/79945984/234418960-4f84a84c-be4d-4e91-8c00-27f225695577.jpeg"/>
-<p>Trecho de uma modelagem Conceitual, onde a tabela Vendas se conecta com as outras tabelas </p></details>
+<p>Nossa modelagem conceitual utilizando o modelo DER, feito no Brmodelo3.0 que abrigas 5 entidades e futuramente sendo convertidas em tabelas no DDL, as seguintes tabelas são Produto, Compra e Promocao, abrigando também relacionamentos que possuem atributos, futuramente sendo convertidos para entidades no modelo lógio</p></details>
 
 ### Modelo Lógico ![Modelo lógico](https://img.shields.io/badge/Modelo%20l%C3%B3gico-Implementado-brightgreen?style=for-the-badge)
-
 
 O modelo lógico é o resultado ou produto da conversão de um modelo conceitual
 para um determinado tipo de banco de dados, ou segundo o professor Carlos Alberto Heuser, “Um modelo lógico é uma
@@ -668,7 +574,7 @@ hierárquico, objeto - relacional, entre outros).
 
 <details><summary>Lógico</summary>
 <img width="500" src = "https://user-images.githubusercontent.com/79945984/234419371-2cdbd3ca-a92e-4c33-89c9-de98e13c356e.jpeg"/>
-<p>Trecho de uma modelagem Lógica, onde a tabela Vendas recebe as chaves das outras tabelas </p></details>
+<p>Nossa modelagem lógica, feita também atravéz do Brmodelo3.0, abrigando as seguintes entidades: Produtom itens_compra, Compra, promocao e itens_promocao, sendo elas resposáveis por guardar todos os dados que o usuário enviar pela aplicação </p></details>
 
 ### Modelo Físico
 
