@@ -608,53 +608,62 @@ Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnol
 # Projeto 4 - 1º semestre de 2021
 
 ## Empresa parceira:
-
 Subiter
 
-<img src="[https://user-images.githubusercontent.com/54003876/142727570-6c418f49-5e00-437c-9d9e-5b27131974bb.png](https://user-images.githubusercontent.com/54003876/142727570-6c418f49-5e00-437c-9d9e-5b27131974bb.png)" height="300"/>
+<img src="https://user-images.githubusercontent.com/74321890/200832569-795e2fa6-0fc6-4b1e-8547-d7b2abf82c0b.jpg" height="300"/>
 
-### *Figura 06. IACIT (Fonte: [https://www.iacit.com.br/](https://www.iacit.com.br/))*
+##### *Figura 06. Subiter*
+<p align="justify">
+A Subiter é uma empresa de base tecnológica especializada em visão infravermelha. Sua missão é ajudar a indústria a alcançar excelência em seus processos produtivos. 
 
-Um importante polo da indústria aeroespacial brasileira, fundada em 1986, a IACIT é uma empresa brasileira com sede em São José dos Campos - SP. Com capacitação no desenvolvimento de produtos e sistemas aplicados  para o segmento de navegação aérea, com certificação como Empresa Estratégica de Defesa (EED).
+Por meio de sistemas inteligentes de inspeção e monitoramento, podemos observar fenômenos que estão além da capacidade dos olhos humanos.
 
 ### Visão do Projeto
+<p align="justify">
+Sistema ERP que visa gerenciar e controlar dados, afim de reduzir custos, facilitar tomadas de decisão, otimizar o tempo de atendimento de chamados e aprimorar o 
+solucionamento destes. É composta por níveis de usuários, onde o administrador terá controle sobre todas as funcionalidades existentes, dentre elas o cadastro, edição 
+e exclusão de outros usuários; o suporte ficará responsável pelo CRUD de falhas e soluções genéricas e CRUD de equipamentos; o cliente trará o problema para o suporte e, este ficará responsável por gerenciar o chamado e resolvê-los.
 
-Desenvolver uma ferramenta capaz de criar, organizar e gerenciar atas de reunião. Com requisitos específicos do cenário da empresa parceira, como a necessidade de gerenciar logs de atualização e criação, exportação das atas em documentos de diferentes formatos, e usabilidade mobile.
+A MCS (Management and Control System) trouxe de uma forma fácil e rápida o mais importante: o mapeamento gráfico de anomalias nas silhuetas.
+  
+<p align="justify">
+O Mapemamento de anomalias consiste em durante ou após uma inspeção, o suporte conseguirá fazer o upload da silhueta e adicionar as falhas (específicas do chamado) 
+encontradas em formas e tamanhos diferentes para uma melhor identificação da posição e tamanho, facilitando na identificação de quantidade e quais materiais serão 
+utilizados para a solução dessas falhas e também no cálculo do orçamento.
 
-O [Typext](https://github.com/Typext) foi desenvolvido para atender a demanda. Este sistema permite a criação, gerenciamento, análise para aprovação/reprovação de atas digitais. Além de funcionalidades extras como exportação do documento em PDF, disponibilização de atas para pessoas não necessariamente cadastradas na ferramentas e diversas outras features.
+Sua interface web facilita a gestão de dados e dá autonomia aos usuários dessa aplicação para que possam atuar com desenvoltura dentro das permissões concedidas. 
 
-<img src="[https://user-images.githubusercontent.com/54003876/142728582-46164603-7014-4451-a431-804153a612bf.png](https://user-images.githubusercontent.com/54003876/142728582-46164603-7014-4451-a431-804153a612bf.png)" height="500"/>
+[<img src="https://github.com/DolphinDatabase/MCS/blob/main/Imagens/MCS_Youtube.png" width="40%">](https://www.youtube.com/watch?v=omSyXxA3AYI&list=PLUOBqJKbljZv85QQ4B3ExV93PQVVf8n2o "MCS vídeo Demonstração")
 
-### *Figura 07. Typext (Fonte: [https://github.com/Typext](https://github.com/Typext))*
+##### *Figura 07. Demonstração MCS*
+
+Link do repositório do projeto: https://github.com/DolphinDatabase/MCS
 
 ## Tecnologias utilizadas:
+<p align="justify">
+Assim como no projeto anterior, a aplicação teve desenvolvimento web, a única diferença foi utilização o framework VueJS para a construção do front-end da aplicação.
+Para a programação das rotas HTTP, os serviços e API do back-end foram feitas em Java.
+  
+Um diferencial do banco de dados, como requisito da FATEC, foi a utilização do OracleCloud.
 
-![https://user-images.githubusercontent.com/54003876/142728799-f87fdad3-06a5-4ff3-9518-5c1f80624bd1.png](https://user-images.githubusercontent.com/54003876/142728799-f87fdad3-06a5-4ff3-9518-5c1f80624bd1.png)
+#### Contribuições pessoais
+<p align="justify">
+Atuando no papel de Scrum Master, fiquei responsável pelo gerenciamento de impedimentos e organização de tarefas, criação de wireframes e documentação do projeto.
 
-### *Figura 08. Tecnologias Typext (Fonte: [https://github.com/Typext](https://github.com/Typext))*
+Neste projeto minha principal responsabilidade no código foi o desenvolvimento das telas no front-end, utilizando a biblioteca Element+ para ícones, tabelas, entre outros e konva para o desenho do mapeamento de anomalias e desenvolvi no back-end algumas rotas HTTP. 
 
-Assim como no projeto anterior, a aplicação front-end foi construída com a biblioteca React.Js.
-Porém, neste projeto houve uma mudança da stack dos serviços e API do back-end. Apenas Node.Js foi utilizado em sua construção, com a linguagem Typescript.
-Assim foram programadas todas as rotas HTTP, conexão com o banco de dados e manutenção do banco para alterações, por meio de migrations.
-A base de dados utilizada foi mantida, utilizando o PostgreSQL.
+Minhas áreas de atuação:
+- Home: front-end
+- CRUD de Usuários: front-end
+- CRUD de Equipamentos: front-end 
+- CRUD Falhas e Soluções genéricas: front-end
+- Orçamento: front-end e back-end
+- Mapeamento gráfico: front-end
 
-### Contribuições pessoais
-
-Desenvolvimento de features e estruturas do backend da ferramenta. O sistema foi construído em TypeScript, com Node.js. No desenvolvimento deste projeto, diversos desafios foram enfrentados e realizados pelo time do backend. Alguns deles citados abaixo:
-
-- Registro de logs personalizados de ações dos usuários;
-- Atualização de registros complexos como a ata;
-- Disponibilização de documentos em diferentes formatos a partir de entidades na nossa ferramenta;
-- Inclusão de tecnologias de empresas parceiras como o calendário, que permitia agendamento de reuniões.
-
-Atuei em todas estas frentes, criando diferentes rotas e serviços para a implementação de várias features do sistema. Minhas principais contruibuições foram a criação e recuperação de logs e atualização dos registros de usuários e atas.
-
-## Aprendizados Efetivos HS
-
-- Desenvolvimento de serviços CRUD: Sei fazer com autonomia; <br/>
-- Desenvolvimento utilizando Typescript: Sei fazer com autonomia; <br/>
-- Utilização de ORM's com banco relacional: Sei fazer com autonomia; <br/>
-
+## Aprendizados Efetivos
+- Desenvolvimento de serviços CRUD: sei fazer com autonomia.
+- Desenvolvimento utilizando VueJS: sei fazer com autonomia.
+- Utilização de OracleCloud: sei fazer com autonomia.
 # Projeto 5 - 2º semestre de 2021
 
 ## Empresa parceira:
