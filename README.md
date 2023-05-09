@@ -605,9 +605,9 @@ Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnol
 - Modelagem completa para armazenar todos os dados oferecidos e requisitados pelo usuário e pela aplicação: sei fazer com autonomia
 <br/>
 
-# Projeto 4 - 1º semestre de 2021
+# Projeto 4 - 2º semestre de 2022
 
-## Empresa parceira:
+### Empresa parceira:
 Subiter
 
 <img src="https://user-images.githubusercontent.com/79945984/234428920-7718492b-5552-4f0a-88bc-8fbfdce87773.png" height="300"/>
@@ -632,7 +632,7 @@ Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](htt
 
 [<img src="https://github.com/DolphinDatabase/MCS/blob/main/Imagens/MCS_Youtube.png" width="40%">](https://www.youtube.com/watch?v=omSyXxA3AYI&list=PLUOBqJKbljZv85QQ4B3ExV93PQVVf8n2o "MCS vídeo Demonstração")
 
-## *Figura 07. Demonstração MCS*
+### *Figura 07. Demonstração MCS*
 
 Link do repositório do projeto: https://github.com/DolphinDatabase/MCS
 
@@ -641,24 +641,24 @@ Link do repositório do projeto: https://github.com/DolphinDatabase/MCS
 ### Vue [![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
 Vue.js é um framework JavaScript de código aberto para a criação de interfaces de usuário reativas e eficientes. Com uma sintaxe intuitiva e uma curva de aprendizado suave, o Vue.js facilita a construção de interfaces modulares e reutilizáveis. Ele oferece um sistema de reatividade que atualiza automaticamente a interface quando os dados mudam. O Vue.js pode ser facilmente integrado a projetos existentes e é conhecido por sua flexibilidade e capacidade de escala. É uma escolha popular para o desenvolvimento de aplicações web modernas.
 
-Para acessar a documentação oficial, clique [aqui](https://vuejs.org/)
+Clique [aqui](https://vuejs.org/), para acessar a documentação oficial.
 
 ### Element Plus [![Element Plus](https://img.shields.io/badge/Element_Plus-%231eaf7a.svg?style=for-the-badge&logo=vue.js&logoColor=white)](https://element-plus.org/)
 O Element Plus é uma biblioteca de componentes Vue.js que oferece uma solução elegante e completa para a criação de interfaces de usuário modernas e responsivas. Com um amplo conjunto de componentes prontos para uso, o Element Plus permite aos desenvolvedores agilizar o processo de desenvolvimento, fornecendo elementos visuais consistentes e interativos. Sua documentação abrangente e fácil de seguir torna a curva de aprendizado suave, permitindo que os desenvolvedores aproveitem ao máximo essa poderosa biblioteca. Com sua integração perfeita com o Vue.js, o Element Plus é uma escolha popular para projetos que buscam uma experiência de desenvolvimento eficiente e resultados de alta qualidade.
 
-Para acessar a documentaçãp oficial, clique [aqui](https://element-plus.org/)
+Clique [aqui](https://element-plus.org/), para acessar a documentação oficial.
 
 ### Spring Boot [![Spring Boot](https://img.shields.io/badge/Spring_Boot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/projects/spring-boot)
 O Spring Boot é um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Trazendo mais agilidade para o processo
 de desenvolvimento com uma infinidade de ferramentas surge todos os dias visando justamente acelerar o processo de criação e implantação de soluções nos mais variados ambientes.
 O Spring torna a programação Java mais rápida, fácil e segura para todos. O foco do Spring em velocidade, simplicidade e produtividade o tornou o framework Java mais popular do mundo.
 
-Para acessar a documentação oficial, clique [aqui](https://spring.io/projects/spring-boot)
+Clique [aqui](https://spring.io/projects/spring-boot), para acessar a documentação oficial.
 
 #### Contribuições pessoais
 Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenvolvimento do front-end da aplicação e no banco de dados. Minhas responsabilidades incluíram a criação do modelo DER do banco de dados e a geração do DDL correspondente. Utilizamos a plataforma Oracle Cloud para armazenar os dados em nuvem. Além disso, fui responsável pelo desenvolvimento da tela de login e pela implementação dos modais gerais da aplicação. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva aos usuários, ao mesmo tempo em que garantia a correta persistência dos dados necessários para o funcionamento adequado do sistema. Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e adquirir experiência prática em tecnologias relevantes para a indústria da tecnologia da informação.
 
-## Aprendizados Efetivos
+### Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
 - Desenvolvimento de serviços CRUD: sei fazer com autonomia.
 - Desenvolvimento utilizando VueJS: sei fazer com autonomia.
 - Utilização de OracleCloud: sei fazer com autonomia.
