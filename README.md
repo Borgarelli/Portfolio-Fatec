@@ -656,7 +656,153 @@ O Spring torna a programação Java mais rápida, fácil e segura para todos. O 
 Clique [aqui](https://spring.io/projects/spring-boot), para acessar a documentação oficial.
 
 #### Contribuições pessoais
-Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenvolvimento do front-end da aplicação e no banco de dados. Minhas responsabilidades incluíram a criação do modelo DER do banco de dados e a geração do DDL correspondente. Utilizamos a plataforma Oracle Cloud para armazenar os dados em nuvem. Além disso, fui responsável pelo desenvolvimento da tela de login e pela implementação dos modais gerais da aplicação. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva aos usuários, ao mesmo tempo em que garantia a correta persistência dos dados necessários para o funcionamento adequado do sistema. Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e adquirir experiência prática em tecnologias relevantes para a indústria da tecnologia da informação.
+Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenvolvimento do front-end da aplicação e no banco de dados. Minhas responsabilidades incluíram a criação do modelo DER do banco de dados e a geração do DDL correspondente, e também a criação de gráficos atráves do Charts do google. Utilizamos a plataforma Oracle Cloud para armazenar os dados em nuvem. Além disso, fui responsável pelo desenvolvimento da tela de login e pela implementação dos modais gerais da aplicação. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva aos usuários, ao mesmo tempo em que garantia a correta persistência dos dados necessários para o funcionamento adequado do sistema. Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e adquirir experiência prática em tecnologias relevantes para a indústria da tecnologia da informação.
+
+### Tela Login
+<details><summary>Tela Login</summary>
+
+```kotlin
+<template>
+  <div id="page">
+    <div id="loginBackgorund">
+      <div>
+        <img src="../assets/Logo.svg">
+        <p style="margin-top: auto;">da Subiter.</p>
+      </div>
+      <div>
+        <p>Bem-vindo</p>
+        <p>De volta!</p>
+      </div>
+      <div>
+        <p>Alcance o invisível, Subiter</p>
+      </div>
+    </div>
+    <div id="loginMain">
+      <div id="loginContent">
+        <section id="welcome">
+          <h1>Login</h1>
+          <div>
+            <img src="../assets/Icons/Info.svg" style="width: 12px; margin:1px 7px;"/>
+            <span>
+              <p>Olá, amigo! Por favor entre no</p>
+              <p>Sistema de Gerenciamento de Controle.</p>
+            </span>
+          </div>
+        </section>
+        <LoginForm/>
+      </div>
+    </div>
+  </div>
+</template>
+ 
+<script> 
+import LoginForm from '../components/form/LoginForm.vue'
+export default {
+  name:"Login",
+  components:{
+    LoginForm
+  }
+}
+</script> 
+```
+Uma breve visualização da tela de Login feita no Vuejs com elementos da biblioteca Element Plus
+</details>
+
+<details><summary>Gráficos</summary>
+
+```kotlin
+<template> 
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'/> 
+  <BasePage>
+    <Title title="Dashboard"/>
+    <div class="cards">
+      <el-card class="card"> 
+        <section id="top-card">
+          <div>
+            <h1>Olá!</h1>
+            <p>Este é o seu Dashboard, aqui você tem acesso aos principais indicadores de
+            desempenho que são relevantes para o seu dia a dia no MCS.</p>
+          </div>
+          <img src="../assets/Home_Img.svg" style="width: 300px;"/>
+        </section>
+      </el-card>
+      <div id="charts">
+        <el-card class="card">
+          <h3>Quantidade de chamados</h3>
+          <GChart
+            type="PieChart"
+            :data="this.chamadosChart.data"
+            :options="this.chamadosChart.options"
+            v-if="this.chamadosChart.total>0"
+          />
+          <p>Total de {{this.chamadosChart.total}} chamados</p>
+        </el-card>
+        <el-card class="card">
+          <h3>Linha do tempo</h3>
+          <el-select v-model="this.monthChart.year" placeholder="Select">
+            <el-option
+              v-for="(item,index) in this.monthChart.data"
+              :key="index"
+              :label="index"
+              :value="index"
+            />
+          </el-select>
+          <GChart
+            type="LineChart"
+            :data="this.monthChart.data[this.monthChart.year]"
+          />
+        </el-card>
+      </div>
+  </div>
+  </BasePage>
+</template>
+<script>
+  import BasePage from '../components/layout/BasePage.vue'
+  import Title from '../components/content/Title.vue'
+  import {ElCard} from 'element-plus'
+  import CardList from '../components/content/CardList.vue'
+  import {GChart} from 'vue-google-charts'
+  export default{
+    name:"Dashboard",
+    components:{
+      BasePage,
+      Title,
+      ElCard,
+      CardList,
+      GChart
+    },
+    data(){
+      return{
+        chamadosChart:{
+          data:null,
+          options:{
+            slices: {
+              0: { color: '#F56C6C' },
+              1: { color: '#E6A23C' },
+              2: { color: '#67C23A' }
+            }
+          },
+          total:0
+        },
+        monthChart:{
+          data:{},
+          year:null
+        }
+      }
+    },
+    async created(){
+      await this.$store.dispatch("listChamados")
+      this.chamadosChart.data = this.$store.getters.getChamadoChartData
+      this.monthChart.data = this.$store.getters.getMonthChartData
+      this.monthChart.year = new Date().getFullYear()
+      console.log(this.monthChart.data)
+      this.chamadosChart.total = (this.chamadosChart.data[1][1]+this.chamadosChart.data[2][1]+this.chamadosChart.data[3][1]) 
+    }
+  };
+</script>
+```
+Acima o trecho do código da criação dos gráficos, foram feitos utilizando uma API do próprio Google para sincronizar com os dados do usuário Cliente logado na aplicação
+</details>
 
 ### Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
 - Desenvolvimento de serviços CRUD: sei fazer com autonomia.
