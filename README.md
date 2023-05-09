@@ -610,60 +610,61 @@ Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnol
 ## Empresa parceira:
 Subiter
 
-<img src="https://user-images.githubusercontent.com/74321890/200832569-795e2fa6-0fc6-4b1e-8547-d7b2abf82c0b.jpg" height="300"/>
+<img src="https://user-images.githubusercontent.com/79945984/234428920-7718492b-5552-4f0a-88bc-8fbfdce87773.png" height="300"/>
 
-##### *Figura 06. Subiter*
-<p align="justify">
-A Subiter é uma empresa de base tecnológica especializada em visão infravermelha. Sua missão é ajudar a indústria a alcançar excelência em seus processos produtivos. 
-
-Por meio de sistemas inteligentes de inspeção e monitoramento, podemos observar fenômenos que estão além da capacidade dos olhos humanos.
+### *Figura 06. Subiter*
 
 ### Visão do Projeto
-<p align="justify">
+
 Sistema ERP que visa gerenciar e controlar dados, afim de reduzir custos, facilitar tomadas de decisão, otimizar o tempo de atendimento de chamados e aprimorar o 
 solucionamento destes. É composta por níveis de usuários, onde o administrador terá controle sobre todas as funcionalidades existentes, dentre elas o cadastro, edição 
 e exclusão de outros usuários; o suporte ficará responsável pelo CRUD de falhas e soluções genéricas e CRUD de equipamentos; o cliente trará o problema para o suporte e, este ficará responsável por gerenciar o chamado e resolvê-los.
 
 A MCS (Management and Control System) trouxe de uma forma fácil e rápida o mais importante: o mapeamento gráfico de anomalias nas silhuetas.
   
-<p align="justify">
 O Mapemamento de anomalias consiste em durante ou após uma inspeção, o suporte conseguirá fazer o upload da silhueta e adicionar as falhas (específicas do chamado) 
 encontradas em formas e tamanhos diferentes para uma melhor identificação da posição e tamanho, facilitando na identificação de quantidade e quais materiais serão 
 utilizados para a solução dessas falhas e também no cálculo do orçamento.
 
 Sua interface web facilita a gestão de dados e dá autonomia aos usuários dessa aplicação para que possam atuar com desenvoltura dentro das permissões concedidas. 
 
+Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](https://www.youtube.com/watch?v=omSyXxA3AYI&list=PLUOBqJKbljZv85QQ4B3ExV93PQVVf8n2o)
+
 [<img src="https://github.com/DolphinDatabase/MCS/blob/main/Imagens/MCS_Youtube.png" width="40%">](https://www.youtube.com/watch?v=omSyXxA3AYI&list=PLUOBqJKbljZv85QQ4B3ExV93PQVVf8n2o "MCS vídeo Demonstração")
 
-##### *Figura 07. Demonstração MCS*
+## *Figura 07. Demonstração MCS*
 
 Link do repositório do projeto: https://github.com/DolphinDatabase/MCS
 
-## Tecnologias utilizadas:
-<p align="justify">
-Assim como no projeto anterior, a aplicação teve desenvolvimento web, a única diferença foi utilização o framework VueJS para a construção do front-end da aplicação.
-Para a programação das rotas HTTP, os serviços e API do back-end foram feitas em Java.
-  
-Um diferencial do banco de dados, como requisito da FATEC, foi a utilização do OracleCloud.
+## Tecnologias utilizadas para a aplicação:
+
+### Vue [![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
+Vue.js é um framework JavaScript de código aberto para a criação de interfaces de usuário reativas e eficientes. Com uma sintaxe intuitiva e uma curva de aprendizado suave, o Vue.js facilita a construção de interfaces modulares e reutilizáveis. Ele oferece um sistema de reatividade que atualiza automaticamente a interface quando os dados mudam. O Vue.js pode ser facilmente integrado a projetos existentes e é conhecido por sua flexibilidade e capacidade de escala. É uma escolha popular para o desenvolvimento de aplicações web modernas.
+
+Para acessar a documentação oficial, clique [aqui](https://vuejs.org/)
+
+### Element Plus [![Element Plus](https://img.shields.io/badge/Element_Plus-%231eaf7a.svg?style=for-the-badge&logo=vue.js&logoColor=white)](https://element-plus.org/)
+O Element Plus é uma biblioteca de componentes Vue.js que oferece uma solução elegante e completa para a criação de interfaces de usuário modernas e responsivas. Com um amplo conjunto de componentes prontos para uso, o Element Plus permite aos desenvolvedores agilizar o processo de desenvolvimento, fornecendo elementos visuais consistentes e interativos. Sua documentação abrangente e fácil de seguir torna a curva de aprendizado suave, permitindo que os desenvolvedores aproveitem ao máximo essa poderosa biblioteca. Com sua integração perfeita com o Vue.js, o Element Plus é uma escolha popular para projetos que buscam uma experiência de desenvolvimento eficiente e resultados de alta qualidade.
+
+Para acessar a documentaçãp oficial, clique [aqui](https://element-plus.org/)
+
+### Spring Boot [![Spring Boot](https://img.shields.io/badge/Spring_Boot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/projects/spring-boot)
+O Spring Boot é um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Trazendo mais agilidade para o processo
+de desenvolvimento com uma infinidade de ferramentas surge todos os dias visando justamente acelerar o processo de criação e implantação de soluções nos mais variados ambientes.
+O Spring torna a programação Java mais rápida, fácil e segura para todos. O foco do Spring em velocidade, simplicidade e produtividade o tornou o framework Java mais popular do mundo.
+
+Para acessar a documentação oficial, clique [aqui](https://spring.io/projects/spring-boot)
 
 #### Contribuições pessoais
-<p align="justify">
-Atuando no papel de Scrum Master, fiquei responsável pelo gerenciamento de impedimentos e organização de tarefas, criação de wireframes e documentação do projeto.
-
-Neste projeto minha principal responsabilidade no código foi o desenvolvimento das telas no front-end, utilizando a biblioteca Element+ para ícones, tabelas, entre outros e konva para o desenho do mapeamento de anomalias e desenvolvi no back-end algumas rotas HTTP. 
-
-Minhas áreas de atuação:
-- Home: front-end
-- CRUD de Usuários: front-end
-- CRUD de Equipamentos: front-end 
-- CRUD Falhas e Soluções genéricas: front-end
-- Orçamento: front-end e back-end
-- Mapeamento gráfico: front-end
+Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenvolvimento do front-end da aplicação e no banco de dados. Minhas responsabilidades incluíram a criação do modelo DER do banco de dados e a geração do DDL correspondente. Utilizamos a plataforma Oracle Cloud para armazenar os dados em nuvem. Além disso, fui responsável pelo desenvolvimento da tela de login e pela implementação dos modais gerais da aplicação. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva aos usuários, ao mesmo tempo em que garantia a correta persistência dos dados necessários para o funcionamento adequado do sistema. Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e adquirir experiência prática em tecnologias relevantes para a indústria da tecnologia da informação.
 
 ## Aprendizados Efetivos
 - Desenvolvimento de serviços CRUD: sei fazer com autonomia.
 - Desenvolvimento utilizando VueJS: sei fazer com autonomia.
 - Utilização de OracleCloud: sei fazer com autonomia.
+- Desenvolvimento de Modais: sei fazer com autonomia.
+- Estilização com Element Plus: sei fazer com autonomia.
+
 # Projeto 5 - 2º semestre de 2021
 
 ## Empresa parceira:
