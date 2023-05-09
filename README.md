@@ -610,11 +610,17 @@ Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnol
 ## Empresa parceira:
 Subiter
 
+<<<<<<< HEAD
 <img src="https://user-images.githubusercontent.com/74321890/200832569-795e2fa6-0fc6-4b1e-8547-d7b2abf82c0b.jpg" height="300"/>
 
 ##### *Figura 06. Subiter*
 <p align="justify">
 A Subiter é uma empresa de base tecnológica especializada em visão infravermelha. Sua missão é ajudar a indústria a alcançar excelência em seus processos produtivos. 
+=======
+<img src="https://user-images.githubusercontent.com/79945984/234428920-7718492b-5552-4f0a-88bc-8fbfdce87773.png" height="300"/>
+
+### *Figura 06 Subiter*
+>>>>>>> 8e64b8959e6efa1b75f6636ef5e53b95d4ecc336
 
 Por meio de sistemas inteligentes de inspeção e monitoramento, podemos observar fenômenos que estão além da capacidade dos olhos humanos.
 
