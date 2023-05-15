@@ -290,7 +290,7 @@ Além disso, enfrentei o desafio de criar uma solução inédita para um problem
 
 Durante o projeto, fui encarregado de criar um banco de dados local para a aplicação, utilizando a biblioteca sqlite3 da linguagem Python. Dediquei bastante tempo à elaboração do esquema de banco de dados, além da escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas de dados relevantes.
 
-Devido à novidade da experiência com a API, grande parte do meu tempo foi dedicado ao estudo de conceitos e técnicas relevantes para a implementação do banco de dados e outras funcionalidades da aplicação. Esse estudo foi essencial para criar uma base sólida para a gestão de dados locais, que atendeu perfeitamente aos requisitos do projeto.
+Devido à novidade que foi a experiência que o API pode proporcionar, grande parte do meu tempo foi dedicado ao estudo de conceitos e técnicas relevantes para a implementação do banco de dados e outras funcionalidades da aplicação. Esse estudo foi essencial para criar uma base sólida para a gestão de dados locais, que atendeu perfeitamente aos requisitos do projeto.
 
 Além disso, fui responsável pelas funções de conversão de moedas e comparação entre corretoras, utilizando bibliotecas como a currency_converter para a cotação diária das moedas. Aprendi que, apesar de haver diversos tutoriais disponíveis, a consulta à documentação técnica das tecnologias é a melhor forma de obter informações completas, precisas e confiáveis. Tais aprendizados têm sido valiosos até hoje em minha carreira.
 
