@@ -313,46 +313,8 @@ Link do repositório do projeto: [https://github.com/DolphinDatabase/SGBD_Health
 PostgreSQL é um sistema gerenciador de banco de dados objeto-relacional baseado no POSTGRES, Versão 4.2, desenvolvido na Universidade da Califórnia no Departamento de Ciências da Computação em Berkeley, o qual foi pioneiro em muitos conceitos que vieram a estar disponíveis em alguns bancos de dados comerciais mais tarde. O PostgreSQL é um banco de dados objeto-relacional (sem relação com linguagens de programação orientadas a objetos), em que cada coisa criada é tratada como um objeto, tais como bancos de dados, tabelas, views, triggers, etc.
 
 Clique [aqui](https://www.postgresql.org/about/) para acessar a documentação oficial.
-
-<details> <summary>Trecho de código no Postgres</summary>
-
-```kotlin
-import java.io.FileNotFoundException;
-import java.io.IOException;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
-import java.sql.Statement;
-import java.util.Scanner;
-
-try {
-	String conexaoBancoDaApalicacao = setar.setarValor(valor);
-	Class.forName("org.sqlite.JDBC");//"jdbc:sqlite:C:\\Users\\José Maria\\git\\SGBD_Health\\apibanco.bd"
-	conn = DriverManager.getConnection(conexaoBancoDaApalicacao);
-		//System.out.println("Opened database successfully");
-
-			PreparedStatement pstmt = conn.prepareStatement(
-				"INSERT INTO SER_SERVIDOR (SER_ID, SER_CONNECTION, SER_USER,  SER_PASS)  values (?,?,?,?)");
-					pstmt.setString(1, id);
-					pstmt.setString(2, connection);
-					pstmt.setString(3, user);
-					pstmt.setString(4, pass);
-
-					pstmt.execute();
-					conn.close();
-
-						 catch (Exception e) {
-							System.err.println(e.getClass().getName() + ": " + e.getMessage());
-							System.exit(0);
-						}
-    }
-```
-Aqui um trecho da conexão com o Postgres, o sgbd que foi proposto pelo cliente para ser usado como base do nosso projeto, para fazer a conexão foram utilizados esses parâmetros encontrados no código acima, para mais informções acesse a nossa aplicação 
-</details>
 	
 ## SQlite <a>[![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)</a>
-
 
 SQLite é um sistema de gerenciamento de banco de dados relacional leve, embutido e amplamente utilizado em aplicativos móveis, navegadores da web e outros softwares que precisam armazenar dados localmente. Ele é uma biblioteca escrita em C que oferece recursos avançados de gerenciamento de banco de dados, como transações ACID, integridade referencial e indexação avançada, tornando-o uma escolha popular para desenvolvedores que precisam de uma solução de banco de dados confiável e fácil de usar
 
@@ -360,8 +322,6 @@ Clique [aqui](https://www.sqlite.org/about.html) para acessar a documentação o
 
 ## Java [![Java](https://img.shields.io/badge/Java-%23ED8B00?style=for-the-badge&logo=java&logoColor=white&labelColor=%23ED8B00)](https://www.java.com/)
 
-
-<p align="justify">
 Java é uma linguagem de programação de alto nível, orientada a objetos e multiplataforma lançada em 1995 pela Sun Microsystems (agora Oracle). Ela é amplamente usada para desenvolver aplicativos, jogos, sistemas de gerenciamento de banco de dados, aplicativos da web e muito mais. Java é portátil, seguro, escalável e capaz de lidar com aplicativos complexos, com suporte de uma grande comunidade de desenvolvedores em todo o mundo.
 
 Clique [aqui](https://www.java.com/pt-BR/download/help/whatis_java.html) para acessar a documentação oficial.
