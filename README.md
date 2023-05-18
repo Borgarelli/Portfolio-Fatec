@@ -434,6 +434,11 @@ de páginas HTML. Permitindo a troca de informações entre o código Java e as 
 HTML, de tal maneira garantindo que o desenvolvedor consiga criar templates de
 forma mais simples e de uma maneira mais agilizada para suas aplicações.
 
+Ele permite modelagem natural, pode fazer processamento complexo e nos
+permite definir facilmente dialetos personalizados. Além disso, o Thymeleaf
+facilita a colaboração de desenvolvedores front-end e back-end no mesmo
+arquivo de modelo, gerando um grande aumento de produtividade.
+
 Clique [aqui](https://www.thymeleaf.org/) para acessar a documentação oficial.
 
 ### Spring Boot <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white"/></a>
@@ -459,7 +464,7 @@ Clique [aqui](https://getbootstrap.com/) para acessar a documentação oficial.
 
 O Apache Maven é uma ferramenta que oferece automação e gerenciamento
 de projetos Java (mas podem ser utilizada com outras linguagens), padronizando a
-construção e publicação de suas aplicações.
+construção e publicação de suas aplicações. Por ser extremamente flexível agrega agilidade e qualidade ao produto, além de permitir que sejam adicionados plugins a si e estender suas funcionalidades.
 
 Clique [aqui](https://maven.apache.org/) para acessar a documentação original.
 
@@ -561,7 +566,8 @@ Link do repositório do projeto: https://github.com/DolphinDatabase/MCS
 ## Tecnologias utilizadas para a aplicação:
 
 ### Vue [![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
-Vue.js é um framework JavaScript de código aberto para a criação de interfaces de usuário reativas e eficientes. Com uma sintaxe intuitiva e uma curva de aprendizado suave, o Vue.js facilita a construção de interfaces modulares e reutilizáveis. Ele oferece um sistema de reatividade que atualiza automaticamente a interface quando os dados mudam. O Vue.js pode ser facilmente integrado a projetos existentes e é conhecido por sua flexibilidade e capacidade de escala. É uma escolha popular para o desenvolvimento de aplicações web modernas.
+
+Vue.js é um framework JavaScript de código aberto para a criação de interfaces de usuário reativas e eficientes. Com uma sintaxe intuitiva e uma curva de aprendizado suave, o Vue.js facilita a construção de interfaces modulares e reutilizáveis.
 
 Clique [aqui](https://vuejs.org/), para acessar a documentação oficial.
 
