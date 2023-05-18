@@ -434,11 +434,6 @@ de páginas HTML. Permitindo a troca de informações entre o código Java e as 
 HTML, de tal maneira garantindo que o desenvolvedor consiga criar templates de
 forma mais simples e de uma maneira mais agilizada para suas aplicações.
 
-Ele permite modelagem natural, pode fazer processamento complexo e nos
-permite definir facilmente dialetos personalizados. Além disso, o Thymeleaf
-facilita a colaboração de desenvolvedores front-end e back-end no mesmo
-arquivo de modelo, gerando um grande aumento de produtividade.
-
 Clique [aqui](https://www.thymeleaf.org/) para acessar a documentação oficial.
 
 ### Spring Boot <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white"/></a>
@@ -448,9 +443,6 @@ facilitar esse processo em aplicações Java. Trazendo mais agilidade para o pro
 de desenvolvimento com uma infinidade de ferramentas surge todos os dias visando
 justamente acelerar o processo de criação e implantação de soluções nos mais
 variados ambientes.
-O Spring torna a programação Java mais rápida, fácil e segura para todos. O
-foco do Spring em velocidade, simplicidade e produtividade o tornou o
-framework Java mais popular do mundo.
 
 Clique [aqui](https://spring.io/projects/spring-boot) para acessar a documentação oficial.
 
@@ -461,27 +453,13 @@ trabalho, oferecendo padrões para HTML, JavaScript e CSS de acordo com o site
 CiaWebsites. Foi desenvolvido por Jacob Thorton e Mark Otto com o objetivo de
 facilitar a programação de um site web e otimizar tempo.
 
-Este fornece uma grande variedade de plugins e é compatível com qualquer linguagem de programação, o que facilita para os desenvolvedores de site. É aplicado na criação de sites responsivos (mobile).
-Bootstrap tem uma abordagem mobile first, uma estratégia que otimiza o
-código para dispositivos móveis primeiro e, então, é que se começa a pensar
-em media queries para aparelhos maiores.
-
 Clique [aqui](https://getbootstrap.com/) para acessar a documentação oficial.
 
 ### Maven [![Maven](https://img.shields.io/badge/Maven-%23C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
 
-
 O Apache Maven é uma ferramenta que oferece automação e gerenciamento
 de projetos Java (mas podem ser utilizada com outras linguagens), padronizando a
 construção e publicação de suas aplicações.
-
-Por ser extremamente flexível agrega agilidade e qualidade ao produto, além de permitir que sejam adicionados plugins a si e estender suas funcionalidades. Normalmente, até algum tempo atrás, cada projeto tinha sua própria estrutura, seu próprio jeito de gerar pacotes, de efetuar cada um
-destes passos. Projetos complexos, com vários módulos, ainda podem precisar que
-estes sejam compilados em determinada ordem, para que o pacote final seja criado.
-
-O Apache Maven é uma excelente ferramenta de apoio a qualquer equipe
-que trabalhe com projetos Java (outras tecnologias também são suportadas),
-fornecendo aos desenvolvedores uma forma de automatizar e padronizar a construção e publicação de suas aplicações.
 
 Clique [aqui](https://maven.apache.org/) para acessar a documentação original.
 
@@ -588,14 +566,14 @@ Vue.js é um framework JavaScript de código aberto para a criação de interfac
 Clique [aqui](https://vuejs.org/), para acessar a documentação oficial.
 
 ### Element Plus [![Element Plus](https://img.shields.io/badge/Element_Plus-%231eaf7a.svg?style=for-the-badge&logo=vue.js&logoColor=white)](https://element-plus.org/)
-O Element Plus é uma biblioteca de componentes Vue.js que oferece uma solução elegante e completa para a criação de interfaces de usuário modernas e responsivas. Com um amplo conjunto de componentes prontos para uso, o Element Plus permite aos desenvolvedores agilizar o processo de desenvolvimento, fornecendo elementos visuais consistentes e interativos. Sua documentação abrangente e fácil de seguir torna a curva de aprendizado suave, permitindo que os desenvolvedores aproveitem ao máximo essa poderosa biblioteca. Com sua integração perfeita com o Vue.js, o Element Plus é uma escolha popular para projetos que buscam uma experiência de desenvolvimento eficiente e resultados de alta qualidade.
+
+O Element Plus é uma biblioteca de componentes Vue.js que oferece uma solução elegante e completa para a criação de interfaces de usuário modernas e responsivas. Com um amplo conjunto de componentes prontos para uso, o Element Plus permite aos desenvolvedores agilizar o processo de desenvolvimento, fornecendo elementos visuais consistentes e interativos.
 
 Clique [aqui](https://element-plus.org/), para acessar a documentação oficial.
 
 ### Spring Boot [![Spring Boot](https://img.shields.io/badge/Spring_Boot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/projects/spring-boot)
-O Spring Boot é um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Trazendo mais agilidade para o processo
-de desenvolvimento com uma infinidade de ferramentas surge todos os dias visando justamente acelerar o processo de criação e implantação de soluções nos mais variados ambientes.
-O Spring torna a programação Java mais rápida, fácil e segura para todos. O foco do Spring em velocidade, simplicidade e produtividade o tornou o framework Java mais popular do mundo.
+
+O Spring Boot é um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Trazendo mais agilidade para o processo de desenvolvimento com uma infinidade de ferramentas surge todos os dias visando justamente acelerar o processo de criação e implantação de soluções nos mais variados ambientes.
 
 Clique [aqui](https://spring.io/projects/spring-boot), para acessar a documentação oficial.
 
