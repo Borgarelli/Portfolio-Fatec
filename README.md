@@ -39,6 +39,7 @@ Fatec Prof. Jessen Vidal (proposta realizada pelo docente responsável pela disc
 
 ### Visão do Projeto
 
+<p align="justify">
 Uma assistente virtual que possua uma ampla gama de funcionalidades é uma tarefa desafiadora que exige conhecimentos técnicos avançados. Nesse contexto, apresentamos o Julius, uma API que consiste em uma assistente virtual especializada em auxiliar o usuário na tomada de decisões relacionadas a investimentos financeiros. Com oito funcionalidades diferentes, o Julius se destaca por fornecer informações em tempo real, garantindo ao usuário uma experiência interativa e eficiente.
 
 Entre as funcionalidades oferecidas pelo Julius, destacam-se o código de ações, que permite ao usuário acompanhar o desempenho das ações de empresas listadas em bolsa; a cotação do dia, que apresenta informações atualizadas sobre os valores de moedas e criptomoedas; e o conversor de moedas, que possibilita ao usuário converter valores entre diferentes moedas.
@@ -46,7 +47,7 @@ Entre as funcionalidades oferecidas pelo Julius, destacam-se o código de açõe
 Além disso, o Julius possui outras funcionalidades relevantes, como a possibilidade de consultar a agenda econômica, que apresenta eventos relevantes para o mercado financeiro nacional; a disponibilidade de um chatbot que responde às principais dúvidas dos usuários; e a integração com outras ferramentas, como o Google Sheets e o Excel, que permitem ao usuário gerar relatórios e análises financeiras mais completas.
 
 Por meio dessas funcionalidades, o Julius se diferencia por oferecer informações em tempo real, entregando aos usuários as últimas notícias e informações relevantes para a tomada de decisões financeiras. Além disso, o Julius traz o que há de mais inovador no mercado financeiro nacional, oferecendo uma experiência única e completa para os usuários que buscam acompanhar e investir no mercado financeiro.
-
+</p>
 Segue abaixo um video revelando o funcionamento do projeto:
 
 [<img src="https://user-images.githubusercontent.com/79945984/231305890-33255901-7287-40bd-8260-71b93e657ad8.png" widrh="35%" height="10%">](https://www.youtube.com/watch?v=oyqu1XqaPPE "Julius vídeo Demonstração")
@@ -314,7 +315,7 @@ PostgreSQL é um sistema gerenciador de banco de dados objeto-relacional baseado
 
 Clique [aqui](https://www.postgresql.org/about/) para acessar a documentação oficial.
 	
-## SQlite <a>[![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)</a>
+## SQlite [![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 
 SQLite é um sistema de gerenciamento de banco de dados relacional leve, embutido e amplamente utilizado em aplicativos móveis, navegadores da web e outros softwares que precisam armazenar dados localmente. Ele é uma biblioteca escrita em C que oferece recursos avançados de gerenciamento de banco de dados, como transações ACID, integridade referencial e indexação avançada, tornando-o uma escolha popular para desenvolvedores que precisam de uma solução de banco de dados confiável e fácil de usar
 
@@ -412,9 +413,9 @@ Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](htt
 
 [<img src="https://github.com/DolphinDatabase/DescontOn/blob/47f0f23ee3d7710b472fc1ff26d06da50237681e/Imagens/imagem_2022-04-15_155641874.png" width="40%">](https://youtu.be/NhDe9-Z_dvk "DescontOn vídeo Demonstração")
 
-### *Figura 04. Aplicação em ação - Motor de regras integrado a um E-commerce, realizando todo o processo de cadastro de novos produtos e o processo de criação de novas regras de desconto e aplicar a seus produtos*
+### *Figura 04. Aplicação em ação - Motor de regras integrado a um E-commerce, realizando todo o processo de cadastro de novos produtos e o processo de criação de novas regras de desconto para aplicar a seus produtos*
 
-Link do repositório do projeto: [Clique aqui](https://github.com/DolphinDatabase/DescontOn)
+Link do repositório do projeto: https://github.com/DolphinDatabase/DescontOn
 
 ### Tecnologias utilizadas para a aplicação
 
@@ -433,11 +434,6 @@ O Thymeleaf é uma template engine voltado para projetos Java que facilitam a cr
 de páginas HTML. Permitindo a troca de informações entre o código Java e as páginas
 HTML, de tal maneira garantindo que o desenvolvedor consiga criar templates de
 forma mais simples e de uma maneira mais agilizada para suas aplicações.
-
-Ele permite modelagem natural, pode fazer processamento complexo e nos
-permite definir facilmente dialetos personalizados. Além disso, o Thymeleaf
-facilita a colaboração de desenvolvedores front-end e back-end no mesmo
-arquivo de modelo, gerando um grande aumento de produtividade.
 
 Clique [aqui](https://www.thymeleaf.org/) para acessar a documentação oficial.
 
@@ -522,7 +518,6 @@ Após uma profunda pesquisa sobre todos estes tópicos, fui responsável por mod
 
 ### Aprendizados Efetivos HS ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
 
-
 No desenvolvimento das modelagens do nosso E-commerce, aprendi mais sobre a estruturação de um mesmo. Foi a primeira vez em que trabalhei de fato com uma aplicação front-end voltada principal para web.
 Por conta desta experiência, fui inserido a um novo nível de exigência para a construção de um sistema web, tendo que me preocupar com o formato e conteúdo específico das requisições de entrada possiveis no serviço desenvolvido.
 
@@ -530,7 +525,6 @@ Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnol
 
 - Criação de banco de dados para armazenamento de produtos cadastrados e novas regras geradas pelo usuário/cliente: sei fazer com autonomia
 - Modelagem completa para armazenar todos os dados oferecidos e requisitados pelo usuário e pela aplicação: sei fazer com autonomia
-<br/>
 
 # Projeto 4 - 2º semestre de 2022
 
