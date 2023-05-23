@@ -96,7 +96,7 @@ Clique [aqui](https://docs.python.org/3/library/sqlite3.html) para acessar a doc
 
 ### Contribuições pessoais
 
-Durante o desenvolvimento do projeto, tive a responsabilidade de implementar o banco de dados local que seria utilizado pela aplicação, utilizando a biblioteca sqlite3 da linguagem Python. A fim de garantir uma estrutura sólida e coerente, me dediquei à elaboração do esquema de banco de dados e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas de dados relevantes para o projeto.
+Durante o desenvolvimento do projeto, tive a responsabilidade de implementar o banco de dados local que seria utilizado pela aplicação, utilizando a biblioteca sqlite3 da linguagem Python. A fim de garantir uma estrutura sólida e coerente, me dediquei à elaboração do esquema de banco de dados e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas de dados que foram muito relevantes para o projeto.
 
 Dada a novidade da experiência com o API, grande parte do meu tempo foi dedicado a estudos de conceitos e técnicas relevantes à implementação do banco de dados e outras funcionalidades da aplicação. Como resultado, pude criar uma base sólida para a gestão de dados locais que atendeu aos requisitos e expectativas do projeto que foi essa tabela de corretoras.
 
