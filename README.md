@@ -470,51 +470,6 @@ Fui responsável pela criação do banco de dados utilizado para toda a aplicaç
 
 Durante a preparação para iniciar o desenvolvimento do projeto, consultei diversos materiais e documentações sobre como era o ambiente Oracle como requisitos para a utilização do mesmo, como configura-lo, como manuseá-lo e etc. Além disso fui responsável pela modelagem completa do nosso banco, gerado através do Brmodelo 3.0
 
-BrModelo é uma ferramenta desktop voltada para o desenvolvimento de projeto de banco de dados relacionais, incluindo as etapas conceitual, lógico e físico, com uma ampla utilização em toda a área de computação em todo o Brasil. E nele é que geramos os três tipos de modelagem.
-
-### Modelo Conceitual ![Modelo conceitual](https://img.shields.io/badge/Modelo%20conceitual-Implementado-brightgreen?style=for-the-badge)
-
-A maior dificuldade para o aprendizado das técnicas de modelagem em banco de
-dados é entender uma situação de um problema real e converte-lo, criando assim uma solução.
-O profissional da área de informática precisa entender o problema e conceituar em como será feita a solução e, para isso, duas coisas podem ser consideradas imprescindíveis:
-a) Saber ouvir o cliente/usuário abstraindo da conversa o que é realmente útil para
-implementar a solução;
-b) Conhecer as técnicas de modelagem a fim de representar o problema de forma
-conceitual antes de iniciar a implementação.
-
-<details><summary>Conceitual</summary>
-<img width="500" src = "https://user-images.githubusercontent.com/79945984/234418960-4f84a84c-be4d-4e91-8c00-27f225695577.jpeg"/>
-<p>Nossa modelagem conceitual utilizando o modelo DER, feito no Brmodelo3.0 que abrigas 5 entidades e futuramente sendo convertidas em tabelas no DDL, as seguintes tabelas são Produto, Compra e Promocao, abrigando também relacionamentos que possuem atributos, futuramente sendo convertidos para entidades no modelo lógio</p></details>
-
-### Modelo Lógico ![Modelo lógico](https://img.shields.io/badge/Modelo%20l%C3%B3gico-Implementado-brightgreen?style=for-the-badge)
-
-O modelo lógico é o resultado ou produto da conversão de um modelo conceitual
-para um determinado tipo de banco de dados, ou segundo o professor Carlos Alberto Heuser, “Um modelo lógico é uma
-descrição de um banco de dados no nível de abstração visto pelo usuário do sistema gerenciador de banco de dados”.
-Por isso, nesta fase do processo de modelagem de dados, o responsável pelo projeto já deve ter
-conhecimento do tipo de banco de dados no qual o projeto será implementado (relacional,
-hierárquico, objeto - relacional, entre outros).
-
-<details><summary>Lógico</summary>
-<img width="500" src = "https://user-images.githubusercontent.com/79945984/234419371-2cdbd3ca-a92e-4c33-89c9-de98e13c356e.jpeg"/>
-<p>Nossa modelagem lógica, feita também atravéz do Brmodelo3.0, abrigando as seguintes entidades: Produtom itens_compra, Compra, promocao e itens_promocao, sendo elas resposáveis por guardar todos os dados que o usuário enviar pela aplicação </p></details>
-
-### Modelo Físico
-
-É o modelo que descreve a forma como os dados serão armazenados no SGBD, nesta
-fase, o modelo lógico é convertido, no caso dos bancos relacionais em linguagem DDL (data
-description language) e as regras descritas no modelo conceitual são convertidas em regras de
-integridade.
-Dentre os tipos de bancos de dados, os mais comuns são os relacionais, embora esteja cada vez mais
-crescente a quantidade dos bancos de dados orientados a objetos.
-Neste contexto, o escopo limita-se a influência em cima dos bancos relacionais e a
-forma de modelá-los.
-
-<details><summary>Físico</summary>
-<img  width="250" src = "https://user-images.githubusercontent.com/79945984/194175053-cbb6e065-4c3b-46ad-adf2-4c142f851c26.png"/>
-<p>Trecho de uma modelagem fisica, onde é possivel de maneira com mais detalhes através de código, como é feita a conexão entre as tabelas e como elas passam suas chaves primárias para tabela Vendas</p></details>
-
-Após uma profunda pesquisa sobre todos estes tópicos, fui responsável por modelar todos os dados que armazenamos e seriam cadastrados pelos clientes/usuários através da nossa aplicação.
 
 ### Aprendizados Efetivos HS ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
 
