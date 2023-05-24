@@ -133,7 +133,7 @@ con.commit()
 
 con.close()
 ```
-Acima a tabela corretoras que está armazenando dados de corretoras reais para a nossa aplicação, realizando consultas e novos inserts
+> Acima a tabela corretoras que está armazenando dados de corretoras reais para a nossa aplicação, realizando consultas e novos inserts
 </details>
 
 Também fiquei responsável pela função comparativo entre corretoras, onde utilizei a biblioteca do sqlite3 que usa em conjunto com o arquivo comparativo_corretoras usa o arquivo corretoras.py.
@@ -225,7 +225,7 @@ def comparativo():
     con.commit()
     con.close()
 ```
-Acima o código da função comparativo entre corretoras que utiliza a bibiloteca sqlite3 para conectar o código ao banco local corretoras.db
+> Acima o código da função comparativo entre corretoras que utiliza a bibiloteca sqlite3 para conectar o código ao banco local corretoras.db
 </details>
 
 Também fui responsável pela funcionalidade de Conversor de moedas, que utiliza a API currencyConverter que é responsável pela cotação das moedas de distintas nacionalidades e com isso fazer a conversão de moeda para moeda durante o uso da aplicação
@@ -264,7 +264,7 @@ def Conversor_Moedas():
 
     sai_som(f'{valor} {actually} são {convert:.2f} {final}. ')
 ```
-Acima, o código de conversor de moedas utilizando outra API para gerar a cotação atual de determinada moeda seleciona pelo usuário, que deseja saber o valor da moeda que o mesmo escolher
+> Acima, o código de conversor de moedas utilizando outra API para gerar a cotação atual de determinada moeda seleciona pelo usuário, que deseja saber o valor da moeda que o mesmo escolher
 </details>
 
 ### Aprendizados Efetivos HS
@@ -380,7 +380,7 @@ public class BancoSqlite extends Fileconnect {
     }
 }
 ```
-Aqui temos um trecho da conexão sendo criada com o SQlite para rodar um banco de dados de forma local para o armazenamento dos documentos em csv e arquivos gerados pela aplicação
+> Aqui temos um trecho da conexão sendo criada com o SQlite para rodar um banco de dados de forma local para o armazenamento dos documentos em csv e arquivos gerados pela aplicação
 </details>
 
 ### Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
@@ -581,7 +581,7 @@ export default {
 }
 </script> 
 ```
-Uma breve visualização da tela de Login feita no Vuejs com elementos da biblioteca Element Plus
+> Uma breve visualização da tela de Login que foi feito através do framework Vuejs com elementos da biblioteca Element Plus que é exclusiva do framework
 </details>
 
 <details><summary>Gráficos</summary>
@@ -677,7 +677,7 @@ Uma breve visualização da tela de Login feita no Vuejs com elementos da biblio
   };
 </script>
 ```
-Acima o trecho do código da criação dos gráficos, foram feitos utilizando uma API do próprio Google para sincronizar com os dados do usuário Cliente logado na aplicação
+> Acima o trecho do código da criação dos gráficos, foram feitos utilizando uma API do próprio Google para sincronizar com os dados do usuário Cliente logado na aplicação
 </details>
 
 ### Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
