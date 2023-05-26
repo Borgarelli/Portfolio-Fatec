@@ -588,6 +588,8 @@ export default {
 
 <details><summary>Gráficos</summary>
 
+> Acima o trecho do código da criação dos gráficos, foram feitos utilizando uma API do próprio Google para sincronizar com os dados do usuário Cliente logado na aplicação
+
 ```kotlin
 <template> 
   <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'/> 
@@ -679,7 +681,6 @@ export default {
   };
 </script>
 ```
-> Acima o trecho do código da criação dos gráficos, foram feitos utilizando uma API do próprio Google para sincronizar com os dados do usuário Cliente logado na aplicação
 </details>
 
 ### Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
