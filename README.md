@@ -99,8 +99,6 @@ Durante o desenvolvimento do projeto, tive a responsabilidade de desenvolver o b
 
 Além disso, fui responsável pelas funções de conversão de moedas e comparação entre corretoras, utilizando bibliotecas como a currency_converter para a cotação diária das moedas. Aprendi que, apesar de haver diversos tutoriais disponíveis, a consulta à documentação técnica das tecnologias é a melhor forma de obter informações completas, precisas e confiáveis. 
 
-Dada a novidade da experiência com o API, grande parte do meu tempo foi dedicado a estudos de conceitos e técnicas relevantes à implementação do banco de dados e outras funcionalidades da aplicação. Como resultado, pude criar uma base sólida para a gestão de dados locais que atendeu aos requisitos e expectativas do projeto que foi essa tabela de corretoras.
-
 <details><summary>Tabela de Corretoras</summary>
 
 > Aqui temos tabela Corretoras que está armazenando dados de corretoras reais para a nossa aplicação, também sendo responsável por armazenar futuras corretoras que podem ser armazenadas pelo Julius
@@ -293,13 +291,9 @@ Necto Systems <br/>
 
 ### Visão do Projeto
 
-O software de monitoramento é uma solução especializada para gerenciamento de Sistemas Gerenciadores de Banco de Dados (SGBDs). É projetado para monitorar e analisar os recursos do SGBD em tempo real e fornecer informações valiosas sobre a saúde e a manutenção periódica do banco de dados.
+O SGBD HEalth é uma solução especializada para gerenciamento de Sistemas Gerenciadores de Banco de Dados (SGBDs). É projetado para monitorar e analisar os recursos do SGBD em tempo real como alertas, geração de relatórios personalizados e visualização de tendências históricas, permitindo que os administradores de banco de dados identifiquem rapidamente problemas críticos e tomem medidas corretivas imediatas.
 
 Através da coleta de dados do SGBD, como memória, tempo de consultas, espaço em disco, transações, evolução da memória, caches e registros, o aplicativo fornece uma visão abrangente e detalhada do desempenho e da performance do SGBD. Esses dados são apresentados de maneira clara e intuitiva, facilitando a identificação de possíveis gargalos, problemas de desempenho e oportunidades de otimização.
-
-Além disso, o aplicativo de monitoramento oferece recursos avançados, como alertas em tempo real, geração de relatórios personalizados e visualização de tendências históricas, permitindo que os administradores de banco de dados identifiquem rapidamente problemas críticos e tomem medidas corretivas imediatas.
-
-Com sua interface intuitiva e fácil de usar, o aplicativo de monitoramento de SGBD é uma ferramenta indispensável para empresas e organizações que buscam melhorar a eficiência e a produtividade de seus bancos de dados, garantindo que os mesmos estejam sempre funcionando de maneira saudável e eficiente."
 
 Segue abaixo um video revelando o funcionamento do projeto: 
 
@@ -392,7 +386,7 @@ Este projeto marcou o início de uma verdadeira API com clientes parceiros da Fa
 
 O projeto teve um papel fundamental na preparação dos alunos para a indústria e no desenvolvimento de habilidades importantes na área de tecnologia da informação.
 
-- Trabalhar com SGBD: sei fazer com autonomia.
+- Utilização do Postgres: sei fazer com autonomia.
 - Criar tabelas, relacionamentos e modelagem: sei fazer com autonomia.
 - Desenvolvimento de scripts em Java: sei fazer com auxilio.
 
@@ -536,7 +530,9 @@ O Spring Boot é um framework Java open source que tem como objetivo facilitar e
 Clique [aqui](https://spring.io/projects/spring-boot), para acessar a documentação oficial.
 
 #### Contribuições pessoais
-Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenvolvimento do front-end da aplicação e no banco de dados. Minhas responsabilidades incluíram a criação do modelo DER do banco de dados e a geração do DDL correspondente, e também a criação de gráficos atráves do Charts do google. Utilizamos a plataforma Oracle Cloud para armazenar os dados em nuvem. Além disso, fui responsável pelo desenvolvimento da tela de login e pela implementação dos modais gerais da aplicação. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva aos usuários, ao mesmo tempo em que garantia a correta persistência dos dados necessários para o funcionamento adequado do sistema. Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e adquirir experiência prática em tecnologias relevantes para a indústria da tecnologia da informação.
+Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenvolvimento do front-end da aplicação e no banco de dados. Minhas responsabilidades incluíram a criação do modelo DER do banco de dados e a geração do DDL correspondente, e também a criação de gráficos atráves do Charts do google. 
+Utilizamos a plataforma Oracle Cloud para armazenar os dados em nuvem. Além disso, fui responsável pelo desenvolvimento da tela de login e pela implementação dos modais gerais da aplicação. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva aos usuários, ao mesmo tempo em que garantia a correta persistência dos dados necessários para o funcionamento adequado do sistema. 
+Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e adquirir experiência prática em tecnologias relevantes para a indústria da tecnologia da informação.
 
 <details><summary>Tela Login</summary>
 
@@ -692,8 +688,7 @@ Este projeto foi de extrema importancia pois foi o primeiro contato com a ferram
 - Desenvolver um CRUD: sei fazer com autonomia.
 - Desenvolvimento utilizando VueJS: sei fazer com autonomia.
 - Utilização do OracleCloud: sei fazer com autonomia.
-- Desenvolvimento dos Modais: sei fazer com autonomia.
-- Estilização com Element Plus: sei fazer com autonomia.
+
 
 # Projeto 5 - 2º semestre de 2021
 
