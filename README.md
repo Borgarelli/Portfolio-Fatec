@@ -683,6 +683,8 @@ export default {
 </details>
 
 ### Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
+Este projeto foi de extrema inportancia pois foi o primeiro contato com a ferramenta Vuejs, trazendo novos desafios e elevando o patamar do API como um todo, introduzindo de vez o front-end como um requisito importante não só para a entrega do projeto, mas também como uma experiencia a ser aprendida por mim, me fez ir com tudo para me dedicar a esse novo "mundo" que é a parte do front-end.
+
 - Desenvolvimento de serviços CRUD: sei fazer com autonomia.
 - Desenvolvimento utilizando VueJS: sei fazer com autonomia.
 - Utilização de OracleCloud: sei fazer com autonomia.
