@@ -389,7 +389,7 @@ Este projeto marcou o início de uma verdadeira API com clientes parceiros da Fa
 
 Este projeto foi de extrema importancia para meu desenvolvimento como programador, pois foi o primeiro contato com a linguagem de Java e um primeiro contato direto com clientes parceiros da Fatec, fornecendo diversas experiencias relevantes para meu curriculo profissional e pessoal 
 
-- Utilização do Postgres: sei fazer com autonomia.
+- Utilização do PostgreSQL: sei fazer com autonomia.
 - Criar tabelas, relacionamentos e modelagem: sei fazer com autonomia.
 - Desenvolvimento de scripts em Java: sei fazer com auxilio.
 
@@ -403,12 +403,13 @@ MidAll [B] </br>
 ### *Figura 05. MidAllº*
 
 ### Visão do Projeto
-
+<p align = "justify">
 Ferramenta para criar promoções de E-commerce, onde as mecânicas de promoções são feitas de forma flexível e de rápida atualização no sistema. As regras de promoções são cadastradas e posteriormente aplicadas no momento em que os itens são adicionados ao carrinho.
 
 Atualmente implementamos e apresentamos o cadastro dos produtos dentro de promoções registradas dentro do servidor/banco de dados, utilizando operadores lógicos para criar diferentes mecânicas de promoções, os descontos são aplicados dentro da sacola de compras e possui uma visualização dedicada para conferência e escolha de promoções.
 
 Além disso, há a autonomia fornecida ao usuário para editar, remover, arquivar ou desarquivar seus produtos e também para editar, deletar, interromper ou ativar promoções de uma visualização de maneira prática e intuitiva dos produtos e promoções cadastradas através da listagem que possui um filtro para que seja possível diferenciar e verificar os status dos produtos e promoções.
+</p>
 
 Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](https://youtu.be/NhDe9-Z_dvk):
 
@@ -683,7 +684,13 @@ export default {
 </details>
 
 ## Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
-Este projeto foi de extrema importancia pois foi o primeiro contato com a ferramenta Vuejs, trazendo novos desafios e elevando o patamar do API como um todo, introduzindo de vez o front-end como um requisito importante não só para a entrega do projeto, mas também como uma experiencia a ser aprendida, me fez ir com tudo para me dedicar a esse novo "mundo" que é a parte do front-end.
+A participação nesse projeto foi de extrema importância para o meu crescimento profissional, pois representou um marco na minha trajetória ao possibilitar o trabalho simultâneo com dois frameworks, resultando em uma experiência prática de integração completa entre front-end e back-end. O contato com essa tecnologia foi desafiador, porém profundamente recompensador, uma vez que pude aplicar o conhecimento adquirido em projetos anteriores e impulsionar ainda mais minhas habilidades em desenvolvimento de front-end.
+
+A capacidade de trabalhar com múltiplos frameworks no mesmo projeto é altamente valorizada no setor de desenvolvimento de software. Esse projeto me proporcionou a oportunidade de aprimorar minha expertise em ambos os lados da aplicação, contribuindo para uma compreensão mais holística do processo de desenvolvimento e fortalecendo minhas habilidades técnicas.
+
+Ao utilizar o framework Vue, fui desafiado a explorar seus recursos e funcionalidades, desenvolvendo uma sólida compreensão das melhores práticas de front-end e aprimorando minhas habilidades de interface de usuário. Além disso, a integração com o back-end exigiu uma abordagem cuidadosa e aprofundada para garantir uma comunicação eficiente entre as camadas da aplicação.
+
+A experiência adquirida nesse projeto foi extremamente enriquecedora, pois permitiu-me aplicar conceitos teóricos em um contexto real, enfrentando desafios complexos e adquirindo um conhecimento mais aprofundado em desenvolvimento de aplicações web. Essa vivência consolidou meu domínio das tecnologias envolvidas e ampliou meu conjunto de habilidades, tornando-me um profissional mais completo e preparado para enfrentar projetos desafiadores no futuro.
 
 - Desenvolver um CRUD: sei fazer com autonomia.
 - Desenvolvimento utilizando VueJS: sei fazer com autonomia.
