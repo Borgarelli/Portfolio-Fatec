@@ -55,9 +55,9 @@ Segue abaixo um video revelando o funcionamento do projeto:
 
 Link do repositório do projeto: [https://github.com/TheLooksDatabase/Julius](https://github.com/TheLooksDatabase/Julius)
 
-### Tecnologias utilizadas
+## Tecnologias utilizadas
 
-## Python [![Python Badge](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+### Python [![Python Badge](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
 Python é uma linguagem de programação de alto nível, interpretada e dinâmica, que é amplamente utilizada em áreas como desenvolvimento web, análise de dados, inteligência artificial, automação de tarefas e muitas outras. Uma das principais vantagens do Python é sua sintaxe simples e intuitiva, que facilita a escrita e leitura de código, além de aumentar a produtividade do programador.
 
@@ -93,7 +93,7 @@ O sqlite3 é um módulo da biblioteca padrão do Python que permite acessar e ma
 
 Clique [aqui](https://docs.python.org/3/library/sqlite3.html) para acessar a documentação oficial.
 
-### Contribuições pessoais
+## Contribuições pessoais
 
 Durante o desenvolvimento do projeto, tive a responsabilidade de desenvolver o banco de dados local que seria utilizado pela aplicação, utilizando a biblioteca sqlite3 da linguagem Python. A fim de garantir uma estrutura sólida e coerente, me dediquei à elaboração do esquema de banco de dados e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas de dados que foram muito relevantes para o projeto.
 
@@ -270,7 +270,7 @@ def Conversor_Moedas():
 ```
 </details>
 
-### Aprendizados Efetivos HS
+## Aprendizados Efetivos HS
 
 Durante o desenvolvimento desse projeto, fui exposto pela primeira vez à importância de se consultar documentações técnicas primárias para obter informações precisas e confiáveis sobre as tecnologias utilizadas. Essa experiência foi fundamental para o meu desenvolvimento profissional e acadêmico, pois aprendi a buscar informações detalhadas diretamente de documentações oficiais das tecnologias.
 
@@ -305,25 +305,25 @@ Link do repositório do projeto: [https://github.com/DolphinDatabase/SGBD_Health
 
 ### Tecnologias utilizadas
 
-## PostgreSQL [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+### PostgreSQL [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
 PostgreSQL é um sistema gerenciador de banco de dados objeto-relacional baseado no POSTGRES, Versão 4.2, desenvolvido na Universidade da Califórnia no Departamento de Ciências da Computação em Berkeley, o qual foi pioneiro em muitos conceitos que vieram a estar disponíveis em alguns bancos de dados comerciais mais tarde. O PostgreSQL é um banco de dados objeto-relacional (sem relação com linguagens de programação orientadas a objetos), em que cada coisa criada é tratada como um objeto, tais como bancos de dados, tabelas, views, triggers, etc.
 
 Clique [aqui](https://www.postgresql.org/about/) para acessar a documentação oficial.
 	
-## SQlite [![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+### SQlite [![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 
 SQLite é um sistema de gerenciamento de banco de dados relacional leve, embutido e amplamente utilizado em aplicativos móveis, navegadores da web e outros softwares que precisam armazenar dados localmente. Ele é uma biblioteca escrita em C que oferece recursos avançados de gerenciamento de banco de dados, como transações ACID, integridade referencial e indexação avançada, tornando-o uma escolha popular para desenvolvedores que precisam de uma solução de banco de dados confiável e fácil de usar
 
 Clique [aqui](https://www.sqlite.org/about.html) para acessar a documentação oficial.
 
-## Java [![Java](https://img.shields.io/badge/Java-%23ED8B00?style=for-the-badge&logo=java&logoColor=white&labelColor=%23ED8B00)](https://www.java.com/)
+### Java [![Java](https://img.shields.io/badge/Java-%23ED8B00?style=for-the-badge&logo=java&logoColor=white&labelColor=%23ED8B00)](https://www.java.com/)
 
 Java é uma linguagem de programação de alto nível, orientada a objetos e multiplataforma lançada em 1995 pela Sun Microsystems (agora Oracle). Ela é amplamente usada para desenvolver aplicativos, jogos, sistemas de gerenciamento de banco de dados, aplicativos da web e muito mais. Java é portátil, seguro, escalável e capaz de lidar com aplicativos complexos, com suporte de uma grande comunidade de desenvolvedores em todo o mundo.
 
 Clique [aqui](https://www.java.com/pt-BR/download/help/whatis_java.html) para acessar a documentação oficial.
 	
-### Contribuições pessoais ![Contribuições pessoais](https://img.shields.io/github/commit-activity/y/Borgarelli/SGBD_Health?style=for-the-badge)
+## Contribuições pessoais ![Contribuições pessoais](https://img.shields.io/github/commit-activity/y/Borgarelli/SGBD_Health?style=for-the-badge)
 
 Durante minha participação no projeto, fui responsável pela modelagem do banco de dados no PostgreSQL e pela avaliação da utilização do SQLite para armazenamento de arquivos CSV. Trabalhei em estreita colaboração com a equipe de desenvolvimento para garantir a integração adequada do banco de dados com a aplicação e o sucesso do projeto.
 
@@ -384,7 +384,7 @@ public class BancoSqlite extends Fileconnect {
 ```
 </details>
 
-### Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
+## Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
 Este projeto marcou o início de uma verdadeira API com clientes parceiros da Fatec, proporcionando experiências incríveis e desafiadoras ao longo do semestre. O principal foco foi o desenvolvimento do banco de dados para atender a todos os requisitos necessários para a aplicação, permitindo o armazenamento de todos os dados necessários para os testes e também trabalhar com a ferrmenta do SQLite para desenvolver um banco local de maneira efetiva para testar as funcionalidades propostas pelo SGBD Health.
 
 Este projeto foi de extrema importancia para meu desenvolvimento como programador, pois foi o primeiro contato com a linguagem de Java e um primeiro contato direto com clientes parceiros da Fatec, fornecendo diversas experiencias relevantes para meu curriculo profissional e pessoal 
@@ -464,14 +464,14 @@ construção e publicação de suas aplicações. Por ser extremamente flexível
 
 Clique [aqui](https://maven.apache.org/) para acessar a documentação original.
 
-### Contribuições pessoais
+## Contribuições pessoais
 
 Fui responsável pela criação do banco de dados utilizado para toda a aplicação. Para isso, foi necessário estudar sobre a utilização de um SGBD que eu não tinha experiência nenhuma, que era o Oracle Database, que utiliza uma sintaxe totalmente diferente de outros SGBD mais comuns, como MySql e Postgres.
 
 Durante a preparação para iniciar o desenvolvimento do projeto, consultei diversos materiais e documentações sobre como era o ambiente Oracle como requisitos para a utilização do mesmo, como configura-lo, como manuseá-lo e etc. Além disso fui responsável pela modelagem completa do nosso banco, gerado através do Brmodelo 3.0
 
 
-### Aprendizados Efetivos HS ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
+## Aprendizados Efetivos HS ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
 
 No desenvolvimento das modelagens do nosso E-commerce, aprendi mais sobre a estruturação de um mesmo. Foi a primeira vez em que trabalhei de fato com uma aplicação front-end voltada principal para web.
 Por conta desta experiência, fui inserido a um novo nível de exigência para a construção de um sistema web, tendo que me preocupar com o formato e conteúdo específico das requisições de entrada possiveis no serviço desenvolvido.
@@ -512,7 +512,7 @@ Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](htt
 
 Link do repositório do projeto: https://github.com/DolphinDatabase/MCS
 
-## Tecnologias utilizadas para a aplicação:
+## Tecnologias utilizadas
 
 ### Vue [![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
 
@@ -532,7 +532,7 @@ O Spring Boot é um framework Java open source que tem como objetivo facilitar e
 
 Clique [aqui](https://spring.io/projects/spring-boot), para acessar a documentação oficial.
 
-#### Contribuições pessoais
+## Contribuições pessoais
 Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenvolvimento do front-end da aplicação e no banco de dados. Minhas responsabilidades incluíram a criação do modelo DER do banco de dados e a geração do DDL correspondente, e também a criação de gráficos atráves do Charts do google.
 
 Utilizamos a plataforma Oracle Cloud para armazenar os dados em nuvem. Além disso, fui responsável pelo desenvolvimento da tela de login e pela implementação dos modais gerais da aplicação. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva aos usuários, ao mesmo tempo em que garantia a correta persistência dos dados necessários para o funcionamento adequado do sistema.
@@ -686,7 +686,7 @@ export default {
 ```
 </details>
 
-### Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
+## Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
 Este projeto foi de extrema importancia pois foi o primeiro contato com a ferramenta Vuejs, trazendo novos desafios e elevando o patamar do API como um todo, introduzindo de vez o front-end como um requisito importante não só para a entrega do projeto, mas também como uma experiencia a ser aprendida, me fez ir com tudo para me dedicar a esse novo "mundo" que é a parte do front-end.
 
 - Desenvolver um CRUD: sei fazer com autonomia.
