@@ -395,6 +395,7 @@ Este projeto foi de extrema importancia para meu desenvolvimento como programado
 
 # Projeto 3: 3º semestre de 2022
 
+### Parceiro Acadêmico
 MidAll [B] </br>
 
 ![MidAll](https://user-images.githubusercontent.com/79945984/225166828-fd8d6942-68e5-4c26-9466-06bc7b08e0d0.png)
@@ -483,7 +484,7 @@ Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnol
 
 # Projeto 4 - 2º semestre de 2022
 
-### Empresa parceira:
+### Parceiro Acadêmico
 Subiter
 
 <img src="https://user-images.githubusercontent.com/79945984/234428920-7718492b-5552-4f0a-88bc-8fbfdce87773.png" height="300"/>
