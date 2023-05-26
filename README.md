@@ -96,11 +96,13 @@ Clique [aqui](https://docs.python.org/3/library/sqlite3.html) para acessar a doc
 
 ### Contribuições pessoais
 
-Durante o desenvolvimento do projeto, tive a responsabilidade de implementar o banco de dados local que seria utilizado pela aplicação, utilizando a biblioteca sqlite3 da linguagem Python. A fim de garantir uma estrutura sólida e coerente, me dediquei à elaboração do esquema de banco de dados e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas de dados que foram muito relevantes para o projeto.
+Durante o desenvolvimento do projeto, tive a responsabilidade de desenvolver o banco de dados local que seria utilizado pela aplicação, utilizando a biblioteca sqlite3 da linguagem Python. A fim de garantir uma estrutura sólida e coerente, me dediquei à elaboração do esquema de banco de dados e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas de dados que foram muito relevantes para o projeto.
 
 Dada a novidade da experiência com o API, grande parte do meu tempo foi dedicado a estudos de conceitos e técnicas relevantes à implementação do banco de dados e outras funcionalidades da aplicação. Como resultado, pude criar uma base sólida para a gestão de dados locais que atendeu aos requisitos e expectativas do projeto que foi essa tabela de corretoras.
 
 <details><summary>Tabela de Corretoras</summary>
+
+> Aqui temos tabela Corretoras que está armazenando dados de corretoras reais para a nossa aplicação, também sendo responsável por armazenar futuras corretoras que podem ser armazenadas pelo Julius
 
 ```kotlin
 import sqlite3
@@ -133,12 +135,13 @@ con.commit()
 
 con.close()
 ```
-> Acima a tabela corretoras que está armazenando dados de corretoras reais para a nossa aplicação, realizando consultas e novos inserts
 </details>
 
 Também fiquei responsável pela função comparativo entre corretoras, onde utilizei a biblioteca do sqlite3 que usa em conjunto com o arquivo comparativo_corretoras usa o arquivo corretoras.py.
 
 <details><summary>Comparativo entre corretoras</summary>
+
+> Aqui o código da função comparativo entre corretoras que foi desenvolvido em python utilizando a bibiloteca sqlite3 para conectar o código ao banco local corretoras.db
 
 ```kotlin
 from config import sai_som
@@ -225,12 +228,14 @@ def comparativo():
     con.commit()
     con.close()
 ```
-> Acima o código da função comparativo entre corretoras que utiliza a bibiloteca sqlite3 para conectar o código ao banco local corretoras.db
+
 </details>
 
 Também fui responsável pela funcionalidade de Conversor de moedas, que utiliza a API currencyConverter que é responsável pela cotação das moedas de distintas nacionalidades e com isso fazer a conversão de moeda para moeda durante o uso da aplicação
 
 <details><summary>Conversor de Moedas</summary>
+
+> Aqui, o código da função conversor de moedas  desenvolvido em python que está utilizando uma API para retornar a cotação atual de determinada moeda seleciona pelo usuário
 
 ```kotlin
 from currency_converter import CurrencyConverter
@@ -264,7 +269,6 @@ def Conversor_Moedas():
 
     sai_som(f'{valor} {actually} são {convert:.2f} {final}. ')
 ```
-> Acima, o código de conversor de moedas utilizando outra API para gerar a cotação atual de determinada moeda seleciona pelo usuário, que deseja saber o valor da moeda que o mesmo escolher
 </details>
 
 ### Aprendizados Efetivos HS
@@ -334,6 +338,8 @@ Segue abaixo um trecho da criação da tabela no SQLite:
 
 <details> <summary>Banco criado pelo SQlite</summary>
 
+> Aqui temos um trecho da conexão sendo criada com o SQlite para rodar um banco de dados de forma local para o armazenamento dos documentos em csv e arquivos gerados pela aplicação
+
 ```kotlin
 import java.sql.*;
 import java.time.LocalDateTime;
@@ -380,7 +386,6 @@ public class BancoSqlite extends Fileconnect {
     }
 }
 ```
-> Aqui temos um trecho da conexão sendo criada com o SQlite para rodar um banco de dados de forma local para o armazenamento dos documentos em csv e arquivos gerados pela aplicação
 </details>
 
 ### Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
@@ -452,7 +457,7 @@ Clique [aqui](https://spring.io/projects/spring-boot) para acessar a documentaç
 O Bootstrap é um framework front-end que veio para facilitar e agilizar o
 trabalho, oferecendo padrões para HTML, JavaScript e CSS de acordo com o site
 CiaWebsites. Foi desenvolvido por Jacob Thorton e Mark Otto com o objetivo de
-facilitar a programação de um site web e otimizar tempo.
+facilitar a programação de um site web e otimizar o desempenho.
 
 Clique [aqui](https://getbootstrap.com/) para acessar a documentação oficial.
 
