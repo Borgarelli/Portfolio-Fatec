@@ -40,14 +40,13 @@ Fatec Prof. Jessen Vidal (proposta realizada pelo docente responsável pela disc
 ### Visão do Projeto
 
 <p align="justify">
-Uma assistente virtual que possua uma ampla gama de funcionalidades é uma tarefa desafiadora que exige conhecimentos técnicos avançados. Nesse contexto, apresentamos o Julius, uma API que consiste em uma assistente virtual especializada em auxiliar o usuário na tomada de decisões relacionadas a investimentos financeiros. Com oito funcionalidades diferentes, o Julius se destaca por fornecer informações em tempo real, garantindo ao usuário uma experiência interativa e eficiente.
+Uma assistente virtual que possua uma ampla gama de funcionalidades é uma tarefa desafiadora que exige conhecimentos técnicos avançados. Nesse contexto, apresentamos o Julius, uma API que consiste em uma assistente virtual especializada em auxiliar o usuário na tomada de decisões relacionadas a investimentos financeiros. Com oito funcionalidades distintas, o Julius se destaca por fornecer informações em tempo real, garantindo ao usuário uma experiência interativa e eficiente.
 
 Entre as funcionalidades oferecidas pelo Julius, destacam-se o código de ações, que permite ao usuário acompanhar o desempenho das ações de empresas listadas em bolsa; a cotação do dia, que apresenta informações atualizadas sobre os valores de moedas e criptomoedas; e o conversor de moedas, que possibilita ao usuário converter valores entre diferentes moedas.
 
-Além disso, o Julius possui outras funcionalidades relevantes, como a possibilidade de consultar a agenda econômica, que apresenta eventos relevantes para o mercado financeiro nacional; a disponibilidade de um chatbot que responde às principais dúvidas dos usuários; e a integração com outras ferramentas, como o Google Sheets e o Excel, que permitem ao usuário gerar relatórios e análises financeiras mais completas.
-
-Por meio dessas funcionalidades, o Julius se diferencia por oferecer informações em tempo real, entregando aos usuários as últimas notícias e informações relevantes para a tomada de decisões financeiras. Além disso, o Julius traz o que há de mais inovador no mercado financeiro nacional, oferecendo uma experiência única e completa para os usuários que buscam acompanhar e investir no mercado financeiro.
+Além disso, o Julius possui outras funcionalidades relevantes, como a possibilidade de consultar a agenda econômica, que apresenta eventos relevantes para o mercado financeiro nacional; a disponibilidade de um chatbot que responde às principais dúvidas dos usuários.
 </p>
+
 Segue abaixo um video revelando o funcionamento do projeto:
 
 [<img src="https://user-images.githubusercontent.com/79945984/231305890-33255901-7287-40bd-8260-71b93e657ad8.png" widrh="35%" height="10%">](https://www.youtube.com/watch?v=oyqu1XqaPPE "Julius vídeo Demonstração")
@@ -97,6 +96,8 @@ Clique [aqui](https://docs.python.org/3/library/sqlite3.html) para acessar a doc
 ### Contribuições pessoais
 
 Durante o desenvolvimento do projeto, tive a responsabilidade de desenvolver o banco de dados local que seria utilizado pela aplicação, utilizando a biblioteca sqlite3 da linguagem Python. A fim de garantir uma estrutura sólida e coerente, me dediquei à elaboração do esquema de banco de dados e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas de dados que foram muito relevantes para o projeto.
+
+Além disso, fui responsável pelas funções de conversão de moedas e comparação entre corretoras, utilizando bibliotecas como a currency_converter para a cotação diária das moedas. Aprendi que, apesar de haver diversos tutoriais disponíveis, a consulta à documentação técnica das tecnologias é a melhor forma de obter informações completas, precisas e confiáveis. 
 
 Dada a novidade da experiência com o API, grande parte do meu tempo foi dedicado a estudos de conceitos e técnicas relevantes à implementação do banco de dados e outras funcionalidades da aplicação. Como resultado, pude criar uma base sólida para a gestão de dados locais que atendeu aos requisitos e expectativas do projeto que foi essa tabela de corretoras.
 
@@ -235,7 +236,7 @@ Também fui responsável pela funcionalidade de Conversor de moedas, que utiliza
 
 <details><summary>Conversor de Moedas</summary>
 
-> Aqui, o código da função conversor de moedas  desenvolvido em python que está utilizando uma API para retornar a cotação atual de determinada moeda seleciona pelo usuário
+> Aqui, o código da função conversor de moedas desenvolvido em python que está utilizando a api currencyConverter que é responsável por retornar a cotação atual de determinada moeda escolhida pelo usuário
 
 ```kotlin
 from currency_converter import CurrencyConverter
@@ -273,15 +274,12 @@ def Conversor_Moedas():
 
 ### Aprendizados Efetivos HS
 
-Durante o desenvolvimento desse projeto, fui exposto pela primeira vez à importância de se consultar documentações técnicas primárias para obter informações precisas e confiáveis sobre as tecnologias utilizadas. Essa experiência foi fundamental para o meu desenvolvimento profissional e acadêmico, pois aprendi a buscar informações detalhadas diretamente dos criadores e responsáveis pelas tecnologias.
+Durante o desenvolvimento desse projeto, fui exposto pela primeira vez à importância de se consultar documentações técnicas primárias para obter informações precisas e confiáveis sobre as tecnologias utilizadas. Essa experiência foi fundamental para o meu desenvolvimento profissional e acadêmico, pois aprendi a buscar informações detalhadas diretamente de documentações oficiais das tecnologias.
 
-Além disso, enfrentei o desafio de criar uma solução inédita para um problema prático específico, o que me permitiu exercitar habilidades cruciais para qualquer desenvolvedor ou analista de software. Tive a oportunidade de tomar decisões importantes, como escolher a tecnologia e tática mais adequadas para a solução, bem como detalhar a implementação.
+Devido à novidade que foi essa experiência que o API pode me proporcionar, grande parte do meu tempo foi dedicado ao estudo de conceitos e técnicas relevantes para a implementação do banco de dados e outras funcionalidades da aplicação. Esse estudo foi essencial não só para a criação de uma base sólida para a gestão de dados locais, que atendeu perfeitamente aos requisitos do projeto mas também para meu desenvolvimento pessoal.
 
-Durante o projeto, fui encarregado de criar um banco de dados local para a aplicação, utilizando a biblioteca sqlite3 da linguagem Python. Dediquei bastante tempo à elaboração do esquema de banco de dados, além da escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas de dados relevantes.
-
-Devido à novidade que foi a experiência que o API pode proporcionar, grande parte do meu tempo foi dedicado ao estudo de conceitos e técnicas relevantes para a implementação do banco de dados e outras funcionalidades da aplicação. Esse estudo foi essencial para criar uma base sólida para a gestão de dados locais, que atendeu perfeitamente aos requisitos do projeto.
-
-Além disso, fui responsável pelas funções de conversão de moedas e comparação entre corretoras, utilizando bibliotecas como a currency_converter para a cotação diária das moedas. Aprendi que, apesar de haver diversos tutoriais disponíveis, a consulta à documentação técnica das tecnologias é a melhor forma de obter informações completas, precisas e confiáveis. Tais aprendizados têm sido valiosos até hoje em minha carreira.
+- Criação de um banco de dados local utilziando bibiliotecas especificas: sei fazer com autonomia
+- Gerenciamento e utilização de uma nova gama de apis e bibliotecas disponiveis para o desenvolvimento do projeto: sei fazer com autonomia
 
 # Projeto 2: 2º semestre de 2021
 
@@ -689,12 +687,12 @@ export default {
 </details>
 
 ### Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
-Este projeto foi de extrema inportancia pois foi o primeiro contato com a ferramenta Vuejs, trazendo novos desafios e elevando o patamar do API como um todo, introduzindo de vez o front-end como um requisito importante não só para a entrega do projeto, mas também como uma experiencia a ser aprendida por mim, me fez ir com tudo para me dedicar a esse novo "mundo" que é a parte do front-end.
+Este projeto foi de extrema importancia pois foi o primeiro contato com a ferramenta Vuejs, trazendo novos desafios e elevando o patamar do API como um todo, introduzindo de vez o front-end como um requisito importante não só para a entrega do projeto, mas também como uma experiencia a ser aprendida, me fez ir com tudo para me dedicar a esse novo "mundo" que é a parte do front-end.
 
-- Desenvolvimento de serviços CRUD: sei fazer com autonomia.
+- Desenvolver um CRUD: sei fazer com autonomia.
 - Desenvolvimento utilizando VueJS: sei fazer com autonomia.
-- Utilização de OracleCloud: sei fazer com autonomia.
-- Desenvolvimento de Modais: sei fazer com autonomia.
+- Utilização do OracleCloud: sei fazer com autonomia.
+- Desenvolvimento dos Modais: sei fazer com autonomia.
 - Estilização com Element Plus: sei fazer com autonomia.
 
 # Projeto 5 - 2º semestre de 2021
