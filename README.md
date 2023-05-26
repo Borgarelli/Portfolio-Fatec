@@ -325,7 +325,11 @@ Clique [aqui](https://www.java.com/pt-BR/download/help/whatis_java.html) para ac
 	
 ### Contribuições pessoais ![Contribuições pessoais](https://img.shields.io/github/commit-activity/y/Borgarelli/SGBD_Health?style=for-the-badge)
 
-Durante minha participação no projeto, fui responsável pela modelagem do banco de dados no PostgreSQL e pela avaliação da utilização do SQLite para armazenamento de arquivos CSV. Trabalhei em estreita colaboração com a equipe de desenvolvimento para garantir a integração adequada do banco de dados com a aplicação e o sucesso do projeto. Para garantir a estruturação adequada do banco de dados, dediquei tempo à elaboração do esquema de banco de dados e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas relevantes para o projeto. Além disso, busquei estudar conceitos e técnicas relevantes à implementação do banco de dados e outras funcionalidades da aplicação para garantir uma base sólida na gestão dos dados que atendesse aos requisitos e expectativas do projeto.
+Durante minha participação no projeto, fui responsável pela modelagem do banco de dados no PostgreSQL e pela avaliação da utilização do SQLite para armazenamento de arquivos CSV. Trabalhei em estreita colaboração com a equipe de desenvolvimento para garantir a integração adequada do banco de dados com a aplicação e o sucesso do projeto.
+
+Para garantir a estruturação adequada do banco de dados, dediquei tempo à elaboração do esquema de banco de dados e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas relevantes para o projeto.
+ 
+Além disso, busquei estudar conceitos e técnicas relevantes à implementação do banco de dados e outras funcionalidades da aplicação para garantir uma base sólida na gestão dos dados que atendesse aos requisitos e expectativas do projeto.
 Segue abaixo um trecho da criação da tabela no SQLite:
 
 <details> <summary>Banco criado pelo SQlite</summary>
@@ -404,7 +408,7 @@ Ferramenta para criar promoções de E-commerce, onde as mecânicas de promoçõ
 
 Atualmente implementamos e apresentamos o cadastro dos produtos dentro de promoções registradas dentro do servidor/banco de dados, utilizando operadores lógicos para criar diferentes mecânicas de promoções, os descontos são aplicados dentro da sacola de compras e possui uma visualização dedicada para conferência e escolha de promoções.
 
-Além disso, há a autonomia fornecida ao usuário para editar, remover, arquivar ou desarquivar seus produtos e também para editar, deletar, interromper ou ativar promoções de uma visualização de maneira prática e intuitiva dos produtos e promoções cadastradas através da listagem que possui um filtro para que seja possível diferenciar quais os status de produtos e promoções.
+Além disso, há a autonomia fornecida ao usuário para editar, remover, arquivar ou desarquivar seus produtos e também para editar, deletar, interromper ou ativar promoções de uma visualização de maneira prática e intuitiva dos produtos e promoções cadastradas através da listagem que possui um filtro para que seja possível diferenciar e verificar os status dos produtos e promoções.
 
 Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](https://youtu.be/NhDe9-Z_dvk):
 
@@ -530,8 +534,10 @@ O Spring Boot é um framework Java open source que tem como objetivo facilitar e
 Clique [aqui](https://spring.io/projects/spring-boot), para acessar a documentação oficial.
 
 #### Contribuições pessoais
-Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenvolvimento do front-end da aplicação e no banco de dados. Minhas responsabilidades incluíram a criação do modelo DER do banco de dados e a geração do DDL correspondente, e também a criação de gráficos atráves do Charts do google. 
-Utilizamos a plataforma Oracle Cloud para armazenar os dados em nuvem. Além disso, fui responsável pelo desenvolvimento da tela de login e pela implementação dos modais gerais da aplicação. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva aos usuários, ao mesmo tempo em que garantia a correta persistência dos dados necessários para o funcionamento adequado do sistema. 
+Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenvolvimento do front-end da aplicação e no banco de dados. Minhas responsabilidades incluíram a criação do modelo DER do banco de dados e a geração do DDL correspondente, e também a criação de gráficos atráves do Charts do google.
+
+Utilizamos a plataforma Oracle Cloud para armazenar os dados em nuvem. Além disso, fui responsável pelo desenvolvimento da tela de login e pela implementação dos modais gerais da aplicação. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva aos usuários, ao mesmo tempo em que garantia a correta persistência dos dados necessários para o funcionamento adequado do sistema.
+
 Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e adquirir experiência prática em tecnologias relevantes para a indústria da tecnologia da informação.
 
 <details><summary>Tela Login</summary>
@@ -582,12 +588,11 @@ export default {
 }
 </script> 
 ```
-
 </details>
 
 <details><summary>Gráficos</summary>
 
-> Acima o trecho do código da criação dos gráficos, foram feitos utilizando uma API do próprio Google para sincronizar com os dados do usuário Cliente logado na aplicação
+> Acima um trecho da tela home com foco no código da criação dos gráficos, foram feitos utilizando uma api do próprio Google, o GoogleCharts, para sincronizar com os dados do usuário Cliente logado na aplicação
 
 ```kotlin
 <template> 
@@ -688,7 +693,6 @@ Este projeto foi de extrema importancia pois foi o primeiro contato com a ferram
 - Desenvolver um CRUD: sei fazer com autonomia.
 - Desenvolvimento utilizando VueJS: sei fazer com autonomia.
 - Utilização do OracleCloud: sei fazer com autonomia.
-
 
 # Projeto 5 - 2º semestre de 2021
 
