@@ -328,7 +328,7 @@ Clique [aqui](https://www.java.com/pt-BR/download/help/whatis_java.html) para ac
 Durante minha participação no projeto, fui responsável pela modelagem do banco de dados no PostgreSQL e pela avaliação da utilização do SQLite para armazenamento de arquivos CSV. Trabalhei em estreita colaboração com a equipe de desenvolvimento para garantir a integração adequada do banco de dados com a aplicação e o sucesso do projeto.
 
 Para garantir a estruturação adequada do banco de dados, dediquei tempo à elaboração do esquema de banco de dados e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas relevantes para o projeto.
- 
+
 Além disso, busquei estudar conceitos e técnicas relevantes à implementação do banco de dados e outras funcionalidades da aplicação para garantir uma base sólida na gestão dos dados que atendesse aos requisitos e expectativas do projeto.
 Segue abaixo um trecho da criação da tabela no SQLite:
 
@@ -385,10 +385,9 @@ public class BancoSqlite extends Fileconnect {
 </details>
 
 ### Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
+Este projeto marcou o início de uma verdadeira API com clientes parceiros da Fatec, proporcionando experiências incríveis e desafiadoras ao longo do semestre. O principal foco foi o desenvolvimento do banco de dados para atender a todos os requisitos necessários para a aplicação, permitindo o armazenamento de todos os dados necessários para os testes e também trabalhar com a ferrmenta do SQLite para desenvolver um banco local de maneira efetiva para testar as funcionalidades propostas pelo SGBD Health.
 
-Este projeto marcou o início de uma verdadeira API com clientes parceiros da Fatec, proporcionando experiências incríveis e desafiadoras ao longo do semestre. O principal foco foi o desenvolvimento do banco de dados para atender a todos os requisitos necessários para a aplicação, permitindo o armazenamento de todos os dados necessários para os testes e entrega final do projeto. 
-
-O projeto teve um papel fundamental na preparação dos alunos para a indústria e no desenvolvimento de habilidades importantes na área de tecnologia da informação.
+Este projeto foi de extrema importancia para meu desenvolvimento como programador, pois foi o primeiro contato com a linguagem de Java e um primeiro contato direto com clientes parceiros da Fatec, fornecendo diversas experiencias relevantes para meu curriculo profissional e pessoal 
 
 - Utilização do Postgres: sei fazer com autonomia.
 - Criar tabelas, relacionamentos e modelagem: sei fazer com autonomia.
