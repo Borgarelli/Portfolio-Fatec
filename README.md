@@ -227,7 +227,6 @@ def comparativo():
     con.commit()
     con.close()
 ```
-
 </details>
 
 Também fui responsável pela funcionalidade de Conversor de moedas, que utiliza a API currencyConverter que é responsável pela cotação das moedas de distintas nacionalidades e com isso fazer a conversão de moeda para moeda durante o uso da aplicação
