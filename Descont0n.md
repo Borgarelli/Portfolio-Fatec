@@ -77,6 +77,137 @@ Neste projeto, desempenhei o papel da criação e gestão do banco de dados que 
 
 Além disso, fiquei responsável pelo desenvolvimento web de algumas telas. Uma dessas telas foi a "Lista", que tinha o objetivo de exibir todos os produtos cadastrados no banco de dados, independentemente de serem dados fictícios ou inseridos pelo próprio usuário. Outra tela relevante foi a de "Cadastro de Produtos", que permitia ao usuário inserir novos produtos e promoções, os quais seriam posteriormente exibidos na tela de "Lista".
 
+<details><summary>Tela da Lista de Compras</summary>
+
+> Aqui o trecho de como foi programada a tela da Lista, a estilização foi feita tanto usando o BootStrap como estilização manual com css com auxilio do figma
+
+```
+<!-- TABELA -->
+	<div class="container">
+		<select name="op" id="op" class="form-select mb-2" onchange="changeTable()">
+			<option value="0">Disponível</option>
+			<option value="1">Arquivado</option>
+		</select>
+		<div class="table-responsive">
+			<table class="table table-striped table-hover table-sm">
+				<thead>
+					<tr>
+						<!-- nome das colunas -->
+						<th>#</th>
+						<th>Nome do Produto</th>
+						<th>Categoria</th>
+						<th>Valor de Venda</th>
+						<th></th>
+						<th></th>
+						<th></th>
+					</tr>
+				</thead>
+				<tbody id="disp">
+				</tbody>
+				<tbody id="arqui" style="display: none;">
+				</tbody>
+		</div>
+	</div>
+	</section>
+
+
+	<!-- end tabela -->
+
+	<!--  MODAL -->
+	<div id="myModal" class="modal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Deletar Produto</h5>
+				</div>
+				<div class="modal-body">
+					<p>Deseja realmente deletar o produto?</p>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-primary" onclick="excluirProduto()">Sim</button>
+					<button type="button" class="btn btn-secondary"
+						onclick="$('#myModal').modal('hide')">Cancelar</button>
+				</div>
+			</div>
+		</div>
+	</div>
+```
+</details>
+
+Também fiquei responsável por criar e configurar a tela de cadastro de produtos e promoções sendo ambos registrados no banco criado no SGBD Oracle
+
+<details><summary>Tela de Cadastro de produtos</summary>
+
+> Aqui o trecho do desenvolvimento da tela de cadastro de produtos, feita em Html-5 e JavaScript, e a estilização feita tanto com o BootStrap como de maneira manual usando CSS-3 com auxilio do figma
+
+```
+	<!-- FORMULARIO DE CADASTRO -->
+	<div class="layout-main">
+		<section class="layout-content">
+			<section class="layout-content">
+				<div class="container" id="cadastro">
+					<form class="needs-validation" id="main-form" novalidate onsubmit="saveProduto(event)">
+						<div class="form-row">
+
+							<!-- Nome -->
+							<div class="form-group col-md-6">
+								<label for="nome">Nome do Produto</label> <input type="text" class="form-control"
+									id="proNome" placeholder="Nome" autofocus="autofocus" value="" required />
+								<div class="invalid-feedback">
+									Por favor, informe o nome do produto.
+								</div>
+							</div>
+						</div>
+
+						<!-- Categoria -->
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="categoria">Categoria</label>
+								<select class="form-select" id="proCategoria" aria-label="Default select example">
+
+									<option value="Cosmeticos">Cosméticos</option>
+									<option value="Perfumaria">Perfumaria</option>
+									<option value="Saude">Saúde</option>
+								</select>
+							</div>
+						</div>
+
+						<!-- Valor -->
+						<div class="form-row">
+							<div class="form-group col-md-6">
+								<label for="valor">Valor de Venda</label> <input type="text" class="form-control"
+									id="proValor" placeholder="Valor de Venda" data-mask-reverse="true" value=""
+									required />
+								<div class="invalid-feedback">Por favor, insira o valor do produto.</div>
+							</div>
+						</div>
+
+						<button type="submit" class="btn btn-primary btn-sm">Cadastrar</button>
+					</form>
+				</div>
+			</section>
+			<!-- end formulario -->
+
+			<!--  MODAL -->
+			<div id="myModal" class="modal" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title">Criar Prouto Produto</h5>
+						</div>
+						<div class="modal-body">
+							<p id="modalContent"></p>
+						</div>
+						<div class="modal-footer">
+							<button type="button" id="modalClose" class="btn btn-primary">Ok</button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END MODAL -->
+```
+</details>
+
 ## Aprendizados Efetivos  ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
 
 No desenvolvimento das modelagens do nosso E-commerce, aprendi mais sobre a estruturação de um mesmo. Foi a primeira vez em que trabalhei de fato com uma aplicação front-end voltada principal para web.
