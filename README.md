@@ -470,10 +470,13 @@ Clique [aqui](https://maven.apache.org/) para acessar a documentação original.
 
 ## Contribuições pessoais
 
-Fui responsável pela criação do banco de dados utilizado para toda a aplicação. Para isso, foi necessário estudar sobre a utilização de um SGBD que eu não tinha experiência nenhuma, que era o Oracle Database, que utiliza uma sintaxe totalmente diferente de outros SGBD mais comuns, como MySql e Postgres.
+Tive a responsabilidade de desempenhar um papel fundamental no projeto, assumindo a criação e gestão do banco de dados que serviu como a base para toda a aplicação. Para isso, foi necessário dedicar-me a um estudo aprofundado sobre a utilização do Oracle Database, um Sistema de Gerenciamento de Banco de Dados (SGBD) com o qual não possuía experiência prévia. Este SGBD apresenta uma sintaxe distinta dos mais comuns, como MySql e Postgres, exigindo um aprendizado específico para sua utilização eficaz.
 
-Durante a preparação para iniciar o desenvolvimento do projeto, consultei diversos materiais e documentações sobre como era o ambiente Oracle como requisitos para a utilização do mesmo, como configura-lo, como manuseá-lo e etc. Além disso fui responsável pela modelagem completa do nosso banco, gerado através do Brmodelo 3.0
+Além disso, desempenhei um papel crucial no desenvolvimento web, assumindo a responsabilidade pela criação de algumas telas-chave do projeto. Uma dessas telas foi a "Lista", que tinha o objetivo de exibir todos os produtos cadastrados no banco de dados, independentemente de serem dados fictícios ou inseridos pelo próprio usuário. Outra tela relevante foi a de "Cadastro de Produtos", que permitia ao usuário inserir novos produtos e promoções, os quais seriam posteriormente exibidos na tela de "Lista".
 
+Essas contribuições foram de extrema importância para o êxito do projeto, uma vez que o banco de dados e as telas desenvolvidas desempenharam um papel central na experiência do usuário e no funcionamento da aplicação como um todo. Por meio da minha dedicação e conhecimento adquirido, fui capaz de superar os desafios enfrentados ao lidar com um novo SGBD e garantir a entrega de um sistema funcional e eficiente.
+
+Minha participação nesse projeto permitiu-me ampliar minha expertise em gerenciamento de banco de dados, especialmente em relação ao Oracle Database, aprimorando minhas habilidades técnicas e meu domínio de uma sintaxe diferente. Além disso, o desenvolvimento das telas-chave consolidou minha proficiência em desenvolvimento web, fortalecendo meu currículo e contribuindo para meu crescimento profissional no campo da programação.
 
 ## Aprendizados Efetivos  ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
 
@@ -484,6 +487,7 @@ Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnol
 
 - Criação de banco de dados para armazenamento de produtos cadastrados e novas regras geradas pelo usuário/cliente: sei fazer com autonomia
 - Modelagem completa para armazenar todos os dados oferecidos e requisitados pelo usuário e pela aplicação: sei fazer com autonomia
+- Desenvolvimento Web utilizando Bootstrap: sei fazer com auxilio
 
 # Projeto 4 - 2º semestre de 2022
 
