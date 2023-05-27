@@ -1,32 +1,3 @@
-# Portfólio Fatec
-
-# Kauã Walbon Santos Borgarelli Tavares
-
-## Introdução
-
-Olá, seja bem-vindo. Sou o Kauã Borgarelli, estudante de Banco de Dados pela FATEC Prof. Jessen Vidal.
-
-Tenho 19 anos e estou em busca de um estágio. <br/>
-
-![https://user-images.githubusercontent.com/79945984/193151179-79c30859-fbd7-42ce-9c7a-d9933e622429.jpg](https://user-images.githubusercontent.com/79945984/193151179-79c30859-fbd7-42ce-9c7a-d9933e622429.jpg)
-
-### *Figura 00. Eu*
-
-### Meus principais conhecimentos
-
-### SQL
-
-Minha atuação mais presente durante a Fatec é com os desenvolvimentos das modelagens relacionais, Lógicos e modelos físicos dos bancos nos API, é com a parte que eu sinto que mais contribuo em quesitos de conhecimento.
-
-### HTML-5 e CSS-3
-
-Html e CSS é o que eu mais estou focado em estudar atualmente, sinto que com o passar dos semestres, consigo contribuir cada vez mais no front-end dos projetos.
-
-### Projetos Integradores durante a graduação
-
-Durante a minha gradução, trabalhei no desenvolvimento de trabalhos chamados de "Projetos integradores". Um projeto integrador tem o objetivo de solucionar um problema do mundo real, utilizando os conhecimentos adquiridos durante o decorrer dos semestres.<br/>
-Abaixo todos estes projetos serão descritos, detalhando o problema, solução proposta (e entregue), e os aprendizados extraídos de cada um deles.
-
 # Projeto 1: 1º Semestre de 2021
 
 ### Parceiro Acadêmico
