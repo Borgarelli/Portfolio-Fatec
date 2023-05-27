@@ -251,7 +251,7 @@ Devido à novidade que foi essa experiência que o API pode me proporcionar, gra
 
  <h2 align="center"> Navegação Projetos :link:</h2>
  
-   <p align="justify" style="font-family:roboto;"><li> 1º Semestre: Julius - Assistente virtual criado para facilitar a sua vida financeira. </li></p>
+   <p align="justify" style="font-family:roboto;"><li> 1º Semestre: Julius - Assistente virtual criado para facilitar a sua vida financeira.</li></p>
    <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/GabrielSG20/Portfolio/blob/main/API_2.md"> 2º Semestre: Trinity - Cadastro e análise de contas com mais simplicidade</a></li></p>
    <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/GabrielSG20/Portfolio/blob/main/API_3.md"> 3° Semestre: AirPLAN - O software que otimiza a criação e controle de documentos de aeronaves</a></li></p>
    <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/GabrielSG20/Portfolio/blob/main/API_4.md"> 4° Semestre: #VEMPRACASA - Uma plataforma de gerenciamento de eventos</a></li></p>
