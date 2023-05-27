@@ -141,70 +141,70 @@ Também fiquei responsável por criar e configurar a tela de cadastro de produto
 > Aqui o trecho do desenvolvimento da tela de cadastro de produtos, feita em Html-5 e JavaScript, e a estilização feita tanto com o BootStrap como de maneira manual usando CSS-3 com auxilio do figma
 
 ```kotlin
-	<!-- FORMULARIO DE CADASTRO -->
-	<div class="layout-main">
-		<section class="layout-content">
-			<section class="layout-content">
-				<div class="container" id="cadastro">
-					<form class="needs-validation" id="main-form" novalidate onsubmit="saveProduto(event)">
-						<div class="form-row">
+<!-- FORMULARIO DE CADASTRO -->
+<div class="layout-main">
+  <section class="layout-content">
+    <section class="layout-content">
+      <div class="container" id="cadastro">
+        <form class="needs-validation" id="main-form" novalidate onsubmit="saveProduto(event)">
+          <div class="form-row">
 
-							<!-- Nome -->
-							<div class="form-group col-md-6">
-								<label for="nome">Nome do Produto</label> <input type="text" class="form-control"
-									id="proNome" placeholder="Nome" autofocus="autofocus" value="" required />
-								<div class="invalid-feedback">
-									Por favor, informe o nome do produto.
-								</div>
-							</div>
-						</div>
+            <!-- Nome -->
+            <div class="form-group col-md-6">
+              <label for="nome">Nome do Produto</label>
+              <input type="text" class="form-control" id="proNome" placeholder="Nome" autofocus="autofocus" value="" required />
+              <div class="invalid-feedback">
+                Por favor, informe o nome do produto.
+              </div>
+            </div>
+          </div>
 
-						<!-- Categoria -->
-						<div class="form-row">
-							<div class="form-group col-md-6">
-								<label for="categoria">Categoria</label>
-								<select class="form-select" id="proCategoria" aria-label="Default select example">
+          <!-- Categoria -->
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="categoria">Categoria</label>
+              <select class="form-select" id="proCategoria" aria-label="Default select example">
+                <option value="Cosmeticos">Cosméticos</option>
+                <option value="Perfumaria">Perfumaria</option>
+                <option value="Saude">Saúde</option>
+              </select>
+            </div>
+          </div>
 
-									<option value="Cosmeticos">Cosméticos</option>
-									<option value="Perfumaria">Perfumaria</option>
-									<option value="Saude">Saúde</option>
-								</select>
-							</div>
-						</div>
+          <!-- Valor -->
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="valor">Valor de Venda</label>
+              <input type="text" class="form-control" id="proValor" placeholder="Valor de Venda" data-mask-reverse="true" value="" required />
+              <div class="invalid-feedback">
+                Por favor, insira o valor do produto.
+              </div>
+            </div>
+          </div>
 
-						<!-- Valor -->
-						<div class="form-row">
-							<div class="form-group col-md-6">
-								<label for="valor">Valor de Venda</label> <input type="text" class="form-control"
-									id="proValor" placeholder="Valor de Venda" data-mask-reverse="true" value=""
-									required />
-								<div class="invalid-feedback">Por favor, insira o valor do produto.</div>
-							</div>
-						</div>
+          <button type="submit" class="btn btn-primary btn-sm">Cadastrar</button>
+        </form>
+      </div>
+    </section>
+    <!-- end formulario -->
 
-						<button type="submit" class="btn btn-primary btn-sm">Cadastrar</button>
-					</form>
-				</div>
-			</section>
-			<!-- end formulario -->
-
-			<!--  MODAL -->
-			<div id="myModal" class="modal" tabindex="-1" role="dialog">
-				<div class="modal-dialog" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title">Criar Prouto Produto</h5>
-						</div>
-						<div class="modal-body">
-							<p id="modalContent"></p>
-						</div>
-						<div class="modal-footer">
-							<button type="button" id="modalClose" class="btn btn-primary">Ok</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- END MODAL -->
+    <!--  MODAL -->
+    <div id="myModal" class="modal" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Criar Produto</h5>
+          </div>
+          <div class="modal-body">
+            <p id="modalContent"></p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="modalClose" class="btn btn-primary">Ok</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END MODAL -->
 ```
 </details>
 
