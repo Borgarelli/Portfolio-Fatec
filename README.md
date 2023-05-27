@@ -291,9 +291,11 @@ Necto Systems <br/>
 
 ### Visão do Projeto
 
+<p align = "justify">
 O SGBD HEalth é uma solução especializada para gerenciamento de Sistemas Gerenciadores de Banco de Dados (SGBDs). É projetado para monitorar e analisar os recursos do SGBD em tempo real como alertas, geração de relatórios personalizados e visualização de tendências históricas, permitindo que os administradores de banco de dados identifiquem rapidamente problemas críticos e tomem medidas corretivas imediatas.
 
 Através da coleta de dados do SGBD, como memória, tempo de consultas, espaço em disco, transações, evolução da memória, caches e registros, o aplicativo fornece uma visão abrangente e detalhada do desempenho e da performance do SGBD. Esses dados são apresentados de maneira clara e intuitiva, facilitando a identificação de possíveis gargalos, problemas de desempenho e oportunidades de otimização.
+</p>
 
 Segue abaixo um video revelando o funcionamento do projeto: 
 
