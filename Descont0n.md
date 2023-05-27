@@ -81,7 +81,7 @@ Além disso, fiquei responsável pelo desenvolvimento web de algumas telas. Uma 
 
 > Aqui o trecho de como foi programada a tela da Lista, a estilização foi feita tanto usando o BootStrap como estilização manual com css com auxilio do figma
 
-```
+```kotlin
 <!-- TABELA -->
 	<div class="container">
 		<select name="op" id="op" class="form-select mb-2" onchange="changeTable()">
@@ -140,7 +140,7 @@ Também fiquei responsável por criar e configurar a tela de cadastro de produto
 
 > Aqui o trecho do desenvolvimento da tela de cadastro de produtos, feita em Html-5 e JavaScript, e a estilização feita tanto com o BootStrap como de maneira manual usando CSS-3 com auxilio do figma
 
-```
+```kotlin
 	<!-- FORMULARIO DE CADASTRO -->
 	<div class="layout-main">
 		<section class="layout-content">
