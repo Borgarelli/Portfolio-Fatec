@@ -11,20 +11,20 @@ Necto Systems <br/>
 ### Visão do Projeto
 
 <p align = "justify">
-O SGBD HEalth é uma solução especializada para gerenciamento de Sistemas Gerenciadores de Banco de Dados (SGBDs). É projetado para monitorar e analisar os recursos do SGBD em tempo real como alertas, geração de relatórios personalizados e visualização de tendências históricas, permitindo que os administradores de banco de dados identifiquem rapidamente problemas críticos e tomem medidas corretivas imediatas.
+O SGBD Health é uma aplicação desenvolvida com o foco exclusivo para o gerenciamento de Sistemas Gerenciadores de Banco de Dados (SGBDs). É projetado para monitorar e analisar os recursos do SGBD em tempo real como alertas, geração de relatórios personalizados e visualização de tendências históricas, permitindo que os administradores de banco de dados identifiquem rapidamente problemas críticos e tomem medidas corretivas imediatas.
 
 Através da coleta de dados do SGBD, como memória, tempo de consultas, espaço em disco, transações, evolução da memória, caches e registros, o aplicativo fornece uma visão abrangente e detalhada do desempenho e da performance do SGBD. Esses dados são apresentados de maneira clara e intuitiva, facilitando a identificação de possíveis gargalos, problemas de desempenho e oportunidades de otimização.
 </p>
 
-Segue abaixo um video revelando o funcionamento do projeto: 
+Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](https://www.youtube.com/watch?v=IhyabBKAMbA)
 
-[<img src="https://user-images.githubusercontent.com/79945984/225161808-9c6c5ffa-ff60-48cb-8bce-95d81551aeb7.png" width="35%" height="10%">](https://youtu.be/NhDe9-Z_dvk "DescontOn vídeo Demonstração")
+[<img src="https://user-images.githubusercontent.com/79945984/225161808-9c6c5ffa-ff60-48cb-8bce-95d81551aeb7.png" width="35%" height="10%">](https://www.youtube.com/watch?v=IhyabBKAMbA "SGBD Health vídeo Demonstração")
 
 ### *Figura 02. Demonstração SGBD Health*
 
 Link do repositório do projeto: [https://github.com/DolphinDatabase/SGBD_Health](https://github.com/DolphinDatabase/SGBD_Health)
 
-### Tecnologias utilizadas
+## Tecnologias utilizadas
 
 ### PostgreSQL [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 
@@ -46,9 +46,9 @@ Clique [aqui](https://www.java.com/pt-BR/download/help/whatis_java.html) para ac
 	
 ## Contribuições pessoais ![Contribuições pessoais](https://img.shields.io/github/commit-activity/y/Borgarelli/SGBD_Health?style=for-the-badge)
 
-Durante minha participação no projeto, fui responsável pela modelagem do banco de dados no PostgreSQL e pela avaliação da utilização do SQLite para armazenamento de arquivos CSV. Trabalhei em estreita colaboração com a equipe de desenvolvimento para garantir a integração adequada do banco de dados com a aplicação e o sucesso do projeto.
+Durante minha participação no projeto, fui responsável pela estruturação do banco de dados no PostgreSQL e pela utilização do SQLite para armazenamento de arquivos CSV. Trabalhei em estreita colaboração com a equipe de desenvolvimento para garantir a integração adequada do banco de dados com a aplicação e o sucesso do projeto.
 
-Para garantir a estruturação adequada do banco de dados, dediquei tempo à elaboração do esquema de banco de dados e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas relevantes para o projeto.
+Para garantir a estruturação adequada do banco de dados, dediquei tempo à elaboração do esquema de banco de dados utilizando a ferramenta Brmodelo utilizando o DER, e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas necessárias para o projeto.
 
 Além disso, busquei estudar conceitos e técnicas relevantes à implementação do banco de dados e outras funcionalidades da aplicação para garantir uma base sólida na gestão dos dados que atendesse aos requisitos e expectativas do projeto.
 Segue abaixo um trecho da criação da tabela no SQLite:
@@ -106,9 +106,10 @@ public class BancoSqlite extends Fileconnect {
 </details>
 
 ## Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
-Este projeto marcou o início de uma verdadeira API com clientes parceiros da Fatec, proporcionando experiências incríveis e desafiadoras ao longo do semestre. O principal foco foi o desenvolvimento do banco de dados para atender a todos os requisitos necessários para a aplicação, permitindo o armazenamento de todos os dados necessários para os testes e também trabalhar com a ferrmenta do SQLite para desenvolver um banco local de maneira efetiva para testar as funcionalidades propostas pelo SGBD Health.
 
-Este projeto foi de extrema importancia para meu desenvolvimento como programador, pois foi o primeiro contato com a linguagem de Java e um primeiro contato direto com clientes parceiros da Fatec, fornecendo diversas experiencias relevantes para meu curriculo profissional e pessoal 
+Este projeto marcou o início de uma verdadeira API com clientes parceiros da Fatec, proporcionando experiências incríveis e desafiadoras ao longo do semestre. Meu principal foco foi o desenvolvimento do banco de dados para atender a todos os requisitos necessários para a aplicação, permitindo o armazenamento de todos os dados necessários para os testes e também trabalhar com a ferramenta do SQLite para desenvolver um banco local de maneira efetiva para testar as funcionalidades propostas pelo SGBD Health.
+
+Este projeto foi de extrema importancia para meu desenvolvimento como programador, pois foi o primeiro contato com a linguagem de Java e um primeiro contato direto com clientes parceiros da Fatec, fornecendo experiências de extrema relevância para meu curriculo profissional.
 
 - Utilização do PostgreSQL: sei fazer com autonomia.
 - Criar tabelas, relacionamentos e modelagem: sei fazer com autonomia.

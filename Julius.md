@@ -18,7 +18,7 @@ Entre as funcionalidades oferecidas pelo Julius, destacam-se o código de açõe
 Além disso, o Julius possui outras funcionalidades relevantes, como a possibilidade de consultar a agenda econômica, que apresenta eventos relevantes para o mercado financeiro nacional; a disponibilidade de um chatbot que responde às principais dúvidas dos usuários.
 </p>
 
-Segue abaixo um video revelando o funcionamento do projeto:
+Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](https://www.youtube.com/watch?v=oyqu1XqaPPE)
 
 [<img src="https://user-images.githubusercontent.com/79945984/231305890-33255901-7287-40bd-8260-71b93e657ad8.png" widrh="35%" height="10%">](https://www.youtube.com/watch?v=oyqu1XqaPPE "Julius vídeo Demonstração")
 
