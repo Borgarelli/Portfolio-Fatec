@@ -226,6 +226,4 @@ Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnol
 <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/SGBD_Health.md"> 2º Semestre: SGBD Health - Aplicação de monitoramento voltada para SGBDs, focada na performance e desempenho.</a></li></p>
 <p align="justify" style="font-family:roboto;"><li>3° Semestre: Descont0n - Ferramenta para criação de promoções e regras de negócio com foco em E-commerce</li></p>
 <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/MCS.md"> 4° Semestre: MCS - Um sistema ERP que visa gerenciar e controlar dados fornecidos pelos usuários clientes</a></li></p>
-<p align="justify" style="font-family:roboto;"><li><a href="https://github.com/GabrielSG20/Portfolio/blob/main/API_5.md"> 5º Semestre: Data Rangers - Ferramenta de análise de dados para prospecção de novos clientes</a></li></p>
-<p align="justify" style="font-family:roboto;"><li><a href="https://github.com/GabrielSG20/Portfolio/blob/main/API_6.md"> 6º Semestre: D-end - Processamento e análise de dados para tratamento de inconsistências</a></li></p>
 <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/README.md"> Voltar para página inicial</a></li></p>
