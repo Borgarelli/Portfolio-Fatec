@@ -10,7 +10,7 @@ Tenho 19 anos e estou em busca de um estágio. <br/>
 
 ![https://user-images.githubusercontent.com/79945984/193151179-79c30859-fbd7-42ce-9c7a-d9933e622429.jpg](https://user-images.githubusercontent.com/79945984/193151179-79c30859-fbd7-42ce-9c7a-d9933e622429.jpg)
 
-### *Figura 00. Eu*
+### *Eu*
 
 ### Meus principais conhecimentos
 
@@ -28,7 +28,7 @@ Durante a minha gradução, trabalhei no desenvolvimento de trabalhos chamados d
 
 Abaixo todos estes projetos serão descritos, detalhando o problema, solução proposta (e entregue), e os aprendizados extraídos de cada um deles.
 
-## Contatos:
+## Contato:
 
 - [LinkedIn;](https://www.linkedin.com/in/kau%C3%A3-borgarelli-5bb67220a/)
 - [GitHub.](https://github.com/Borgarelli)
