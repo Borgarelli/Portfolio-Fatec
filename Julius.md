@@ -22,7 +22,7 @@ Segue abaixo um video revelando o funcionamento do projeto:
 
 [<img src="https://user-images.githubusercontent.com/79945984/231305890-33255901-7287-40bd-8260-71b93e657ad8.png" widrh="35%" height="10%">](https://www.youtube.com/watch?v=oyqu1XqaPPE "Julius vídeo Demonstração")
 
-### Figura 02. Demonstração Julius
+### *Figura 02. Demonstração Julius*
 
 Link do repositório do projeto: [https://github.com/TheLooksDatabase/Julius](https://github.com/TheLooksDatabase/Julius)
 
@@ -247,7 +247,7 @@ Durante o desenvolvimento desse projeto, fui exposto pela primeira vez à import
 Devido à novidade que foi essa experiência que o API pode me proporcionar, grande parte do meu tempo foi dedicado ao estudo de conceitos e técnicas relevantes para a implementação do banco de dados e outras funcionalidades da aplicação. Esse estudo foi essencial não só para a criação de uma base sólida para a gestão de dados locais, que atendeu perfeitamente aos requisitos do projeto mas também para meu desenvolvimento pessoal.
 
 - Criação de um banco de dados local utilziando bibiliotecas especificas: sei fazer com autonomia
-- Gerenciamento e utilização de uma nova gama de apis e bibliotecas disponiveis para o desenvolvimento do projeto: sei fazer com autonomia
+- Gerenciamento e utilização de uma nova gama de APIs e bibliotecas disponiveis para o desenvolvimento do projeto: sei fazer com autonomia
 
 ## Navegação Projetos :link:
  
