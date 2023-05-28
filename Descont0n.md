@@ -217,7 +217,7 @@ Por conta desta experiência, fui inserido a um novo nível de exigência para a
 Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnologias de construção de software, mas que eram essenciais para cumprir com as regras fornecidas pelo cliente, sejam elas em vendas, aplicações de descontos e regras de negócio, é algo que nunca pensei em trabalhar em conjunto antes. Esta habilidade de aprender de forma ágil sobre temas que sequer pensei em trabalhar, por conta das infinitas possíveis áreas de atuação de possíveis futuros clientes, foi de um valor excepcional para mim e para minha formação como aluno da Fatec.
 
 - Criação de banco de dados para armazenamento de produtos cadastrados e novas regras geradas pelo usuário/cliente: sei fazer com autonomia
-- Modelagem completa para armazenar todos os dados oferecidos e requisitados pelo usuário e pela aplicação: sei fazer com autonomia
+- Modelagem completa para armazenar todos os dados fornecidos e requisitados pelo usuário e pela aplicação: sei fazer com autonomia
 - Desenvolvimento Web utilizando Bootstrap: sei fazer com auxilio
 
 ## Navegação Projetos :link:
