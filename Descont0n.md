@@ -1,7 +1,8 @@
 # Projeto 3: 3º semestre de 2022
 
 ### Parceiro Acadêmico
-MidAll [B] </br>
+
+MidAll [B] 
 
 ![MidAll](https://user-images.githubusercontent.com/79945984/225166828-fd8d6942-68e5-4c26-9466-06bc7b08e0d0.png)
 
@@ -16,11 +17,11 @@ Atualmente implementamos e apresentamos o cadastro dos produtos dentro de promo�
 Além disso, há a autonomia fornecida ao usuário para editar, remover, arquivar ou desarquivar seus produtos e também para editar, deletar, interromper ou ativar promoções de uma visualização de maneira prática e intuitiva dos produtos e promoções cadastradas através da listagem que possui um filtro para que seja possível diferenciar e verificar os status dos produtos e promoções.
 </p>
 
-Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](https://youtu.be/NhDe9-Z_dvk):
+Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](https://youtu.be/NhDe9-Z_dvk)
 
 [<img src="https://github.com/DolphinDatabase/DescontOn/blob/47f0f23ee3d7710b472fc1ff26d06da50237681e/Imagens/imagem_2022-04-15_155641874.png" width="40%">](https://youtu.be/NhDe9-Z_dvk "DescontOn vídeo Demonstração")
 
-### *Figura 04. Aplicação em ação - Motor de regras integrado a um E-commerce, realizando todo o processo de cadastro de novos produtos e o processo de criação de novas regras de desconto para aplicar a seus produtos*
+### *Figura 04. Demonstração Descont0n*
 
 Link do repositório do projeto: https://github.com/DolphinDatabase/DescontOn
 
@@ -75,7 +76,7 @@ Clique [aqui](https://maven.apache.org/) para acessar a documentação original.
 
 Neste projeto, desempenhei o papel da criação e gestão do banco de dados que serviu como a base para toda a aplicação. Para isso, foi necessário dedicar-me a um estudo aprofundado sobre a utilização do Oracle Database, um Sistema de Gerenciamento de Banco de Dados (SGBD) com o qual não possuía experiência prévia. Este SGBD apresenta uma sintaxe distinta dos mais comuns, como MySql e Postgres, exigindo um aprendizado específico para sua utilização eficaz.
 
-Além disso, fiquei responsável pelo desenvolvimento web de algumas telas. Uma dessas telas foi a "Lista", que tinha o objetivo de exibir todos os produtos cadastrados no banco de dados, independentemente de serem dados fictícios ou inseridos pelo próprio usuário. Outra tela relevante foi a de "Cadastro de Produtos", que permitia ao usuário inserir novos produtos e promoções, os quais seriam posteriormente exibidos na tela de "Lista".
+Além disso, fiquei responsável pelo desenvolvimento web de algumas telas. Uma dessas telas foi a tela "Lista", que têm o objetivo de exibir todos os produtos inseridos no nosso banco de dados, independentemente de serem dados fictícios ou fornecidos pelo próprio usuário. Outra tela mecessária foi a tela de "Cadastro de Produtos", que permite ao usuário inserir novos produtos e promoções, os quais seram posteriormente exibidos na tela de "Lista".
 
 <details><summary>Tela da Lista de Compras</summary>
 
@@ -136,7 +137,7 @@ Além disso, fiquei responsável pelo desenvolvimento web de algumas telas. Uma 
 
 Também fiquei responsável por criar e configurar a tela de cadastro de produtos e promoções sendo ambos registrados no banco criado no SGBD Oracle
 
-<details><summary>Tela de Cadastro de produtos</summary>
+<details><summary>Tela de Cadastro de Produtos</summary>
 
 > Aqui o trecho do desenvolvimento da tela de cadastro de produtos, feita em Html-5 e JavaScript, e a estilização feita tanto com o BootStrap como de maneira manual usando CSS-3 com auxilio do figma
 
@@ -211,9 +212,9 @@ Também fiquei responsável por criar e configurar a tela de cadastro de produto
 ## Aprendizados Efetivos  ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
 
 No desenvolvimento das modelagens do nosso E-commerce, aprendi mais sobre a estruturação de um mesmo. Foi a primeira vez em que trabalhei de fato com uma aplicação front-end voltada principal para web.
-Por conta desta experiência, fui inserido a um novo nível de exigência para a construção de um sistema web, tendo que me preocupar com o formato e conteúdo específico das requisições de entrada possiveis no serviço desenvolvido.
+Por conta desta experiência, fui inserido a um novo nível de exigência para a construção de um sistema web, tendo que me preocupar com o formato e conteúdo específico das requisições de possiveis entradas no serviço desenvolvido.
 
-Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnologias de construção de software, mas que eram essenciais para cumprir com as regras informadas pelo cliente, sejam elas em vendas, aplicações de descontos e regras de negócio, é algo que nunca pensei em trabalhar em conjunto antes. Esta habilidade de aprender de forma ágil sobre temas que sequer pensei em trabalhar, por conta das infinitas possíveis áreas de atuação de possíveis futuros clientes, foi de um valor excepcional para mim e para minha formação como aluno da Fatec.
+Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnologias de construção de software, mas que eram essenciais para cumprir com as regras fornecidas pelo cliente, sejam elas em vendas, aplicações de descontos e regras de negócio, é algo que nunca pensei em trabalhar em conjunto antes. Esta habilidade de aprender de forma ágil sobre temas que sequer pensei em trabalhar, por conta das infinitas possíveis áreas de atuação de possíveis futuros clientes, foi de um valor excepcional para mim e para minha formação como aluno da Fatec.
 
 - Criação de banco de dados para armazenamento de produtos cadastrados e novas regras geradas pelo usuário/cliente: sei fazer com autonomia
 - Modelagem completa para armazenar todos os dados oferecidos e requisitados pelo usuário e pela aplicação: sei fazer com autonomia
