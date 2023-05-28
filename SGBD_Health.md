@@ -6,7 +6,7 @@ Necto Systems <br/>
 
 ![https://user-images.githubusercontent.com/74321890/200952858-ff867019-d4c6-49cf-9c2a-9508546a5ed9.png](https://user-images.githubusercontent.com/74321890/200952858-ff867019-d4c6-49cf-9c2a-9508546a5ed9.png)
 
-### *Figura 01. Necto Systems*
+### *Necto Systems*
 
 ### Visão do Projeto
 
@@ -20,7 +20,7 @@ Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](htt
 
 [<img src="https://user-images.githubusercontent.com/79945984/225161808-9c6c5ffa-ff60-48cb-8bce-95d81551aeb7.png" width="35%" height="10%">](https://www.youtube.com/watch?v=IhyabBKAMbA "SGBD Health vídeo Demonstração")
 
-### *Figura 02. Demonstração SGBD Health*
+### *Demonstração SGBD Health*
 
 Link do repositório do projeto: [https://github.com/DolphinDatabase/SGBD_Health](https://github.com/DolphinDatabase/SGBD_Health)
 

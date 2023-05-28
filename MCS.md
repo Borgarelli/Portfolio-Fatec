@@ -6,7 +6,7 @@ Subiter
 
 <img src="https://user-images.githubusercontent.com/79945984/234428920-7718492b-5552-4f0a-88bc-8fbfdce87773.png" height="300"/>
 
-### *Figura 06. Subiter*
+### *Subiter*
 
 ### Visão do Projeto
 
@@ -20,7 +20,7 @@ Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](htt
 
 [<img src="https://github.com/DolphinDatabase/MCS/blob/main/Imagens/MCS_Youtube.png" width="40%">](https://www.youtube.com/watch?v=omSyXxA3AYI&list=PLUOBqJKbljZv85QQ4B3ExV93PQVVf8n2o "MCS vídeo Demonstração")
 
-### *Figura 07. Demonstração MCS*
+### *Demonstração MCS*
 
 Link do repositório do projeto: https://github.com/DolphinDatabase/MCS
 

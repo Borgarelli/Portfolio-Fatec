@@ -6,7 +6,7 @@ Fatec Prof. Jessen Vidal (proposta realizada pelo docente responsável pela disc
 
 ![image](https://user-images.githubusercontent.com/79945984/231303106-6b96699c-af17-4c41-9217-d0792d661b1f.png)
 
-### *Figura 01. Fatec São José dos Campos*
+### *Fatec São José dos Campos*
 
 ### Visão do Projeto
 
@@ -22,7 +22,7 @@ Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](htt
 
 [<img src="https://user-images.githubusercontent.com/79945984/231305890-33255901-7287-40bd-8260-71b93e657ad8.png" widrh="35%" height="10%">](https://www.youtube.com/watch?v=oyqu1XqaPPE "Julius vídeo Demonstração")
 
-### *Figura 02. Demonstração Julius*
+### *Demonstração Julius*
 
 Link do repositório do projeto: [https://github.com/TheLooksDatabase/Julius](https://github.com/TheLooksDatabase/Julius)
 

@@ -6,7 +6,7 @@ MidAll [B]
 
 ![MidAll](https://user-images.githubusercontent.com/79945984/225166828-fd8d6942-68e5-4c26-9466-06bc7b08e0d0.png)
 
-### *Figura 05. MidAllº*
+### *MidAllº [B]*
 
 ### Visão do Projeto
 <p align = "justify">
@@ -21,7 +21,7 @@ Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](htt
 
 [<img src="https://github.com/DolphinDatabase/DescontOn/blob/47f0f23ee3d7710b472fc1ff26d06da50237681e/Imagens/imagem_2022-04-15_155641874.png" width="40%">](https://youtu.be/NhDe9-Z_dvk "DescontOn vídeo Demonstração")
 
-### *Figura 04. Demonstração Descont0n*
+### *Demonstração Descont0n*
 
 Link do repositório do projeto: https://github.com/DolphinDatabase/DescontOn
 
