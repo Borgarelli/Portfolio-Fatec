@@ -16,11 +16,11 @@ Tenho 19 anos e estou em busca de um estágio. <br/>
 
 ### SQL
 
-Minha atuação mais presente durante a Fatec é com o desenvolvimento das modelagens relacionais, Lógicos e modelos físicos dos bancos de dados nos API, é com a parte que eu sinto que mais contribuo em quesitos de conhecimento.
+Minha atuação mais presente durante a Fatec é com o desenvolvimento do banco de dados dos projetos, principalmente a partir do segundo semestre, que foi integrado o primeiro SGBD PostgreSQL, e a partir dele foi sendo utilizado cada vez mais novos SGBDs como o Oracle e o Oracle Cloud.
 
-### HTML-5 e CSS-3
+### HTML-5, CSS-3, JavaScript e VueJs
 
-Html e CSS é o que eu mais estou focado em estudar atualmente, sinto que com o passar dos semestres, consigo contribuir cada vez mais no front-end dos projetos.
+Por conta dos novos projetos e os requisitos para a entrega do mesmo, foi necessário uma dedicação a essa área do front-end para o cumprimento desses requisitos, e dentro deles, me aprofundei em estudar um pouco de tudo, ter uma integração inicial com Html e Css foi primordial para aprender JavaScript, e com o JavaScript foi importantissimo para aprender e integrar o VueJs 3 não só na faculdade, como também na minha vida profissional como desenvolvedor.
 
 ### Projetos Integradores durante a graduação
 
