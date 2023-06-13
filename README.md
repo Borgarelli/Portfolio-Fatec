@@ -6,7 +6,7 @@
 
 Olá, seja bem-vindo. Sou o Kauã Borgarelli, estudante de Banco de Dados pela FATEC Prof. Jessen Vidal.
 
-Tenho 19 anos e estou em busca de um estágio. <br/>
+Tenho 20 anos e estou em busca de um estágio. <br/>
 
 ![https://user-images.githubusercontent.com/79945984/193151179-79c30859-fbd7-42ce-9c7a-d9933e622429.jpg](https://user-images.githubusercontent.com/79945984/193151179-79c30859-fbd7-42ce-9c7a-d9933e622429.jpg)
 
@@ -16,7 +16,7 @@ Tenho 19 anos e estou em busca de um estágio. <br/>
 
 ### SQL
 
-Minha atuação mais presente durante a Fatec é com o desenvolvimento do banco de dados dos projetos, principalmente a partir do segundo semestre, que foi integrado o primeiro SGBD PostgreSQL, e a partir dele foi sendo utilizado cada vez mais novos SGBDs como o Oracle e o Oracle Cloud.
+Minha atuação mais constante durante os semestres foi com o desenvolvimento do banco de dados das aplicações, principalmente a partir do segundo semestre, que foi integrado o primeiro SGBD PostgreSQL, e a partir dele foi sendo utilizado cada vez mais novos SGBDs como o Oracle e o Oracle Cloud.
 
 ### HTML-5, CSS-3, JavaScript e VueJs
 
