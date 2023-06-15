@@ -102,6 +102,8 @@ export default {
 ```
 </details>
 
+Também fiquei responsável pela parte dos gráficos, utilizando a api do Google o google charts
+
 <details><summary>Gráficos</summary>
 
 > Aqui, um trecho da tela Home com foco no desenvolvimento dos gráficos, foram feitos utilizando uma Api do próprio Google, o GoogleCharts, para sincronizar com os dados refrentes ao usuário Cliente logado no sistema.
