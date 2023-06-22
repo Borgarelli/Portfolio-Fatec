@@ -20,7 +20,7 @@ Minha atuação mais constante durante os semestres foi com o desenvolvimento do
 
 ### HTML-5, CSS-3, JavaScript e VueJs
 
-Por conta dos novos projetos e os requisitos para a entrega do mesmo, foi necessário uma dedicação a essa área do front-end para o cumprimento desses requisitos, e dentro deles, me aprofundei em estudar um pouco de tudo, ter uma integração inicial com Html e Css foi primordial para aprender JavaScript, e com o JavaScript foi importantissimo para aprender e integrar o VueJs 3 não só na faculdade, como também na minha vida profissional como desenvolvedor.
+Por conta dos novos projetos e os requisitos para a entrega dos mesmos, foi necessário uma dedicação a estudar essa área do front-end para o cumprimento desses requisitos, e dentro deles, me aprofundei em estudar um pouco de tudo, ter uma integração inicial com Html e CSS foi primordial para aprender JavaScript, e com o JavaScript foi importantissimo para aprender e integrar o VueJs 3 não só na faculdade, como também na minha vida profissional como desenvolvedor.
 
 ### Projetos Integradores durante a graduação
 
