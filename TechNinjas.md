@@ -1,12 +1,12 @@
-# Projeto 4 - 2º semestre de 2022
+# Projeto 5 - 1º semestre de 2023
 
 ### Parceiro Acadêmico
 
-MidAll [b]
+MidAll [B] 
 
-<img src="https://user-images.githubusercontent.com/79945984/234428920-7718492b-5552-4f0a-88bc-8fbfdce87773.png" height="300"/>
+![MidAll](https://user-images.githubusercontent.com/79945984/225166828-fd8d6942-68e5-4c26-9466-06bc7b08e0d0.png)
 
-### *Subiter*
+### *MidAllº [B]*
 
 ### Visão do Projeto
 
@@ -20,7 +20,7 @@ Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](htt
 
 [<img src="https://github.com/DolphinDatabase/MCS/blob/main/Imagens/MCS_Youtube.png" width="40%">](https://www.youtube.com/watch?v=omSyXxA3AYI&list=PLUOBqJKbljZv85QQ4B3ExV93PQVVf8n2o "MCS vídeo Demonstração")
 
-### *Demonstração MCS*
+### *Demonstração Tech Ninjas*
 
 Link do repositório do projeto: https://github.com/DolphinDatabase/MCS
 
@@ -32,17 +32,17 @@ Vue.js é um framework JavaScript de código aberto para a criação de interfac
 
 Clique [aqui](https://vuejs.org/), para acessar a documentação oficial.
 
-### Element Plus [![Element Plus](https://img.shields.io/badge/Element_Plus-%231eaf7a.svg?style=for-the-badge&logo=vue.js&logoColor=white)](https://element-plus.org/)
+### Tailwind css  [![Tailwind CSS](https://img.shields.io/badge/Built_with-Tailwind_CSS-38B2AC?logo=tailwind-css&style=flat-square)](https://tailwindcss.com/)
 
-O Element Plus é uma biblioteca de componentes Vue.js que oferece uma solução elegante e completa para a criação de interfaces de usuário modernas e responsivas. Com um amplo conjunto de componentes prontos para uso, o Element Plus permite aos desenvolvedores agilizar o processo de desenvolvimento, fornecendo elementos visuais consistentes e interativos.
+O Tailwind CSS é um framework de CSS que usa classes utilitárias para estilizar diretamente o HTML, agilizando o desenvolvimento front-end. Ele oferece uma ampla gama de classes pré-definidas para estilos, margens, cores e responsividade, permitindo criar interfaces atraentes de forma rápida e flexível.
 
 Clique [aqui](https://element-plus.org/), para acessar a documentação oficial.
 
-### Spring Boot [![Spring Boot](https://img.shields.io/badge/Spring_Boot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/projects/spring-boot)
+### Python [![Python Badge](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
-O Spring Boot é um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Trazendo mais agilidade para o processo de desenvolvimento com uma infinidade de ferramentas surge todos os dias visando justamente acelerar o processo de criação e implantação de soluções nos mais variados ambientes.
+Python é uma linguagem de programação de alto nível, interpretada e dinâmica, que é amplamente utilizada em áreas como desenvolvimento web, análise de dados, inteligência artificial, automação de tarefas e muitas outras. Uma das principais vantagens do Python é sua sintaxe simples e intuitiva, que facilita a escrita e leitura de código, além de aumentar a produtividade do programador.
 
-Clique [aqui](https://spring.io/projects/spring-boot), para acessar a documentação oficial.
+Clique [aqui](https://docs.python.org/3/) para acessar a documentação oficial.
 
 ## Contribuições pessoais
 
