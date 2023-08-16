@@ -48,7 +48,7 @@ Clique [aqui](https://docs.python.org/3/) para acessar a documentação oficial.
 
 Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenvolvimento do front-end da aplicação e no banco de dados. Minhas responsabilidades incluíram a criação do modelo DER do banco de dados e a geração do DDL correspondente, e também a criação de gráficos atráves do Charts do google.
 
-Utilizamos a plataforma Oracle Cloud para armazenar os dados em nuvem. Além disso, fui responsável pelo desenvolvimento da tela de login e pela implementação dos modais gerais da aplicação. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva aos usuários, ao mesmo tempo em que garantia a correta persistência dos dados necessários para o funcionamento adequado do sistema.
+Utilizamos a plataforma Azure Cloud e google Cloud para armazenar e lidar com a transferencia de dados em nuvem. Além disso, fui responsável pelo desenvolvimento das models utilizando a biblioteca SQL-Alchemy para a estruturação do banco de dados não relacional, também fiquei responsável pela estruturação do frontend, com algum dos componentes montados em Vue e o Tailwind css para a estilização. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva aos usuários, ao mesmo tempo em que garantia a correta persistência dos dados necessários para o funcionamento adequado do sistema.
 
 Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e adquirir experiência prática em tecnologias relevantes para a indústria da tecnologia da informação.
 
