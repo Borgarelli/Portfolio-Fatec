@@ -11,7 +11,7 @@ MidAll [B]
 ### Visão do Projeto
 
 <p align="justify">
-Esse projeto visa automatizar a jornada de controle de seus arquivos armazenados em uma plataforma de vídeos, transferindo-os para a nuvem, por meio do desenvolvimento de um aplicativo como serviço, com apenas um menu de configuração para o usuário, que terá os parâmetros necessários para o processo de serviço de download de forma automática, gerando alertas em caso de erro no processamento. Salva os metadados do arquivo para construir um painel de controle para monitorar a execução do serviço e posteriormente analisar resultados e indicadores.
+Esse projeto visa automatizar a jornada de controle de seus arquivos armazenados em uma plataforma de vídeos, transferindo-os para a nuvem, por meio do desenvolvimento de um aplicativo como serviço, com apenas um menu de configuração para o usuário, que terá os parâmetros necessários para o processo de serviço de download de forma automática, gerando alertas em caso de erro no processamento. Fica responsável por salvar os metadados do arquivo para construir um painel de controle para monitorar a execução do serviço e posteriormente analisar resultados e indicadores.
 </p>
 
 Link do repositório do projeto: https://github.com/TechNinjass/midall-parent
@@ -45,12 +45,11 @@ O SQLAlchemy é uma biblioteca em Python que fornece uma abstração flexível p
 Clique [aqui](https://docs.sqlalchemy.org/) para acessar a documentação oficial.
 
 
-
 ## Contribuições pessoais
 
-Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenvolvimento do front-end da aplicação e no banco de dados. Minhas responsabilidades incluíram a criação do modelo DER do banco de dados e a geração do DDL correspondente, e também a criação de gráficos atráves do Charts do google.
+Neste projeto, fiquei responsável pela estruturação e criação d interface gráfica do projeto, utilizando Vuejs 3 como principal ferramenta para todo o funcionamento do projeto, a configuração das rotas foi realizada utilizando o vue-router e a estilização foi crida utilizando principalmente o Tailwind CSS. Também fiquei responsável pela criação das models em python com a utilização da biblioteca SQL-Alchemy.
 
-Utilizamos a plataforma Azure Cloud e google Cloud para armazenar e lidar com a transferencia de dados em nuvem. Além disso, fui responsável pelo desenvolvimento das models utilizando a biblioteca SQL-Alchemy para a estruturação do banco de dados não relacional, também fiquei responsável pela estruturação do frontend, com algum dos componentes montados em Vue e o Tailwind css para a estilização. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva aos usuários, ao mesmo tempo em que garantia a correta persistência dos dados necessários para o funcionamento adequado do sistema.
+Para a gestão, fluxo e controle de dados, utilizamos o Google Cloud e a Azure, utilizando a api do próprio google para a transferência de dados entre uma cloud para a outra.
 
 Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e adquirir experiência prática em tecnologias relevantes para a indústria da tecnologia da informação.
 
@@ -204,13 +203,13 @@ Também fiquei responsável pela parte dos gráficos, utilizando a api do Google
 </details>
 
 ## Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
-A participação nesse projeto foi de extrema importância para o meu crescimento profissional, pois representou um marco na minha trajetória ao possibilitar o trabalho simultâneo com dois frameworks simultaneamente, resultando em uma experiência prática de integração completa entre front-end e back-end. O contato com essa tecnologia foi desafiador, porém profundamente recompensador, uma vez que pude aplicar o conhecimento adquirido em projetos anteriores e impulsionar ainda mais minhas habilidades em desenvolvimento de front-end.
+Este projeto foi de enorme aprendizado, pois fui introduizo ao conceito de Devops, um "mundo" totalmente diferente do que estou acustumado, onde fui introduzido  a computação em nuvem, trabalhando com transferências de arquivos de um serviço cloud para o outro. Adotando a pratica de gitflow, fiquei responsável por aderir ela ao projeto, utilizando os conceitos da mesma para aplicarmos o nosso "próprio" gitflow.
 
 A experiência adquirida nesse projeto foi extremamente enriquecedora, pois permitiu-me aplicar conceitos teóricos em um contexto real, enfrentando desafios complexos e adquirindo um conhecimento mais aprofundado em desenvolvimento de aplicações web. Essa vivência consolidou meu domínio das tecnologias envolvidas e ampliou meu conjunto de habilidades, tornando-me um profissional mais completo e preparado para enfrentar projetos desafiadores no futuro.
 
-- Desenvolver um CRUD: sei fazer com autonomia.
-- Desenvolvimento Front-end utilizando VueJS: sei fazer com autonomia.
-- Utilização do OracleCloud: sei fazer com autonomia.
+- Criação das models: sei fazer com autonomia.
+- Desenvolvimento da interface utilizando Vuejs 3: sei fazer com autonomia.
+- Aplicação de conceitos Devops como gitflow: sei fazer com autonomia.
 
 ## Navegação Projetos :link:
  
