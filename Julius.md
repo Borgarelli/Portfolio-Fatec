@@ -2,7 +2,7 @@
 
 ### Parceiro Acadêmico
 
-Fatec Prof. Jessen Vidal (proposta realizada pelo docente responsável pela disciplina que ordenou o projeto) <br/>
+Fatec Prof. Jessen Vidal <br/>
 
 ![image](https://user-images.githubusercontent.com/79945984/231303106-6b96699c-af17-4c41-9217-d0792d661b1f.png)
 
