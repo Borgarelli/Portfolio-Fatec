@@ -203,13 +203,13 @@ Também fiquei responsável pela parte dos gráficos, utilizando a api do Google
 </details>
 
 ## Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
-Este projeto foi de enorme aprendizado, pois fui introduizo ao conceito de Devops, um "mundo" totalmente diferente do que estou acustumado, onde fui introduzido  a computação em nuvem, trabalhando com transferências de arquivos de um serviço cloud para o outro. Adotando a pratica de gitflow, fiquei responsável por aderir ela ao projeto, utilizando os conceitos da mesma para aplicarmos o nosso "próprio" gitflow.
+Este projeto representou uma oportunidade de aprendizado significativa, durante a qual fui introduzido ao conceito de DevOps, um ecossistema substancialmente diferente da minha familiaridade prévia. Este novo domínio me permitiu explorar a computação em nuvem, engajando-me na transferência eficiente de arquivos entre serviços em nuvem distintos. Adotando a metodologia GitFlow, assumi a responsabilidade de incorporá-la ao projeto, aplicando seus princípios de forma a estabelecer nossa própria abordagem personalizada.
 
-A experiência adquirida nesse projeto foi extremamente enriquecedora, pois permitiu-me aplicar conceitos teóricos em um contexto real, enfrentando desafios complexos e adquirindo um conhecimento mais aprofundado em desenvolvimento de aplicações web. Essa vivência consolidou meu domínio das tecnologias envolvidas e ampliou meu conjunto de habilidades, tornando-me um profissional mais completo e preparado para enfrentar projetos desafiadores no futuro.
+A experiência acumulada ao longo deste projeto foi profundamente enriquecedora. Tive a oportunidade de aplicar conceitos teóricos em um contexto prático, enfrentando desafios intrincados que ampliaram meu entendimento do desenvolvimento de aplicações web. Esta vivência consolida minha proficiência nas tecnologias empregadas, enquanto expande meu repertório de habilidades. Dessa forma, estou mais bem preparado para enfrentar com confiança projetos desafiadores no futuro.
 
-- Criação das models: sei fazer com autonomia.
-- Desenvolvimento da interface utilizando Vuejs 3: sei fazer com autonomia.
-- Aplicação de conceitos Devops como gitflow: sei fazer com autonomia.
+- Aplicar conceitos de DevOps, como o GitFlow: Sei fazer com autonomia.
+- Criação das models com o SQL-Alchemy: Sei fazer com autonomia.
+- Desenvolvimento da interface principal em Vue js 3: Sei fazer com autonomia. 
 
 ## Navegação Projetos :link:
  
