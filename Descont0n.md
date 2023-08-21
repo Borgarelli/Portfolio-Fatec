@@ -38,10 +38,8 @@ Clique [aqui](https://jquery.com/) para acessar a documentação oficial.
 
 ### Thymeleaf <a href="https://www.thymeleaf.org" target="_blank">![Thymeleaf](https://img.shields.io/badge/Thymeleaf-darkgreen?style=flat-square&logo=thymeleaf)</a>
 
-O Thymeleaf é uma template engine voltado para projetos Java que facilitam a criação
-de páginas HTML. Permitindo a troca de informações entre o código Java e as páginas
-HTML, de tal maneira garantindo que o desenvolvedor consiga criar templates de
-forma mais simples e de uma maneira mais agilizada para suas aplicações.
+O Thymeleaf é uma template engine voltado para projetos Java que facilitam a criação de páginas HTML. Permitindo a troca de informações entre o código Java e as páginas
+HTML. De tal maneira garantindo que o desenvolvedor consiga criar templates de forma mais simples e de uma maneira mais agilizada para suas aplicações.
 
 Clique [aqui](https://www.thymeleaf.org/) para acessar a documentação oficial.
 
