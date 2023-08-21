@@ -33,7 +33,7 @@ jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um s
 
 Suas linhas de código simplificam os scripts interpretados pelo navegador do client-side e por esse motivo é uma das bibliotecas mais populares na comunidade de desenvolvedores.
 
-Clique [aqui](https://jquery.com/) para acessar a documentação oficial.
+Clique [aqui](https://jquery.com/), para acessar a documentação oficial.
 
 
 ### Thymeleaf <a href="https://www.thymeleaf.org" target="_blank">![Thymeleaf](https://img.shields.io/badge/Thymeleaf-darkgreen?style=flat-square&logo=thymeleaf)</a>
@@ -41,7 +41,7 @@ Clique [aqui](https://jquery.com/) para acessar a documentação oficial.
 O Thymeleaf é uma template engine voltado para projetos Java que facilitam a criação de páginas HTML. Permitindo a troca de informações entre o código Java e as páginas
 HTML. De tal maneira garantindo que o desenvolvedor consiga criar templates de forma mais simples e de uma maneira mais agilizada para suas aplicações.
 
-Clique [aqui](https://www.thymeleaf.org/) para acessar a documentação oficial.
+Clique [aqui](https://www.thymeleaf.org/), para acessar a documentação oficial.
 
 ### Spring Boot <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white"/></a>
 
@@ -51,7 +51,7 @@ de desenvolvimento com uma infinidade de ferramentas surge todos os dias visando
 justamente acelerar o processo de criação e implantação de soluções nos mais
 variados ambientes.
 
-Clique [aqui](https://spring.io/projects/spring-boot) para acessar a documentação oficial.
+Clique [aqui](https://spring.io/projects/spring-boot), para acessar a documentação oficial.
 
 ### Bootstrap <a href="https://getbootstrap.com" target="_blank"><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white"/></a><br/>
 
@@ -60,7 +60,7 @@ trabalho, oferecendo padrões para HTML, JavaScript e CSS de acordo com o site
 CiaWebsites. Foi desenvolvido por Jacob Thorton e Mark Otto com o objetivo de
 facilitar a programação de um site web e otimizar o desempenho.
 
-Clique [aqui](https://getbootstrap.com/) para acessar a documentação oficial.
+Clique [aqui](https://getbootstrap.com/), para acessar a documentação oficial.
 
 ### Maven [![Maven](https://img.shields.io/badge/Maven-%23C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
 
@@ -68,7 +68,7 @@ O Apache Maven é uma ferramenta que oferece automação e gerenciamento
 de projetos Java (mas podem ser utilizada com outras linguagens), padronizando a
 construção e publicação de suas aplicações. Por ser extremamente flexível agrega agilidade e qualidade ao produto, além de permitir que sejam adicionados plugins a si e estender suas funcionalidades.
 
-Clique [aqui](https://maven.apache.org/) para acessar a documentação original.
+Clique [aqui](https://maven.apache.org/), para acessar a documentação original.
 
 ## Contribuições pessoais
 
