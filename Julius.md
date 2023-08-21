@@ -249,7 +249,7 @@ Devido à novidade que foi essa experiência que o API pode me proporcionar, gra
 - Criação de um banco de dados local utilziando bibiliotecas especificas: sei fazer com autonomia
 - Gerenciamento e utilização de uma nova gama de APIs e bibliotecas disponiveis para o desenvolvimento do projeto: sei fazer com autonomia
 
-## Navegação Projetos :link:
+## Navegação Entre Projetos :link:
  
 <p align="justify" style="font-family:roboto;"><li>1º Semestre: Julius - Assistente virtual criado para facilitar a sua vida financeira.</li></p>
 <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/SGBD_Health.md"> 2º Semestre: SGBD Health - Aplicação de monitoramento voltada para SGBDs, focada na performance e desempenho.</a></li></p>

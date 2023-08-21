@@ -115,7 +115,7 @@ Este projeto foi de extrema importancia para meu desenvolvimento como programado
 - Criar tabelas, relacionamentos e modelagem: sei fazer com autonomia.
 - Desenvolvimento de scripts em Java: sei fazer com auxilio.
 
-## Navegação Projetos :link:
+## Navegação Entre Projetos :link:
  
 <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/Julius.md"> 1º Semestre: Julius - Assistente virtual criado para facilitar a sua vida financeira.</a></li></p>
 <p align="justify" style="font-family:roboto;"><li> 2º Semestre: SGBD Health - Aplicação de monitoramento voltada para SGBDs, focada na performance e desempenho.</li></p>

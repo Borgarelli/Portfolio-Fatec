@@ -210,7 +210,7 @@ A experiência adquirida nesse projeto foi extremamente enriquecedora, pois perm
 - Desenvolvimento Front-end utilizando VueJS: sei fazer com autonomia.
 - Utilização do OracleCloud: sei fazer com autonomia.
 
-## Navegação Projetos :link:
+## Navegação Entre Projetos :link:
  
 <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/Julius.md"> 1º Semestre: Julius - Assistente virtual criado para facilitar a sua vida financeira</a></li></p>
 <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/SGBD_Health.md"> 2º Semestre: SGBD Health - Aplicação de monitoramento com foco em performance e desempenho</a></li></p>

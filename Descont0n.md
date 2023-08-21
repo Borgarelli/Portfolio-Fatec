@@ -76,7 +76,7 @@ Neste projeto, desempenhei o papel da criação e gestão do banco de dados que 
 
 Além disso, fiquei responsável pelo desenvolvimento web de algumas telas. Uma dessas telas foi a tela "Lista", que têm o objetivo de exibir todos os produtos inseridos no nosso banco de dados, independentemente de serem dados fictícios ou fornecidos pelo próprio usuário. Outra tela mecessária foi a tela de "Cadastro de Produtos", que permite ao usuário inserir novos produtos e promoções, os quais seram posteriormente exibidos na tela de "Lista".
 
-<details><summary>Tela da Lista de Compras</summary>
+<details><summary>Tela Lista de Compras</summary>
 
 > Aqui o trecho de como foi programada a tela da Lista, a estilização foi feita tanto usando o BootStrap como estilização manual com css com auxilio do figma
 
@@ -218,7 +218,7 @@ Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnol
 - Modelagem completa para armazenar todos os dados fornecidos e requisitados pelo usuário e pela aplicação: sei fazer com autonomia
 - Desenvolvimento Web utilizando Bootstrap: sei fazer com auxilio
 
-## Navegação Projetos :link:
+## Navegação Entre Projetos :link:
  
 <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/Julius.md">1º Semestre: Julius - Assistente virtual criado para facilitar a sua vida financeira.</a></li></p>
 <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/SGBD_Health.md"> 2º Semestre: SGBD Health - Aplicação de monitoramento voltada para SGBDs, focada na performance e desempenho.</a></li></p>
