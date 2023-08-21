@@ -35,23 +35,23 @@ Clique [aqui](https://element-plus.org/), para acessar a documentação oficial.
 
 O Flask é um framework leve em Python para construção de aplicativos web. Ele oferece ferramentas para criar rapidamente aplicações web simples a complexas, seguindo o padrão de arquitetura MVC (Model-View-Controller). 
 
-Clique [aqui](https://flask.palletsprojects.com/en/2.3.x/) para acessar a documentação oficial.
+Clique [aqui](https://flask.palletsprojects.com/en/2.3.x/), para acessar a documentação oficial.
 
 
 ### SQL-Alchemy [![SQL-Alchemy](https://img.shields.io/badge/SQL--Alchemy-%230D6A8F.svg?style=for-the-badge&logo=sqlalchemy&logoColor=white)](https://www.sqlalchemy.org/)
 
 O SQLAlchemy é uma biblioteca em Python que fornece uma abstração flexível para trabalhar com bancos de dados relacionais. Ele permite que os desenvolvedores criem consultas SQL de maneira programática, mapeiem objetos Python para tabelas do banco de dados e gerenciem interações complexas com o banco de dados de forma eficiente.
 
-Clique [aqui](https://docs.sqlalchemy.org/) para acessar a documentação oficial.
+Clique [aqui](https://docs.sqlalchemy.org/), para acessar a documentação oficial.
 
 
 ## Contribuições pessoais
 
-Neste projeto, fiquei responsável pela estruturação e criação d interface gráfica do projeto, utilizando Vuejs 3 como principal ferramenta para todo o funcionamento do projeto, a configuração das rotas foi realizada utilizando o vue-router e a estilização foi crida utilizando principalmente o Tailwind CSS. Também fiquei responsável pela criação das models em python com a utilização da biblioteca SQL-Alchemy.
+Nesta empreitada, assumi a responsabilidade pela concepção e desenvolvimento da interface gráfica. Empreguei o Vue.js 3 como a pedra angular para toda a funcionalidade do projeto. A configuração das rotas foi executada com precisão através do vue-router, e a estética do projeto foi meticulosamente concretizada, notadamente por meio do emprego preponderante do Tailwind CSS. Também recaiu sobre mim a tarefa de orquestrar a criação das estruturas de dados em Python, recorrendo à biblioteca SQL-Alchemy para esse propósito.
 
-Para a gestão, fluxo e controle de dados, utilizamos o Google Cloud e a Azure, utilizando a api do próprio google para a transferência de dados entre uma cloud para a outra.
+Para gerenciamento, fluxo e salvaguarda de dados, optamos pela sinergia entre as plataformas Google Cloud e Azure. Aproveitando as APIs nativas do Google, habilitamos a transferência fluida de dados entre estas nuvens.
 
-Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e adquirir experiência prática em tecnologias relevantes para a indústria da tecnologia da informação.
+Este projeto configurou-se como uma notável oportunidade para aprimorar minhas competências e cultivar uma experiência prática embasada em tecnologias de extrema relevância para a indústria da tecnologia da informação. Nesse âmbito, pude expandir meu entendimento e aplicação das ferramentas essenciais, reforçando minha capacidade de oferecer soluções inovadoras em futuros projetos desafiadores.
 
 <details><summary>Tela Login</summary>
 
