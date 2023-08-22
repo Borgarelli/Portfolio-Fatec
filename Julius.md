@@ -200,7 +200,7 @@ def comparativo():
 ```
 </details>
 
-Também fui responsável pela funcionalidade de Conversor de moedas, que utiliza a API currencyConverter que é responsável pela cotação das moedas de distintas nacionalidades e com isso fazer a conversão de moeda para moeda durante o uso da aplicação
+Também fui responsável pela funcionalidade de Conversor de moedas, que utiliza a API currencyConverter e que é responsável pela cotação atualizada em tempo real das moedas de distintas nacionalidades e com isso realizar a conversão de moeda para moeda durante o uso da aplicação
 
 <details><summary>Conversor de Moedas</summary>
 

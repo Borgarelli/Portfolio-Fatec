@@ -40,18 +40,18 @@ Clique [aqui](https://flask.palletsprojects.com/en/2.3.x/), para acessar a docum
 
 ### SQL-Alchemy [![SQL-Alchemy](https://img.shields.io/badge/SQL--Alchemy-%230D6A8F.svg?style=for-the-badge&logo=sqlalchemy&logoColor=white)](https://www.sqlalchemy.org/)
 
-O SQLAlchemy é uma biblioteca em Python que fornece uma abstração flexível para trabalhar com bancos de dados relacionais. Ele permite que os desenvolvedores criem consultas SQL de maneira programática, mapeiem objetos Python para tabelas do banco de dados e gerenciem interações complexas com o banco de dados de forma eficiente.
+O SQL-Alchemy é uma biblioteca em Python que fornece uma abstração flexível para trabalhar com bancos de dados relacionais. Ele permite que os desenvolvedores criem consultas SQL de maneira programática, mapeiem objetos Python para tabelas do banco de dados e gerenciem interações complexas com o banco de dados de forma eficiente.
 
 Clique [aqui](https://docs.sqlalchemy.org/), para acessar a documentação oficial.
 
 
 ## Contribuições pessoais
 
-Nesta empreitada, assumi a responsabilidade pela concepção e desenvolvimento da interface gráfica. Empreguei o Vue.js 3 como a pedra angular para toda a funcionalidade do projeto. A configuração das rotas foi executada com precisão através do vue-router, e a estética do projeto foi meticulosamente concretizada, notadamente por meio do emprego preponderante do Tailwind CSS. Também recaiu sobre mim a tarefa de orquestrar a criação das estruturas de dados em Python, recorrendo à biblioteca SQL-Alchemy para esse propósito.
+Nesta empreitada, assumi a responsabilidade pela concepção e desenvolvimento da interface gráfica. Empreguei o Vue.js 3 como um dos pontos principais da aplicação. A configuração das rotas foi realizada utilizando vue-router, e a estlização de componentes mais dinâmicos e personalizados do projeto foi estruturada utilizando o Tailwind CSS. Também foi definido para mim a tarefa da criação das estruturas de dados em Python mais conhecidas como models, e para realizar está tarefa utilizei à biblioteca SQL-Alchemy.
 
-Para gerenciamento, fluxo e salvaguarda de dados, optamos pela sinergia entre as plataformas Google Cloud e Azure. Aproveitando as APIs nativas do Google, habilitamos a transferência fluida de dados entre estas nuvens.
+Para o gerenciamento, fluxo e armazenameto de dados, optamos pela sinergia entre as plataformas Google Cloud e Azure pela disponibilidade com a conta de estudante fornecido pela instituição acadêmica. Aproveitando as APIs nativas do Google, habilitamos a transferência fluida de dados entre estas nuvens.
 
-Este projeto configurou-se como uma notável oportunidade para aprimorar minhas competências e cultivar uma experiência prática embasada em tecnologias de extrema relevância para a indústria da tecnologia da informação. Nesse âmbito, pude expandir meu entendimento e aplicação das ferramentas essenciais, reforçando minha capacidade de oferecer soluções inovadoras em futuros projetos desafiadores.
+Este projeto configurou-se como uma notável oportunidade para aprimorar minhas competências como um desenvolvedor e cultivar uma experiência prática embasada em tecnologias que cada vez mais vem se mostrando mais requisitadas. Nesse âmbito, pude expandir meu entendimento e aplicação das ferramentas essenciais, reforçando minha capacidade de oferecer soluções inovadoras em possiveis novos futuros projetos desafiadores.
 
 <details><summary>Tela Login</summary>
 
