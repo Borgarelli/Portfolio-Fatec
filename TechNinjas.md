@@ -209,7 +209,7 @@ A experiência acumulada ao longo deste projeto foi profundamente enriquecedora.
 
 - Aplicar conceitos de DevOps, como o GitFlow: Sei fazer com autonomia.
 - Criação das models com o SQL-Alchemy: Sei fazer com autonomia.
-- Desenvolvimento da interface principal em Vue js 3: Sei fazer com autonomia. 
+- Desenvolvimento da interface com Vue js 3: Sei fazer com autonomia. 
 
 ## Navegação Entre Projetos :link:
  

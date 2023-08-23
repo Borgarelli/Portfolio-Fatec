@@ -54,6 +54,8 @@ Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e ad
 
 <details><summary>Tela Login</summary>
 
+<img src="https://github.com/pdrMottaS/Portifolio/assets/74321890/12f0fd7e-760f-4b28-bac5-a8e88a573b2f">
+
 > Uma breve visualização da tela de Login que foi feito através do framework Vuejs com elementos da biblioteca Element Plus que é exclusiva do framework
 
 ```kotlin
@@ -101,10 +103,13 @@ export default {
 </script> 
 ```
 </details>
-
+<br>
 Também fiquei responsável pela parte dos gráficos, utilizando a api do Google o google charts
+<br>
 
 <details><summary>Gráficos</summary>
+
+<img src="https://github.com/DolphinDatabase/Cloud-In/assets/74321890/a2e5f9ff-2b5e-4270-b66e-678b0ecf13e4">
 
 > Aqui, um trecho da tela Home com foco no desenvolvimento dos gráficos, foram feitos utilizando uma Api do próprio Google, o GoogleCharts, para sincronizar com os dados refrentes ao usuário Cliente logado no sistema.
 
