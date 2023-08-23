@@ -53,7 +53,6 @@ Utilizamos a plataforma Oracle Cloud para armazenar os dados em nuvem. Além dis
 Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e adquirir experiência prática em tecnologias relevantes para a indústria da tecnologia da informação.
 
 <details><summary>Tela Login</summary>
-
 <img src="https://github.com/pdrMottaS/Portifolio/assets/74321890/12f0fd7e-760f-4b28-bac5-a8e88a573b2f">
 
 > Uma breve visualização da tela de Login que foi feito através do framework Vuejs com elementos da biblioteca Element Plus que é exclusiva do framework
@@ -102,10 +101,10 @@ export default {
 }
 </script> 
 ```
-</details>
+</details> 
 <br>
+
 Também fiquei responsável pela parte dos gráficos, utilizando a api do Google o google charts
-<br>
 
 <details><summary>Gráficos</summary>
 
