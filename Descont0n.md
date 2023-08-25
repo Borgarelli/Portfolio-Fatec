@@ -76,7 +76,9 @@ Neste projeto, desempenhei o papel da criação e gestão do banco de dados que 
 
 Além disso, fiquei responsável pelo desenvolvimento web de algumas telas. Uma dessas telas foi a tela "Lista", que têm o objetivo de exibir todos os produtos inseridos no nosso banco de dados, independentemente de serem dados fictícios ou fornecidos pelo próprio usuário. Outra tela mecessária foi a tela de "Cadastro de Produtos", que permite ao usuário inserir novos produtos e promoções, os quais seram posteriormente exibidos na tela de "Lista".
 
-<details><summary>Tela Lista de Compras</summary>
+<details><summary>Tela Sacola de Compras</summary>
+<img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/d788a696-8ab8-4ee8-a13b-b6c383d6db56">
+
 
 > Aqui o trecho de como foi programada a tela da Lista, a estilização foi feita tanto usando o BootStrap como estilização manual com css com auxilio do figma
 
@@ -136,6 +138,7 @@ Além disso, fiquei responsável pelo desenvolvimento web de algumas telas. Uma 
 Também fiquei responsável por criar e configurar a tela de cadastro de produtos e promoções sendo ambos registrados no banco criado no SGBD Oracle
 
 <details><summary>Tela de Cadastro de Produtos</summary>
+<img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/1aff2e89-2c44-497e-a01e-76a631f9a14b">
 
 > Aqui o trecho do desenvolvimento da tela de cadastro de produtos, feita em Html-5 e JavaScript, e a estilização feita tanto com o BootStrap como de maneira manual usando CSS-3 com auxilio do figma
 
