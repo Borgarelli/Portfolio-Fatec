@@ -224,7 +224,7 @@ Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnol
 ## Navegação Entre Projetos :link:
  
 <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/Julius.md">1º Semestre: Julius - Assistente virtual criado para facilitar a sua vida financeira.</a></li></p>
-<p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/SGBD_Health.md"> 2º Semestre: SGBD Health - Aplicação de monitoramento voltada para SGBDs, focada na performance e desempenho.</a></li></p>
+<p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/SGBD_Health.md"> 2º Semestre: SGBD Health - Aplicação de monitoramento voltada para SGBD, focada em performance e desempenho</a></li></p>
 <p align="justify" style="font-family:roboto;"><li>3° Semestre: Descont0n - Ferramenta para criação de promoções e regras de negócio com foco em E-commerce</li></p>
 <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/MCS.md"> 4° Semestre: MCS - Sistema ERP que visa gerenciar e controlar dados fornecidos pelos clientes</a></li></p>
 <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/TechNinjas.md"> 5° Semestre: TECH NINJAS - Sistema de automatização fluxo de controle dos arquivos armazenados em cloud</a></li></p>
