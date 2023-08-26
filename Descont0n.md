@@ -70,7 +70,7 @@ construção e publicação de suas aplicações. Por ser extremamente flexível
 
 Clique [aqui](https://maven.apache.org/), para acessar a documentação original.
 
-## Contribuições pessoais &#x2611;
+## Contribuições pessoais ✔
 
 Neste projeto, desempenhei o papel da criação e gestão do banco de dados que serviu como a base para toda a aplicação. Para isso, foi necessário dedicar-me a um estudo aprofundado sobre a utilização do Oracle Database, um Sistema de Gerenciamento de Banco de Dados (SGBD) com o qual não possuía experiência prévia. Este SGBD apresenta uma sintaxe distinta dos mais comuns, como MySql e Postgres, exigindo um aprendizado específico para sua utilização eficaz.
 
