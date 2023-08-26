@@ -56,150 +56,165 @@ Este projeto configurou-se como uma notável oportunidade para aprimorar minhas 
 <details><summary>Tela Login</summary>
 <img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/e4cc6f49-8251-45cd-ae87-42ec1242909e">
 
-> Uma breve visualização da tela de Login que foi feito através do framework Vuejs com elementos da biblioteca Element Plus que é exclusiva do framework
+> Essa é a interface principal da aplicação, onde utilizando toda a versatilidade do Vue, todos os elementos que a compõem estão componentizados e separados corretamente
 
 ```kotlin
 <template>
-  <div id="page">
-    <div id="loginBackgorund">
-      <div>
-        <img src="../assets/Logo.svg">
-        <p style="margin-top: auto;">da Subiter.</p>
+  <div class="fundo">
+    <div id="appView">
+      <Cabecalho></Cabecalho>
+      <div class="button-container">
+        <router-link to="Configuracoes">
+          <button class="my-button">
+            <img src="../assets/config.png" alt="listagem" class="button-icon">
+            <span class="button-text config">CONFIGURAÇÕES</span>
+          </button>
+        </router-link>
+        <router-link to="tabela">
+          <button class="my-button">
+            <img src="../assets/listagem.png" alt="upload" class="button-icon">
+            <span class="button-text">LISTAGEM DE ARQUIVOS</span>
+          </button>
+       </router-link>
+        <router-link to="">
+          <button class="my-button">
+            <img src="../assets/grafico.png" alt="dashboard" class="button-icon">
+            <span class="button-text config">DASHBOARD</span>
+          </button>
+       </router-link>
       </div>
-      <div>
-        <p>Bem-vindo</p>
-        <p>De volta!</p>
-      </div>
-      <div>
-        <p>Alcance o invisível, Subiter</p>
-      </div>
-    </div>
-    <div id="loginMain">
-      <div id="loginContent">
-        <section id="welcome">
-          <h1>Login</h1>
-          <div>
-            <img src="../assets/Icons/Info.svg" style="width: 12px; margin:1px 7px;"/>
-            <span>
-              <p>Olá, amigo! Por favor entre no</p>
-              <p>Sistema de Gerenciamento de Controle.</p>
-            </span>
-          </div>
-        </section>
-        <LoginForm/>
-      </div>
-    </div>
+      <video width="320" height="240" autoplay loop muted class="gif-ninja">
+        <source src="../assets/gifDevNinja.mp4" type="video/mp4" />
+      </video>
   </div>
+</div>
 </template>
- 
-<script> 
-import LoginForm from '../components/form/LoginForm.vue'
-export default {
-  name:"Login",
-  components:{
-    LoginForm
+
+<style scoped>
+    .button-container {
+        position: relative;
+        height: 70vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap:200px;
+    }
+
+    .my-button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 310px;
+        background-color: white;
+        border-radius: 50px;
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .my-button:hover {
+      transform: scale(1.1);
+      transition: 200ms linear;
+    }
+
+    .button-icon {
+        width: 170px;
+        height: 170px;
+        padding-top: 40px;
+    }
+
+    .button-text {
+        color: hwb(212 12% 38%);
+        display: inline-block;
+        white-space: wrap;
+        padding-top: 20px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+    }
+
+    .fundo {
+        position: absolute;
+        background:  #B1D4E0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .config {
+      margin-top: 25px;
+    }
+
+    .gif-ninja {
+      margin-left: 87%;
+      margin-top: -4%;
+      width: 12%;
+    }
+</style>
+
+<script>
+  import Cabecalho from '../components/Cabecalho.vue';
+  export default {
+    name: 'HomeView',
+
+    components: {
+      Cabecalho
+    }
   }
-}
 </script> 
 ```
 </details>
 
-Também fiquei responsável pela parte dos gráficos, utilizando a api do Google o google charts
+E também a modelagem realizada utilizando o SQL-Alchemy
 
 <details><summary>Gráficos</summary>
 
-> Aqui, um trecho da tela Home com foco no desenvolvimento dos gráficos, foram feitos utilizando uma Api do próprio Google, o GoogleCharts, para sincronizar com os dados refrentes ao usuário Cliente logado no sistema.
+> Utilizando o SQL-Alchemy assim foram estruturadas as models para gerar nosso banco de dados, e apartir dele armazenar todos os dados e metadados exigidos.
 
 ```kotlin
-<template> 
-  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'/> 
-  <BasePage>
-    <Title title="Dashboard"/>
-    <div class="cards">
-      <el-card class="card"> 
-        <section id="top-card">
-          <div>
-            <h1>Olá!</h1>
-            <p>Este é o seu Dashboard, aqui você tem acesso aos principais indicadores de
-            desempenho que são relevantes para o seu dia a dia no MCS.</p>
-          </div>
-          <img src="../assets/Home_Img.svg" style="width: 300px;"/>
-        </section>
-      </el-card>
-      <div id="charts">
-        <el-card class="card">
-          <h3>Quantidade de chamados</h3>
-          <GChart
-            type="PieChart"
-            :data="this.chamadosChart.data"
-            :options="this.chamadosChart.options"
-            v-if="this.chamadosChart.total>0"
-          />
-          <p>Total de {{this.chamadosChart.total}} chamados</p>
-        </el-card>
-        <el-card class="card">
-          <h3>Linha do tempo</h3>
-          <el-select v-model="this.monthChart.year" placeholder="Select">
-            <el-option
-              v-for="(item,index) in this.monthChart.data"
-              :key="index"
-              :label="index"
-              :value="index"
-            />
-          </el-select>
-          <GChart
-            type="LineChart"
-            :data="this.monthChart.data[this.monthChart.year]"
-          />
-        </el-card>
-      </div>
-  </div>
-  </BasePage>
-</template>
-<script>
-  import BasePage from '../components/layout/BasePage.vue'
-  import Title from '../components/content/Title.vue'
-  import {ElCard} from 'element-plus'
-  import CardList from '../components/content/CardList.vue'
-  import {GChart} from 'vue-google-charts'
-  export default{
-    name:"Dashboard",
-    components:{
-      BasePage,
-      Title,
-      ElCard,
-      CardList,
-      GChart
-    },
-    data(){
-      return{
-        chamadosChart:{
-          data:null,
-          options:{
-            slices: {
-              0: { color: '#F56C6C' },
-              1: { color: '#E6A23C' },
-              2: { color: '#67C23A' }
-            }
-          },
-          total:0
-        },
-        monthChart:{
-          data:{},
-          year:null
-        }
-      }
-    },
-    async created(){
-      await this.$store.dispatch("listChamados")
-      this.chamadosChart.data = this.$store.getters.getChamadoChartData
-      this.monthChart.data = this.$store.getters.getMonthChartData
-      this.monthChart.year = new Date().getFullYear()
-      console.log(this.monthChart.data)
-      this.chamadosChart.total = (this.chamadosChart.data[1][1]+this.chamadosChart.data[2][1]+this.chamadosChart.data[3][1]) 
-    }
-  };
-</script>
+from flaskr.db import db_instance
+
+class Files(db_instance.Model):
+    File_Id = db_instance.Column(db_instance.Integer, primary_key=True)
+    Size_Files = db_instance.Column(db_instance.Integer, nullable=False)
+    Format = db_instance.Column(db_instance.String(30), nullable=True)
+    Name = db_instance.Column(db_instance.String(254), nullable=False)
+    Date_Upload = db_instance.Column(db_instance.Date, nullable=False)
+    Clouds_Fk = db_instance.Column(db_instance.Integer, db_instance.ForeignKey('cloud.Cloud_Id'))
+
+class Network_Data(db_instance.Model):
+    Network_Id = db_instance.Column(db_instance.Integer, primary_key=True)
+    Speed_Upload = db_instance.Column(db_instance.Integer, nullable=False)
+    Data_Used = db_instance.Column(db_instance.Date, nullable=False)
+    Size_Files_Transf = db_instance.Column(db_instance.Integer, nullable=False)
+    Time_Transfer = db_instance.Column(db_instance.Time, nullable=True)
+    Data_Transfer = db_instance.Column(db_instance.Date, nullable=True)
+    Cloud_Fk = db_instance.Column(db_instance.Integer, db_instance.ForeignKey('cloud.Cloud_Id'))
+
+class Configuration(db_instance.Model):
+    Config_Id = db_instance.Column(db_instance.Integer, primary_key=True)
+    Limit_Size_Transfer = db_instance.Column(db_instance.Integer, nullable=True)
+    Limit_Size_Files_Send = db_instance.Column(db_instance.Integer, nullable=True)
+    Time_Start_Verify = db_instance.Column(db_instance.Time, nullable=False)
+    Time_End_Verify = db_instance.Column(db_instance.Time, nullable=True)
+    Interval_Verify_Files = db_instance.Column(db_instance.Time, nullable=False)
+    Date_Update = db_instance.Column(db_instance.Date, nullable=False)
+    Path_File_Origin = db_instance.Column(db_instance.String(254), nullable=True)
+    Path_File_Destiny = db_instance.Column(db_instance.String(254), nullable=True)
+    Cloud_Id = db_instance.Column(db_instance.Integer, db_instance.ForeignKey('cloud.Cloud_Id'), nullable=True)
+    cloud = db_instance.relationship('Cloud', backref=db_instance.backref('configurations', lazy=True))
+
+class Cloud(db_instance.Model):
+    Cloud_Id = db_instance.Column(db_instance.Integer, primary_key=True)
+    Url_Cloud_Destiny = db_instance.Column(db_instance.String(254), nullable=False)
+    Url_Cloud_Origin = db_instance.Column(db_instance.String(254), nullable=False)
+    Secret_Cloud_Origin = db_instance.Column(db_instance.String(254), nullable=False)
+    Secret_Cloud_Destiny = db_instance.Column(db_instance.String(254), nullable=False)
+    configurations = db_instance.relationship('Configuration', backref=db_instance.backref('cloud', lazy=True))
+    network_data = db_instance.relationship('Network_Data', backref=db_instance.backref('cloud', lazy=True))
+    files = db_instance.relationship('Files', backref=db_instance.backref('cloud', lazy=True))
 ```
 </details>
 
