@@ -64,7 +64,7 @@ O sqlite3 é um módulo da biblioteca padrão do Python que permite acessar e ma
 
 Clique [aqui](https://docs.python.org/3/library/sqlite3.html) para acessar a documentação oficial.
 
-## Contribuições pessoais
+## Contribuições pessoais &#x2611;
 
 Durante o desenvolvimento do projeto, tive a responsabilidade de desenvolver o banco de dados local que seria utilizado pela aplicação, utilizando a biblioteca sqlite3 da linguagem Python. A fim de garantir uma estrutura sólida e coerente, me dediquei à elaboração do esquema de banco de dados e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas de dados que foram muito relevantes para o projeto.
 
