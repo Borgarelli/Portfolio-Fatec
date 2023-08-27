@@ -56,7 +56,7 @@ Este projeto configurou-se como uma notável oportunidade para aprimorar minhas 
 <details><summary>Interface principal</summary>
 <img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/e4cc6f49-8251-45cd-ae87-42ec1242909e">
 
-> Essa é a interface principal da aplicação, onde utilizando toda a versatilidade do Vue, todos os elementos que a compõem estão componentizados e separados corretamente, também otimizado e aplicado a coordenação de rotas utilizando o vue-router
+> Essa é a interface principal da aplicação, onde utilizando toda a versatilidade do Vue, todos os elementos que a compõem estão componentizados e separados corretamente,e também otimizados e aplicados a coordenação de rotas utilizando o vue-router
 
 ```kotlin
 <template>
