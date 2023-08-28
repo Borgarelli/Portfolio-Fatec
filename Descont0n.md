@@ -10,11 +10,15 @@ MidAllº [B]
 
 ### Visão do Projeto
 <p align = "justify">
-Ferramenta para criar promoções de E-commerce, onde as mecânicas de promoções são feitas de forma flexível e de rápida atualização no sistema. As regras de promoções são cadastradas e posteriormente aplicadas no momento em que os itens são adicionados ao carrinho.
+Plataforma para Geração de Promoções em E-commerce: Flexibilidade e Agilidade
 
-Atualmente implementamos e apresentamos o cadastro dos produtos dentro de promoções registradas dentro do servidor/banco de dados, utilizando operadores lógicos para criar diferentes mecânicas de promoções, os descontos são aplicados dentro da sacola de compras e possui uma visualização dedicada para conferência e escolha de promoções.
+Apresentamos uma ferramenta destinada à criação de promoções no âmbito do E-commerce, onde as mecânicas promocionais são configuradas com flexibilidade, permitindo uma ágil adaptação conforme necessário. As regras promocionais são cadastradas e, posteriormente, implementadas pelo usuário quando produtos que a compõem são adicionados a sacola.
 
-Além disso, há a autonomia fornecida ao usuário para editar, remover, arquivar ou desarquivar seus produtos e também para editar, deletar, interromper ou ativar promoções de uma visualização de maneira prática e intuitiva dos produtos e promoções cadastradas através da listagem que possui um filtro para que seja possível diferenciar e verificar os status dos produtos e promoções.
+Atualmente, disponibilizamos o cadastro de produtos vinculados a promoções no servidor/banco de dados. Utilizando operadores lógicos, criamos diferentes mecânicas promocionais. Os descontos são aplicados na sacola de compras e contam com uma visualização específica para revisão e seleção de promoções.
+
+Além disso, concedemos aos usuários a autonomia para gerir sua sacola, podendo editar, remover, arquivar ou reativar produtos. Similarmente, é possível editar, excluir, interromper ou ativar promoções. A visualização das promoções e produtos cadastrados é feita de maneira intuitiva através de uma lista com opção de filtragem, tornando possível a verificação dos estados de cada item.
+
+Essa plataforma proporciona uma abordagem abrangente para a administração de maneira eficaz de estratégias promocionais no contexto dinâmico do E-commerce. Combinando flexibilidade, automação e controle do usuário, viabilizamos uma solução completa para potencializar o impacto das promoções e aprimorar a experiência do cliente.
 </p>
 
 Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](https://youtu.be/NhDe9-Z_dvk)
