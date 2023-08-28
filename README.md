@@ -18,17 +18,17 @@ Tenho 20 anos e estou em busca de um estágio. <br/>
 
 Minha atuação mais constante durante os semestres foi com o desenvolvimento do banco de dados das aplicações, principalmente a partir do segundo semestre, que foi utilizado o primeiro SGBD PostgreSQL, e a partir dele foi sendo utilizado cada vez mais outros SGBDs como o Oracle e o Oracle Cloud.
 
-### HTML-5, CSS-3, JavaScript e VueJs
+### HTML-5, CSS-3, JavaScript e VueJs 3
 
 Por conta dos novos projetos e os requisitos para a entrega do mesmo, foi necessário uma dedicação a essa área do front-end para o cumprimento desses requisitos, e dentro deles, me aprofundei em estudar um pouco de tudo, ter uma integração inicial com Html e Css foi primordial para aprender JavaScript, e com o JavaScript foi importantissimo para aprender e integrar o VueJs 3 não só na faculdade, como também na minha vida profissional como um desenvolvedor.
 
-### Projetos Integradores durante a graduação
+### Projetos Integradores
 
-Durante a minha gradução, trabalhei no desenvolvimento dos trabalhos chamados de "Projetos integradores". Um projeto integrador consiste em solucionar um problema do mundo real de clientes reais, parceiros escolhidos pela própria Fatec, utilizando os conhecimentos adquiridos durante o decorrer dos semestres.
+Durante a minha gradução, trabalhei no desenvolvimento de projetos nomeados de "Projetos integradores". Um projeto integrador consiste em solucionar um problema do mundo real de clientes reais, parceiros escolhidos pela própria Universidade Acadêmica, utilizando os conhecimentos e ensinamentos adquiridos durante o decorrer dos semestres.
 
-Abaixo todos estes projetos serão descritos, detalhando o problema, solução proposta (e entregue), e os aprendizados extraídos de cada um deles.
+Abaixo, todos os projetos que realizei serão descritos, detalhando a "dor" que o cliente descreveu, a solução proposta (e entregue), e os aprendizados extraídos de cada um destes projetos.
 
-## Contato:
+## Entre em Contato:
 
 - [LinkedIn;](https://www.linkedin.com/in/kau%C3%A3-borgarelli-5bb67220a/)
 - [GitHub.](https://github.com/Borgarelli)
