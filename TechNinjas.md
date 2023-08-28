@@ -2,7 +2,7 @@
 
 ### Parceiro Acadêmico
 
-MidAll [B] 
+MidAllº [B] 
 
 ![MidAll](https://user-images.githubusercontent.com/79945984/225166828-fd8d6942-68e5-4c26-9466-06bc7b08e0d0.png)
 
