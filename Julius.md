@@ -26,7 +26,7 @@ Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](htt
 
 Link do repositório do projeto: [https://github.com/TheLooksDatabase/Julius](https://github.com/TheLooksDatabase/Julius)
 
-## Tecnologias utilizadas
+## Tecnologias utilizadas 💻
 
 ### Python [![Python Badge](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
@@ -242,7 +242,7 @@ def Conversor_Moedas():
 
 ## Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
 
-Durante o desenvolvimento desse projeto, fui exposto pela primeira vez à importância de se consultar documentações técnicas primárias para obter informações precisas e confiáveis sobre as tecnologias utilizadas. Essa experiência foi fundamental para o meu desenvolvimento profissional e acadêmico, pois aprendi a buscar informações detalhadas diretamente de documentações oficiais das tecnologias.
+Durante o desenvolvimento desse projeto, fui exposto pela primeira vez à importância de se consultar documentações técnicas primárias para obter informações precisas e confiáveis sobre as Tecnologias utilizadas 💻. Essa experiência foi fundamental para o meu desenvolvimento profissional e acadêmico, pois aprendi a buscar informações detalhadas diretamente de documentações oficiais das tecnologias.
 
 Devido à novidade que foi essa experiência que o API pode me proporcionar, grande parte do meu tempo foi dedicado ao estudo de conceitos e técnicas relevantes para a implementação do banco de dados e outras funcionalidades da aplicação. Esse estudo foi essencial não só para a criação de uma base sólida para a gestão de dados locais, que atendeu perfeitamente aos requisitos do projeto mas também para meu desenvolvimento pessoal.
 

@@ -24,7 +24,7 @@ Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](htt
 
 Link do repositório do projeto: [https://github.com/DolphinDatabase/SGBD_Health](https://github.com/DolphinDatabase/SGBD_Health)
 
-## Tecnologias utilizadas
+## Tecnologias utilizadas 💻
 
 ### PostgreSQL [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
 

@@ -24,7 +24,7 @@ Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](htt
 
 Link do repositório do projeto: https://github.com/DolphinDatabase/MCS
 
-## Tecnologias utilizadas
+## Tecnologias utilizadas 💻
 
 ### Vue [![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
 
