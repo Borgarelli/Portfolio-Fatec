@@ -14,6 +14,8 @@ MidAllº [B]
 Esse projeto visa automatizar a jornada de controle de seus arquivos armazenados em uma plataforma de vídeos, transferindo-os para a nuvem, por meio do desenvolvimento de um aplicativo como serviço, com apenas um menu de configuração para o usuário, que terá os parâmetros necessários para o processo de serviço de download de forma automática, gerando alertas em caso de erro no processamento. Fica responsável por salvar os metadados do arquivo para construir um painel de controle para monitorar a execução do serviço e posteriormente analisar resultados e indicadores.
 </p>
 
+<img src = "https://github.com/TechNinjass/midall-parent/blob/main/docs/Images/arminha.png" width="45" height="40" />
+
 Link do repositório do projeto: https://github.com/TechNinjass/midall-parent
 
 ## Tecnologias utilizadas 💻
