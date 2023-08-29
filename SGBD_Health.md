@@ -42,13 +42,13 @@ Clique [aqui](https://www.sqlite.org/about.html) para acessar a documentação o
 
 Java é uma linguagem de programação de alto nível, orientada a objetos e multiplataforma lançada em 1995 pela Sun Microsystems (agora Oracle). Java é amplamente usado para desenvolver aplicativos, jogos, sistemas de gerenciamento de banco de dados, aplicativos da web e muito mais. Java é portátil, seguro, escalável e capaz de lidar com aplicações complexas, com suporte de uma grande comunidade de desenvolvedores em todo o mundo.
 
-Clique [aqui](https://www.java.com/pt-BR/download/help/whatis_java.html) para acessar a documentação oficial.
+Clique [aqui](https://www.java.com/pt-BR/download/help/whatis_java.html), para acessar a documentação oficial.
 	
 ## Contribuições pessoais ✔
 
 Durante minha participação no projeto, fui responsável pela estruturação do banco de dados no PostgreSQL e pela utilização do SQLite para armazenamento de arquivos CSV. Trabalhei em estreita colaboração com a equipe de desenvolvimento para garantir a integração adequada do banco de dados com a aplicação e o sucesso do projeto.
 
-Para garantir a estruturação adequada do banco de dados, dediquei tempo à elaboração do esquema de banco de dados utilizando a ferramenta Brmodelo utilizando o DER, e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas necessárias para o projeto.
+Para garantir a estruturação adequada do banco de dados, dediquei tempo à elaboração do esquema do banco de dados utilizando a ferramenta Brmodelo utilizando o DER, e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas necessárias para o projeto.
 
 Além disso, busquei estudar conceitos e técnicas relevantes à implementação do banco de dados e outras funcionalidades da aplicação para garantir uma base sólida na gestão dos dados que atendesse aos requisitos e expectativas do projeto.
 Segue abaixo um trecho da criação da tabela no SQLite:
