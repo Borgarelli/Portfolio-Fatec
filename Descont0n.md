@@ -33,17 +33,15 @@ Link do repositório do projeto: https://github.com/DolphinDatabase/DescontOn
 
 ### JQuery <a href="https://jquery.com" target="_blank"><img width="65" height="20" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/></a>
 
-jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um software de código aberto: seu uso é licenciado pela Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL). Sua principal finalidade é associar-se aos elementos JavaScript em HTML para conferir mais dinamismo e usabilidade às páginas na internet.
-
-Suas linhas de código simplificam os scripts interpretados pelo navegador do client-side e por esse motivo é uma das bibliotecas mais populares na comunidade de desenvolvedores.
+jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um software de código aberto: seu uso é licenciado pela Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL). E essa biblioteca têm como principal finalidade associar-se aos elementos JavaScript em HTML para conferir mais dinamismo e usabilidade às páginas na internet.
 
 Clique [aqui](https://jquery.com/), para acessar a documentação oficial.
 
 
 ### Thymeleaf <a href="https://www.thymeleaf.org" target="_blank">![Thymeleaf](https://img.shields.io/badge/Thymeleaf-darkgreen?style=flat-square&logo=thymeleaf)</a>
 
-O Thymeleaf é uma template engine voltado para projetos Java que facilitam a criação de páginas HTML. Permitindo a troca de informações entre o código Java e as páginas
-HTML. De tal maneira garantindo que o desenvolvedor consiga criar templates de forma mais simples e de uma maneira mais agilizada para suas aplicações.
+O Thymeleaf é um template engine voltado para projetos Java que facilitam a criação de páginas HTML. Permitindo a troca de informações entre o código Java e as páginas HTML.
+ De tal maneira garantindo que o desenvolvedor consiga criar templates de forma mais simples e de uma maneira mais agilizada para suas aplicações.
 
 Clique [aqui](https://www.thymeleaf.org/), para acessar a documentação oficial.
 
@@ -59,18 +57,13 @@ Clique [aqui](https://spring.io/projects/spring-boot), para acessar a documenta�
 
 ### Bootstrap <a href="https://getbootstrap.com" target="_blank"><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white"/></a><br/>
 
-O Bootstrap é um framework front-end que veio para facilitar e agilizar o
-trabalho, oferecendo padrões para HTML, JavaScript e CSS de acordo com o site
-CiaWebsites. Foi desenvolvido por Jacob Thorton e Mark Otto com o objetivo de
-facilitar a programação de um site web e otimizar o desempenho.
+O Bootstrap é um framework front-end que veio para facilitar e agilizar o trabalho, oferecendo padrões para HTML, JavaScript e CSS de acordo com o site CiaWebsites. Foi desenvolvido por Jacob Thorton e Mark Otto com o objetivo de facilitar a programação de um site web e otimizar o desempenho.
 
 Clique [aqui](https://getbootstrap.com/), para acessar a documentação oficial.
 
 ### Maven [![Maven](https://img.shields.io/badge/Maven-%23C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
 
-O Apache Maven é uma ferramenta que oferece automação e gerenciamento
-de projetos Java (mas podem ser utilizada com outras linguagens), padronizando a
-construção e publicação de suas aplicações. Por ser extremamente flexível agrega agilidade e qualidade ao produto, além de permitir que sejam adicionados plugins a si e estender suas funcionalidades.
+O Apache Maven é uma ferramenta que oferece automação e gerenciamento de projetos Java (mas podem ser utilizada com outras linguagens), padronizando a construção e publicação de suas aplicações. Por ser extremamente flexível agrega agilidade e qualidade ao produto, além de permitir que sejam adicionados plugins a si e estender suas funcionalidades.
 
 Clique [aqui](https://maven.apache.org/), para acessar a documentação original.
 

@@ -51,7 +51,7 @@ Clique [aqui](https://docs.sqlalchemy.org/), para acessar a documentação ofici
 
 Nesta empreitada, assumi a responsabilidade pela concepção e desenvolvimento da interface gráfica. Empreguei o Vue.js 3 como um dos pontos principais da aplicação. A configuração das rotas foi realizada utilizando vue-router, e a estlização de componentes mais dinâmicos e personalizados do projeto foi estruturada utilizando o Tailwind CSS. Também foi definido para mim a tarefa da criação das estruturas de dados em Python mais conhecidas como models, e para realizar está tarefa utilizei à biblioteca SQL-Alchemy.
 
-Para o gerenciamento, fluxo e armazenameto de dados, optamos pela sinergia entre as plataformas Google Cloud e Azure pela disponibilidade com a conta de estudante fornecido pela instituição acadêmica. Aproveitando as APIs nativas do Google, habilitamos a transferência fluida de dados entre estas nuvens.
+Para o gerenciamento, fluxo e armazenameto de dados, foi optado pela sinergia entre as plataformas Google Cloud e Azure pela disponibilidade com a conta de estudante fornecido pela instituição acadêmica. Aproveitando as APIs nativas do Google, habilitando a transferência de dados de forma fluida entre estas nuvens.
 
 Este projeto configurou-se como uma notável oportunidade para aprimorar minhas competências como um desenvolvedor e cultivar uma experiência prática embasada em tecnologias que cada vez mais vem se mostrando mais requisitadas. Nesse âmbito, pude expandir meu entendimento e aplicação das ferramentas essenciais, reforçando minha capacidade de oferecer soluções inovadoras em possiveis novos futuros projetos desafiadores.
 
