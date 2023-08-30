@@ -67,7 +67,7 @@ Clique [aqui](https://maven.apache.org/), para acessar a documentação original
 
 Neste projeto, desempenhei o papel da criação e gestão do banco de dados que serviu como a base para toda a aplicação. Para isso, foi necessário dedicar-me a um estudo aprofundado sobre a utilização do Oracle Database, um Sistema de Gerenciamento de Banco de Dados (SGBD) com o qual não possuía experiência prévia. Este SGBD apresenta uma sintaxe distinta dos mais comuns, como MySql e Postgres, exigindo um aprendizado específico para sua utilização eficaz.
 
-Além disso, fiquei responsável pelo desenvolvimento web de algumas telas. Uma dessas telas foi a tela "Lista", que têm o objetivo de exibir todos os produtos inseridos no nosso banco de dados, independentemente de serem dados fictícios ou fornecidos pelo próprio usuário. Outra tela mecessária foi a tela de "Cadastro de Produtos", que permite ao usuário inserir novos produtos e promoções, os quais seram posteriormente exibidos na tela de "Sacola".
+Além disso, fiquei responsável pelo desenvolvimento web de algumas telas. Uma dessas telas foi a tela "Sacola", que têm o objetivo de exibir todos os produtos inseridos no nosso banco de dados, independentemente de serem dados fictícios ou fornecidos pelo próprio usuário. Outra tela mecessária foi a tela de "Cadastro de Produtos", que permite ao usuário inserir novos produtos e promoções, os quais seram posteriormente exibidos na tela de "Sacola".
 
 <details><summary>Tela Sacola de Compras</summary>
 <img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/d788a696-8ab8-4ee8-a13b-b6c383d6db56">
