@@ -16,6 +16,7 @@ Este projeto consiste em automatizar a jornada de controle de seus arquivos arma
 
 [<img src ="https://github.com/TechNinjass/midall-parent/blob/main/docs/Images/logo-techNinjass.png" width="250" height="250"/>](https://github.com/TechNinjass/midall-parent "Tech Ninjas Repositório")
 
+
 Link do repositório do projeto: https://github.com/TechNinjass/midall-parent
 
 ## Tecnologias utilizadas 💻
