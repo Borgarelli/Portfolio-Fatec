@@ -46,17 +46,14 @@ Clique [aqui](https://www.thymeleaf.org/), para acessar a documentação oficial
 
 ### Spring Boot <a href="https://spring.io/projects/spring-boot" target="_blank"><img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=spring&logoColor=white"/></a>
 
-O Spring Boot é um framework Java open source que tem como objetivo
-facilitar esse processo em aplicações Java. Trazendo mais agilidade para o processo
-de desenvolvimento com uma infinidade de ferramentas surge todos os dias visando
-justamente acelerar o processo de criação e implantação de soluções nos mais
+O Spring Boot é um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Trazendo mais agilidade para o processo de desenvolvimento com uma infinidade de ferramentas surge todos os dias visando justamente acelerar o processo de criação e implantação de soluções nos mais
 variados ambientes.
 
 Clique [aqui](https://spring.io/projects/spring-boot), para acessar a documentação oficial.
 
 ### Bootstrap <a href="https://getbootstrap.com" target="_blank"><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white"/></a><br/>
 
-O Bootstrap é um framework front-end que veio para facilitar e agilizar o trabalho, oferecendo padrões para HTML, JavaScript e CSS de acordo com o site CiaWebsites. Foi desenvolvido por Jacob Thorton e Mark Otto com o objetivo de facilitar a programação de um site web e otimizar o desempenho.
+O Bootstrap é um framework front-end que veio para facilitar e agilizar o trabalho, oferecendo padrões para HTML, JavaScript e CSS de acordo com o site CiaWebsites. O Bootstrap foi desenvolvido por Jacob Thorton e Mark Otto com o objetivo de facilitar a programação de um site web e otimizar seu desempenho.
 
 Clique [aqui](https://getbootstrap.com/), para acessar a documentação oficial.
 
@@ -76,8 +73,7 @@ Além disso, fiquei responsável pelo desenvolvimento web de algumas telas. Uma 
 <img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/d788a696-8ab8-4ee8-a13b-b6c383d6db56">
 
 
-> Aqui o trecho de como foi programada a tela da Lista, a estilização foi feita tanto usando o BootStrap como estilização manual com css com auxilio do figma
-
+> Aqui um trecho da creiação da tela Sacola de compras, onde o usuário têm um design amigável com botôes para editar, adicionar a sacola e mais algumas funcionalidades
 ```kotlin
 <!-- TABELA -->
 	<div class="container">
