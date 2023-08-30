@@ -18,7 +18,6 @@ Atualmente, disponibilizamos o cadastro de produtos vinculados a promoções no 
 
 Além disso, concedemos aos usuários a autonomia para gerir sua sacola, podendo editar, remover, arquivar ou reativar produtos. Similarmente, é possível editar, excluir, interromper ou ativar promoções. A visualização das promoções e produtos cadastrados é feita de maneira intuitiva através de uma lista com opção de filtragem, tornando possível a verificação dos estados de cada item.
 
-Essa plataforma proporciona uma abordagem abrangente para a administração de maneira eficaz de estratégias promocionais no contexto dinâmico do E-commerce. Combinando flexibilidade, automação e controle do usuário, viabilizamos uma solução completa para potencializar o impacto das promoções e aprimorar a experiência do cliente.
 </p>
 
 Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](https://youtu.be/NhDe9-Z_dvk)
