@@ -220,7 +220,7 @@ class Cloud(db_instance.Model):
 </details>
 
 ## Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
-Este projeto representou uma oportunidade de aprendizado significativa, durante a qual fui introduzido ao conceito de DevOps, um ecossistema substancialmente diferente da minha familiaridade prévia. Este novo domínio me permitiu explorar a computação em nuvem, engajando-me na transferência eficiente de arquivos entre serviços em nuvem distintos. Adotando a metodologia GitFlow, assumi a responsabilidade de incorporá-la ao projeto, aplicando seus princípios de forma a estabelecer nossa própria abordagem personalizada.
+Este projeto representou uma oportunidade de aprendizado significativa, durante a qual fui introduzido ao conceito de DevOps, um ecossistema substancialmente diferente da minha familiaridade prévia. Este novo domínio me permitiu explorar a computação em nuvem, engajando-me na transferência eficiente de arquivos entre serviços de nuvem distintos. Adotando a metodologia GitFlow, assumi a responsabilidade de incorporá-la ao projeto, aplicando seus princípios de forma a estabelecer nossa própria abordagem personalizada.
 
 A experiência acumulada ao longo deste projeto foi profundamente enriquecedora. Tive a oportunidade de aplicar conceitos teóricos em um contexto prático, enfrentando desafios intrincados que ampliaram meu entendimento do desenvolvimento de aplicações web. Esta vivência consolida minha proficiência nas tecnologias empregadas, enquanto expande meu repertório de habilidades. Dessa forma, estou mais bem preparado para enfrentar com confiança projetos desafiadores no futuro.
 
