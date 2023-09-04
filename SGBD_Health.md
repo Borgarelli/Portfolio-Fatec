@@ -53,7 +53,7 @@ Para garantir a estruturação adequada do banco de dados, dediquei tempo à ela
 Além disso, busquei estudar conceitos e técnicas relevantes à implementação do banco de dados e outras funcionalidades da aplicação para garantir uma base sólida na gestão dos dados que atendesse aos requisitos e expectativas do projeto.
 Segue abaixo um trecho da criação da tabela no SQLite:
 
-<details> <summary>Banco criado pelo SQlite</summary>
+<details> <summary>Banco modelado utilizando o SQLite</summary>
 
 > Aqui temos um trecho da conexão sendo criada com o SQlite para rodar um banco de dados de forma local para o armazenamento dos documentos em csv e arquivos gerados pela aplicação
 
