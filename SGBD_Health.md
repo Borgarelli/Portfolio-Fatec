@@ -1,4 +1,4 @@
-# Projeto 2: 2º semestre de 2021
+# Projeto 2: 2º Semestre de 2021
 
 ### Parceiro Acadêmico
 

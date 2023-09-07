@@ -1,4 +1,4 @@
-# Projeto 3: 1º semestre de 2022
+# Projeto 3: 1º Semestre de 2022
 
 ### Parceiro Acadêmico
 

@@ -1,4 +1,4 @@
-# Projeto 4: 2º semestre de 2022
+# Projeto 4: 2º Semestre de 2022
 
 ### Parceiro Acadêmico
 
