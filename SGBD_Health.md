@@ -4,7 +4,7 @@
 
 Necto Systems <br/>
 
-![https://user-images.githubusercontent.com/74321890/200952858-ff867019-d4c6-49cf-9c2a-9508546a5ed9.png](https://user-images.githubusercontent.com/74321890/200952858-ff867019-d4c6-49cf-9c2a-9508546a5ed9.png)
+![cropped-Frame-1](https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/7e8960ea-5330-4db0-b3dd-c15c5b57af49)
 
 ### *Necto Systems*
 
