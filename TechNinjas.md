@@ -168,7 +168,7 @@ Este projeto configurou-se como uma notável oportunidade para aprimorar minhas 
 ```
 </details>
 
-E também a modelagem realizada utilizando o SQL-Alchemy
+Modelagem das Models utilizando o SQL-Alchemy
 
 <details><summary>Models</summary>
 
