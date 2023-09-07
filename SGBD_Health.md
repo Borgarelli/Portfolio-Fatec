@@ -18,7 +18,7 @@ Através da coleta de dados do SGBD, como memória, tempo de consultas, espaço 
 
 Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](https://www.youtube.com/watch?v=IhyabBKAMbA)
 
-[<img src="https://user-images.githubusercontent.com/79945984/225161808-9c6c5ffa-ff60-48cb-8bce-95d81551aeb7.png" width="35%" height="10%">](https://www.youtube.com/watch?v=IhyabBKAMbA "SGBD Health vídeo Demonstração")
+[<img src="https://user-images.githubusercontent.com/74321890/200989611-49f7bac0-fb95-4efd-a935-5c38141a6458.png" width="40%">](https://www.youtube.com/watch?v=zVTsaxL_-l4&list=PLUOBqJKbljZvQtu2OXq071Id11zidSJNS "SGBD Health vídeo Demonstração")
 
 ### *Demonstração SGBD Health*
 
