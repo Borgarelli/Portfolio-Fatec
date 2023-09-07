@@ -1,4 +1,4 @@
-# Projeto 5 - 1º semestre de 2023
+# Projeto 5: 1º semestre de 2023
 
 ### Parceiro Acadêmico
 
