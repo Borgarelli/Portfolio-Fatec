@@ -59,13 +59,13 @@ Clique [aqui](https://getbootstrap.com/), para acessar a documentação oficial.
 
 ### Maven [![Maven](https://img.shields.io/badge/Maven-%23C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
 
-O Apache Maven é uma ferramenta que oferece automação e gerenciamento de projetos Java (mas podem ser utilizada com outras linguagens), padronizando a construção e publicação de suas aplicações. Por ser extremamente flexível agrega agilidade e qualidade ao produto, além de permitir que sejam adicionados plugins a si e estender suas funcionalidades.
+O Apache Maven é uma ferramenta que oferece automação e gerenciamento de projetos Java (mas podem ser utilizada com outras linguagens), padronizando a construção e publicação de suas aplicações. Por ser extremamente flexível o Apache Maven agrega agilidade e qualidade ao produto, além de permitir que sejam adicionados plugins a si e estender suas funcionalidades.
 
 Clique [aqui](https://maven.apache.org/), para acessar a documentação original.
 
 ## Contribuições pessoais ✔
 
-Neste projeto, desempenhei o papel da criação e gestão do banco de dados que serviu como a base para toda a aplicação. Para isso, foi necessário dedicar-me a um estudo aprofundado sobre a utilização do Oracle Database, um Sistema de Gerenciamento de Banco de Dados (SGBD) com o qual não possuía experiência prévia. Este SGBD apresenta uma sintaxe distinta dos mais comuns, como MySql e Postgres, exigindo um aprendizado específico para sua utilização eficaz.
+Neste projeto, desempenhei o papel da criação e estruturação do banco de dados que serviu como a base para toda a aplicação. Para isso, foi necessário dedicar-me a um estudo aprofundado sobre a utilização do Oracle Database, um Sistema de Gerenciamento de Banco de Dados (SGBD) com o qual não possuía experiência prévia. Este SGBD apresenta uma sintaxe distinta dos mais comuns, como MySql e Postgres, exigindo um aprendizado específico para sua utilização eficaz.
 
 Além disso, fiquei responsável pelo desenvolvimento web de algumas telas. Uma dessas telas foi a tela "Sacola", que têm o objetivo de exibir todos os produtos inseridos no nosso banco de dados, independentemente de serem dados fictícios ou fornecidos pelo próprio usuário. Outra tela mecessária foi a tela de "Cadastro de Produtos", que permite ao usuário inserir novos produtos e promoções, os quais seram posteriormente exibidos na tela de "Sacola".
 
@@ -73,7 +73,7 @@ Além disso, fiquei responsável pelo desenvolvimento web de algumas telas. Uma 
 <img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/d788a696-8ab8-4ee8-a13b-b6c383d6db56">
 
 
-> Aqui um trecho da creiação da tela Sacola de compras, onde o usuário têm um design amigável com botôes para editar, adicionar a sacola e mais algumas funcionalidades
+> Aqui um trecho da criação da tela Sacola de compras, onde o usuário têm um design amigável com botôes para editar, adicionar a sacola e mais algumas funcionalidades
 ```kotlin
 <!-- TABELA -->
 	<div class="container">
@@ -132,7 +132,7 @@ Também fiquei responsável por criar e configurar a tela de cadastro de produto
 <details><summary>Tela de Cadastro de Produtos</summary>
 <img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/1aff2e89-2c44-497e-a01e-76a631f9a14b">
 
-> Aqui o trecho do desenvolvimento da tela de cadastro de produtos, feita em Html-5 e JavaScript, e a estilização feita tanto com o BootStrap como de maneira manual usando CSS-3 com auxilio do figma
+> Aqui um trecho do desenvolvimento da tela de cadastro de produtos, feita em Html-5 e JavaScript, e a estilização feita tanto com o BootStrap como de maneira manual usando CSS-3 com auxilio do figma
 
 ```kotlin
 <!-- FORMULARIO DE CADASTRO -->
