@@ -22,7 +22,7 @@ Minha atuação mais constante durante os semestres foi com o desenvolvimento do
 
 Por conta dos novos projetos e os requisitos para a entrega do mesmo, foi necessário uma dedicação a essa área do front-end para o cumprimento desses requisitos, e dentro deles, me aprofundei em estudar um pouco de tudo, ter uma integração inicial com Html e Css foi primordial para aprender JavaScript, e com o JavaScript foi importantissimo para aprender e integrar o VueJs 3 não só na faculdade, como também na minha vida profissional como um desenvolvedor.
 
-### Projetos Integradores
+### Projetos
 
 Durante a minha gradução, trabalhei no desenvolvimento de projetos nomeados de "Projetos integradores". Um projeto integrador consiste em solucionar um problema do mundo real de clientes reais, parceiros escolhidos pela própria Universidade Acadêmica, utilizando os conhecimentos e ensinamentos adquiridos durante o decorrer dos semestres.
 

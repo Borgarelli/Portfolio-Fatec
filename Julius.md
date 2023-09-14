@@ -246,14 +246,14 @@ Durante o desenvolvimento desse projeto, fui exposto pela primeira vez à import
 
 Devido à novidade que foi essa experiência que o API pode me proporcionar, grande parte do meu tempo foi dedicado ao estudo de conceitos e técnicas relevantes para a implementação do banco de dados e outras funcionalidades da aplicação. Esse estudo foi essencial não só para a criação de uma base sólida para a gestão de dados locais, que atendeu perfeitamente aos requisitos do projeto mas também para meu desenvolvimento pessoal.
 
-- Criação de um banco de dados local utilziando bibiliotecas especificas: sei fazer com autonomia
+- Criação de um banco de dados local utilizando bibiliotecas especificas: sei fazer com autonomia
 - Gerenciamento e utilização de uma nova gama de APIs e bibliotecas disponiveis para o desenvolvimento do projeto: sei fazer com autonomia
 
 ## Navegação Entre Projetos :link:
  
 <p align="justify" style="font-family:roboto;"><li>1º Semestre: Julius - Assistente virtual criado para facilitar a sua vida financeira.</li></p>
 <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/SGBD_Health.md"> 2º Semestre: SGBD Health - Aplicação de monitoramento de SGBD, foco em performance e desempenho</a></li></p>
-<p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/Descont0n.md"> 3° Semestre: Descont0n - Ferramenta para criação de promoções e regras de negócio com foco em E-commerce</a></li></p>
+<p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/Descont0n.md"> 3° Semestre: Descont0n - Ferramenta para criação de promoções e regras de negócio de E-commerce</a></li></p>
 <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/MCS.md">4° Semestre: MCS - Sistema ERP que visa fazer a gestão dos dados fornecidos pelo usuário</a></li></p>
 <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/TechNinjas.md">5° Semestre: TECH NINJAS - Sistema de automatização para fluxo de gestão dos arquivos armazenados em cloud</a></li></p>
 <p align="justify" style="font-family:roboto;"><li><a href="https://github.com/Borgarelli/Portfolio-Fatec/blob/main/README.md"> Voltar para página inicial</a></li></p>
