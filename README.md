@@ -4,11 +4,11 @@
 
 ## Introdução
 
-Olá, seja bem-vindo. Sou o Kauã Borgarelli, estudante de Banco de Dados pela FATEC Prof. Jessen Vidal.
+Olá, seja bem-vindo. Sou o Kauã Borgarelli, estudante de Banco de Dados pela Fatec Professor Jessen Vidal.
 
 Tenho 20 anos e estou em busca de um estágio. <br/>
 
-<img src ="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/76f2e3ea-1d17-4e14-a281-cf2e2e39b239" width="300" height="300"/>
+<img src ="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/76f2e3ea-1d17-4e14-a281-cf2e2e39b239" width="300"/>
 
 <!-- ![teste](https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/76f2e3ea-1d17-4e14-a281-cf2e2e39b239) -->
 
@@ -23,7 +23,7 @@ Minha atuação mais constante durante os semestres foi com o desenvolvimento do
 
 ### HTML-5, CSS-3, JavaScript e VueJs 3
 
-Por conta dos novos projetos e os requisitos para a entrega do mesmo, foi necessário uma dedicação a essa área do front-end para o cumprimento desses requisitos, e dentro deles, me aprofundei em estudar um pouco de tudo, ter uma integração inicial com Html e Css foi primordial para aprender JavaScript, e com o JavaScript foi importantissimo para aprender e integrar o VueJs 3 não só na faculdade, como também na minha vida profissional como um desenvolvedor.
+Por conta dos novos projetos e os requisitos para a entrega do mesmo, foi necessário uma dedicação a essa área do front-end para o comprimento desses requisitos, e dentro deles, me aprofundei em estudar um pouco de tudo, ter uma integração inicial com HTML e CSS foi essencial para aprender JavaScript, e com o JavaScript foi importantissimo para aprender e integrar o VueJs 3 não só na faculdade, como também na minha vida profissional como um desenvolvedor.
 
 ### Projetos
 
