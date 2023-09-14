@@ -8,7 +8,8 @@ Olá, seja bem-vindo. Sou o Kauã Borgarelli, estudante de Banco de Dados pela F
 
 Tenho 20 anos e estou em busca de um estágio. <br/>
 
-![https://user-images.githubusercontent.com/79945984/193151179-79c30859-fbd7-42ce-9c7a-d9933e622429.jpg](https://user-images.githubusercontent.com/79945984/193151179-79c30859-fbd7-42ce-9c7a-d9933e622429.jpg)
+![teste](https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/76f2e3ea-1d17-4e14-a281-cf2e2e39b239)
+
 
 ### *Eu*
 
