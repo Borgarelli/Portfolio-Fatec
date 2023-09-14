@@ -19,7 +19,7 @@ Este projeto consiste em automatizar a jornada de controle de seus arquivos arma
 
 Link do repositório do projeto: https://github.com/TechNinjass/midall-parent
 
-## Tecnologias utilizadas 💻
+## Tecnologias Utilizadas 💻
 
 ### Vue [![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
 

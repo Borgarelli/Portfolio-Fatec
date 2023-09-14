@@ -2,7 +2,7 @@
 
 ### Parceiro Acadêmico
 
-Fatec Prof. Jessen Vidal <br/>
+Fatec Professor Jessen Vidal <br/>
 
 ![image](https://user-images.githubusercontent.com/79945984/231303106-6b96699c-af17-4c41-9217-d0792d661b1f.png)
 
@@ -26,7 +26,7 @@ Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](htt
 
 Link do repositório do projeto: [https://github.com/TheLooksDatabase/Julius](https://github.com/TheLooksDatabase/Julius)
 
-## Tecnologias utilizadas 💻
+## Tecnologias Utilizadas 💻
 
 ### Python [![Python Badge](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 

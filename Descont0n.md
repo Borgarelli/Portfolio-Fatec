@@ -28,7 +28,7 @@ Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](htt
 
 Link do repositório do projeto: https://github.com/DolphinDatabase/DescontOn
 
-## Tecnologias utilizadas 💻 
+## Tecnologias Utilizadas 💻 
 
 ### JQuery <a href="https://jquery.com" target="_blank"><img width="65" height="20" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/></a>
 
