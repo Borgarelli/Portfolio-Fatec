@@ -211,9 +211,9 @@ A participação nesse projeto foi de extrema importância para o meu cresciment
 
 A experiência adquirida nesse projeto foi extremamente enriquecedora, pois permitiu-me aplicar conceitos teóricos em um contexto real, enfrentando desafios complexos e adquirindo um conhecimento mais aprofundado em desenvolvimento de aplicações web. Essa vivência consolidou meu domínio das tecnologias envolvidas e ampliou meu conjunto de habilidades, tornando-me um profissional mais completo e preparado para enfrentar projetos desafiadores no futuro.
 
-- Desenvolver um CRUD: sei fazer com autonomia.
-- Desenvolvimento Front-end utilizando VueJS: sei fazer com autonomia.
-- Utilização do OracleCloud: sei fazer com autonomia.
+- Desenvolver um CRUD: Sei Fazer com Autonomia.
+- Desenvolvimento Front-end utilizando VueJS: Sei Fazer com Autonomia.
+- Utilização do OracleCloud: Sei Fazer com Autonomia.
 
 ## Navegação Entre Projetos :link:
  

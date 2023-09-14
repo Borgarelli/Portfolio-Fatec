@@ -246,8 +246,8 @@ Durante o desenvolvimento desse projeto, fui exposto pela primeira vez à import
 
 Devido à novidade que foi essa experiência que o API pode me proporcionar, grande parte do meu tempo foi dedicado ao estudo de conceitos e técnicas relevantes para a implementação do banco de dados e outras funcionalidades da aplicação. Esse estudo foi essencial não só para a criação de uma base sólida para a gestão de dados locais, que atendeu perfeitamente aos requisitos do projeto mas também para meu desenvolvimento pessoal.
 
-- Criação de um banco de dados local utilizando bibiliotecas especificas: sei fazer com autonomia
-- Gerenciamento e utilização de uma nova gama de APIs e bibliotecas disponiveis para o desenvolvimento do projeto: sei fazer com autonomia
+- Criação de um banco de dados local utilizando bibiliotecas especificas: Sei Fazer com Autonomia
+- Gerenciamento e utilização de uma nova gama de APIs e bibliotecas disponiveis para o desenvolvimento do projeto: Sei Fazer com Autonomia
 
 ## Navegação Entre Projetos :link:
  

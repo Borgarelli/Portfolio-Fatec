@@ -224,9 +224,9 @@ Este projeto representou uma oportunidade de aprendizado significativa, durante 
 
 A experiência acumulada ao longo deste projeto foi profundamente enriquecedora. Tive a oportunidade de aplicar conceitos teóricos em um contexto prático, enfrentando desafios intrincados que ampliaram meu entendimento do desenvolvimento de aplicações web. Esta vivência consolida minha proficiência nas tecnologias empregadas, enquanto expande meu repertório de habilidades. Dessa forma, estou mais bem preparado para enfrentar com confiança projetos desafiadores no futuro.
 
-- Aplicar conceitos de DevOps - GitFlow: Sei fazer com autonomia.
-- Criação das models utilizando o SQL-Alchemy: Sei fazer com autonomia.
-- Desenvolvimento da interface utilizando Vue js 3: Sei fazer com autonomia. 
+- Aplicar conceitos de DevOps - GitFlow: Sei Fazer com Autonomia.
+- Criação das models utilizando o SQL-Alchemy: Sei Fazer com Autonomia.
+- Desenvolvimento da interface utilizando Vue js 3: Sei Fazer com Autonomia. 
 
 ## Navegação Entre Projetos :link:
  

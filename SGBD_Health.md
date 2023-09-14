@@ -111,9 +111,9 @@ Este projeto marcou o início de uma verdadeira API com clientes parceiros da Fa
 
 Este projeto foi de extrema importancia para meu desenvolvimento como programador, pois foi o primeiro contato com a linguagem de Java e um primeiro contato direto com clientes parceiros da Fatec, fornecendo experiências de extrema relevância para meu curriculo profissional.
 
-- Utilização do PostgreSQL: sei fazer com autonomia.
-- Criar tabelas, relacionamentos e modelagem: sei fazer com autonomia.
-- Desenvolvimento de scripts em Java: sei fazer com auxilio.
+- Utilização do PostgreSQL: Sei Fazer com Autonomia.
+- Criar tabelas, relacionamentos e modelagem: Sei Fazer com Autonomia.
+- Desenvolvimento de scripts em Java: Sei Fazer com Ajuda.
 
 ## Navegação Entre Projetos :link:
  
