@@ -11,7 +11,7 @@ Necto Systems <br/>
 ### Visão do Projeto
 
 <p align = "justify">
-O SGBD Health é uma aplicação desenvolvida com o foco exclusivo para o gerenciamento de Sistemas Gerenciadores de Banco de Dados (SGBDs). É projetado para monitorar e analisar os recursos do SGBD em tempo real como alertas, geração de relatórios personalizados e visualização de tendências históricas, permitindo que os administradores de banco de dados identifiquem rapidamente problemas críticos e tomem medidas corretivas imediatas.
+O SGBD Health é uma aplicação desenvolvida com o foco exclusivo para o gerenciamento de Sistemas Gerenciadores de Banco de Dados (SGBDs). A aplicação foi projetada com o intuito de monitorar e analisar os recursos do SGBD em tempo real gerando alertas, criação de relatórios personalizados e visualização de tendências históricas, permitindo que os administradores de banco de dados identifiquem rapidamente problemas críticos e tomem medidas corretivas imediatas.
 
 Através da coleta de dados do SGBD, como memória, tempo de consultas, espaço em disco, transações, evolução da memória, caches e registros, a aplicação fornece uma visão abrangente e detalhada do desempenho e da performance do SGBD. Esses dados são apresentados de maneira clara e intuitiva, facilitando a identificação de possíveis gargalos, problemas de desempenho e destacar oportunidades de otimização.
 </p>
@@ -32,7 +32,7 @@ Link do repositório do projeto: [https://github.com/DolphinDatabase/SGBD_Health
 
 Clique [aqui](https://www.postgresql.org/about/), para acessar a documentação oficial.
 	
-### SQlite [![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+### SQLite [![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 
 SQLite é um sistema de gerenciamento de banco de dados relacional leve, embutido e amplamente utilizado em aplicativos móveis, navegadores da web e outros softwares que precisam armazenar dados localmente. SQLite é uma biblioteca escrita em C que oferece recursos avançados de gerenciamento de banco de dados, como transações ACID, integridade referencial e indexação avançada, tornando-o uma escolha popular para desenvolvedores que precisam de uma solução de banco de dados confiável e fácil de usar.
 
