@@ -38,7 +38,7 @@ Clique [aqui](https://docs.python.org/3/), para acessar a documentação oficial
 
 O Beautifulsoup4 é uma biblioteca Python utilizada para extrair dados de páginas web de forma fácil e eficiente. Essa biblioteca permite analisar o conteúdo HTML e XML das páginas web e extrair informações específicas, como títulos, parágrafos, links, tabelas e outras tags. 
 
-Clique [aqui](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) para acessar a documentação oficial.
+Clique [aqui](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), para acessar a documentação oficial.
 
 ### SpeechRecognition [![SpeechRecognition Badge](https://img.shields.io/badge/SpeechRecognition-3.8.1-blue?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/SpeechRecognition/)
 
@@ -50,7 +50,7 @@ Clique [aqui](https://pypi.org/project/SpeechRecognition/), para acessar a docum
 
 O pyttsx3 é uma biblioteca Python para síntese de voz, que permite a geração de áudio a partir de texto. Essa biblioteca oferece suporte a diferentes mecanismos de síntese de voz, como o eSpeak, o SAPI5 (para Windows) e o NSSpeechSynthesizer (para macOS).
 
-Clique [aqui](https://pypi.org/project/pyttsx3/) para acessar a documentação oficial.
+Clique [aqui](https://pypi.org/project/pyttsx3/), para acessar a documentação oficial.
 
 ### Google-api-python-client [![Google-api-python-client Badge](https://img.shields.io/badge/Google--api--python--client-v2.25.0-red?style=for-the-badge&logo=google&logoColor=white)](https://developers.google.com/api-client-library/python/start/get_started)
 
