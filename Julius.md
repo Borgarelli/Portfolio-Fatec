@@ -32,7 +32,7 @@ Link do repositório do projeto: [https://github.com/TheLooksDatabase/Julius](ht
 
 Python é uma linguagem de programação de alto nível, interpretada e dinâmica, que é amplamente utilizada em áreas como desenvolvimento web, análise de dados, inteligência artificial, automação de tarefas e muitas outras. E uma das principais vantagens da linguagem de programação Python é sua sintaxe simples e intuitiva, que facilita a escrita e leitura de código, além de aumentar a produtividade do programador.
 
-Clique [aqui](https://docs.python.org/3/) para acessar a documentação oficial.
+Clique [aqui](https://docs.python.org/3/), para acessar a documentação oficial.
 
 ### Beautifulsoup4 [![Beautifulsoup4 Badge](https://img.shields.io/badge/BeautifulSoup4-4.9.3-59666C?style=for-the-badge&logo=beautifulsoup&logoColor=white)](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
@@ -44,7 +44,7 @@ Clique [aqui](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) para acess
 
 O SpeechRecognition é uma biblioteca Python utilizada para reconhecimento de fala em tempo real ou a partir de arquivos de áudio gravados. Essa biblioteca permite transcrever a fala em texto utilizando diferentes mecanismos de reconhecimento, como o Google Speech Recognition, o Microsoft Bing Voice Recognition, o IBM Speech to Text, entre outros.
 
-Clique [aqui](https://pypi.org/project/SpeechRecognition/) para acessar a documentação oficial.
+Clique [aqui](https://pypi.org/project/SpeechRecognition/), para acessar a documentação oficial.
 
 ### Pyttsx3 [![pyttsx3 Badge](https://img.shields.io/badge/pyttsx3-2.90-blue?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/pyttsx3/)
 
@@ -56,13 +56,13 @@ Clique [aqui](https://pypi.org/project/pyttsx3/) para acessar a documentação o
 
 O Google-api-python-client é uma biblioteca Python que oferece acesso às APIs do Google de forma fácil e intuitiva. Essa biblioteca é construída com base no framework de serviços do Google e permite que os desenvolvedores criem aplicativos que interagem com serviços como o Google Drive, Gmail, YouTube, Google Maps, entre outros.
 
-Clique [aqui](https://developers.google.com/api-client-library/python/start/get_started) para acessar a documentação oficial.
+Clique [aqui](https://developers.google.com/api-client-library/python/start/get_started), para acessar a documentação oficial.
 
 ### Sqlite3 [![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 
 O sqlite3 é um módulo da biblioteca padrão do Python que permite acessar e manipular bancos de dados SQLite. O SQLite é um sistema de gerenciamento de banco de dados leve, rápido e simples de usar, ideal para aplicações que não requerem muita escalabilidade ou concorrência. O módulo sqlite3 fornece uma API fácil de usar para criar, modificar e consultar bancos de dados SQLite usando o Python.
 
-Clique [aqui](https://docs.python.org/3/library/sqlite3.html) para acessar a documentação oficial.
+Clique [aqui](https://docs.python.org/3/library/sqlite3.html), para acessar a documentação oficial.
 
 ## Contribuições pessoais ✔
 

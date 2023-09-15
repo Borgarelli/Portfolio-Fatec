@@ -36,7 +36,7 @@ Clique [aqui](https://www.postgresql.org/about/), para acessar a documentação 
 
 SQLite é um sistema de gerenciamento de banco de dados relacional leve, embutido e amplamente utilizado em aplicativos móveis, navegadores da web e outros softwares que precisam armazenar dados localmente. SQLite é uma biblioteca escrita em C que oferece recursos avançados de gerenciamento de banco de dados, como transações ACID, integridade referencial e indexação avançada, tornando-o uma escolha popular para desenvolvedores que precisam de uma solução de banco de dados confiável e fácil de usar.
 
-Clique [aqui](https://www.sqlite.org/about.html) para acessar a documentação oficial.
+Clique [aqui](https://www.sqlite.org/about.html), para acessar a documentação oficial.
 
 ### Java [![Java](https://img.shields.io/badge/Java-%23ED8B00?style=for-the-badge&logo=java&logoColor=white&labelColor=%23ED8B00)](https://www.java.com/)
 
