@@ -6,7 +6,7 @@
 
 Olá, seja bem-vindo. Sou o Kauã Borgarelli, estudante de Banco de Dados pela Fatec Professor Jessen Vidal.
 
-Tenho 20 anos e estou em busca de um estágio. <br/>
+Tenho 20 anos e atualmente estou trabalhando como estagiário na AS2 Group. <br/>
 
 <img src ="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/76f2e3ea-1d17-4e14-a281-cf2e2e39b239" width="300"/>
 
