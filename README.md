@@ -4,7 +4,7 @@
 
 ## Introdução
 
-Olá, seja bem-vindo. Sou o Kauã Borgarelli, estudante de Banco de Dados pela Fatec Professor Jessen Vidal.
+Olá, sejam todos bem-vindos. Sou o Kauã Borgarelli, estudante de Banco de Dados na Fatec Professor Jessen Vidal.
 
 Tenho 20 anos e atualmente estou trabalhando como estagiário na AS2 Group. <br/>
 
