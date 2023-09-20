@@ -34,7 +34,7 @@ Clique [aqui](https://www.postgresql.org/about/), para acessar a documentação 
 	
 ### SQLite [![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 
-SQLite é um sistema de gerenciamento de banco de dados relacional leve, embutido e amplamente utilizado em aplicativos móveis, navegadores da web e outros softwares que precisam armazenar dados localmente. SQLite é uma biblioteca escrita em C que oferece recursos avançados de gerenciamento de banco de dados, como transações ACID, integridade referencial e indexação avançada, tornando-o uma escolha popular para desenvolvedores que precisam de uma solução de banco de dados confiável e fácil de usar.
+SQLite é um sistema de gerenciamento de banco de dados relacional leve, embutido e amplamente utilizado em aplicativos móveis, navegadores da web e outros softwares que precisam armazenar dados localmente. SQLite é uma biblioteca escrita em C que oferece recursos avançados de gerenciamento de banco de dados, como transações ACID, integridade referencial e indexação avançada, tornando-o uma escolha popular para desenvolvedores que precisam de uma solução de banco de dados confiável e fácil de utilizar.
 
 Clique [aqui](https://www.sqlite.org/about.html), para acessar a documentação oficial.
 
@@ -51,7 +51,6 @@ Durante minha participação no projeto, fui responsável pela estruturação do
 Para garantir a estruturação adequada do banco de dados, dediquei tempo à elaboração do esquema do banco de dados utilizando a ferramenta Brmodelo utilizando o DER, e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas necessárias para o projeto.
 
 Além disso, busquei estudar conceitos e técnicas relevantes à implementação do banco de dados e outras funcionalidades da aplicação para garantir uma base sólida na gestão dos dados que atendesse aos requisitos e expectativas do projeto.
-Segue abaixo um trecho da criação da tabela no SQLite:
 
 <details> <summary>Banco modelado utilizando o SQLite</summary>
 
