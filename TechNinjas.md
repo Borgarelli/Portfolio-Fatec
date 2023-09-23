@@ -29,7 +29,7 @@ Clique [aqui](https://vuejs.org/), para acessar a documentação oficial.
 
 ### Tailwind css  [![Tailwind CSS](https://img.shields.io/badge/Built_with-Tailwind_CSS-38B2AC?logo=tailwind-css&style=flat-square)](https://tailwindcss.com/)
 
-O Tailwind CSS é um framework de CSS que usa classes utilitárias para estilizar diretamente o HTML, agilizando o desenvolvimento front-end. Este framework oferece uma ampla gama de classes pré-definidas para estilos, margens, cores e responsividade, permitindo criar interfaces atraentes de forma rápida e flexível.
+O Tailwind CSS é um framework de CSS que usa classes utilitárias para estilizar diretamente o HTML, agilizando o desenvolvimento front-end. Este framework oferece uma ampla gama de classes pré-definidas para estilos, margens, cores e aplicar a responsividade, permitindo criar interfaces atraentes de forma rápida e flexível.
 
 Clique [aqui](https://element-plus.org/), para acessar a documentação oficial.
 
