@@ -14,6 +14,9 @@ Tenho 20 anos e atualmente estou trabalhando como estagiário na AS2 Group. <br/
 
 ### Meus principais conhecimentos
 
+### SpringBoot3
+Atualmente é a linguagem que mais venho utilizando, com uma breve introdução no 4º semestre 
+
 ### SQL
 
 Minha atuação mais constante durante os semestres foi com o desenvolvimento do banco de dados das aplicações, principalmente a partir do segundo semestre, que foi utilizado o primeiro SGBD PostgreSQL, e a partir dele foi sendo utilizado cada vez mais outros SGBDs como o Oracle e o Oracle Cloud.
