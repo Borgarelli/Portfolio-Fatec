@@ -10,7 +10,7 @@ Necto Systems <br/>
 
 ### Visão do Projeto
 
-<p align = "justify">
+<p style="text-align: justify;">
 O SGBD Health é uma aplicação desenvolvida com o foco exclusivo para o gerenciamento de Sistemas Gerenciadores de Banco de Dados (SGBDs). A aplicação foi projetada com o intuito de monitorar e analisar os recursos do SGBD em tempo real gerando alertas, criação de relatórios personalizados e visualização de tendências históricas, permitindo que os administradores de banco de dados identifiquem rapidamente problemas críticos e tomem medidas corretivas imediatas.
 
 Através da coleta de dados do SGBD, como memória, tempo de consultas, espaço em disco, transações, evolução da memória, caches e registros, a aplicação fornece uma visão abrangente e detalhada do desempenho e da performance do SGBD. Esses dados são apresentados de maneira clara e intuitiva, facilitando a identificação de possíveis gargalos, problemas de desempenho e destacar oportunidades de otimização.
@@ -27,30 +27,32 @@ Link do repositório do projeto: [https://github.com/DolphinDatabase/SGBD_Health
 ## Tecnologias Utilizadas 💻
 
 ### PostgreSQL [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
-
- O PostgreSQL é um banco de dados objeto-relacional (sem relação com linguagens de programação orientadas a objetos), em que cada coisa criada é tratada como um objeto, tais como bancos de dados, tabelas, views, triggers, etc.
-
+<p style="text-align: justify;">
+O PostgreSQL é um banco de dados objeto-relacional (sem relação com linguagens de programação orientadas a objetos), em que cada coisa criada é tratada como um objeto, tais como bancos de dados, tabelas, views, triggers, etc.
+</p>
 Clique [aqui](https://www.postgresql.org/about/), para acessar a documentação oficial.
 	
 ### SQLite [![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-
+<p style="text-align: justify;">
 SQLite é um sistema de gerenciamento de banco de dados relacional leve, embutido e amplamente utilizado em aplicativos móveis, navegadores da web e outros softwares que precisam armazenar dados localmente. SQLite é uma biblioteca escrita em C que oferece recursos avançados de gerenciamento de banco de dados, como transações ACID, integridade referencial e indexação avançada, tornando-o uma escolha popular para desenvolvedores que precisam de uma solução de banco de dados confiável e fácil de utilizar.
-
+</p>
 Clique [aqui](https://www.sqlite.org/about.html), para acessar a documentação oficial.
 
 ### Java [![Java](https://img.shields.io/badge/Java-%23ED8B00?style=for-the-badge&logo=java&logoColor=white&labelColor=%23ED8B00)](https://www.java.com/)
 
+<p style="text-align: justify;">
 Java é uma linguagem de programação de alto nível, orientada a objetos e multiplataforma lançada em 1995 pela Sun Microsystems (agora Oracle). Java é amplamente usado para desenvolver aplicativos, jogos, sistemas de gerenciamento de banco de dados, aplicativos da web e muito mais.
-
+</p>
 Clique [aqui](https://www.java.com/pt-BR/download/help/whatis_java.html), para acessar a documentação oficial.
 	
 ##  Contribuições Pessoais ✔
-
+<p style="text-align: justify;">
 Durante minha participação no projeto, fui responsável pela estruturação do banco de dados no PostgreSQL e pela utilização do SQLite para armazenamento de arquivos CSV. Trabalhei em estreita colaboração com a equipe de desenvolvimento para garantir a integração adequada do banco de dados com a aplicação e o sucesso do projeto.
 
 Para garantir a estruturação adequada do banco de dados, dediquei tempo à elaboração do esquema do banco de dados utilizando a ferramenta Brmodelo utilizando o DER, e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas necessárias para o projeto.
 
 Além disso, busquei estudar conceitos e técnicas relevantes à implementação do banco de dados e outras funcionalidades da aplicação para garantir uma base sólida na gestão dos dados que atendesse aos requisitos e expectativas do projeto.
+</p>
 
 <details> <summary>Banco modelado utilizando o SQLite</summary>
 
@@ -105,11 +107,11 @@ public class BancoSqlite extends Fileconnect {
 </details>
 
 ## Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
-
+<p style="text-align: justify;">
 Este projeto marcou o início de uma verdadeira API com clientes parceiros da Fatec, proporcionando experiências incríveis e desafiadoras ao longo do semestre. Meu principal foco foi com o desenvolvimento do banco de dados para atender a todos os requisitos necessários para a aplicação, permitindo o armazenamento de todos os dados necessários para os testes e também trabalhar com a ferramenta do SQLite para desenvolver um banco local de maneira efetiva para testar as funcionalidades propostas pelo SGBD Health.
 
 Este projeto foi de extrema importancia para meu desenvolvimento como programador, pois foi o primeiro contato com a linguagem Java e um primeiro contato direto com clientes parceiros da Fatec, fornecendo experiências de extrema relevância para meu curriculo profissional.
-
+</p>
 - Utilização do PostgreSQL: Sei Fazer com Autonomia.
 - Criar tabelas, relacionamentos e modelagem: Sei Fazer com Autonomia.
 - Desenvolvimento de scripts em Java: Sei Fazer com Ajuda.

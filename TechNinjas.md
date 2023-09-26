@@ -10,7 +10,7 @@ MidAllº [B]
 
 ### Visão do Projeto
 
-<p align="justify">
+<p style="text-align: justify;">
 Este projeto consiste em automatizar a jornada de controle de seus arquivos armazenados em uma plataforma de vídeos. Onde a aplicação  transferindo-os para a nuvem, por meio do desenvolvimento de um aplicativo como serviço, com apenas um menu de configuração para o usuário, que terá os parâmetros necessários para o processo de serviço de download de forma automática, gerando alertas em caso de erro no processamento. Fica responsável por salvar os metadados do arquivo para construir um painel de controle para monitorar a execução do serviço e posteriormente analisar resultados e indicadores.
 </p>
 
@@ -22,37 +22,43 @@ Link do repositório do projeto: https://github.com/TechNinjass/midall-parent
 ## Tecnologias Utilizadas 💻
 
 ### Vue [![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
-
+<p style="text-align: justify;">
 Vue.js é um framework JavaScript de código aberto para a criação de interfaces de usuário reativas e eficientes.
+<p>
 
 Clique [aqui](https://vuejs.org/), para acessar a documentação oficial.
 
 ### Tailwind css  [![Tailwind CSS](https://img.shields.io/badge/Built_with-Tailwind_CSS-38B2AC?logo=tailwind-css&style=flat-square)](https://tailwindcss.com/)
-
+<p style="text-align: justify;">
 O Tailwind CSS é um framework de CSS que usa classes utilitárias para estilizar diretamente o HTML, agilizando o desenvolvimento front-end. Este framework oferece uma ampla gama de classes pré-definidas para estilos, margens, cores e aplicar a responsividade, permitindo criar interfaces atraentes de forma rápida e flexível.
+</p>
 
 Clique [aqui](https://element-plus.org/), para acessar a documentação oficial.
 
 ### Flask [![Flask](https://img.shields.io/badge/Flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)](http://flask.pocoo.org/)
 
-
+<p style="text-align: justify;">
 O Flask é um framework leve em Python para construção de aplicativos web. Onde o framework oferece diversas ferramentas para criar rapidamente aplicações web simples a complexas, seguindo o padrão de arquitetura MVC (Model-View-Controller). 
+<p>
 
 Clique [aqui](https://flask.palletsprojects.com/en/2.3.x/), para acessar a documentação oficial.
 
 
 ### SQL-Alchemy [![SQL-Alchemy](https://img.shields.io/badge/SQL--Alchemy-%230D6A8F.svg?style=for-the-badge&logo=sqlalchemy&logoColor=white)](https://www.sqlalchemy.org/)
 
+<p style="text-align: justify;">
 O SQL-Alchemy é uma biblioteca em Python que fornece uma abstração flexível para trabalhar com bancos de dados relacionais. Esta biblioteca permite que os desenvolvedores criem consultas SQL de maneira programática, mapeiem objetos Python para tabelas do banco de dados e gerenciem interações complexas com o banco de dados de forma eficiente.
+</p>
 
 Clique [aqui](https://docs.sqlalchemy.org/), para acessar a documentação oficial.
 
 
 ##  Contribuições Pessoais ✔
-
+<p style="text-align: justify;">
 Nesta empreitada, assumi a responsabilidade pela concepção e desenvolvimento da interface gráfica. Empreguei o Vue.js 3 como um dos pontos principais da aplicação. A configuração das rotas realizei utilizando a bilioteca vue-router, e a estlização de componentes mais dinâmicos e personalizados do projeto realizei a estruturação utilizando o Tailwind CSS. Também realizei a tarefa da criação das estruturas de dados em Python mais conhecidas como models, e para realizar está tarefa utilizei à biblioteca SQL-Alchemy.
 
 Este projeto configurou-se como uma notável oportunidade para aprimorar minhas competências como um desenvolvedor e cultivar uma experiência prática embasada em tecnologias que cada vez mais vem se mostrando mais requisitadas. Nesse âmbito, pude expandir meu entendimento e aplicação das ferramentas essenciais, reforçando minha capacidade de oferecer soluções inovadoras em possiveis novos futuros projetos desafiadores.
+</p>
 
 <details><summary>Interface Principal</summary>
 <img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/e4cc6f49-8251-45cd-ae87-42ec1242909e">

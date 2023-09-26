@@ -28,9 +28,11 @@ Por conta dos novos projetos e os requisitos para a entrega do mesmo, foi necess
 
 ### Projetos
 
-<p style="text-align: justify;">Durante a minha gradução, trabalhei no desenvolvimento de projetos nomeados de "Projetos integradores". Um projeto integrador consiste em solucionar um problema do mundo real de clientes reais, parceiros escolhidos pela própria Universidade Acadêmica, utilizando os conhecimentos e ensinamentos adquiridos durante o decorrer dos semestres.
+<p style="text-align: justify;">
+Durante a minha gradução, trabalhei no desenvolvimento de projetos nomeados de "Projetos integradores". Um projeto integrador consiste em solucionar um problema do mundo real de clientes reais, parceiros escolhidos pela própria Universidade Acadêmica, utilizando os conhecimentos e ensinamentos adquiridos durante o decorrer dos semestres.
 
-Abaixo, todos os projetos que realizei serão descritos, detalhando a "dor" que o cliente descreveu, a solução proposta (e entregue), e os aprendizados extraídos de cada um destes projetos.</p>
+Abaixo, todos os projetos que realizei serão descritos, detalhando a "dor" que o cliente descreveu, a solução proposta (e entregue), e os aprendizados extraídos de cada um destes projetos.
+</p>
 
 ## Entre em Contato:
 
