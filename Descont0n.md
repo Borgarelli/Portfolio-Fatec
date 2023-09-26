@@ -63,7 +63,7 @@ O Apache Maven é uma ferramenta que oferece automação e gerenciamento de proj
 
 Clique [aqui](https://maven.apache.org/), para acessar a documentação original.
 
-## Contribuições pessoais ✔
+##  Contribuições Pessoais ✔
 
 Neste projeto, desempenhei o papel da criação e estruturação do banco de dados que serviu como a base para toda a aplicação. Para isso, foi necessário dedicar-me a um estudo aprofundado sobre a utilização do Oracle Database, um Sistema de Gerenciamento de Banco de Dados (SGBD) com o qual não possuía experiência prévia. Este SGBD apresenta uma sintaxe distinta dos mais comuns, como MySql e Postgres, exigindo um aprendizado específico para sua utilização eficaz.
 

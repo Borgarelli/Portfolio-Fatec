@@ -44,7 +44,7 @@ O Spring Boot é um framework Java open source que tem como objetivo facilitar e
 
 Clique [aqui](https://spring.io/projects/spring-boot), para acessar a documentação oficial.
 
-## Contribuições pessoais ✔
+##  Contribuições Pessoais ✔
 
 Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenvolvimento do front-end da aplicação e no banco de dados. Minhas responsabilidades incluíram a criação do modelo DER do banco de dados e a geração do DDL correspondente, e também a criação de gráficos atráves do Charts do google.
 

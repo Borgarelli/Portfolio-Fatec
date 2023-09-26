@@ -44,7 +44,7 @@ Java é uma linguagem de programação de alto nível, orientada a objetos e mul
 
 Clique [aqui](https://www.java.com/pt-BR/download/help/whatis_java.html), para acessar a documentação oficial.
 	
-## Contribuições pessoais ✔
+##  Contribuições Pessoais ✔
 
 Durante minha participação no projeto, fui responsável pela estruturação do banco de dados no PostgreSQL e pela utilização do SQLite para armazenamento de arquivos CSV. Trabalhei em estreita colaboração com a equipe de desenvolvimento para garantir a integração adequada do banco de dados com a aplicação e o sucesso do projeto.
 

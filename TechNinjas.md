@@ -48,7 +48,7 @@ O SQL-Alchemy é uma biblioteca em Python que fornece uma abstração flexível 
 Clique [aqui](https://docs.sqlalchemy.org/), para acessar a documentação oficial.
 
 
-## Contribuições pessoais ✔
+##  Contribuições Pessoais ✔
 
 Nesta empreitada, assumi a responsabilidade pela concepção e desenvolvimento da interface gráfica. Empreguei o Vue.js 3 como um dos pontos principais da aplicação. A configuração das rotas realizei utilizando a bilioteca vue-router, e a estlização de componentes mais dinâmicos e personalizados do projeto estruturei utilizando o Tailwind CSS. Também realizei a tarefa da criação das estruturas de dados em Python mais conhecidas como models, e para realizar está tarefa utilizei à biblioteca SQL-Alchemy.
 
