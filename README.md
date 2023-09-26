@@ -6,11 +6,11 @@
 
 Olá, sejam todos bem-vindos. Sou o Kauã Borgarelli, estudante de Banco de Dados na Fatec Professor Jessen Vidal.
 
-Tenho 20 anos e trabalho como estagiário na AS2 Group, responsável por automação dentro de Industrias. <br/>
+Tenho 20 anos e trabalho como estagiário na empresa AS2 Group, responsável por automação dentro de Industrias. <br/>
 
 <img src ="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/76f2e3ea-1d17-4e14-a281-cf2e2e39b239" width="300"/>
 
-### *Eu*
+
 
 ### Meus Principais Conhecimentos
 
@@ -18,18 +18,19 @@ Tenho 20 anos e trabalho como estagiário na AS2 Group, responsável por automa�
 Atualmente é a linguagem que mais venho utilizando, com uma breve introdução no 4º semestre 
 
 ### SQL
+<p style="text-align: justify;">
+Minha atuação mais constante durante os semestres foi com o desenvolvimento do banco de dados das aplicações, principalmente a partir do segundo semestre, que foi utilizado o primeiro SGBD PostgreSQL, e a partir dele foi sendo utilizado cada vez mais outros SGBDs como o Oracle e o Oracle Cloud.</p>
 
-Minha atuação mais constante durante os semestres foi com o desenvolvimento do banco de dados das aplicações, principalmente a partir do segundo semestre, que foi utilizado o primeiro SGBD PostgreSQL, e a partir dele foi sendo utilizado cada vez mais outros SGBDs como o Oracle e o Oracle Cloud.
-
-### HTML-5, CSS-3, JavaScript e VueJs 3
-
+### HTML/CSS JavaScript e VueJs 3
+<p style="text-align: justify;">
 Por conta dos novos projetos e os requisitos para a entrega do mesmo, foi necessário uma dedicação a essa área do front-end para o comprimento desses requisitos, e dentro deles, me aprofundei em estudar um pouco de tudo, ter uma integração inicial com HTML e CSS foi essencial para aprender JavaScript, e com o JavaScript foi importantissimo para aprender e integrar o VueJs 3 não só na faculdade, como também na minha vida profissional como um desenvolvedor.
+</p>
 
 ### Projetos
 
-Durante a minha gradução, trabalhei no desenvolvimento de projetos nomeados de "Projetos integradores". Um projeto integrador consiste em solucionar um problema do mundo real de clientes reais, parceiros escolhidos pela própria Universidade Acadêmica, utilizando os conhecimentos e ensinamentos adquiridos durante o decorrer dos semestres.
+<p style="text-align: justify;">Durante a minha gradução, trabalhei no desenvolvimento de projetos nomeados de "Projetos integradores". Um projeto integrador consiste em solucionar um problema do mundo real de clientes reais, parceiros escolhidos pela própria Universidade Acadêmica, utilizando os conhecimentos e ensinamentos adquiridos durante o decorrer dos semestres.
 
-Abaixo, todos os projetos que realizei serão descritos, detalhando a "dor" que o cliente descreveu, a solução proposta (e entregue), e os aprendizados extraídos de cada um destes projetos.
+Abaixo, todos os projetos que realizei serão descritos, detalhando a "dor" que o cliente descreveu, a solução proposta (e entregue), e os aprendizados extraídos de cada um destes projetos.</p>
 
 ## Entre em Contato:
 
