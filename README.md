@@ -6,15 +6,15 @@
 
 Olá, sejam todos bem-vindos. Sou o Kauã Borgarelli, estudante de Banco de Dados na Fatec Professor Jessen Vidal.
 
-Tenho 20 anos e atualmente estou trabalhando como estagiário na AS2 Group. <br/>
+Tenho 20 anos e trabalho como estagiário na AS2 Group, responsável por automação dentro de Industrias. <br/>
 
 <img src ="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/76f2e3ea-1d17-4e14-a281-cf2e2e39b239" width="300"/>
 
 ### *Eu*
 
-### Meus principais conhecimentos
+### Meus Principais Conhecimentos
 
-### SpringBoot3
+### Spring Boot 3
 Atualmente é a linguagem que mais venho utilizando, com uma breve introdução no 4º semestre 
 
 ### SQL
