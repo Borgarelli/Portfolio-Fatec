@@ -9,7 +9,7 @@ MidAllº [B]
 ### *MidAllº [B]*
 
 ### Visão do Projeto
-<p align = "justify">
+<p style="text-align: justify;">
 Plataforma para Geração de Promoções em E-commerce: Flexibilidade e Agilidade
 
 Apresentamos uma ferramenta destinada à criação de promoções no âmbito do E-commerce, onde as mecânicas promocionais são configuradas com flexibilidade, permitindo uma ágil adaptação conforme necessário. As regras promocionais são cadastradas e, posteriormente, implementadas pelo usuário quando produtos que a compõem são adicionados a sacola.
@@ -32,15 +32,15 @@ Link do repositório do projeto: https://github.com/DolphinDatabase/DescontOn
 
 ### JQuery <a href="https://jquery.com" target="_blank"><img width="65" height="20" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/></a>
 
-jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um software de código aberto: seu uso é licenciado pela Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL). E essa biblioteca têm como principal finalidade associar-se aos elementos JavaScript em HTML para conferir mais dinamismo e usabilidade às páginas na internet.
+<p style="text-align: justify;">jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um software de código aberto: seu uso é licenciado pela Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL). E essa biblioteca têm como principal finalidade associar-se aos elementos JavaScript em HTML para conferir mais dinamismo e usabilidade às páginas na internet.</p>
 
 Clique [aqui](https://jquery.com/), para acessar a documentação oficial.
 
 
 ### Thymeleaf <a href="https://www.thymeleaf.org" target="_blank">![Thymeleaf](https://img.shields.io/badge/Thymeleaf-darkgreen?style=flat-square&logo=thymeleaf)</a>
 
-O Thymeleaf é um template engine voltado para projetos Java que facilitam a criação de páginas HTML. Permitindo a troca de informações entre o código Java e as páginas HTML.
-De tal maneira garantindo que o desenvolvedor consiga criar templates de forma mais simples e de uma maneira mais agilizada para suas aplicações.
+<p style="text-align: justify;">O Thymeleaf é um template engine voltado para projetos Java que facilitam a criação de páginas HTML. Permitindo a troca de informações entre o código Java e as páginas HTML.
+De tal maneira garantindo que o desenvolvedor consiga criar templates de forma mais simples e de uma maneira mais agilizada para suas aplicações.</p>
 
 Clique [aqui](https://www.thymeleaf.org/), para acessar a documentação oficial.
 
@@ -53,21 +53,21 @@ Clique [aqui](https://spring.io/projects/spring-boot), para acessar a documenta�
 
 ### Bootstrap <a href="https://getbootstrap.com" target="_blank"><img src="https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white"/></a><br/>
 
-O Bootstrap é um framework front-end que veio para facilitar e agilizar o trabalho, oferecendo padrões para HTML, JavaScript e CSS de acordo com o site CiaWebsites. O Bootstrap foi desenvolvido por Jacob Thorton e Mark Otto com o objetivo de facilitar a programação de um site web e otimizar seu desempenho.
+<p style="text-align: justify;">O Bootstrap é um framework front-end que veio para facilitar e agilizar o trabalho, oferecendo padrões para HTML, JavaScript e CSS de acordo com o site CiaWebsites. O Bootstrap foi desenvolvido por Jacob Thorton e Mark Otto com o objetivo de facilitar a programação de um site web e otimizar seu desempenho.</p>
 
 Clique [aqui](https://getbootstrap.com/), para acessar a documentação oficial.
 
 ### Maven [![Maven](https://img.shields.io/badge/Maven-%23C71A36?style=for-the-badge&logo=apache-maven&logoColor=white)](https://maven.apache.org/)
 
-O Apache Maven é uma ferramenta que oferece automação e gerenciamento de projetos Java (mas podem ser utilizada com outras linguagens), padronizando a construção e publicação de suas aplicações. Por ser extremamente flexível o Apache Maven agrega agilidade e qualidade ao produto, além de permitir que sejam adicionados plugins a si e estender suas funcionalidades.
+<p style="text-align: justify;">O Apache Maven é uma ferramenta que oferece automação e gerenciamento de projetos Java (mas podem ser utilizada com outras linguagens), padronizando a construção e publicação de suas aplicações. Por ser extremamente flexível o Apache Maven agrega agilidade e qualidade ao produto, além de permitir que sejam adicionados plugins a si e estender suas funcionalidades.</p>
 
 Clique [aqui](https://maven.apache.org/), para acessar a documentação original.
 
 ##  Contribuições Pessoais ✔
 
-Neste projeto, desempenhei o papel da criação e estruturação do banco de dados que serviu como a base para toda a aplicação. Para isso, foi necessário dedicar-me a um estudo aprofundado sobre a utilização do Oracle Database, um Sistema de Gerenciamento de Banco de Dados (SGBD) com o qual não possuía experiência prévia. Este SGBD apresenta uma sintaxe distinta dos mais comuns, como MySql e Postgres, exigindo um aprendizado específico para sua utilização eficaz.
+<p style="text-align: justify;">Neste projeto, desempenhei o papel da criação e estruturação do banco de dados que serviu como a base para toda a aplicação. Para isso, foi necessário dedicar-me a um estudo aprofundado sobre a utilização do Oracle Database, um Sistema de Gerenciamento de Banco de Dados (SGBD) com o qual não possuía experiência prévia. Este SGBD apresenta uma sintaxe distinta dos mais comuns, como MySql e Postgres, exigindo um aprendizado específico para sua utilização eficaz.
 
-Além disso, fiquei responsável pelo desenvolvimento web de algumas telas. Uma dessas telas foi a tela "Sacola", que têm o objetivo de exibir todos os produtos inseridos no nosso banco de dados, independentemente de serem dados fictícios ou fornecidos pelo próprio usuário. Outra tela mecessária foi a tela de "Cadastro de Produtos", que permite ao usuário inserir novos produtos e promoções, os quais seram posteriormente exibidos na tela de "Sacola".
+Além disso, fiquei responsável pelo desenvolvimento web de algumas telas. Uma dessas telas foi a tela "Sacola", que têm o objetivo de exibir todos os produtos inseridos no nosso banco de dados, independentemente de serem dados fictícios ou fornecidos pelo próprio usuário. Outra tela mecessária foi a tela de "Cadastro de Produtos", que permite ao usuário inserir novos produtos e promoções, os quais seram posteriormente exibidos na tela de "Sacola". </p>
 
 <details><summary>Tela Sacola de Compras</summary>
 <img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/d788a696-8ab8-4ee8-a13b-b6c383d6db56">
@@ -204,10 +204,10 @@ Também fiquei responsável por criar e configurar a tela de cadastro de produto
 
 ## Aprendizados Efetivos  ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
 
-No desenvolvimento das modelagens do nosso E-commerce, aprendi mais sobre a estruturação de um mesmo. Foi a primeira vez em que trabalhei de fato com uma aplicação front-end voltada principal para web.
+<p style="text-align: justify;">No desenvolvimento das modelagens do nosso E-commerce, aprendi mais sobre a estruturação de um mesmo. Foi a primeira vez em que trabalhei de fato com uma aplicação front-end voltada principal para web.
 Por conta desta experiência, fui inserido a um novo nível de exigência para a construção de um sistema web, tendo que me preocupar com o formato e conteúdo específico das requisições de possiveis entradas no serviço desenvolvido.
 
-Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnologias de construção de software, mas que eram essenciais para cumprir com as regras fornecidas pelo cliente, sejam elas em vendas, aplicações de descontos e regras de negócio, é algo que nunca pensei em trabalhar em conjunto antes. Esta habilidade de aprender de forma ágil sobre temas que sequer pensei em trabalhar, por conta das infinitas possíveis áreas de atuação de possíveis futuros clientes, foi de um valor excepcional para mim e para minha formação como aluno da Fatec.
+Além disso, aprendi muito sobre uma área não diretamente relacionada a tecnologias de construção de software, mas que eram essenciais para cumprir com as regras fornecidas pelo cliente, sejam elas em vendas, aplicações de descontos e regras de negócio, é algo que nunca pensei em trabalhar em conjunto antes. Esta habilidade de aprender de forma ágil sobre temas que sequer pensei em trabalhar, por conta das infinitas possíveis áreas de atuação de possíveis futuros clientes, foi de um valor excepcional para mim e para minha formação como aluno da Fatec.</p>
 
 - Criação de banco de dados para armazenamento de produtos cadastrados e novas regras geradas pelo usuário/cliente: Sei Fazer com Autonomia
 - Modelagem completa para armazenar todos os dados fornecidos e requisitados pelo usuário e pela aplicação: Sei Fazer com Autonomia
