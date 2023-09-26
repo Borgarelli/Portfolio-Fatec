@@ -54,7 +54,7 @@ Além disso, busquei estudar conceitos e técnicas relevantes à implementação
 
 <details> <summary>Banco modelado utilizando o SQLite</summary>
 
-> Aqui temos um trecho da conexão sendo criada com o SQlite para rodar um banco de dados de forma local para o armazenamento dos documentos em csv e arquivos gerados pela aplicação
+> Aqui temos um trecho da conexão sendo criada com o SQLite para rodar um banco de dados de forma local para o armazenamento dos documentos em csv e arquivos gerados pela aplicação
 
 ```kotlin
 import java.sql.*;

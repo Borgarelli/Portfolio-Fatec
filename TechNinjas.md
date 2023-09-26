@@ -50,11 +50,11 @@ Clique [aqui](https://docs.sqlalchemy.org/), para acessar a documentação ofici
 
 ##  Contribuições Pessoais ✔
 
-Nesta empreitada, assumi a responsabilidade pela concepção e desenvolvimento da interface gráfica. Empreguei o Vue.js 3 como um dos pontos principais da aplicação. A configuração das rotas realizei utilizando a bilioteca vue-router, e a estlização de componentes mais dinâmicos e personalizados do projeto estruturei utilizando o Tailwind CSS. Também realizei a tarefa da criação das estruturas de dados em Python mais conhecidas como models, e para realizar está tarefa utilizei à biblioteca SQL-Alchemy.
+Nesta empreitada, assumi a responsabilidade pela concepção e desenvolvimento da interface gráfica. Empreguei o Vue.js 3 como um dos pontos principais da aplicação. A configuração das rotas realizei utilizando a bilioteca vue-router, e a estlização de componentes mais dinâmicos e personalizados do projeto realizei a estruturação utilizando o Tailwind CSS. Também realizei a tarefa da criação das estruturas de dados em Python mais conhecidas como models, e para realizar está tarefa utilizei à biblioteca SQL-Alchemy.
 
 Este projeto configurou-se como uma notável oportunidade para aprimorar minhas competências como um desenvolvedor e cultivar uma experiência prática embasada em tecnologias que cada vez mais vem se mostrando mais requisitadas. Nesse âmbito, pude expandir meu entendimento e aplicação das ferramentas essenciais, reforçando minha capacidade de oferecer soluções inovadoras em possiveis novos futuros projetos desafiadores.
 
-<details><summary>Interface principal</summary>
+<details><summary>Interface Principal</summary>
 <img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/e4cc6f49-8251-45cd-ae87-42ec1242909e">
 
 > Essa é a interface principal da aplicação, onde utilizando toda a versatilidade do Vue, todos os elementos que a compõem estão componentizados e separados corretamente,e também otimizados e aplicados a coordenação de rotas utilizando o vue-router
