@@ -10,7 +10,7 @@ Fatec Professor Jessen Vidal <br/>
 
 ### Visão do Projeto
 
-<p align="justify">
+<p style="text-align: justify;">
 Uma assistente virtual que possua uma ampla gama de funcionalidades é uma tarefa desafiadora que exige conhecimentos técnicos avançados. Nesse contexto, apresentamos o Julius, uma API que consiste em uma assistente virtual especializada em auxiliar o usuário na tomada de decisões relacionadas a investimentos financeiros. Com oito funcionalidades distintas, o Julius se destaca por fornecer informações em tempo real, garantindo ao usuário uma experiência interativa e eficiente.
 
 Entre as funcionalidades oferecidas pelo Julius, destacam-se o código de ações, que permite ao usuário acompanhar o desempenho das ações de empresas listadas em bolsa; a cotação do dia, que apresenta informações atualizadas sobre os valores de moedas e criptomoedas; e o conversor de moedas, que possibilita ao usuário converter valores entre diferentes moedas.
@@ -29,46 +29,54 @@ Link do repositório do projeto: [https://github.com/TheLooksDatabase/Julius](ht
 ## Tecnologias Utilizadas 💻
 
 ### Python [![Python Badge](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-
+<p style="text-align: justify;">
 Python é uma linguagem de programação de alto nível, interpretada e dinâmica, que é amplamente utilizada em áreas como desenvolvimento web, análise de dados, inteligência artificial, automação de tarefas e muitas outras. E uma das principais vantagens da linguagem de programação Python é sua sintaxe simples e intuitiva, que facilita a escrita e leitura de código, além de aumentar a produtividade do programador.
 
 Clique [aqui](https://docs.python.org/3/), para acessar a documentação oficial.
+</p>
 
 ### Beautifulsoup4 [![Beautifulsoup4 Badge](https://img.shields.io/badge/BeautifulSoup4-4.9.3-59666C?style=for-the-badge&logo=beautifulsoup&logoColor=white)](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-
+<p style="text-align: justify;">
 O Beautifulsoup4 é uma biblioteca Python utilizada para extrair dados de páginas web de forma fácil e eficiente. Essa biblioteca permite analisar o conteúdo HTML e XML das páginas web e extrair informações específicas, como títulos, parágrafos, links, tabelas e outras tags. 
 
 Clique [aqui](https://www.crummy.com/software/BeautifulSoup/bs4/doc/), para acessar a documentação oficial.
+</p>
 
 ### SpeechRecognition [![SpeechRecognition Badge](https://img.shields.io/badge/SpeechRecognition-3.8.1-blue?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/SpeechRecognition/)
-
+<p style="text-align: justify;">
 O SpeechRecognition é uma biblioteca Python utilizada para reconhecimento de fala em tempo real ou a partir de arquivos de áudio gravados. Essa biblioteca permite transcrever a fala em texto utilizando diferentes mecanismos de reconhecimento, como o Google Speech Recognition, o Microsoft Bing Voice Recognition, o IBM Speech to Text, entre outros.
 
 Clique [aqui](https://pypi.org/project/SpeechRecognition/), para acessar a documentação oficial.
+</p>
 
 ### Pyttsx3 [![pyttsx3 Badge](https://img.shields.io/badge/pyttsx3-2.90-blue?style=for-the-badge&logo=python&logoColor=white)](https://pypi.org/project/pyttsx3/)
-
+<p style="text-align: justify;">
 O pyttsx3 é uma biblioteca Python para síntese de voz, que permite a geração de áudio a partir de texto. Essa biblioteca oferece suporte a diferentes mecanismos de síntese de voz, como o eSpeak, o SAPI5 (para Windows) e o NSSpeechSynthesizer (para macOS).
 
 Clique [aqui](https://pypi.org/project/pyttsx3/), para acessar a documentação oficial.
 
-### Google-api-python-client [![Google-api-python-client Badge](https://img.shields.io/badge/Google--api--python--client-v2.25.0-red?style=for-the-badge&logo=google&logoColor=white)](https://developers.google.com/api-client-library/python/start/get_started)
+</p>
 
+### Google-api-python-client [![Google-api-python-client Badge](https://img.shields.io/badge/Google--api--python--client-v2.25.0-red?style=for-the-badge&logo=google&logoColor=white)](https://developers.google.com/api-client-library/python/start/get_started)
+<p style="text-align: justify;">
 O Google-api-python-client é uma biblioteca Python que oferece acesso às APIs do Google de forma fácil e intuitiva. Essa biblioteca é construída com base no framework de serviços do Google e permite que os desenvolvedores criem aplicativos que interagem com serviços como o Google Drive, Gmail, YouTube, Google Maps, entre outros.
 
 Clique [aqui](https://developers.google.com/api-client-library/python/start/get_started), para acessar a documentação oficial.
+</p>
 
 ### Sqlite3 [![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
-
+<p style="text-align: justify;">
 O sqlite3 é um módulo da biblioteca padrão do Python que permite acessar e manipular bancos de dados SQLite. O SQLite é um sistema de gerenciamento de banco de dados leve, rápido e simples de usar, ideal para aplicações que não requerem muita escalabilidade ou concorrência. O módulo sqlite3 fornece uma API fácil de usar para criar, modificar e consultar bancos de dados SQLite usando o Python.
 
 Clique [aqui](https://docs.python.org/3/library/sqlite3.html), para acessar a documentação oficial.
+</p>
 
 ##  Contribuições Pessoais ✔
-
+<p style="text-align: justify;">
 Durante o desenvolvimento do projeto, tive a responsabilidade de desenvolver o banco de dados local que seria utilizado pela aplicação, utilizando a biblioteca sqlite3 da linguagem Python. A fim de garantir uma estrutura sólida e coerente, me dediquei à elaboração do esquema de banco de dados e à escrita de scripts de criação e manipulação de tabelas, índices e outras estruturas de dados que foram muito relevantes para o projeto.
 
 Além disso, fui responsável pelas funções de conversão de moedas e comparação entre corretoras, utilizando bibliotecas como a currency_converter para a cotação diária das moedas. Aprendi que, apesar de haver diversos tutoriais disponíveis, a consulta à documentação técnica das tecnologias é a melhor forma de obter informações completas, precisas e confiáveis. 
+</p>
 
 <details><summary>Tabela de Corretoras</summary>
 
@@ -199,8 +207,9 @@ def comparativo():
     con.close()
 ```
 </details>
-
+<p style="text-align: justify;">
 Também fui responsável pela funcionalidade de Conversor de moedas, que utiliza a API currencyConverter e que é responsável pela cotação atualizada em tempo real das moedas de distintas nacionalidades e com isso realizar a conversão de moeda para moeda durante o uso da aplicação
+</p>
 
 <details><summary>Conversor de Moedas</summary>
 
@@ -241,13 +250,14 @@ def Conversor_Moedas():
 </details>
 
 ## Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
-
+<p style="text-align: justify;">
 Durante o desenvolvimento desse projeto, fui exposto pela primeira vez à importância de se consultar documentações técnicas primárias para obter informações precisas e confiáveis sobre as tecnologias utilizadas para o desenvolvimento do projeto. Essa experiência foi fundamental para o meu desenvolvimento profissional e acadêmico, pois aprendi a buscar informações detalhadas diretamente de documentações oficiais das tecnologias.
 
 Devido à novidade que foi essa experiência que o API pode me proporcionar, grande parte do meu tempo foi dedicado ao estudo de conceitos e técnicas relevantes para a implementação do banco de dados e outras funcionalidades da aplicação. Esse estudo foi essencial não só para a criação de uma base sólida para a gestão de dados locais, que atendeu perfeitamente aos requisitos do projeto mas também para meu desenvolvimento pessoal.
 
 - Criação de um banco de dados local utilizando bibiliotecas especificas: Sei Fazer com Autonomia
 - Gerenciamento e utilização de uma nova gama de APIs e bibliotecas disponiveis para o desenvolvimento do projeto: Sei Fazer com Autonomia
+</p>
 
 ## Navegação Entre Projetos :link:
  
