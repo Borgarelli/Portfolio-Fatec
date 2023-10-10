@@ -10,7 +10,7 @@ Subiter
 
 ### Visão do Projeto
 
-<p align="justify">
+<p style="text-align: justify;">
 Sistema ERP que visa gerenciar e controlar dados, afim de reduzir custos, facilitar tomadas de decisão, otimizar o tempo de atendimento de chamados e aprimorar o solucionamento destes. É composta por níveis de usuários, onde o administrador terá controle sobre todas as funcionalidades existentes, dentre elas o cadastro, edição e exclusão de outros usuários; o suporte ficará responsável pelo CRUD de falhas e soluções genéricas e CRUD de equipamentos; o cliente trará o problema para o suporte e, este ficará responsável por gerenciar o chamado e resolvê-los.
 
 A MCS (Management and Control System) trouxe de uma forma fácil e rápida o mais importante: o mapeamento gráfico de anomalias nas silhuetas. O Mapemamento de anomalias consiste pode ser utilizada durante, ou após uma inspeção, o suporte conseguirá fazer o upload da silhueta e adicionar as falhas (específicas daquele chamado) encontradas em formas e tamanhos diferentes para uma melhor identificação da posição e tamanho, facilitando na identificação de quantidade e quais materiais serão utilizados para a solução dessas falhas e também no cálculo do orçamento.
@@ -27,30 +27,36 @@ Link do repositório do projeto: https://github.com/DolphinDatabase/MCS
 ## Tecnologias Utilizadas 💻
 
 ### Vue [![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
-
+<p style="text-align: justify;">
 Vue.js é um framework JavaScript de código aberto para a criação de interfaces de usuário reativas e eficientes. Com uma sintaxe intuitiva e uma curva de aprendizado suave, o Vue.js facilita a construção de interfaces modulares e reutilizáveis.
 
 Clique [aqui](https://vuejs.org/), para acessar a documentação oficial.
+</p>
 
 ### Element Plus [![Element Plus](https://img.shields.io/badge/Element_Plus-%231eaf7a.svg?style=for-the-badge&logo=vue.js&logoColor=white)](https://element-plus.org/)
 
+<p style="text-align: justify;">
 O Element Plus é uma biblioteca de componentes Vue.js que oferece uma solução elegante e completa para a criação de interfaces de usuário modernas e responsivas. Com um amplo conjunto de componentes prontos para uso, o Element Plus permite aos desenvolvedores agilizar o processo de desenvolvimento, fornecendo elementos visuais consistentes e interativos.
 
 Clique [aqui](https://element-plus.org/), para acessar a documentação oficial.
+</p>
 
 ### Spring Boot [![Spring Boot](https://img.shields.io/badge/Spring_Boot-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/projects/spring-boot)
 
+<p style="text-align: justify;">
 O Spring Boot é um framework Java open source que tem como objetivo facilitar esse processo em aplicações Java. Trazendo mais agilidade para o processo de desenvolvimento com uma infinidade de ferramentas surge todos os dias visando justamente acelerar o processo de criação e implantação de soluções nos mais variados ambientes.
 
 Clique [aqui](https://spring.io/projects/spring-boot), para acessar a documentação oficial.
+</p>
 
 ##  Contribuições Pessoais ✔
-
+<p style="text-align: justify;">
 Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenvolvimento do front-end da aplicação e no banco de dados. Minhas responsabilidades incluíram a criação do modelo DER do banco de dados e a geração do DDL correspondente, e também a criação de gráficos atráves do Charts do google.
 
- Além disso, fiquei responsável pelo desenvolvimento da tela de login e pela implementação dos modais gerais da aplicação. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva ao usuário, ao mesmo tempo em que garantia uma correta persistência dos dados necessários para o funcionamento adequado do sistema.
+Além disso, fiquei responsável pelo desenvolvimento da tela de login e pela implementação dos modais gerais da aplicação. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva ao usuário, ao mesmo tempo em que garantia uma correta persistência dos dados necessários para o funcionamento adequado do sistema.
 
 Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e adquirir experiência prática em tecnologias relevantes para a indústria da tecnologia da informação.
+</p>
 
 <details><summary>Tela Login</summary>
 <img src="https://github.com/pdrMottaS/Portifolio/assets/74321890/12f0fd7e-760f-4b28-bac5-a8e88a573b2f">
@@ -206,7 +212,7 @@ Também fiquei responsável pela parte dos gráficos, utilizando a api do Google
 </details>
 
 ## Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
-
+<p style="text-align: justify;">
 A participação nesse projeto foi de extrema importância para o meu crescimento profissional, pois representou um marco na minha trajetória ao possibilitar o trabalho simultâneo com dois frameworks simultaneamente, resultando em uma experiência prática de integração completa entre front-end e back-end. O contato com essa tecnologia foi desafiador, porém profundamente recompensador, uma vez que pude aplicar o conhecimento adquirido em projetos anteriores e impulsionar ainda mais minhas habilidades em desenvolvimento de front-end.
 
 A experiência adquirida nesse projeto foi extremamente enriquecedora, pois permitiu-me aplicar conceitos teóricos em um contexto real, enfrentando desafios complexos e adquirindo um conhecimento mais aprofundado em desenvolvimento de aplicações web. Essa vivência consolidou meu domínio das tecnologias envolvidas e ampliou meu conjunto de habilidades, tornando-me um profissional mais completo e preparado para enfrentar projetos desafiadores no futuro.
@@ -214,6 +220,7 @@ A experiência adquirida nesse projeto foi extremamente enriquecedora, pois perm
 - Desenvolver um CRUD: Sei Fazer com Autonomia.
 - Desenvolvimento Front-end utilizando VueJS: Sei Fazer com Autonomia.
 - Utilização do OracleCloud: Sei Fazer com Autonomia.
+</p>
 
 ## Navegação Entre Projetos :link:
  
