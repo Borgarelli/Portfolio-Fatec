@@ -4,7 +4,7 @@
 
 Visiona Espacial[B] 
 
-![Visiona](https://user-images.githubusercontent.com/79945984/225166828-fd8d6942-68e5-4c26-9466-06bc7b08e0d0.png)
+![Visiona](https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/5f9a61fb-c362-4d7f-b1c1-a208ffca88f2)
 
 ### *Visiona Espacial*
 
@@ -13,7 +13,8 @@ Visiona Espacial[B]
 <p style="text-align: justify;">
 Propomos uma solução abrangente que envolve a coleta e o refinamento dos dados públicos do ProAgro, a reestruturação eficiente da base de dados e o desenvolvimento de um Sistema de Informação Geográfica (SIG) personalizado, fornecendo informações de forma mais simples e organizada para o usuário. Essa abordagem busca facilitar a compreensão e análise dos dados, contribuindo para melhorias nos processos internos da empresa.</p>
 
-[<img src ="https://github.com/TechNinjass/midall-parent/blob/main/docs/Images/logo-techNinjass.png" width="250" height="250"/>](https://github.com/TechVisionn/tech-parent "Tech Vision Repositório")
+[<img src ="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/71e3cfd2-da41-4e5b-bd74-d5621fb1115e"
+ width="250" height="250"/>](https://github.com/TechVisionn/tech-parent "Tech Vision Repositório")
 
 ### *Tech Vision Parent*
 Link do repositório do projeto: https://github.com/TechVisionn/tech-parent
