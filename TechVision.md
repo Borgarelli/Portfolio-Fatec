@@ -58,9 +58,25 @@ Clique [aqui](https://docs.sqlalchemy.org/), para acessar a documentação ofici
 ### React [![React](https://img.shields.io/badge/React-%2320232a?style=for-the-badge&logo=react)](https://reactjs.org/)
 <p style="text-align: justify;">
 O React é uma biblioteca JavaScript para construção de interfaces de usuário, desenvolvida pelo Facebook. Ele utiliza uma abordagem de programação declarativa, facilitando a criação de componentes reutilizáveis que atualizam automaticamente conforme os dados mudam, proporcionando uma experiência eficiente e responsiva para o desenvolvimento de aplicações web interativas.
-<p>
+</p>
 
 Clique [aqui](https://reactjs.org), para acessar a documentação oficial.
+
+### Microsoft-Azure [![Azure](https://img.shields.io/badge/Microsoft_Azure-%230078D4?style=for-the-badge&logo=microsoft-azure)](https://docs.microsoft.com/azure/)
+<p style="text-align: justify;">
+O Microsoft Azure é uma plataforma de computação em nuvem líder que oferece uma ampla gama de serviços, desde hospedagem de máquinas virtuais até inteligência artificial. Ele fornece soluções escaláveis para desenvolvimento, implantação e gerenciamento de aplicativos, além de suportar diversas linguagens de programação. Com recursos como armazenamento, análise de dados e aprendizado de máquina, o Azure é uma escolha popular para empresas modernas na nuvem.
+</p>
+
+Clique [aqui](https://docs.microsoft.com/azure/), para acessar a documentação oficial.
+
+### PostgreSQL [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+<p style="text-align: justify;">
+O PostgreSQL é um banco de dados objeto-relacional (sem relação com linguagens de programação orientadas a objetos), em que cada coisa criada é tratada como um objeto, tais como bancos de dados, tabelas, views, triggers, etc.
+</p>
+
+Clique [aqui](https://www.postgresql.org/about/) para acessar a documentação oficial.
+
+
 
 ##  Contribuições Pessoais ✔
 <p style="text-align: justify;">

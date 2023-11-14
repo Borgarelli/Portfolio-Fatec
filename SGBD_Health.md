@@ -30,12 +30,14 @@ Link do repositório do projeto: [https://github.com/DolphinDatabase/SGBD_Health
 <p style="text-align: justify;">
 O PostgreSQL é um banco de dados objeto-relacional (sem relação com linguagens de programação orientadas a objetos), em que cada coisa criada é tratada como um objeto, tais como bancos de dados, tabelas, views, triggers, etc.
 </p>
-Clique [aqui](https://www.postgresql.org/about/), para acessar a documentação oficial.
+
+Clique [aqui](https://www.postgresql.org/about/) para acessar a documentação oficial.
 	
 ### SQLite [![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
 <p style="text-align: justify;">
 SQLite é um sistema de gerenciamento de banco de dados relacional leve, embutido e amplamente utilizado em aplicativos móveis, navegadores da web e outros softwares que precisam armazenar dados localmente. SQLite é uma biblioteca escrita em C que oferece recursos avançados de gerenciamento de banco de dados, como transações ACID, integridade referencial e indexação avançada, tornando-o uma escolha popular para desenvolvedores que precisam de uma solução de banco de dados confiável e fácil de utilizar.
 </p>
+
 Clique [aqui](https://www.sqlite.org/about.html), para acessar a documentação oficial.
 
 ### Java [![Java](https://img.shields.io/badge/Java-%23ED8B00?style=for-the-badge&logo=java&logoColor=white&labelColor=%23ED8B00)](https://www.java.com/)
@@ -43,6 +45,7 @@ Clique [aqui](https://www.sqlite.org/about.html), para acessar a documentação 
 <p style="text-align: justify;">
 Java é uma linguagem de programação de alto nível, orientada a objetos e multiplataforma lançada em 1995 pela Sun Microsystems (agora Oracle). Java é amplamente usado para desenvolver aplicativos, jogos, sistemas de gerenciamento de banco de dados, aplicativos da web e muito mais.
 </p>
+
 Clique [aqui](https://www.java.com/pt-BR/download/help/whatis_java.html), para acessar a documentação oficial.
 	
 ##  Contribuições Pessoais ✔
