@@ -2,7 +2,7 @@
 
 ### Parceiro Acadêmico
 
-Visiona Espacial[B] 
+Visiona Espacial 
 
 ![Visiona](https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/5f9a61fb-c362-4d7f-b1c1-a208ffca88f2)
 
@@ -77,12 +77,76 @@ O PostgreSQL é um banco de dados objeto-relacional (sem relação com linguagen
 Clique [aqui](https://www.postgresql.org/about/) para acessar a documentação oficial.
 
 
-
 ##  Contribuições Pessoais ✔
 <p style="text-align: justify;">
-Nesta empreitada, assumi a responsabilidade pela concepção e desenvolvimento da interface gráfica. Empreguei o Vue.js 3 como um dos pontos principais da aplicação. A configuração das rotas realizei utilizando a bilioteca vue-router, e a estlização de componentes mais dinâmicos e personalizados do projeto realizei a estruturação utilizando o Tailwind CSS. Também realizei a tarefa da criação das estruturas de dados em Python mais conhecidas como models, e para realizar está tarefa utilizei à biblioteca SQL-Alchemy.
+Neste projeto, fui um dos responsáveis pela gestão e tratamento de dados, através da biblioteca Pandas, foi possível fazer uma leitura e conversão dos dados em csv disponibilizados pela Visiona, para essa primeira instancia e contato com esses csv, criei um script básico para a conversão e lipeza dos dados para a visualização dos mesmos
 
-Este projeto configurou-se como uma notável oportunidade para aprimorar minhas competências como um desenvolvedor e cultivar uma experiência prática embasada em tecnologias que cada vez mais vem se mostrando mais requisitadas. Nesse âmbito, pude expandir meu entendimento e aplicação das ferramentas essenciais, reforçando minha capacidade de oferecer soluções inovadoras em possiveis novos futuros projetos desafiadores.
+<details><summary>Script para leitura dos CSV</summary>
+
+```kotlin
+import pandas as pd
+import os
+import chardet
+
+def detectar_codificacao(arquivo_csv):
+    with open(arquivo_csv, 'rb') as f:
+        result = chardet.detect(f.read())
+        return result['encoding']
+
+def identificar_separador_csv(arquivo_csv):
+    with open(arquivo_csv, 'r', newline='') as file:
+        conteudo = file.read(1024)  # Leia apenas os primeiros 1024 bytes
+
+        # Tente identificar o separador com base em algumas pistas
+        if ',' in conteudo:
+            return ','
+        elif ';' in conteudo:
+            return ';'
+        elif '\t' in conteudo:
+            return '\t'
+        else:
+            return None  # Se não encontrar um separador conhecido, retorne None
+
+def ler_csv_e_preencher_nulos(arquivo_csv):
+    codificacao = detectar_codificacao(arquivo_csv)
+    sep = identificar_separador_csv(arquivo_csv)
+
+    if sep is None:
+        print("Não foi possível identificar automaticamente o separador.")
+        return
+
+    try:
+        # Tentar ler com o separador identificado
+        df = pd.read_csv(arquivo_csv, encoding=codificacao, sep=sep, quotechar='"', quoting=3, on_bad_lines='skip', na_values=['NaN', 'N/A', 'NA', 'nan', 'n/a'])
+
+        if not df.empty:
+            # Remover as aspas duplas dos valores na coluna "VL_VERTICES"
+            df['VL_VERTICES'] = df['VL_VERTICES'].str.strip('"')
+
+            NU_IDENTIFICADOR = df['NU_IDENTIFICADOR']
+            print(NU_IDENTIFICADOR)
+        else:
+            print("Arquivo CSV vazio.")
+    except UnicodeDecodeError:
+        print(f"Tentando com codificação {codificacao}... Não foi possível decodificar.")
+    except pd.errors.ParserError:
+        print(f"Não foi possível analisar o arquivo CSV com o separador '{sep}'.")
+
+def main():
+    os.system('cls')
+    arquivo_csv = r"C:\Users\borga\Documents\aula_massanori\resultado_novo2 - Copia.csv"
+    ler_csv_e_preencher_nulos(arquivo_csv)
+
+if __name__ == "__main__":
+    main()
+```
+</details>
+</br>
+
+Após ser possivel realizar uma leitura desses dados, foi necessário armazena-los e trata-los dentro da cloud, para tornar o acesso restrito e seguro, para isso trabalhei na configuração do pipeline dentro da Microsoft-Azure, que foi a principal ferramenta para armazenar esses dados, para isso o pipeline trabalha de uma maneira simples, primeiro é necessário carregar o csv dentro da azure e criar um DDL com as informações desse csv dentro do SGBD, e para isso utilizei o Postgre, depois é necessário criar uma instancia em formato Postgre_Azure e assim que criados o pipeline realiza o mapeamento da tabela dentro do cloud com seu respectivo csv.
+
+<details><summary>Microsoft Azure Factory</summary>
+
 </p>
 
 <details><summary>Interface Principal</summary>
