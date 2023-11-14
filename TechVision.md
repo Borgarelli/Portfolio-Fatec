@@ -21,19 +21,22 @@ Link do repositório do projeto: https://github.com/TechVisionn/tech-parent
 
 ## Tecnologias Utilizadas 💻
 
-### Vue [![Vue.js](https://img.shields.io/badge/Vue.js-%234FC08D.svg?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
-<p style="text-align: justify;">
-Vue.js é um framework JavaScript de código aberto para a criação de interfaces de usuário reativas e eficientes.
-<p>
+### MongoDB  [![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b?style=for-the-badge&logo=mongodb)](https://docs.mongodb.com/)
 
-Clique [aqui](https://vuejs.org/), para acessar a documentação oficial.
-
-### Tailwind css  [![Tailwind CSS](https://img.shields.io/badge/Built_with-Tailwind_CSS-38B2AC?logo=tailwind-css&style=flat-square)](https://tailwindcss.com/)
 <p style="text-align: justify;">
-O Tailwind CSS é um framework de CSS que usa classes utilitárias para estilizar diretamente o HTML, agilizando o desenvolvimento front-end. Este framework oferece uma ampla gama de classes pré-definidas para estilos, margens, cores e aplicar a responsividade, permitindo criar interfaces atraentes de forma rápida e flexível.
+O MongoDB é um banco de dados NoSQL de código aberto, orientado a documentos. Ele oferece flexibilidade e escalabilidade para armazenar e consultar dados, permitindo o uso de esquemas dinâmicos. Utilizado em diversas aplicações, o MongoDB simplifica o desenvolvimento ao suportar modelos de dados variados.
 </p>
 
-Clique [aqui](https://element-plus.org/), para acessar a documentação oficial.
+Clique [aqui](https://docs.mongodb.com/), para acessar a documentação oficial.
+
+### Pandas [![Pandas](https://img.shields.io/badge/Pandas-%23150458?style=for-the-badge&logo=pandas)](https://pandas.pydata.org/)
+
+<p style="text-align: justify";>
+O Pandas é uma poderosa biblioteca de código aberto para manipulação e análise de dados em Python. Ele oferece estruturas de dados flexíveis, como DataFrames, para facilitar a limpeza, transformação e análise eficiente de conjuntos de dados. Amplamente utilizado em ciência de dados e análise, o Pandas simplifica tarefas complexas de manipulação de dados.
+</p>
+
+Clique [aqui](https://pandas.pydata.org), para acessar a documentação oficial.
+
 
 ### Flask [![Flask](https://img.shields.io/badge/Flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)](http://flask.pocoo.org/)
 
@@ -52,6 +55,12 @@ O SQL-Alchemy é uma biblioteca em Python que fornece uma abstração flexível 
 
 Clique [aqui](https://docs.sqlalchemy.org/), para acessar a documentação oficial.
 
+### React [![React](https://img.shields.io/badge/React-%2320232a?style=for-the-badge&logo=react)](https://reactjs.org/)
+<p style="text-align: justify;">
+O React é uma biblioteca JavaScript para construção de interfaces de usuário, desenvolvida pelo Facebook. Ele utiliza uma abordagem de programação declarativa, facilitando a criação de componentes reutilizáveis que atualizam automaticamente conforme os dados mudam, proporcionando uma experiência eficiente e responsiva para o desenvolvimento de aplicações web interativas.
+<p>
+
+Clique [aqui](https://reactjs.org), para acessar a documentação oficial.
 
 ##  Contribuições Pessoais ✔
 <p style="text-align: justify;">
