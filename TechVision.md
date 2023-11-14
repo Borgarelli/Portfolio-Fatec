@@ -146,11 +146,13 @@ if __name__ == "__main__":
 Após ser possivel realizar uma leitura desses dados, foi necessário armazena-los e trata-los dentro da cloud, para tornar o acesso restrito e seguro, para isso trabalhei na configuração do pipeline dentro da Microsoft-Azure, que foi a principal ferramenta para armazenar esses dados, para isso o pipeline trabalha de uma maneira simples, primeiro é necessário carregar o csv dentro da azure e criar um DDL com as informações desse csv dentro do SGBD, e para isso utilizei o Postgre, depois é necessário criar uma instancia em formato Postgre_Azure e assim que criados o pipeline realiza o mapeamento da tabela dentro do cloud com seu respectivo csv.
 
 <details><summary>Microsoft Azure Factory</summary>
+ > Esse é o Microsft Azure Factory 
+<img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/06ae6679-65e9-4d95-a09e-f8f3b08bc426">
+</details>
 
 </p>
 
 <details><summary>Interface Principal</summary>
-<img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/e4cc6f49-8251-45cd-ae87-42ec1242909e">
 
 > Essa é a interface principal da aplicação, onde utilizando toda a versatilidade do Vue, todos os elementos que a compõem estão componentizados e separados corretamente,e também otimizados e aplicados a coordenação de rotas utilizando o vue-router
 
