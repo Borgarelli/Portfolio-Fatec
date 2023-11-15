@@ -210,9 +210,50 @@ END
 
 E por fim a modelagem relacional de como está sendo realizado a colheita das tabelas para a formação das glebas e retornar na aplicação
 <details><summary>Glebas</summary>
-	
+
+>Modelo relacional do retorno das tabelas responsáveis por compor as glebas
 <img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/cafd106f-6f20-4661-b45f-519ff20e98c0">
 
+O modelo foi gerado com base nessa query
+```kotlin
+     def generete_query_to_pdf(self, ref_bacen):
+         query = text("""
+                 SELECT
+                     GlebaInfo.Numero_RefBacen,
+                     GlebaInfo.Numero_Ordem,
+                     GlebaInfo.Cod_Identificador_Gleba,
+                     GlebaInfo.Numero_Gleba,
+                     GlebaInfo.Altitute,
+                     GlebaInfo.NU_INDICE_PONTO,
+                     GlebaInfo.Coordenas,
+                     S5.DT_EMISSAO AS DATA_EMISSAO_REFBACEN,
+                     CASE 
+                         WHEN S5.CD_ESTADO = 'SP' THEN 'São Paulo'
+                         ELSE S5.CD_ESTADO 
+                     END AS ESTADO,
+                     S5.CD_TIPO_SEGURO AS TIPO_SEGURO,
+                     S5.DT_FIM_PLANTIO AS DATA_PLANTIO,
+                     S5.CD_TIPO_IRRIGACAO AS TIPO_IRRIGACAO,
+                     S5.VL_ALIQ_PROAGRO AS VALOR_ALIQUOTA,
+                     S5.CD_TIPO_CULTIVO AS TIPO_CULTIVO,
+                     S5.CD_TIPO_GRAO_SEMENTE AS TIPO_GRAO,
+                     S5.VL_JUROS AS JUROS_INVESTIMENTO,
+                     S5.VL_RECEITA_BRUTA_ESPERADA AS RECEITA_BRUTA_ESTIMADA,
+                     S5.DT_FIM_COLHEITA AS DATA_FIM_COLHEITA,
+                     S5.VL_PERC_CUSTO_EFET_TOTAL AS CUSTO_TOTAL
+                 FROM
+                 (SELECT 
+                     MAX(REF_BACEN) AS Numero_RefBacen, 
+                     MAX(NU_ORDEM) AS Numero_Ordem, 
+                     MAX(NU_IDENTIFICADOR) AS Cod_Identificador_Gleba, 
+                     MAX(NU_INDICE_GLEBA) AS Numero_Gleba,
+                     MAX(CGL_VL_ALTITUDE) AS Altitute,
+                     MAX(NU_INDICE_PONTO) AS NU_INDICE_PONTO,
+                     CONCAT('MULTIPOINT(', GROUP_CONCAT(CONCAT(REPLACE(VL_LATITUDE, ',', '.'), ' ', REPLACE(VL_LONGITUDE, ',', '.')) SEPARATOR ', '), ')') AS Coordenas
+                 FROM glebas_sp
+                 WHERE REF_BACEN = :ref_bacen) AS GlebaInfo
+                 JOIN saida5 S5 ON S5.REF_BACEN = :ref_bacen limit 1;""")
+```
 </details>
 </p>
 
