@@ -210,6 +210,8 @@ END
 
 E por fim a modelagem relacional de como está sendo realizado a colheita das tabelas para a formação das glebas e retornar na aplicação
 <details><summary>Glebas</summary>
+	
+<img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/cafd106f-6f20-4661-b45f-519ff20e98c0">
 
 </details>
 </p>
