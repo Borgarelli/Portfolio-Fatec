@@ -13,7 +13,7 @@ Necto Systems <br/>
 <p style="text-align: justify;">
 O SGBD Health é uma aplicação desenvolvida com o foco exclusivo para o gerenciamento de Sistemas Gerenciadores de Banco de Dados (SGBDs). A aplicação foi projetada com o intuito de monitorar e analisar os recursos do SGBD em tempo real gerando alertas, criação de relatórios personalizados e visualização de tendências históricas, permitindo que os administradores de banco de dados identifiquem rapidamente problemas críticos e tomem medidas corretivas imediatas.
 
-Através da coleta de dados do SGBD, como memória, tempo de consultas, espaço em disco, transações, evolução da memória, caches e registros, a aplicação fornece uma visão abrangente e detalhada do desempenho e da performance do SGBD. Esses dados são apresentados de maneira clara e intuitiva, facilitando a identificação de possíveis gargalos, problemas de desempenho e destacar oportunidades de otimização.
+Através da coleta de dados do SGBD como memória, tempo de consultas, espaço em disco, transações, evolução da memória, caches e registros, a aplicação fornece uma visão abrangente e detalhada do desempenho e da performance do SGBD. Esses dados são apresentados de maneira clara e intuitiva, facilitando a identificação de possíveis gargalos problemas de desempenho oportunizando otimização.
 </p>
 
 Para acessar o vídeo de demonstração da aplicação em uso, clique [aqui](https://www.youtube.com/watch?v=IhyabBKAMbA)
@@ -113,7 +113,7 @@ public class BancoSqlite extends Fileconnect {
 <p style="text-align: justify;">
 Este projeto marcou o início de uma verdadeira API com clientes parceiros da Fatec, proporcionando experiências incríveis e desafiadoras ao longo do semestre. Meu principal foco foi com o desenvolvimento do banco de dados para atender a todos os requisitos necessários para a aplicação, permitindo o armazenamento de todos os dados necessários para os testes e também trabalhar com a ferramenta do SQLite para desenvolver um banco local de maneira efetiva para testar as funcionalidades propostas pelo SGBD Health.
 
-Este projeto foi de extrema importancia para meu desenvolvimento como programador, pois foi o primeiro contato com a linguagem Java e um primeiro contato direto com clientes parceiros da Fatec, fornecendo experiências de extrema relevância para meu curriculo profissional.
+Este projeto foi de extrema importância para meu desenvolvimento como programador, pois foi o primeiro contato com a linguagem Java e um primeiro contato direto com clientes parceiros da Fatec, fornecendo experiências de extrema relevância para meu curriculo profissional.
 </p>
 - Utilização do PostgreSQL: Sei Fazer com Autonomia.
 - Criar tabelas, relacionamentos e modelagem: Sei Fazer com Autonomia.
