@@ -11,7 +11,7 @@ Fatec Professor Jessen Vidal <br/>
 ### Visão do Projeto
 
 <p style="text-align: justify;">
-Uma assistente virtual que possua uma ampla gama de funcionalidades é uma tarefa desafiadora que exige conhecimentos técnicos avançados. Nesse contexto, o Julius, uma API que consiste em uma assistente virtual especializada em auxiliar o usuário na tomada de decisões relacionadas a investimentos financeiros. Com oito funcionalidades distintas, o Julius se destaca por fornecer informações em tempo real, garantindo ao usuário uma experiência interativa e eficiente.
+Uma assistente virtual que possua uma ampla gama de funcionalidades é uma tarefa desafiadora que exige conhecimentos técnicos avançados. Nesse contexto, este projeto teve como objetivo o desenvolvimento do Julius, uma API que consiste em uma assistente virtual especializada em auxiliar o usuário na tomada de decisões relacionadas a investimentos financeiros. Com oito funcionalidades distintas, o Julius se destaca por fornecer informações em tempo real, garantindo ao usuário uma experiência interativa e eficiente.
 
 Entre as funcionalidades oferecidas pelo Julius, destacam-se o código de ações, que permite ao usuário acompanhar o desempenho das ações de empresas listadas em bolsa; a cotação do dia, que apresenta informações atualizadas sobre os valores de moedas e criptomoedas e o conversor de moedas, que possibilita ao usuário converter valores entre diferentes moedas.
 
@@ -30,7 +30,7 @@ Link do repositório do projeto: [https://github.com/TheLooksDatabase/Julius](ht
 
 ### Python [![Python Badge](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 <p style="text-align: justify;">
-Python é uma linguagem de programação de alto nível, interpretada e dinâmica, que é amplamente utilizada em áreas como desenvolvimento web, análise de dados, inteligência artificial, automação de tarefas e muitas outras. As principais vantagens da linguagem de programação Python é sua sintaxe simples e intuitiva, que facilita a escrita e leitura de código, além de aumentar a produtividade do programador.
+Python é uma linguagem de programação de alto nível, interpretada e dinâmica, que é amplamente utilizada em áreas como desenvolvimento web, análise de dados, inteligência artificial, automação de tarefas e muitas outras. uma das principais vantagens da linguagem de programação Python é sua sintaxe simples e intuitiva, que facilita a escrita e leitura de código, além de aumentar a produtividade do programador.
 
 Clique [aqui](https://docs.python.org/3/), para acessar a documentação oficial.
 </p>
