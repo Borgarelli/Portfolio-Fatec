@@ -13,11 +13,11 @@ MidAllº [B]
 
 Plataforma para Geração de Promoções em E-commerce: Flexibilidade e Agilidade
 
-Apresentamos uma ferramenta destinada à criação de promoções no âmbito do E-commerce, onde as mecânicas promocionais são configuradas com flexibilidade, permitindo uma ágil adaptação conforme necessário. As regras promocionais são cadastradas e, posteriormente, implementadas pelo usuário quando produtos que a compõem são adicionados a sacola.
+No desenvolvimento foi apresentada uma ferramenta destinada à criação de promoções no âmbito do E-commerce, onde as mecânicas promocionais foram configuradas com flexibilidade, permitindo uma ágil adaptação conforme necessário. As regras promocionais são cadastradas e, posteriormente, implementadas pelo usuário quando produtos que a compõem são adicionados a sacola.
 
-Atualmente, disponibilizamos o cadastro de produtos vinculados a promoções no servidor/banco de dados. Utilizando operadores lógicos, criamos diferentes mecânicas promocionais. Os descontos são aplicados na sacola de compras e contam com uma visualização específica para revisão e seleção de promoções.
+Atualmente, foi disponibilizado o cadastro de produtos vinculados a promoções no servidor/banco de dados. Utilizando operadores lógicos, foram criadas diferentes mecânicas promocionais. Os descontos são aplicados na sacola de compras e contam com uma visualização específica para revisão e seleção de promoções.
 
-Além disso, concedemos aos usuários a autonomia para gerir sua sacola, podendo editar, remover, arquivar ou reativar produtos. Similarmente, é possível editar, excluir, interromper ou ativar promoções. A visualização das promoções e produtos cadastrados é feita de maneira intuitiva através de uma lista com opção de filtragem, tornando possível a verificação dos estados de cada item.
+Além disso, foram concedidos aos usuários a autonomia para gerir sua sacola, podendo editar, remover, arquivar ou reativar produtos. Similarmente, é possível editar, excluir, interromper ou ativar promoções. A visualização das promoções e produtos cadastrados é feita de maneira intuitiva através de uma lista com opção de filtragem, tornando possível a verificação dos estados de cada item.
 
 </p>
 
@@ -34,7 +34,7 @@ Link do repositório do projeto: https://github.com/DolphinDatabase/DescontOn
 ### JQuery <a href="https://jquery.com" target="_blank"><img width="65" height="20" src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"/></a>
 
 <p style="text-align: justify;">
-jQuery é uma biblioteca JavaScript criada por John Resig em 2006. É como um software de código aberto: seu uso é licenciado pela Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL). E essa biblioteca têm como principal finalidade associar-se aos elementos JavaScript em HTML para conferir mais dinamismo e usabilidade às páginas na internet.
+jQuery é uma biblioteca JavaScript criada por John Resig em 2006, se assemelha a um software de código aberto: seu uso é licenciado pela Massachusetts Institute of Technology (MIT) e pelo GNU General Public License (GPL). Essa biblioteca têm como principal finalidade associar-se aos elementos JavaScript em HTML para conferir mais dinamismo e usabilidade às páginas na internet.
 </p>
 
 Clique [aqui](https://jquery.com/), para acessar a documentação oficial.
@@ -43,7 +43,7 @@ Clique [aqui](https://jquery.com/), para acessar a documentação oficial.
 ### Thymeleaf <a href="https://www.thymeleaf.org" target="_blank">![Thymeleaf](https://img.shields.io/badge/Thymeleaf-darkgreen?style=flat-square&logo=thymeleaf)</a>
 
 <p style="text-align: justify;">
-O Thymeleaf é um template engine voltado para projetos Java que facilitam a criação de páginas HTML. Permitindo a troca de informações entre o código Java e as páginas HTML.
+O Thymeleaf é um template engine voltado para projetos Java que facilita a criação de páginas HTML. Permitindo a troca de informações entre o código Java e as páginas HTML.
 De tal maneira garantindo que o desenvolvedor consiga criar templates de forma mais simples e de uma maneira mais agilizada para suas aplicações.
 </p>
 
