@@ -79,7 +79,7 @@ Clique [aqui](https://www.postgresql.org/about/) para acessar a documentação o
 
 ##  Contribuições Pessoais ✔
 <p style="text-align: justify;">
-Neste projeto, fui um dos responsáveis pela gestão e tratamento de dados, através da biblioteca Pandas, foi possível fazer uma leitura e conversão dos dados em csv disponibilizados pela Visiona, para essa primeira instancia e contato com esses csv, criei um script básico para a conversão e lipeza dos dados para a visualização dos mesmos
+Neste projeto, desempenhei um papel fundamental na gestão e tratamento de dados. Utilizando a biblioteca Pandas, realizei a leitura e conversão dos dados em formato CSV fornecidos pela Visiona. Para essa primeira interação com os CSVs, desenvolvi um script essencial para a conversão e limpeza dos dados, visando facilitar a posterior visualização e análise.
 
 <details><summary>Script para leitura dos CSV</summary>
 
@@ -143,11 +143,11 @@ if __name__ == "__main__":
 </details>
 </br>
 
-Após ser possivel realizar uma leitura desses dados, foi necessário armazena-los e trata-los dentro da cloud, para tornar o acesso restrito e seguro, para isso trabalhei na configuração do pipeline dentro da Microsoft-Azure, que foi a principal ferramenta para armazenar esses dados, para isso o pipeline trabalha de uma maneira simples, primeiro é necessário carregar o csv dentro da azure e criar um DDL com as informações desse csv dentro do SGBD, e para isso utilizei o WorkBench, depois é necessário criar uma instancia em formato WorkBench_Azure e assim que criados o pipeline realiza o mapeamento da tabela dentro do cloud com seu respectivo csv.
+Após a bem-sucedida leitura dos dados, surgiu a necessidade de armazená-los de forma segura na nuvem. Para alcançar esse objetivo, concentrei meus esforços na configuração de um pipeline na plataforma Microsoft Azure, que se revelou a ferramenta ideal para a gestão desses dados. O pipeline, de funcionamento intuitivo, inicialmente carrega o CSV para a Azure e, em seguida, cria um Data Definition Language (DDL) contendo as informações do CSV no Sistema de Gerenciamento de Banco de Dados (SGBD). Para essa etapa, contei com a eficiência do WorkBench. Posteriormente, o pipeline realiza a vinculação da tabela na nuvem com seu respectivo CSV, estabelecendo uma infraestrutura que assegura o acesso restrito e seguro aos dados.
 
 <details><summary>Microsoft Azure Factory</summary>
 
- > Esse é o Microsft Azure Factory, aqui é realizado todo o processo da pipeline, que envolve desde armazenar o csv, criar a instancia em Workbench-Azure e é mapeado todos os dados de seus respectivos CSV
+ > Esse é o Microsft Azure Factory, aqui é realizado todo o processo da pipeline, que envolve desde armazenar o csv, criar a instância em Workbench-Azure e é mapeado todos os dados de seus respectivos CSV
 
 <img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/06ae6679-65e9-4d95-a09e-f8f3b08bc426">
 
@@ -260,9 +260,10 @@ O modelo foi gerado com base nessa query
 
 
 ## Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
-Este projeto representou uma oportunidade de aprendizado significativa, durante a qual fui introduzido ao conceito de DevOps, um ecossistema substancialmente diferente da minha familiaridade prévia. Este novo domínio me permitiu explorar a computação em nuvem, engajando-me na transferência eficiente de arquivos entre serviços de nuvem distintos. Adotando a metodologia GitFlow, assumi a responsabilidade de incorporá-la ao projeto, aplicando seus princípios de forma a estabelecer nossa própria abordagem personalizada.
 
-A experiência acumulada ao longo deste projeto foi profundamente enriquecedora. Tive a oportunidade de aplicar conceitos teóricos em um contexto prático, enfrentando desafios intrincados que ampliaram meu entendimento do desenvolvimento de aplicações web. Esta vivência consolida minha proficiência nas tecnologias empregadas, enquanto expande meu repertório de habilidades. Dessa forma, estou mais bem preparado para enfrentar com confiança projetos desafiadores no futuro.
+Essa experiência foi enriquecedora, proporcionando aprendizados práticos e efetivos. A gestão de dados com Pandas ampliou minha habilidade na manipulação eficiente de conjuntos de dados complexos, enquanto a configuração de pipelines na Microsoft Azure consolidou meu entendimento sobre a importância da segurança e organização na armazenagem de dados na nuvem.
+
+A integração de ferramentas como o WorkBench para a criação de instâncias no formato WorkBench_Azure revelou-se uma prática valiosa, demonstrando a sinergia entre diferentes tecnologias para alcançar objetivos específicos. Essa jornada contribuiu significativamente para o aprimoramento das minhas competências em ciência de dados e gestão de infraestrutura na nuvem.
 
 - Aplicar conceitos de DevOps - GitFlow: Sei Fazer com Autonomia.
 - Criação das models utilizando o SQL-Alchemy: Sei Fazer com Autonomia.
