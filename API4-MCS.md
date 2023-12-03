@@ -49,11 +49,23 @@ O Spring Boot é um framework Java open source que tem como objetivo facilitar e
 Clique [aqui](https://spring.io/projects/spring-boot), para acessar a documentação oficial.
 </p>
 
+### Oracle Cloud [![Oracle Cloud](https://img.shields.io/badge/Oracle%20Cloud-%23F80000?style=flat&logo=oracle&logoColor=white)](https://cloud.oracle.com/)
+<p style="text-align: justify;">
+A Oracle Cloud é uma plataforma completa de computação em nuvem oferecida pela Oracle Corporation. Ela inclui serviços de Infraestrutura como Serviço (IaaS), Plataforma como Serviço (PaaS) e Software como Serviço (SaaS). Com uma infraestrutura robusta, fornece recursos como armazenamento e rede por meio de máquinas virtuais.
+
+Clique [aqui](https://docs.oracle.com/en/cloud/), para acessar a documentação oficial.
+</p>
+
+
+
 ##  Contribuições Pessoais ✔
 <p style="text-align: justify;">
 Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenvolvimento do front-end da aplicação e no banco de dados. Minhas responsabilidades incluíram a criação do modelo DER do banco de dados e a geração do DDL correspondente, e também a criação de gráficos atráves do Charts do google.
 
-Além disso, fiquei responsável pelo desenvolvimento da tela de login e pela implementação dos modais gerais da aplicação. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva ao usuário, ao mesmo tempo em que garantia uma correta persistência dos dados necessários para o funcionamento adequado do sistema.
+<details><summary>Modelagem Conecitual e Lógica da Aplicação</summary>
+
+
+Além disso, fiquei responsável pelo desenvolvimento da tela de equipamentos, controle de chamados com a implementação dos modais gerais da aplicação. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva ao usuário, ao mesmo tempo em que garantia uma correta persistência dos dados necessários para o funcionamento adequado do sistema.
 
 Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e adquirir experiência prática em tecnologias relevantes para a indústria da tecnologia da informação.
 </p>
@@ -210,6 +222,8 @@ Também fiquei responsável pela parte dos gráficos, utilizando a api do Google
 </script>
 ```
 </details>
+
+<details><summary>Tela Chamado</summary>
 
 ## Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
 <p style="text-align: justify;">
