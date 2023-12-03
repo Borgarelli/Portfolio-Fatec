@@ -26,7 +26,7 @@ Link do repositório do projeto: https://github.com/TechVisionn/tech-parent
 ### MongoDB  [![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b?style=for-the-badge&logo=mongodb)](https://docs.mongodb.com/)
 
 <p style="text-align: justify;">
-O MongoDB é um banco de dados NoSQL de código aberto, orientado a documentos. Ele oferece flexibilidade e escalabilidade para armazenar e consultar dados, permitindo o uso de esquemas dinâmicos. Utilizado em diversas aplicações, o MongoDB simplifica o desenvolvimento ao suportar modelos de dados variados.
+O MongoDB é um banco de dados NoSQL de código aberto, orientado a documentos, oferece flexibilidade e escalabilidade para armazenar e consultar dados, permitindo o uso de esquemas dinâmicos e utilizado em diversas aplicações, para simplificar o desenvolvimento ao suportar modelos de dados variados.
 </p>
 
 Clique [aqui](https://docs.mongodb.com/), para acessar a documentação oficial.
@@ -34,7 +34,7 @@ Clique [aqui](https://docs.mongodb.com/), para acessar a documentação oficial.
 ### Pandas [![Pandas](https://img.shields.io/badge/Pandas-%23150458?style=for-the-badge&logo=pandas)](https://pandas.pydata.org/)
 
 <p style="text-align: justify";>
-O Pandas é uma poderosa biblioteca de código aberto para manipulação e análise de dados em Python. Ele oferece estruturas de dados flexíveis, como DataFrames, para facilitar a limpeza, transformação e análise eficiente de conjuntos de dados. Amplamente utilizado em ciência de dados e análise, o Pandas simplifica tarefas complexas de manipulação de dados.
+O Pandas é uma poderosa biblioteca de código aberto para manipulação e análise de dados em Python, oferece estruturas de dados flexíveis, como DataFrames, para facilitar a limpeza, transformação e análise eficiente de conjuntos de dados.
 </p>
 
 Clique [aqui](https://pandas.pydata.org), para acessar a documentação oficial.
@@ -43,7 +43,7 @@ Clique [aqui](https://pandas.pydata.org), para acessar a documentação oficial.
 ### Flask [![Flask](https://img.shields.io/badge/Flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)](http://flask.pocoo.org/)
 
 <p style="text-align: justify;">
-O Flask é um framework leve em Python para construção de aplicativos web. Onde o framework oferece diversas ferramentas para criar rapidamente aplicações web simples a complexas, seguindo o padrão de arquitetura MVC (Model-View-Controller). 
+O Flask é um framework leve em Python para construção de aplicativos web. O framework oferece diversas ferramentas para criar rapidamente aplicações web simples a complexas, seguindo o padrão de arquitetura MVC (Model-View-Controller). 
 <p>
 
 Clique [aqui](https://flask.palletsprojects.com/en/2.3.x/), para acessar a documentação oficial.
@@ -52,21 +52,21 @@ Clique [aqui](https://flask.palletsprojects.com/en/2.3.x/), para acessar a docum
 ### SQL-Alchemy [![SQL-Alchemy](https://img.shields.io/badge/SQL--Alchemy-%230D6A8F.svg?style=for-the-badge&logo=sqlalchemy&logoColor=white)](https://www.sqlalchemy.org/)
 
 <p style="text-align: justify;">
-O SQL-Alchemy é uma biblioteca em Python que fornece uma abstração flexível para trabalhar com bancos de dados relacionais. Esta biblioteca permite que os desenvolvedores criem consultas SQL de maneira programática, mapeiem objetos Python para tabelas do banco de dados e gerenciem interações complexas com o banco de dados de forma eficiente.
+O SQL-Alchemy é uma biblioteca em Python que fornece uma abstração flexível para trabalhar com bancos de dados relacionais. E permite que os desenvolvedores criem consultas SQL de maneira programática, mapeiem objetos Python para tabelas do banco de dados e gerenciem interações complexas com o banco de dados de forma eficiente.
 </p>
 
 Clique [aqui](https://docs.sqlalchemy.org/), para acessar a documentação oficial.
 
 ### React [![React](https://img.shields.io/badge/React-%2320232a?style=for-the-badge&logo=react)](https://reactjs.org/)
 <p style="text-align: justify;">
-O React é uma biblioteca JavaScript para construção de interfaces de usuário, desenvolvida pelo Facebook. Ele utiliza uma abordagem de programação declarativa, facilitando a criação de componentes reutilizáveis que atualizam automaticamente conforme os dados mudam, proporcionando uma experiência eficiente e responsiva para o desenvolvimento de aplicações web interativas.
+O React é uma biblioteca JavaScript para construção de interfaces de usuário, desenvolvida pelo Facebook. E utiliza uma abordagem de programação declarativa, facilitando a criação de componentes reutilizáveis que atualizam automaticamente conforme os dados mudam, proporcionando uma experiência eficiente e responsiva para o desenvolvimento de aplicações web interativas.
 </p>
 
 Clique [aqui](https://reactjs.org), para acessar a documentação oficial.
 
 ### Microsoft-Azure [![Azure](https://img.shields.io/badge/Microsoft_Azure-%230078D4?style=for-the-badge&logo=microsoft-azure)](https://docs.microsoft.com/azure/)
 <p style="text-align: justify;">
-O Microsoft Azure é uma plataforma de computação em nuvem líder que oferece uma ampla gama de serviços, desde hospedagem de máquinas virtuais até inteligência artificial. Ele fornece soluções escaláveis para desenvolvimento, implantação e gerenciamento de aplicativos, além de suportar diversas linguagens de programação. Com recursos como armazenamento, análise de dados e aprendizado de máquina, o Azure é uma escolha popular para empresas modernas na nuvem.
+O Microsoft Azure é uma plataforma de computação em nuvem líder que oferece uma ampla gama de serviços, desde hospedagem de máquinas virtuais até inteligência artificial. E fornece soluções escaláveis para desenvolvimento, implantação e gerenciamento de aplicativos, além de suportar diversas linguagens de programação. Com recursos como armazenamento, análise de dados e aprendizado de máquina, o Azure é uma escolha popular para empresas modernas na nuvem.
 </p>
 
 Clique [aqui](https://docs.microsoft.com/azure/), para acessar a documentação oficial.
@@ -210,7 +210,7 @@ END
 </details>
 </br>
 
-E por fim a modelagem relacional de como está sendo realizado a colheita das tabelas para a formação das glebas e retornar na aplicação
+E por fim, a modelagem relacional de como está sendo realizado a colheita das tabelas para a formação das glebas e retornar na aplicação
 <details><summary>Glebas</summary>
 
 >Modelo relacional do retorno das tabelas responsáveis por compor as glebas
