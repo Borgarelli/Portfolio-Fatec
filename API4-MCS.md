@@ -56,8 +56,6 @@ A Oracle Cloud é uma plataforma completa de computação em nuvem oferecida pel
 Clique [aqui](https://docs.oracle.com/en/cloud/), para acessar a documentação oficial.
 </p>
 
-
-
 ##  Contribuições Pessoais ✔
 <p style="text-align: justify;">
 Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenvolvimento do front-end da aplicação e no banco de dados. Minhas responsabilidades incluíram a criação do modelo DER do banco de dados e a geração do DDL correspondente, e também a criação de gráficos atráves do Charts do google.
@@ -73,62 +71,138 @@ Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenv
 
 </details>
 
-Além disso, fiquei responsável pelo desenvolvimento da tela de equipamentos, controle de chamados com a implementação dos modais gerais da aplicação. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva ao usuário, ao mesmo tempo em que garantia uma correta persistência dos dados necessários para o funcionamento adequado do sistema.
+</br>
 
-Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e adquirir experiência prática em tecnologias relevantes para a indústria da tecnologia da informação.
-</p>
+Além disso, fiquei responsável pelo desenvolvimento da tela de equipamentos, controle de chamados com a implementação dos modais gerais da aplicação. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva ao usuário, ao mesmo tempo em que garantia uma correta persistência dos dados necessários para o funcionamento adequado do sistema.
 
 <details><summary>Tela Login</summary>
 <img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/19163984-84a0-4fb6-a130-7baa4e576b05">
 
-> Uma breve visualização da tela de Login que foi feito através do framework Vuejs com elementos da biblioteca Element Plus que é exclusiva do framework
+> Uma breve visualização da tela de Chamados pela visão de usário administrador, que foi feito através do framework Vuejs com elementos da biblioteca Element Plus que é exclusiva do framework
 
 ```kotlin
-<template>
-  <div id="page">
-    <div id="loginBackgorund">
-      <div>
-        <img src="../assets/Logo.svg">
-        <p style="margin-top: auto;">da Subiter.</p>
+<template>  
+  <BasePage>
+    <Title title="Chamados">
+      <ElButton v-if="this.$store.getters.getAuth.role=='ROLE_CLT'" type="primary" @click="this.newModal = true">
+        Adicionar
+      </ElButton>
+    </Title>
+    <ChamadoList :chamados="this.chamados" @click="(chamado)=>setRelatorio(chamado)"/>
+  </BasePage>
+  <el-dialog v-model="this.newModal" title="Adicionar Chamado" width="40%" :before-close="handleClose">
+    <div>
+      <div id="step">
+        <span :style="(this.formStep==0)?'color:#0024FF':''">Identificação</span>
+        <el-icon :size="16">
+          <ArrowRight />
+        </el-icon>
+        <span :style="(this.formStep==1)?'color:#0024FF':''">Localização</span>
       </div>
-      <div>
-        <p>Bem-vindo</p>
-        <p>De volta!</p>
-      </div>
-      <div>
-        <p>Alcance o invisível, Subiter</p>
-      </div>
+      <ChamadoForm ref="chamadoForm" @changeForm="(val)=>this.formStep=val" @submit="(form)=>newChamado(form)" :step="this.formStep"/>
     </div>
-    <div id="loginMain">
-      <div id="loginContent">
-        <section id="welcome">
-          <h1>Login</h1>
-          <div>
-            <img src="../assets/Icons/Info.svg" style="width: 12px; margin:1px 7px;"/>
-            <span>
-              <p>Olá, amigo! Por favor entre no</p>
-              <p>Sistema de Gerenciamento de Controle.</p>
-            </span>
-          </div>
-        </section>
-        <LoginForm/>
-      </div>
-    </div>
-  </div>
+    <template #footer>
+      <span v-if="this.formStep==0" class="dialog-footer">
+        <el-button @click="this.newModal = false">Cancelar</el-button>
+        <el-button type="primary" @click="this.$refs.chamadoForm.verifyIdentificacao()">Próximo</el-button>
+      </span>
+      <span v-if="this.formStep==1" class="dialog-footer">
+        <el-button @click="this.newModal = false">Cancelar</el-button>
+        <el-button @click="this.formStep=0">Voltar</el-button>
+        <el-button type="primary" @click="this.$refs.chamadoForm.verifyLocalizacao()">Salvar</el-button>
+      </span>
+    </template>
+  </el-dialog>
+  <RelatorioModal v-if="this.relatorioModal" :data="relatorio" @close="updatePage()" @cancel="this.relatorioModal=false" @finish="(ch)=>finishChamado(ch)"/>
 </template>
- 
-<script> 
-import LoginForm from '../components/form/LoginForm.vue'
-export default {
-  name:"Login",
-  components:{
-    LoginForm
+<script>
+  import BasePage from '../components/layout/BasePage.vue'
+  import Title from '../components/content/Title.vue'
+  import ChamadoList from '../components/content/ChamadoList.vue'
+  import ChamadoForm from '../components/form/ChamadoForm.vue'
+  import {ElButton,ElIcon} from 'element-plus'
+  import {ArrowRight} from '@element-plus/icons-vue'
+  import RelatorioModal from '../components/RelatorioModal.vue'
+  export default{
+    name:"Chamados",
+    components:{
+      BasePage,
+      Title,
+      ChamadoList,
+      ElButton,
+      ElIcon,
+      ArrowRight,
+      ChamadoForm,
+      RelatorioModal
+    },
+    data(){
+      return{
+        chamados:[],
+        newModal:false,
+        relatorioModal:false,
+        relatorio:{},
+        formStep:0
+      }
+    },
+    methods:{
+      async newChamado(form){
+        const data = {
+          name:form.indentificacao.name,
+          description:form.indentificacao.description,
+          status:'OPEN',
+          location:form.localizacao
+        }
+        await this.$store.dispatch("addChamado",data)
+        this.chamados = this.$store.getters.getAllChamados
+        this.formStep = 0
+        this.$refs.chamadoForm.reset()
+        this.newModal = false
+      },
+      setRelatorio(chamado){
+        this.relatorio = chamado
+        this.relatorioModal = true
+      },
+      async updatePage(){
+        this.updateData()
+        this.relatorioModal=false
+      },
+      async finishChamado(ch){
+        ch.date = null
+        ch.status = "FINISHED"
+        await this.$store.dispatch("updateChamado",ch)
+        this.updatePage()
+      },
+      async updateData(){
+        await this.$store.dispatch("listChamados")  
+        this.chamados = this.$store.getters.getAllChamados
+      }
+    },
+    async created(){
+      this.updateData()
+    }
   }
+</script>
+<style scoped>
+#step{
+  background-color: #F3F7FF;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  padding: 0.8rem;
+  font-size: 16px;
+  margin-bottom: 20px;
 }
-</script> 
+
+#step .el-icon{
+  margin: 0 0.4rem;
+}
+</style>
 ```
-</details> 
+</details>
+
 <br>
+
+Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e adquirir experiência prática em tecnologias relevantes para a indústria da tecnologia da informação.
 
 Também fiquei responsável pela parte dos gráficos, utilizando a api do Google o google charts
 
