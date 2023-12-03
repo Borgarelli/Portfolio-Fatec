@@ -63,7 +63,15 @@ Clique [aqui](https://docs.oracle.com/en/cloud/), para acessar a documentação 
 Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenvolvimento do front-end da aplicação e no banco de dados. Minhas responsabilidades incluíram a criação do modelo DER do banco de dados e a geração do DDL correspondente, e também a criação de gráficos atráves do Charts do google.
 
 <details><summary>Modelagem Conecitual e Lógica da Aplicação</summary>
+<img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/7f7354ab-3a41-4ffc-b950-9d84a45c27d1">
 
+> A modelagem relacional foi realizada utilizando a ferramenta BrModelo, toda a estrutura foi realizada com a lógica que desenvolvi de acordo com os requisitos do projeto
+
+<img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/d93b3465-278e-4cb4-b6f6-c3cf98b291d6">
+
+> O modelo lógico foi montado utilizando a mesama lógica do relacional
+
+</details>
 
 Além disso, fiquei responsável pelo desenvolvimento da tela de equipamentos, controle de chamados com a implementação dos modais gerais da aplicação. Minha contribuição direta ajudou a proporcionar uma experiência fluída e intuitiva ao usuário, ao mesmo tempo em que garantia uma correta persistência dos dados necessários para o funcionamento adequado do sistema.
 
@@ -71,7 +79,7 @@ Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e ad
 </p>
 
 <details><summary>Tela Login</summary>
-<img src="https://github.com/pdrMottaS/Portifolio/assets/74321890/12f0fd7e-760f-4b28-bac5-a8e88a573b2f">
+<img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/19163984-84a0-4fb6-a130-7baa4e576b05">
 
 > Uma breve visualização da tela de Login que foi feito através do framework Vuejs com elementos da biblioteca Element Plus que é exclusiva do framework
 
