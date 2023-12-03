@@ -11,7 +11,9 @@ Visiona Espacial
 ### Visão do Projeto
 
 <p style="text-align: justify;">
-Propomos uma solução abrangente que envolve a coleta e o refinamento dos dados públicos do ProAgro, a reestruturação eficiente da base de dados e o desenvolvimento de um Sistema de Informação Geográfica (SIG) personalizado, fornecendo informações de forma mais simples e organizada para o usuário. Essa abordagem busca facilitar a compreensão e análise dos dados, contribuindo para melhorias nos processos internos da empresa.</p>
+O projeto tem como objetivo a instauração de um Sistema de Informação Geográfica (SIG) com o propósito de aprimorar a eficácia das análises e otimizar os procedimentos internos. Embora os dados necessários estejam acessíveis no ProAgro, um programa do governo federal voltado ao financiamento agrícola para pequenos e médios agricultores brasileiros, desafios significativos surgem devido à falta de organização, à presença de informações sensíveis e à sobrecarga de dados.
+
+A ideia é apresentar uma solução completa, envolvendo a coleta e o aprimoramento dos dados públicos do ProAgro, a eficiente reestruturação da base de dados e o desenvolvimento de um SIG personalizado. Esse sistema tem como intuito simplificar e organizar as informações, proporcionando aos usuários uma compreensão mais acessível e facilitando a análise dos dados. Destaca-se a organização do banco de dados público do ProAgro para possibilitar consultas e análises rápidas no âmbito do Sistema de Informações Geográficas.</p>
 
 [<img src ="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/71e3cfd2-da41-4e5b-bd74-d5621fb1115e"
  width="250" height="250"/>](https://github.com/TechVisionn/tech-parent "Tech Vision Repositório")

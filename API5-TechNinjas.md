@@ -11,7 +11,8 @@ MidAllº [B]
 ### Visão do Projeto
 
 <p style="text-align: justify;">
-Este projeto consiste em automatizar a jornada de controle de seus arquivos armazenados em uma plataforma de vídeos. Onde a aplicação  transferindo-os para a nuvem, por meio do desenvolvimento de um aplicativo como serviço, com apenas um menu de configuração para o usuário, que terá os parâmetros necessários para o processo de serviço de download de forma automática, gerando alertas em caso de erro no processamento. Fica responsável por salvar os metadados do arquivo para construir um painel de controle para monitorar a execução do serviço e posteriormente analisar resultados e indicadores.
+O plano envolve a automatização do procedimento de obtenção de arquivos armazenados na nuvem, transferindo-os para outra plataforma em nuvem. Essa automação é concretizada por meio do desenvolvimento de uma aplicação em formato de serviço, que disponibiliza um menu de configuração intuitivo para os usuários. 
+Os parâmetros inseridos nesse menu são empregados para automatizar o processo de obtenção dos arquivos, com a aplicação emitindo alertas em situações de falhas no processamento. A execução da aplicação ocorre em um servidor local, e ela possui interfaces dedicadas à configuração do sistema e à definição dos dados de acesso à API. O sistema gera alertas no sistema operacional para notificar sobre novos arquivos obtidos e mantém um histórico desses downloads.
 </p>
 
 [<img src ="https://github.com/TechNinjass/midall-parent/blob/main/docs/Images/logo-techNinjass.png" width="250" height="250"/>](https://github.com/TechNinjass/midall-parent "Tech Ninjas Repositório")
