@@ -490,7 +490,7 @@ Também fiquei responsável pela parte dos gráficos, utilizando a api do Google
 
 ## Aprendizados Efetivos ![Aprendizados efetivos](https://img.shields.io/badge/Aprendizados%20efetivos-100%25-brightgreen?style=for-the-badge)
 <p style="text-align: justify;">
-A participação nesse projeto foi de extrema importância para o meu crescimento profissional, pois representou um marco na minha trajetória ao possibilitar o trabalho simultâneo com dois frameworks simultaneamente, resultando em uma experiência prática de integração completa entre front-end e back-end. O contato com essa tecnologia foi desafiador, porém profundamente recompensador, uma vez que pude aplicar o conhecimento adquirido em projetos anteriores e impulsionar ainda mais minhas habilidades em desenvolvimento de front-end.
+A participação nesse projeto foi de extrema importância para o meu crescimento profissional, pois representou um marco na minha trajetória ao possibilitar o trabalho simultâneo com dois frameworks, resultando em uma experiência prática de integração completa entre front-end e back-end. O contato com essa tecnologia foi desafiador, porém profundamente recompensador, uma vez que pude aplicar o conhecimento adquirido em projetos anteriores e impulsionar ainda mais minhas habilidades em desenvolvimento de front-end.
 
 A experiência adquirida nesse projeto foi extremamente enriquecedora, pois permitiu-me aplicar conceitos teóricos em um contexto real, enfrentando desafios complexos e adquirindo um conhecimento mais aprofundado em desenvolvimento de aplicações web. Essa vivência consolidou meu domínio das tecnologias envolvidas e ampliou meu conjunto de habilidades, tornando-me um profissional mais completo e preparado para enfrentar projetos desafiadores no futuro.
 
