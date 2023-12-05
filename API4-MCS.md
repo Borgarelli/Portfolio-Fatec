@@ -60,7 +60,7 @@ Clique [aqui](https://docs.oracle.com/en/cloud/), para acessar a documentação 
 <p style="text-align: justify;">
 Neste projeto, desempenhei um papel essencial ao trabalhar diretamente no desenvolvimento do front-end da aplicação e no banco de dados. Minhas responsabilidades incluíram a criação do modelo DER do banco de dados e a geração do DDL correspondente, e também a criação de gráficos atráves do Charts do google.
 
-<details><summary>Modelagem Conecitual e Lógica da Aplicação</summary>
+<details><summary>Modelagem Conceitual e Lógica da Aplicação</summary>
 <img src="https://github.com/Borgarelli/Portfolio-Fatec/assets/79945984/7f7354ab-3a41-4ffc-b950-9d84a45c27d1">
 
 > A modelagem relacional foi realizada utilizando a ferramenta BrModelo, toda a estrutura foi realizada com a lógica que desenvolvi de acordo com os requisitos do projeto
