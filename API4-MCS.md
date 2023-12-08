@@ -384,9 +384,6 @@ export default{
 </style>
 ```
 </details>
-
-Esse projeto foi uma oportunidade valiosa para aprimorar minhas habilidades e adquirir experiência prática em tecnologias relevantes para a indústria da tecnologia da informação.
-
 Também fiquei responsável pela parte dos gráficos, utilizando a api do Google o google charts
 
 <details><summary>Gráficos</summary>
