@@ -267,9 +267,9 @@ Essa experiência foi enriquecedora, proporcionando aprendizados práticos e efe
 
 A integração de ferramentas como o WorkBench para a criação de instâncias no formato WorkBench_Azure revelou-se uma prática valiosa, demonstrando a sinergia entre diferentes tecnologias para alcançar objetivos específicos. Essa jornada contribuiu significativamente para o aprimoramento das minhas competências em ciência de dados e gestão de infraestrutura na nuvem.
 
-- Aplicar conceitos de DevOps - GitFlow: Sei Fazer com Autonomia.
-- Criação das models utilizando o SQL-Alchemy: Sei Fazer com Autonomia.
-- Desenvolvimento da interface utilizando Vue js 3: Sei Fazer com Autonomia. 
+- Estruturação do banco de dados: Sei Fazer com Autonomia.
+- Utilização da plataforma Azure Cloud: Sei Fazer com Autonomia.
+- Utilização da biblioteca pandas para gestão dos arquivos csv: Sei Fazer com Autonomia. 
 
 ## Navegação Entre Projetos :link:
  
